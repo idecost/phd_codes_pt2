@@ -1,0 +1,38 @@
+{
+  "source": "IDMC GIDD API",
+  "endpoint": "gidd/displacements/",
+  "table": "country",
+  "api_filters": {
+    "iso3__in": "AFG",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "event_filter": null,
+  "retrieved_at_utc": "2026-11-04T11:19:03.118207+00:00",
+  "last_updated": "2026-08-31",
+  "columns": [
+    "iso3",
+    "country_name",
+    "year",
+    "conflict_total_displacement_rounded",
+    "conflict_total_displacement",
+    "conflict_new_displacement_rounded",
+    "conflict_new_displacement",
+    "disaster_new_displacement_rounded",
+    "disaster_new_displacement",
+    "disaster_total_displacement_rounded",
+    "disaster_total_displacement"
+  ],
+  "checks": {
+    "n_rows": 1,
+    "years": [
+      2025
+    ],
+    "conflict_new_displacement": 168265,
+    "disaster_new_displacement": 252815,
+    "conflict_total_displacement": 4355147,
+    "disaster_total_displacement": 2591571
+  },
+  "raw_file": "gidd_country_AFG_2025_2026.json",
+  "table_file": "gidd_country_AFG_2025_2026.parquet"
+}

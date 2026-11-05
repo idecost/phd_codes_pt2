@@ -1,0 +1,18 @@
+[
+  {
+    "location_code": "AFG",
+    "location_name": "Afghanistan",
+    "admin1_code": null,
+    "admin1_name": null,
+    "admin2_code": null,
+    "admin2_name": null,
+    "admin_level": 0,
+    "resource_hdx_id": "80911e9b-7527-469a-a545-4074860e1288",
+    "reporting_round": 2,
+    "assessment_type": "BA",
+    "operation": "Climate and mobility in Afghanistan",
+    "population": 3109221,
+    "reference_period_start": "2025-05-31T00:00:00",
+    "reference_period_end": "2025-05-31T23:59:59"
+  }
+]

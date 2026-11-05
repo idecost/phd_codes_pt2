@@ -1,0 +1,65 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "bbox": [
+        70.7934,
+        34.7061,
+        70.7934,
+        34.7061
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          70.7934,
+          34.7061
+        ]
+      },
+      "properties": {
+        "eventtype": "EQ",
+        "eventid": 1498339,
+        "episodeid": 1658195,
+        "eventname": "",
+        "glide": "EQ-2025-000153-AFG",
+        "name": "Earthquake in Afghanistan",
+        "description": "Earthquake in Afghanistan",
+        "htmldescription": "Red M 6 Earthquake in Afghanistan at: 31 Aug 2025 19:17:34.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Red/EQ.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Red/EQ.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1498339&episodeid=1658195",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1498339&episodeid=1658195&eventtype=EQ",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=EQ&eventid=1498339"
+        },
+        "alertlevel": "Red",
+        "alertscore": 3,
+        "episodealertlevel": "Red",
+        "episodealertscore": 4.36819818466699,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Afghanistan",
+        "fromdate": "2025-08-31T19:17:34",
+        "todate": "2025-08-31T19:17:34",
+        "datemodified": "2026-02-11T12:10:14.497",
+        "iso3": "AFG",
+        "source": "NEIC",
+        "sourceid": "us7000qsvj",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "AF",
+            "iso3": "AFG",
+            "countryname": "Afghanistan"
+          }
+        ],
+        "severitydata": {
+          "severity": 6.0,
+          "severitytext": "Magnitude 6M, Depth:8km",
+          "severityunit": "M"
+        }
+      }
+    }
+  ]
+}

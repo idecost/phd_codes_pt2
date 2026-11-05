@@ -1,0 +1,44 @@
+{
+  "items": [
+    {
+      "title": "M 7.5   in Venezuela on 24 Jun 2026 22:05 UTC",
+      "description": "",
+      "link": "https://www.gdacs.org/report.aspx?eventid=1548377&episodeid=1714328&eventtype=EQ",
+      "image": "https://www.gdacs.org/images/gdacs_icons/big/Red/EQ.png",
+      "summarytable": [
+        {
+          "key": "Countries",
+          "value": "Venezuela"
+        },
+        {
+          "key": "Magnitude",
+          "value": "7.5"
+        },
+        {
+          "key": "Depth",
+          "value": "10 Km"
+        },
+        {
+          "key": "Lat/Lon",
+          "value": "10.453 , -68.5139"
+        },
+        {
+          "key": "Event Date",
+          "value": "24 Jun 2026 22:05 UTC"
+        },
+        {
+          "key": "Local Time",
+          "value": "24 Jun 2026 18:05"
+        },
+        {
+          "key": "Exposed population",
+          "value": "6.8 million (in MMI>=VII) - About 68000 people  in MMI>=IX"
+        },
+        {
+          "key": "Maximun Wave Height estimated",
+          "value": "0.28 m"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "source": "IDMC GIDD API",
+  "endpoint": "gidd/disaggregations/disaggregation-geojson/",
+  "table": "figures",
+  "api_filters": {
+    "iso3__in": "AFG",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "event_filter": null,
+  "date_filter": {
+    "start": "2025-01-01",
+    "end": "2025-12-31",
+    "rule": "flows and disaster events: displacement period (Start date -> End date, else Event start/end date) overlaps [start, end]; stock figures kept on their year; undated rows kept"
+  },
+  "retrieved_at_utc": "2026-11-05T09:42:52.941038+00:00",
+  "last_updated": "2026-08-31",
+  "date_filter_stats": {
+    "kept_by_date": 7,
+    "dropped_by_date": 0,
+    "stock_kept_by_year": 5,
+    "event_dates_used": 0,
+    "undated_kept": 0
+  },
+  "columns": [
+    "ID",
+    "ISO3",
+    "Country",
+    "Geographical region",
+    "Figure cause",
+    "Year",
+    "Figure category",
+    "Figure unit",
+    "Reported figures",
+    "Household size",
+    "Total figures",
+    "Violence type",
+    "Stock date",
+    "Stock date accuracy",
+    "Stock reporting date",
+    "Publishers",
+    "Sources",
+    "Sources type",
+    "Event ID",
+    "Event name",
+    "Event cause",
+    "Event main trigger",
+    "Event start date",
+    "Event end date",
+    "Is housing destruction",
+    "Event codes (Code:Type)",
+    "Locations name",
+    "Locations accuracy",
+    "Locations type",
+    "Pcode",
+    "Pcode accuracy",
+    "Pcode source",
+    "Displacement occurred",
+    "geometry_type",
+    "coordinates",
+    "Start date",
+    "Start date accuracy",
+    "End date",
+    "End date accuracy",
+    "Event start date accuracy",
+    "Event end date accuracy",
+    "Hazard category",
+    "Hazard sub category",
+    "Hazard type",
+    "Hazard sub type"
+  ],
+  "checks": {
+    "n_rows": 12,
+    "years": [
+      2025
+    ],
+    "n_events": 5,
+    "Figure cause": {
+      "Conflict": 7,
+      "Disaster": 5
+    },
+    "Figure category": {
+      "Internal Displacements": 7,
+      "IDPs": 5
+    },
+    "first_start_date": "2025-01-01",
+    "last_start_date": "2025-10-17",
+    "no_coordinates": 0
+  },
+  "raw_file": "gidd_figures_AFG_2025-01-01_2025-12-31.json",
+  "table_file": "gidd_figures_AFG_2025-01-01_2025-12-31.parquet"
+}

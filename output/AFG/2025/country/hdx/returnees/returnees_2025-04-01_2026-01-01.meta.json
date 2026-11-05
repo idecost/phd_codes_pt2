@@ -1,0 +1,65 @@
+{
+  "source": "HDX HAPI",
+  "subcategory": "returnees",
+  "attribution": "UNHCR",
+  "endpoint": "https://hapi.humdata.org/api/v2/affected-people/returnees",
+  "iso3": "AFG",
+  "requested_window": {
+    "start": "2025-04-01",
+    "end": "2026-01-01"
+  },
+  "resolved_window": "2025-04-01..2026-01-01",
+  "country_queries": [
+    {
+      "asylum_location_code": "AFG"
+    },
+    {
+      "origin_location_code": "AFG"
+    }
+  ],
+  "admin_levels": [
+    null
+  ],
+  "filters": {},
+  "retrieved_at_utc": "2026-10-07T14:34:19.017038+00:00",
+  "columns": [
+    "resource_hdx_id",
+    "population_group",
+    "gender",
+    "age_range",
+    "min_age",
+    "max_age",
+    "population",
+    "reference_period_start",
+    "reference_period_end",
+    "origin_location_code",
+    "origin_location_name",
+    "asylum_location_code",
+    "asylum_location_name"
+  ],
+  "checks": {
+    "n_rows": 26,
+    "reference_periods": {
+      "2025-01-01 -> 2025-12-31": 26
+    },
+    "population_missing": 0,
+    "population_group": {
+      "RET": 13,
+      "RDP": 13
+    },
+    "origin_location_code": {
+      "AFG": 26
+    },
+    "asylum_location_code": {
+      "AFG": 26
+    },
+    "gender": {
+      "f": 12,
+      "m": 12,
+      "all": 2
+    },
+    "n_hdx_resources": 1
+  },
+  "raw_file": "returnees_2025-04-01_2026-01-01.json",
+  "table_file": "returnees_2025-04-01_2026-01-01.parquet"
+}

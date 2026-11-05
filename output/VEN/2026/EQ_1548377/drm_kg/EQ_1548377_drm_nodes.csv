@@ -1,0 +1,70 @@
+id,label,type,drm_phase,description
+eq_foreshock_m72,M7.2 foreshock San Felipe,hazard,none,"Magnitude 7.2 shallow foreshock near San Felipe, Yaracuy, 22 km depth, 24 June 2026."
+eq_mainshock_m75,M7.5 mainshock Yumare,hazard,none,"Magnitude 7.5 shallow mainshock near Yumare, Veroes, Yaracuy, 10 km depth, 39-40s after foreshock."
+aftershocks,Extensive aftershock sequence,hazard,none,"Over 1,000 aftershocks recorded by mid-July, including M5.1 Tucacas and M4.4 Guatire events, continuing to weaken structures."
+landslide_risk,Landslide/debris-flow risk from rains,hazard,none,"Onset of rainy season, hurricanes or tropical lows could trigger landslides and mud flows on seismically weakened slopes in North Coastal Range."
+disease_outbreak_risk,Risk of disease outbreaks,hazard,none,"PAHO identified elevated risk of measles, diphtheria, pertussis, polio, acute diarrheal disease, cholera and vector-borne illness linked to displacement and damaged WASH."
+deaths,Deaths from earthquakes,impact,none,"Death toll rose from 32 to over 5,200 across successive reports (DFS, OCHA, UNHCR, UNFPA, UNICEF, CESVI)."
+injuries,Injuries from earthquakes,impact,none,"Injuries rose from about 700 to over 16,700 across multiple situation reports."
+missing_persons,Tens of thousands missing,impact,none,"IFRC noted tens of thousands reported missing, with ambiguous unreconciled figures across sources."
+displacement,Mass displacement/homelessness,impact,none,"Displacement estimates rose from 3,000 (OCHA) to over 17,900 homeless (UNICEF/CESVI) with people in temporary camps."
+collapsed_structures,Collapsed/damaged buildings,impact,none,"2,501 damaged sites including 774 housing units, 189 fully collapsed, and 38 hospitals (UNHCR); CESVI cites 856 affected buildings."
+economic_losses,US$6.7-37 billion economic damage,impact,none,UNDP preliminary estimate of $6.7bn direct physical damage; UNDRR analytical estimate of ~$37bn total direct damage to buildings and infrastructure.
+infrastructure_disruption,Critical infrastructure disruption,impact,none,"Closure of Maiquetía airport, suspension of Caracas Metro/railways, power outages, damage to water, telecoms, roads and bridges."
+health_system_strain,Overwhelmed health system,impact,none,Hospitals managing large trauma caseloads within an already weakened health system with pre-crisis shortages of supplies and surgical capacity.
+livelihood_loss,Loss of livelihoods/income,impact,none,"Households lost homes, productive assets, employment; small businesses, informal commerce and tourism severely disrupted (IFRC)."
+protection_risks,Heightened protection risks,impact,none,"Overcrowded shelters, family separation and displacement increased GBV and protection risks especially for women, girls, disabled and older persons (UNFPA)."
+logistics_congestion,Logistics congestion at ports/airport,impact,none,"Damaged Maiquetía airport and concentration of operations at Port of La Guaira increased risk of delays in receipt, storage and distribution of supplies."
+vuln_unreinforced_construction,Unreinforced/informal construction,vulnerability,none,Most buildings unlikely built to modern earthquake regulations; lack of enforcement of building standards; informal settlements on unstable hillsides.
+vuln_preexisting_crisis,Protracted economic/humanitarian crisis,vulnerability,none,"Venezuela ranked 24th/97 on INFORM Severity Index (7.6/10), nearly 8 million already in humanitarian need before the quakes."
+vuln_poverty,High poverty/multidimensional poverty,vulnerability,none,94% poverty rate and 46% multidimensional poverty in La Guaira; over half population in extreme poverty nationally before quakes.
+vuln_weak_services,Weak pre-existing shelter/WASH/health systems,vulnerability,none,"REACH/ACAPS found weak shelter, water and health systems in Aragua, La Guaira, Carabobo, Falcón limiting absorptive capacity before the quakes."
+vuln_fragile_housing,Fragile housing stock,vulnerability,none,62% of housing in fragile condition with repair needs in La Guaira; widespread housing deterioration reported pre-quake.
+vuln_workforce_gap,Workforce gaps from emigration,vulnerability,none,Years of emigration (~8 million people) left critical workforce gaps impacting search-and-rescue and recovery capacity (IRC).
+vuln_low_protection_coverage,Low Protection Cluster coverage,vulnerability,none,Protection Cluster had reached only 8% of its 1.9 million target population by April 2026.
+vuln_censorship,Censorship/limited transparency,vulnerability,none,"Censorship, limited transparency and restrictions on media/civil society weakened public trust in official information (ACAPS/Amnesty International)."
+vuln_weak_health_system,Pre-crisis weak health system,vulnerability,none,"Public health system in protracted collapse with shortages of personnel, medicines, supplies and surgical capacity before the quakes."
+need_shelter,Need for safe temporary shelter,need,response,"Health Cluster identified critical need for safe temporary shelter amid families sleeping in streets, cars and makeshift tents."
+need_water_sanitation,Need for safe water and sanitation,need,response,Water cited as top priority need nationally since March 2026; WASH gaps worsened post-quake per Health Cluster and Project HOPE.
+need_health_personnel,Need for specialized medical personnel/supplies,need,response,"Need for logistics support, specialized medical personnel, medicines and equipment flagged by Health Cluster and PAHO."
+need_mhpss,Need for mental health/psychosocial support,need,response,"Critical need for specialized MHPSS amid widespread fear, grief and distress; Project HOPE found significant MHPSS gaps."
+need_child_protection,Need for child protection pathways,need,response,Need to activate protection pathways for unaccompanied children identified in health centers.
+need_srh_gbv,Need for SRH and GBV services,need,response,UNFPA flagged unmet needs in survivor-centred GBV and SRH services amid overcrowded shelters and family separation.
+need_structural_assessment,Need for structural safety assessment,need,recovery,"Risk that buildings not collapsed sustained unseen structural damage, requiring assessment before safe return (ACAPS)."
+need_logistics_coordination,Need for logistics coordination,need,response,"OCHA Logistics Working Group identified need for coordination given congestion at airport/port, fuel shortages and access constraints."
+need_livelihoods_investment,Need for livelihoods/economic investment,need,recovery,IRC warned urgent investment in local economies and livelihoods is needed to prevent deepening crisis in early recovery window.
+need_landslide_monitoring,Need for landslide/rainfall monitoring,need,preparedness,Shelter Cluster recommended daily monitoring of rainfall/landslide risk and landslide/debris-flow mapping in North Coastal Range.
+need_vaccine_security,Need for vaccine supply security,need,recovery,"PAHO identified need to restore routine immunization services, cold chain and vaccine supply given outbreak risk."
+need_registration_tracking,Need for casualty registration/tracking,need,response,PAHO noted persistent gaps in registration and follow-up of injured/hospitalized patients causing underestimation of casualties.
+m_sar_operations,Search and rescue operations,measure,response,Venezuelan Red Cross and international UNDAC/USAR teams under INSARAG conducted search and rescue from 24-25 June.
+m_state_emergency,National state of emergency declared,measure,response,Government declared national state of emergency and designated La Guaira a disaster zone.
+m_access_restrictions,Temporary access restrictions La Guaira,measure,response,Authorities imposed temporary access restrictions to La Guaira state from night of 26 June to prioritize search and rescue.
+m_health_cluster_activation,Expanded Health Cluster activation,measure,response,"Expanded Health Cluster co-led with MPPS activated 26 June to consolidate single response mechanism integrating state, UN and NGO actors."
+m_dref_emergency_appeal,IFRC DREF and Emergency Appeal,measure,response,"IFRC allocated CHF 2 million DREF and launched CHF 50-55 million Emergency Appeal targeting 300,000 people."
+m_field_hospital,Field hospital and operations centre,measure,response,Venezuelan Red Cross set up field hospital at Jorge García Carmeiro Stadium and a Field Operations Centre.
+m_unhcr_protection_shelter,UNHCR protection and shelter support,measure,response,"UNHCR seeking $14.8-14.85M to support 30,000 people with protection, core relief items and shelter, including multi-service centres."
+m_unfpa_srh_gbv_response,UNFPA SRH/GBV response scale-up,measure,response,"UNFPA scaling up life-saving SRH and GBV prevention/response services targeting 64,000-230,000 people."
+m_unicef_response,UNICEF earthquake response appeal,measure,response,"UNICEF requested $65.7M to reach 470,000 people including 167,000 children, addressing health, WASH, protection and education needs."
+m_ngo_relief,NGO emergency relief mobilization,measure,response,"MSF, Good Neighbors, CESVI, Project HOPE/Proyecto Esperanza and Turkish Red Crescent mobilized relief, health posts and needs assessments."
+m_logistics_working_group,OCHA Logistics Working Group services,measure,response,"LWG provides shared logistics services, transport, storage and information on access conditions, with $0.8M budget."
+m_paho_medical_supplies,PAHO/WHO medical supply delivery,measure,response,PAHO/WHO delivered medical supplies and equipment including to Maternal and Child Hospital Leopoldo Aguerrevere.
+m_needs_assessments,Rapid needs assessments,measure,response,"UNDAC, REACH, Project HOPE and other partners conducted rapid needs assessments of health, shelter and WASH conditions."
+m_hrp_addendum,HRP Addendum and sector planning,measure,recovery,OCHA Humanitarian Response Plan Addendum and UNICEF HAC Appeal Addendum outline sector plans targeting 1.3 million affected people across 7 states.
+m_health_facility_rehab,Health facility rehabilitation,measure,recovery,Rehabilitation planning and restoration of ICU/maternity capacity at Hospital Dr. José Gregorio Hernández underway by 12 August.
+m_revolving_fund_vaccines,PAHO Revolving Fund credit line,measure,recovery,USD 18 million PAHO Revolving Fund credit line to support national vaccine supply security.
+m_environmental_guidance,Environmental guidance for shelter response,measure,response,"Shelter Cluster/UNHCR recommended Sphere Standard 7 and ECHO Minimum Environmental Requirements for shelter siting, debris reuse and waste management."
+m_rainfall_landslide_monitoring,Daily rainfall/landslide monitoring,measure,preparedness,"Recommended daily monitoring of rainfall and landslide risk, plus landslide/debris-flow mapping in North Coastal Range."
+m_tsunami_advisory,Caribbean tsunami advisory,measure,response,"A brief Caribbean tsunami advisory was issued and cancelled within about an hour, indicating some monitoring capacity was operational."
+m_livelihoods_investment,Livelihoods/economic recovery investment,measure,recovery,IRC recommends urgent investment in local economies and livelihood support during early recovery window.
+m_building_code_enforcement,Building code enforcement (lacking),measure,prevention,ACAPS notes lack of enforcement of building standards; no retrofitting or land-use planning programmes described prior to the event.
+act_venezuelan_red_cross,Venezuelan Red Cross,actor,none,"National Red Cross society conducting SAR, health posts and receiving DREF funding."
+act_ifrc,IFRC,actor,none,International Federation of Red Cross and Red Crescent Societies supporting Venezuelan Red Cross with funding and appeals.
+act_unhcr,UNHCR,actor,none,UN Refugee Agency scaling up protection and shelter response.
+act_unfpa,UNFPA,actor,none,UN Population Fund scaling up SRH and GBV response.
+act_unicef,UNICEF,actor,none,UN Children's Fund providing child-focused humanitarian response.
+act_paho_who,PAHO/WHO,actor,none,Pan American Health Organization/WHO co-leading Health Cluster and providing medical supplies.
+act_ocha,OCHA,actor,none,UN Office for the Coordination of Humanitarian Affairs coordinating situation reports and logistics working group.
+act_undp,UNDP,actor,none,UN Development Programme conducted RAPIDA damage assessment.
+act_shelter_cluster,Shelter Cluster/UNHCR,actor,none,Shelter Cluster co-led by UNHCR issuing environmental guidance and shelter standards.
+act_ngos,"International NGOs (MSF, CESVI, Project HOPE, Good Neighbors, Turkish Red Crescent)",actor,none,"International NGOs providing emergency relief, health services and needs assessments."
+act_irc,IRC,actor,none,International Rescue Committee warning on economic recovery needs.

@@ -1,0 +1,63 @@
+{
+  "source": "IDMC GIDD API",
+  "endpoint": "gidd/disasters/",
+  "table": "events",
+  "api_filters": {
+    "iso3__in": "PAK",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "event_filter": null,
+  "date_filter": {
+    "start": "2022-01-01",
+    "end": "2022-12-31",
+    "rule": "flows and disaster events: displacement period (Start date -> End date, else Event start/end date) overlaps [start, end]; stock figures kept on their year; undated rows kept"
+  },
+  "retrieved_at_utc": "2026-11-05T09:18:37.978182+00:00",
+  "last_updated": "2026-08-31",
+  "date_filter_stats": {
+    "kept_by_date": 17,
+    "dropped_by_date": 0,
+    "undated_kept": 0
+  },
+  "columns": [
+    "iso3",
+    "country_name",
+    "year",
+    "start_date",
+    "start_date_accuracy",
+    "end_date",
+    "end_date_accuracy",
+    "event_name",
+    "new_displacement",
+    "new_displacement_rounded",
+    "total_displacement",
+    "total_displacement_rounded",
+    "hazard_category",
+    "hazard_category_name",
+    "hazard_sub_category",
+    "hazard_sub_category_name",
+    "hazard_type",
+    "hazard_type_name",
+    "hazard_sub_type",
+    "hazard_sub_type_name",
+    "event_codes",
+    "event_codes_type"
+  ],
+  "checks": {
+    "n_rows": 17,
+    "years": [
+      2022
+    ],
+    "n_events": 17,
+    "new_displacement": 8168491,
+    "hazard_type_name": {
+      "Flood": 9,
+      "Storm": 6,
+      "Wildfire": 1,
+      "Earthquake": 1
+    }
+  },
+  "raw_file": "gidd_events_PAK_2022-01-01_2022-12-31.json",
+  "table_file": "gidd_events_PAK_2022-01-01_2022-12-31.parquet"
+}

@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "title": "M 5.3   in Afghanistan on 19 Dec 2025 05:39 UTC",
+      "description": "",
+      "link": "https://www.gdacs.org/report.aspx?eventid=1515838&episodeid=1678118&eventtype=EQ",
+      "image": "https://www.gdacs.org/images/gdacs_icons/big/Green/EQ.png",
+      "summarytable": [
+        {
+          "key": "Countries",
+          "value": "Afghanistan"
+        },
+        {
+          "key": "Magnitude",
+          "value": "5.3"
+        },
+        {
+          "key": "Depth",
+          "value": "35 Km"
+        },
+        {
+          "key": "Lat/Lon",
+          "value": "36.2833 , 69.2054"
+        },
+        {
+          "key": "Event Date",
+          "value": "19 Dec 2025 05:39 UTC"
+        },
+        {
+          "key": "Local Time",
+          "value": "19 Dec 2025 10:09"
+        },
+        {
+          "key": "Exposed population",
+          "value": "3.5 million in 100km - No people affected in MMI -"
+        }
+      ]
+    }
+  ]
+}

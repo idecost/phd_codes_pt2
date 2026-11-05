@@ -1,0 +1,2952 @@
+{
+  "type": "FeatureCollection",
+  "readme": "TITLE: Disasters Global Internal Displacement Database (GIDD)\n\nFILENAME: IDMC_GIDD_Internal_Displacement_Disaggregated\n\nSOURCE: Internal Displacement Monitoring Centre (IDMC)\n\nDATE EXTRACTED: November 05, 2026\n\nLAST UPDATE: August 31, 2026\n\nDESCRIPTION:\nThe Internal Displacement Monitoring Centre (IDMC) monitors internal displacement events globally, triggered by disasters, conflict, and other forms of violence. It gathers and analyses both structured and unstructured secondary data from diverse sources—including government agencies, UN agencies, the International Federation of the Red Cross and Red Crescent, and the media.\n\nIDMC analysts rigorously analyse and triangulate all reported data. The data undergo thorough quality control processes, involving engagement with primary data collectors for peer review and validation. This meticulous approach guarantees that the data reported by IDMC reflects high accuracy.\n\nThe data in the Global Internal Displacement Database (GIDD) is annually validated and peer-reviewed, having passed through various quality control processes in consultation with different UN agencies, goverments and local data providers.\n\nThe GIDD database documents displacement due to conflict from 2009 to 2023 and disaster-induced displacement from 2008 to 2023. For detailed definitions and more comprehensive descriptions, please refer to the IDMC Monitoring Tools (https://www.internal-displacement.org/monitoring-tools).\n\nKEY DEFINITIONS:\n\nInternal Displacements (flows): This metric represents the number of internal displacements, or internal displacement population flows, reported from January 1st to December 31st of a reporting year. This figure may include individuals who are displaced multiple times during the year by different events.\nTotal number of Internally Displaced Persons (IDPs) (stocks): This metric represents the total number of people living in situations of internal displacement as of the end of the reporting year, specifically on December 31st of each year.\nConflict displacement: Refers to situations where people are forced to leave their homes or places of habitual residence as a result or in order to avoid the impact of armed conflict, communal violence and criminal violence.\nDisaster displacement: Refers to situations where people are forced to leave their homes or places of habitual residence as a result, or in anticipation of the negative impact of natural hazards.\nDisaster: A serious disruption of the functioning of a community or a society involving widespread human, material, economic or environmental losses and impacts, which exceeds the ability of the affected community or society to cope using its own resources (UNSDR).\n\nUSE LICENSE: This content is licensed under CC BY-NC. Detailed licensing information is available at Creative Commons License (See: https://creativecommons.org/licenses/by-nc/4.0/).\n\nCOVERAGE: Global. The GIDD provides data on internal displacement caused by conflict from 2009 through 2024, covering both internal displacements (flows) and the total number of IDPs (stocks). Data on internal displacements triggered by disasters dates back to 2008 and runs through 2024; the metrics on the total number of IDPs from disaster-related events are available from 2019 through 2024.\n\nCITATION:\nAll derived work from IDMC data could cite IDMC following this example: Internal Displacement Monitoring Centre. Global Internal Displacement Database. IDMC (2026). Available at: https://www.internal-displacement.org/database/displacement-data/ (Accessed: [date of access]).\n\nCONTACT: ch.datainfo@idmc.ch\n\nDATA DESCRIPTION: 1_Disaggregated_Data table\n\nID: IDMC figure unique identifier.\nISO3: Represents the ISO 3166-1 alpha-3 code. The code 'AB9' is assigned to the Abyei Area.\nCountry / Territory: Short name of the country or territory.\nGeographical region: Corresponds to IDMC's geographical regions.\nFigure cause: Identifies the trigger of displacement, such as conflict or disasters.\nYear: Indicates the year for which displacement data are reported.\nFigure category: Categorizes the type of displacement metric. It details values for Internal Displacements (internal displacement flows) and Total Number of IDPs (internal displacement stocks), as defined earlier in this document.\nTotal figures: Represents the total number of internal displacements or IDPs. For internal displacements, units are recorded as 'internal displacement flows' or 'internal displacement movements'. For the total number of IDPs, units reflect the total number of people living in displacement.\nReported figures: This field represents the values reported by the original source. Figures can be reported either in terms of households or individual counts.\nFigure unit: This field specifies the type of unit reported in the 'Reported' column. Possible values include 'households' or 'people'. The category people includes 'internal displacement flows' or 'internal displacement movements'.\nHousehold size: This metric represents the average number of individuals per household. It is calculated using data from various sources, including the United Nations Department of Economic and Social Affairs (UNDESA), national statistical offices, and estimates from local primary data providers shared with IDMC.\nHazard Category: Hazard category based on the CRED EM-DAT classification.\nHazard sub category: Hazard sub category based on the CRED EM-DAT classification.\nHazard Type: Hazard type as categorized by CRED EM-DAT.\nHazard Sub-Type: Specific sub-type of the hazard based on CRED EM-DAT.\nStart date: Start date of displacement flow.\nStart date accuracy: Uncertainty or accuracy of start date.\nEnd date: End date of the displacement flow.\nEnd date accuracy: Uncertainty or accuracy of end date.\nStock date: This field indicates the year in which the data for the IDP metric (total number of internally displaced persons or stocks) was collected.\nStock date accuracy: Uncertainty or accuracy of stock date.\nStock reporting date: This field reflects the year IDMC uses to report the total number of internally displaced persons (IDPs). It represents the IDMC reporting year, which may not coincide with the actual data collection year. Given the protracted nature of displacement, annual updates on the total number of IDPs may not always be available. To maintain accuracy in reporting, IDMC relies on the most recent verified data until evidence shows that the displaced population has achieved a durable solution.\nPublishers: Organizations responsible for distributing and disseminating internal displacement data\nSources: This field lists the names of the primary data providers or the original sources for the internal displacement data reported by IDMC.\nSources type: This field categorizes the type of source as defined by IDMC.\nEvent ID: Unique identifier for events as assigned by IDMC.\nEvent name: This field includes the event's coded name, which is based on the country, type of hazard, location, and start date. It also incorporates the common or official name of the event, when available.\nEvent cause: Identifies the trigger of displacement, such as conflict or disasters.\nEvent main trigger: This field identifies the primary hazard subtype or conflict type that initiated the event, serving as the main driver of a disaster or conflict. For disasters, associated fields such as \"Hazard Category\", \"Hazard Subcategory\", \"Hazard Type\", and \"Hazard Sub-Type\" detail the cascading impacts stemming from this main trigger. For instance, a tropical storm identified as the main driver of displacement might lead to reports in \"Hazard Sub-Type\" of floods, landslides, and other related disaster types arising from the initial hazard.\nEvent start date: Event or hazard start date.\nEvent end date: Event or hazard end date.\nEvent start date accuracy: Uncertainty or accuracy of event start date.\nEvent end date accuracy: Uncertainty or accuracy of event end date.\nIs housing destruction: This field indicates whether the displacement data includes individuals displaced by housing destruction. Values are \"Yes\" if the data reflects households whose homes were destroyed, and \"No\" otherwise. This field relies on the data specified in \"Reported Figures\" and is linked to the \"Unit\" of measurement used, which in this context refers to houses destroyed.\nViolence type: This field categorizes the type of violence using IDMC's typology, which aligns with international classifications. The categories include\n- International Armed Conflict (IAC): Refers to armed conflict between two or more states.\n- Non-International Armed Conflict (NIAC): Refers to armed conflict occurring within the territory of a single state between its government and non-state armed groups, or between such groups themselves.\n- Unclear/Unknown: Indicates situations where the type of violence is not definitively categorized due to limited information.\n- Other situations of violence (OSV): Refers to cases of communal violence, civilian-state violence and crime-related violence.\nEvent codes (Code:Type): Unique codes such as the GLIDE number and other database-specific codes used to identify and track specific events across various databases.\nLocations name: This field indicates the names of locations where displacement incidents have been reported. It's important to note that this field may exhibit a many-to-one relationship, signifying that multiple location names could be associated with a single reported figure, preventing disaggregation by individual location. This becomes particularly relevant in geospatial analysis, where Geographic Information System (GIS) software may interpret these multi-point entities as single data points, potentially leading to the inadvertent double-counting of figures. To mitigate this issue, it's advisable to preprocess the dataset by either dividing the total figure by the number of locations or distributing the \"Total figures\" values based on a weighting factor such as population density. This ensures a more accurate representation of the displacement data across individual locations and prevents duplication of figures during analysis.\nLocations coordinates: This field contains geographic coordinates representing the reported locations. Please note that this field contains multipoints  meaning that multiple locations may represent one figure. It's important to note that this field may exhibit a many-to-one relationship, signifying that multiple location names could be associated with a single reported figure, preventing disaggregation by individual location. This becomes particularly relevant in geospatial analysis, where Geographic Information System (GIS) software may interpret these multi-point entities as single data points, potentially leading to the inadvertent double-counting of figures. To mitigate this issue, it's advisable to preprocess the dataset by either dividing the total figure by the number of locations or distributing the \"Total figures\" values based on a weighting factor such as population density. This ensures a more accurate representation of the displacement data across individual locations and prevents duplication of figures during analysis.\nLocations accuracy: This field indicates the estimated precision of the reported locations. It serves as a clue to the likely administrative unit level (e.g. country, state, district) used for reporting.\nLocations type: This field specifies the type of displacement location within a reported event. It can indicate\n- Origin: The place where people were displaced from.\n- Destination: The location where displaced people arrived.\n- Both: In some cases, both origin and destination information might be included. It's crucial to note that different locations reported for a single figure may pertain to both the origin and destination of displacement incidents. This distinction is particularly salient in geospatial analysis, where Geographic Information System (GIS) software may interpret these multi-point entities as singular data points, potentially resulting in inadvertent double-counting of figures. To mitigate this issue, it is recommended to preprocess the dataset prior to GIS analysis to ensure accurate representation and avoid duplication of figures.\nDisplacement occurred: This field contains values that represent if preventive evacuations were reported. These evacuations are the result of existing early warning systems.\n\n\nHISTORICAL DATA REVISIONS AND CORRECTIONS\n\nMethodology: https://www.internal-displacement.org/monitoring-tools\nAs part of our ongoing commitment to providing accurate and reliable internal displacement data, IDMC periodically releases updated figures for several countries and years where data was previously unavailable or required corrections. These revisions result from comprehensive methodological reviews and address discrepancies in earlier figures published in GIDD. All figures undergo expert validation. For inquiries: ch.datainfo@idmc.ch.\n\nFIGURES REVIEWED IN JANUARY 2025\nISO3\tCountry\tGeographical region\tYear\tFigure cause\tFigure category\nBFA\tBurkina Faso\tSub-Saharan Africa\t2023\tConflict\tInternal Displacements\nBDI\tBurundi\tSub-Saharan Africa\t2021\tDisaster\tInternal Displacements\nCOD\tDem. Rep. Congo\tSub-Saharan Africa\t2023\tConflict\tIDPs\nGRC\tGreece\tEurope and Central Asia\t2023\tDisaster\tInternal Displacements\nIND\tIndia\tSouth Asia\t2021\tDisaster\tIDPs\nKGZ\tKyrgyzstan\tEurope and Central Asia\t2023\tDisaster\tIDPs\nKGZ\tKyrgyzstan\tEurope and Central Asia\t2023\tDisaster\tInternal Displacements\nLSO\tLesotho\tSub-Saharan Africa\t2023\tDisaster\tInternal Displacements\nMLI\tMali\tSub-Saharan Africa\t2023\tConflict\tInternal Displacements\nMEX\tMexico\tThe Americas\t2023\tConflict\tIDPs\nMAR\tMorocco\tMiddle East and North Africa\t2023\tDisaster\tIDPs\nMAR\tMorocco\tMiddle East and North Africa\t2023\tDisaster\tInternal Displacements\nMOZ\tMozambique\tSub-Saharan Africa\t2022\tConflict\tInternal Displacements\nNAM\tNamibia\tSub-Saharan Africa\t2023\tDisaster\tIDPs\nNAM\tNamibia\tSub-Saharan Africa\t2023\tDisaster\tInternal Displacements\nPHL\tPhilippines\tEast Asia and Pacific\t2023\tDisaster\tInternal Displacements\nESP\tSpain\tEurope and Central Asia\t2017\tDisaster\tInternal Displacements\nESP\tSpain\tEurope and Central Asia\t2018\tDisaster\tInternal Displacements\nESP\tSpain\tEurope and Central Asia\t2023\tDisaster\tInternal Displacements\nUGA\tUganda\tSub-Saharan Africa\t2021\tDisaster\tIDPs\nUGA\tUganda\tSub-Saharan Africa\t2022\tDisaster\tIDPs\nUGA\tUganda\tSub-Saharan Africa\t2022\tDisaster\tInternal Displacements\nUGA\tUganda\tSub-Saharan Africa\t2023\tDisaster\tIDPs\nUSA\tUnited States\tThe Americas\t2023\tDisaster\tInternal Displacements\n\nFIGURES REVIEWED IN MAY 2025\nISO3\tCountry\tGeographical region\tYear\tFigure cause\tFigure category\nIDN\tIndonesia\tEast Asia and Pacific\t2016\tConflict\tInternal Displacements\nIDN\tIndonesia\tEast Asia and Pacific\t2016\tConflict\tIDPs\nPRI\tPuerto Rico\tThe Americas\t2017\tDisaster\tInternal Displacements\nESP\tSpain\tEurope and Central Asia\t2017\tDisaster\tIDPs\nIDN\tIndonesia\tEast Asia and Pacific\t2017\tConflict\tIDPs\nIND\tIndia\tSouth Asia\t2017\tConflict\tInternal Displacements\nPAK\tPakistan\tSouth Asia\t2018\tConflict\tInternal Displacements\nPAK\tPakistan\tSouth Asia\t2018\tConflict\tIDPs\nESP\tSpain\tEurope and Central Asia\t2018\tDisaster\tInternal Displacements\nPNG\tPapua New Guinea\tEast Asia and Pacific\t2018\tConflict\tInternal Displacements\nPNG\tPapua New Guinea\tEast Asia and Pacific\t2018\tConflict\tIDPs\nIDN\tIndonesia\tEast Asia and Pacific\t2018\tConflict\tInternal Displacements\nIND\tIndia\tSouth Asia\t2018\tConflict\tInternal Displacements\nPRI\tPuerto Rico\tThe Americas\t2019\tDisaster\tInternal Displacements\nBGD\tBangladesh\tSouth Asia\t2019\tDisaster\tIDPs\nBGD\tBangladesh\tSouth Asia\t2019\tConflict\tIDPs\nPAK\tPakistan\tSouth Asia\t2019\tConflict\tInternal Displacements\nPAK\tPakistan\tSouth Asia\t2019\tDisaster\tIDPs\nPAK\tPakistan\tSouth Asia\t2019\tConflict\tIDPs\nPNG\tPapua New Guinea\tEast Asia and Pacific\t2019\tDisaster\tIDPs\nPNG\tPapua New Guinea\tEast Asia and Pacific\t2019\tConflict\tIDPs\nIDN\tIndonesia\tEast Asia and Pacific\t2019\tConflict\tIDPs\nIND\tIndia\tSouth Asia\t2019\tConflict\tInternal Displacements\nIND\tIndia\tSouth Asia\t2019\tDisaster\tIDPs\nBGD\tBangladesh\tSouth Asia\t2020\tDisaster\tIDPs\nBGD\tBangladesh\tSouth Asia\t2020\tConflict\tInternal Displacements\nBGD\tBangladesh\tSouth Asia\t2020\tConflict\tIDPs\nBDI\tBurundi\tSub-Saharan Africa\t2021\tDisaster\tInternal Displacements\nUGA\tUganda\tSub-Saharan Africa\t2021\tDisaster\tIDPs\nIND\tIndia\tSouth Asia\t2021\tDisaster\tIDPs\nPAK\tPakistan\tSouth Asia\t2022\tConflict\tIDPs\nCOL\tColombia\tThe Americas\t2022\tConflict\tInternal Displacements\nPNG\tPapua New Guinea\tEast Asia and Pacific\t2022\tConflict\tIDPs\nIDN\tIndonesia\tEast Asia and Pacific\t2022\tConflict\tIDPs\nIDN\tIndonesia\tEast Asia and Pacific\t2022\tConflict\tInternal Displacements\nTUR\tTürkiye\tEurope and Central Asia\t2022\tConflict\tIDPs\nMDG\tMadagascar\tSub-Saharan Africa\t2022\tConflict\tIDPs\nIND\tIndia\tSouth Asia\t2022\tConflict\tIDPs\nLKA\tSri Lanka\tSouth Asia\t2022\tConflict\tIDPs\nPHL\tPhilippines\tEast Asia and Pacific\t2022\tConflict\tIDPs\nGEO\tGeorgia\tEurope and Central Asia\t2022\tConflict\tIDPs\nPAK\tPakistan\tSouth Asia\t2023\tConflict\tIDPs\nCOL\tColombia\tThe Americas\t2023\tConflict\tInternal Displacements\nPNG\tPapua New Guinea\tEast Asia and Pacific\t2023\tConflict\tIDPs\nIDN\tIndonesia\tEast Asia and Pacific\t2023\tConflict\tIDPs\nIDN\tIndonesia\tEast Asia and Pacific\t2023\tConflict\tInternal Displacements\nTUR\tTürkiye\tEurope and Central Asia\t2023\tConflict\tIDPs\nPSE\tPalestine\tMiddle East and North Africa\t2023\tConflict\tIDPs\nPSE\tPalestine\tMiddle East and North Africa\t2023\tConflict\tInternal Displacements\nMDG\tMadagascar\tSub-Saharan Africa\t2023\tConflict\tIDPs\nIND\tIndia\tSouth Asia\t2023\tConflict\tIDPs\nKAZ\tKazakhstan\tEurope and Central Asia\t2023\tConflict\tIDPs\nLKA\tSri Lanka\tSouth Asia\t2023\tConflict\tIDPs\nBIH\tBosnia and Herzegovina\tEurope and Central Asia\t2023\tConflict\tIDPs\nPER\tPeru\tThe Americas\t2023\tDisaster\tIDPs\nKGZ\tKyrgyzstan\tEurope and Central Asia\t2023\tConflict\tIDPs\nPHL\tPhilippines\tEast Asia and Pacific\t2023\tConflict\tIDPs\nPHL\tPhilippines\tEast Asia and Pacific\t2023\tConflict\tInternal Displacements\nTHA\tThailand\tEast Asia and Pacific\t2023\tConflict\tIDPs\nGEO\tGeorgia\tEurope and Central Asia\t2023\tConflict\tIDPs\nSLE\tSierra Leone\tSub-Saharan Africa\t2023\tConflict\tIDPs\n\nFIGURES REVIEWED IN MAY 2026\nISO3\tCountry\tGeographical region\tYear\tFigure cause\tFigure category\nGTM\tGuatemala\tThe Americas\t2022\tConflict\tInternal Displacements\nGTM\tGuatemala\tThe Americas\t2023\tConflict\tInternal Displacements\nGTM\tGuatemala\tThe Americas\t2023\tConflict\tIDPs\nSYR\tSyria\tMiddle East and North Africa\t2024\tConflict\tIDPs\nPHL\tPhilippines\tEast Asia and Pacific\t2024\tDisaster\tInternal Displacements\nIND\tIndia\tSouth Asia\t2023\tConflict\tInternal Displacements\nZAF\tSouth Africa\tSub-Saharan Africa\t2024\tDisaster\tInternal Displacements\nCOD\tDem. Rep. Congo\tSub-Saharan Africa\t2024\tConflict\tInternal Displacements\nUSA\tUnited States\tThe Americas\t2024\tDisaster\tInternal Displacements\nTCD\tChad\tSub-Saharan Africa\t2024\tConflict\tInternal Displacements\nUSA\tUnited States\tThe Americas\t2024\tDisaster\tIDPs\nLBR\tLiberia\tSub-Saharan Africa\t2017\tDisaster\tInternal Displacements\nCRI\tCosta Rica\tThe Americas\t2017\tDisaster\tInternal Displacements\n\nFIGURES REVIEWED IN SEPTEMBER 2026\nAll IDP stock figures for 2008–2016 were updated in this release as part of the Historical data revision project. Because every IDPs figure was updated, only Internal Displacements changes are listed below.\nISO3\tCountry\tGeographical region\tYear\tFigure cause\tFigure category\nAFG\tAfghanistan\tSouth Asia\t2008\tDisaster\tInternal Displacements\nAFG\tAfghanistan\tSouth Asia\t2009\tDisaster\tInternal Displacements\nAFG\tAfghanistan\tSouth Asia\t2010\tDisaster\tInternal Displacements\nAFG\tAfghanistan\tSouth Asia\t2011\tDisaster\tInternal Displacements\nAFG\tAfghanistan\tSouth Asia\t2012\tConflict\tInternal Displacements\nAFG\tAfghanistan\tSouth Asia\t2012\tDisaster\tInternal Displacements\nAFG\tAfghanistan\tSouth Asia\t2013\tConflict\tInternal Displacements\nAFG\tAfghanistan\tSouth Asia\t2013\tDisaster\tInternal Displacements\nAFG\tAfghanistan\tSouth Asia\t2014\tConflict\tInternal Displacements\nAFG\tAfghanistan\tSouth Asia\t2014\tDisaster\tInternal Displacements\nAFG\tAfghanistan\tSouth Asia\t2015\tConflict\tInternal Displacements\nAFG\tAfghanistan\tSouth Asia\t2015\tDisaster\tInternal Displacements\nAFG\tAfghanistan\tSouth Asia\t2016\tConflict\tInternal Displacements\nAFG\tAfghanistan\tSouth Asia\t2016\tDisaster\tInternal Displacements\nAGO\tAngola\tSub-Saharan Africa\t2008\tDisaster\tInternal Displacements\nAGO\tAngola\tSub-Saharan Africa\t2009\tDisaster\tInternal Displacements\nAGO\tAngola\tSub-Saharan Africa\t2010\tDisaster\tInternal Displacements\nAGO\tAngola\tSub-Saharan Africa\t2012\tDisaster\tInternal Displacements\nAGO\tAngola\tSub-Saharan Africa\t2013\tDisaster\tInternal Displacements\nAGO\tAngola\tSub-Saharan Africa\t2014\tDisaster\tInternal Displacements\nAGO\tAngola\tSub-Saharan Africa\t2015\tDisaster\tInternal Displacements\nAGO\tAngola\tSub-Saharan Africa\t2016\tDisaster\tInternal Displacements\nAIA\tAnguilla\tThe Americas\t2010\tDisaster\tInternal Displacements\nALB\tAlbania\tEurope and Central Asia\t2008\tDisaster\tInternal Displacements\nALB\tAlbania\tEurope and Central Asia\t2009\tDisaster\tInternal Displacements\nALB\tAlbania\tEurope and Central Asia\t2010\tDisaster\tInternal Displacements\nALB\tAlbania\tEurope and Central Asia\t2011\tDisaster\tInternal Displacements\nALB\tAlbania\tEurope and Central Asia\t2012\tDisaster\tInternal Displacements\nALB\tAlbania\tEurope and Central Asia\t2013\tDisaster\tInternal Displacements\nALB\tAlbania\tEurope and Central Asia\t2015\tDisaster\tInternal Displacements\nALB\tAlbania\tEurope and Central Asia\t2016\tDisaster\tInternal Displacements\nARG\tArgentina\tThe Americas\t2008\tDisaster\tInternal Displacements\nARG\tArgentina\tThe Americas\t2009\tDisaster\tInternal Displacements\nARG\tArgentina\tThe Americas\t2010\tDisaster\tInternal Displacements\nARG\tArgentina\tThe Americas\t2011\tDisaster\tInternal Displacements\nARG\tArgentina\tThe Americas\t2012\tDisaster\tInternal Displacements\nARG\tArgentina\tThe Americas\t2013\tDisaster\tInternal Displacements\nARG\tArgentina\tThe Americas\t2014\tDisaster\tInternal Displacements\nARG\tArgentina\tThe Americas\t2015\tDisaster\tInternal Displacements\nARG\tArgentina\tThe Americas\t2016\tDisaster\tInternal Displacements\nASM\tAmerican Samoa\tEast Asia and Pacific\t2009\tDisaster\tInternal Displacements\nASM\tAmerican Samoa\tEast Asia and Pacific\t2014\tDisaster\tInternal Displacements\nATG\tAntigua and Barbuda\tThe Americas\t2008\tDisaster\tInternal Displacements\nATG\tAntigua and Barbuda\tThe Americas\t2010\tDisaster\tInternal Displacements\nAUS\tAustralia\tEast Asia and Pacific\t2008\tDisaster\tInternal Displacements\nAUS\tAustralia\tEast Asia and Pacific\t2009\tDisaster\tInternal Displacements\nAUS\tAustralia\tEast Asia and Pacific\t2010\tDisaster\tInternal Displacements\nAUS\tAustralia\tEast Asia and Pacific\t2011\tDisaster\tInternal Displacements\nAUS\tAustralia\tEast Asia and Pacific\t2012\tDisaster\tInternal Displacements\nAUS\tAustralia\tEast Asia and Pacific\t2013\tDisaster\tInternal Displacements\nAUS\tAustralia\tEast Asia and Pacific\t2015\tDisaster\tInternal Displacements\nAZE\tAzerbaijan\tEurope and Central Asia\t2009\tDisaster\tInternal Displacements\nAZE\tAzerbaijan\tEurope and Central Asia\t2010\tDisaster\tInternal Displacements\nAZE\tAzerbaijan\tEurope and Central Asia\t2012\tDisaster\tInternal Displacements\nBDI\tBurundi\tSub-Saharan Africa\t2008\tDisaster\tInternal Displacements\nBDI\tBurundi\tSub-Saharan Africa\t2011\tDisaster\tInternal Displacements\nBDI\tBurundi\tSub-Saharan Africa\t2014\tDisaster\tInternal Displacements\nBDI\tBurundi\tSub-Saharan Africa\t2015\tDisaster\tInternal Displacements\nBDI\tBurundi\tSub-Saharan Africa\t2016\tDisaster\tInternal Displacements\nBEN\tBenin\tSub-Saharan Africa\t2008\tDisaster\tInternal Displacements\nBEN\tBenin\tSub-Saharan Africa\t2009\tDisaster\tInternal Displacements\nBEN\tBenin\tSub-Saharan Africa\t2010\tDisaster\tInternal Displacements\nBEN\tBenin\tSub-Saharan Africa\t2011\tDisaster\tInternal Displacements\nBEN\tBenin\tSub-Saharan Africa\t2013\tDisaster\tInternal Displacements\nBFA\tBurkina Faso\tSub-Saharan Africa\t2008\tDisaster\tInternal Displacements\nBFA\tBurkina Faso\tSub-Saharan Africa\t2009\tDisaster\tInternal Displacements\nBFA\tBurkina Faso\tSub-Saharan Africa\t2010\tDisaster\tInternal Displacements\nBFA\tBurkina Faso\tSub-Saharan Africa\t2011\tDisaster\tInternal Displacements\nBFA\tBurkina Faso\tSub-Saharan Africa\t2012\tDisaster\tInternal Displacements\nBFA\tBurkina Faso\tSub-Saharan Africa\t2013\tDisaster\tInternal Displacements\nBFA\tBurkina Faso\tSub-Saharan Africa\t2014\tDisaster\tInternal Displacements\nBFA\tBurkina Faso\tSub-Saharan Africa\t2015\tDisaster\tInternal Displacements\nBFA\tBurkina Faso\tSub-Saharan Africa\t2016\tDisaster\tInternal Displacements\nBGD\tBangladesh\tSouth Asia\t2008\tDisaster\tInternal Displacements\nBGD\tBangladesh\tSouth Asia\t2009\tDisaster\tInternal Displacements\nBGD\tBangladesh\tSouth Asia\t2010\tDisaster\tInternal Displacements\nBGD\tBangladesh\tSouth Asia\t2011\tDisaster\tInternal Displacements\nBGD\tBangladesh\tSouth Asia\t2012\tDisaster\tInternal Displacements\nBGD\tBangladesh\tSouth Asia\t2013\tDisaster\tInternal Displacements\nBGD\tBangladesh\tSouth Asia\t2014\tDisaster\tInternal Displacements\nBGD\tBangladesh\tSouth Asia\t2015\tDisaster\tInternal Displacements\nBGD\tBangladesh\tSouth Asia\t2016\tDisaster\tInternal Displacements\nBGR\tBulgaria\tEurope and Central Asia\t2014\tDisaster\tInternal Displacements\nBGR\tBulgaria\tEurope and Central Asia\t2016\tDisaster\tInternal Displacements\nBHS\tBahamas\tThe Americas\t2008\tDisaster\tInternal Displacements\nBHS\tBahamas\tThe Americas\t2011\tDisaster\tInternal Displacements\nBHS\tBahamas\tThe Americas\t2015\tDisaster\tInternal Displacements\nBIH\tBosnia and Herzegovina\tEurope and Central Asia\t2009\tDisaster\tInternal Displacements\nBIH\tBosnia and Herzegovina\tEurope and Central Asia\t2010\tDisaster\tInternal Displacements\nBIH\tBosnia and Herzegovina\tEurope and Central Asia\t2014\tDisaster\tInternal Displacements\nBLZ\tBelize\tThe Americas\t2008\tDisaster\tInternal Displacements\nBLZ\tBelize\tThe Americas\t2009\tDisaster\tInternal Displacements\nBLZ\tBelize\tThe Americas\t2010\tDisaster\tInternal Displacements\nBLZ\tBelize\tThe Americas\t2015\tDisaster\tInternal Displacements\nBOL\tBolivia\tThe Americas\t2008\tDisaster\tInternal Displacements\nBOL\tBolivia\tThe Americas\t2009\tDisaster\tInternal Displacements\nBOL\tBolivia\tThe Americas\t2010\tDisaster\tInternal Displacements\nBOL\tBolivia\tThe Americas\t2011\tDisaster\tInternal Displacements\nBOL\tBolivia\tThe Americas\t2012\tDisaster\tInternal Displacements\nBOL\tBolivia\tThe Americas\t2013\tDisaster\tInternal Displacements\nBOL\tBolivia\tThe Americas\t2014\tDisaster\tInternal Displacements\nBOL\tBolivia\tThe Americas\t2015\tDisaster\tInternal Displacements\nBOL\tBolivia\tThe Americas\t2016\tDisaster\tInternal Displacements\nBRA\tBrazil\tThe Americas\t2008\tDisaster\tInternal Displacements\nBRA\tBrazil\tThe Americas\t2009\tDisaster\tInternal Displacements\nBRA\tBrazil\tThe Americas\t2010\tDisaster\tInternal Displacements\nBRA\tBrazil\tThe Americas\t2011\tDisaster\tInternal Displacements\nBRA\tBrazil\tThe Americas\t2012\tDisaster\tInternal Displacements\nBRA\tBrazil\tThe Americas\t2013\tDisaster\tInternal Displacements\nBRA\tBrazil\tThe Americas\t2014\tDisaster\tInternal Displacements\nBRA\tBrazil\tThe Americas\t2015\tDisaster\tInternal Displacements\nBRA\tBrazil\tThe Americas\t2016\tDisaster\tInternal Displacements\nBTN\tBhutan\tSouth Asia\t2009\tDisaster\tInternal Displacements\nBTN\tBhutan\tSouth Asia\t2011\tDisaster\tInternal Displacements\nBWA\tBotswana\tSub-Saharan Africa\t2008\tDisaster\tInternal Displacements\nBWA\tBotswana\tSub-Saharan Africa\t2009\tDisaster\tInternal Displacements\nBWA\tBotswana\tSub-Saharan Africa\t2010\tDisaster\tInternal Displacements\nBWA\tBotswana\tSub-Saharan Africa\t2012\tDisaster\tInternal Displacements\nBWA\tBotswana\tSub-Saharan Africa\t2013\tDisaster\tInternal Displacements\nBWA\tBotswana\tSub-Saharan Africa\t2015\tDisaster\tInternal Displacements\nCAF\tCentral African Republic\tSub-Saharan Africa\t2008\tDisaster\tInternal Displacements\nCAF\tCentral African Republic\tSub-Saharan Africa\t2009\tDisaster\tInternal Displacements\nCAF\tCentral African Republic\tSub-Saharan Africa\t2010\tDisaster\tInternal Displacements\nCAF\tCentral African Republic\tSub-Saharan Africa\t2011\tDisaster\tInternal Displacements\nCAF\tCentral African Republic\tSub-Saharan Africa\t2012\tDisaster\tInternal Displacements\nCAF\tCentral African Republic\tSub-Saharan Africa\t2013\tDisaster\tInternal Displacements\nCAF\tCentral African Republic\tSub-Saharan Africa\t2015\tDisaster\tInternal Displacements\nCHL\tChile\tThe Americas\t2008\tDisaster\tInternal Displacements\nCHL\tChile\tThe Americas\t2010\tDisaster\tInternal Displacements\nCHL\tChile\tThe Americas\t2011\tDisaster\tInternal Displacements\nCHL\tChile\tThe Americas\t2012\tDisaster\tInternal Displacements\nCHL\tChile\tThe Americas\t2013\tDisaster\tInternal Displacements\nCHL\tChile\tThe Americas\t2014\tDisaster\tInternal Displacements\nCHL\tChile\tThe Americas\t2015\tDisaster\tInternal Displacements\nCHL\tChile\tThe Americas\t2016\tDisaster\tInternal Displacements\nCHN\tChina\tEast Asia and Pacific\t2008\tDisaster\tInternal Displacements\nCHN\tChina\tEast Asia and Pacific\t2009\tDisaster\tInternal Displacements\nCHN\tChina\tEast Asia and Pacific\t2010\tDisaster\tInternal Displacements\nCHN\tChina\tEast Asia and Pacific\t2011\tDisaster\tInternal Displacements\nCHN\tChina\tEast Asia and Pacific\t2012\tDisaster\tInternal Displacements\nCHN\tChina\tEast Asia and Pacific\t2013\tDisaster\tInternal Displacements\nCHN\tChina\tEast Asia and Pacific\t2014\tDisaster\tInternal Displacements\nCHN\tChina\tEast Asia and Pacific\t2015\tDisaster\tInternal Displacements\nCIV\tCôte d'Ivoire\tSub-Saharan Africa\t2008\tDisaster\tInternal Displacements\nCIV\tCôte d'Ivoire\tSub-Saharan Africa\t2012\tDisaster\tInternal Displacements\nCIV\tCôte d'Ivoire\tSub-Saharan Africa\t2014\tDisaster\tInternal Displacements\nCMR\tCameroon\tSub-Saharan Africa\t2008\tDisaster\tInternal Displacements\nCMR\tCameroon\tSub-Saharan Africa\t2012\tDisaster\tInternal Displacements\nCMR\tCameroon\tSub-Saharan Africa\t2013\tDisaster\tInternal Displacements\nCMR\tCameroon\tSub-Saharan Africa\t2014\tDisaster\tInternal Displacements\nCMR\tCameroon\tSub-Saharan Africa\t2016\tConflict\tInternal Displacements\nCOG\tCongo\tSub-Saharan Africa\t2012\tDisaster\tInternal Displacements\nCOG\tCongo\tSub-Saharan Africa\t2013\tDisaster\tInternal Displacements\nCOG\tCongo\tSub-Saharan Africa\t2016\tConflict\tInternal Displacements\nCOK\tCook Islands\tEast Asia and Pacific\t2010\tDisaster\tInternal Displacements\nCOL\tColombia\tThe Americas\t2008\tDisaster\tInternal Displacements\nCOL\tColombia\tThe Americas\t2009\tDisaster\tInternal Displacements\nCOL\tColombia\tThe Americas\t2016\tDisaster\tInternal Displacements\nCOM\tComoros\tSub-Saharan Africa\t2012\tDisaster\tInternal Displacements\nCOM\tComoros\tSub-Saharan Africa\t2014\tDisaster\tInternal Displacements\nCPV\tCabo Verde\tSub-Saharan Africa\t2014\tDisaster\tInternal Displacements\nCRI\tCosta Rica\tThe Americas\t2008\tDisaster\tInternal Displacements\nCRI\tCosta Rica\tThe Americas\t2009\tDisaster\tInternal Displacements\nCRI\tCosta Rica\tThe Americas\t2010\tDisaster\tInternal Displacements\nCRI\tCosta Rica\tThe Americas\t2011\tDisaster\tInternal Displacements\nCRI\tCosta Rica\tThe Americas\t2012\tDisaster\tInternal Displacements\nCRI\tCosta Rica\tThe Americas\t2013\tDisaster\tInternal Displacements\nCRI\tCosta Rica\tThe Americas\t2014\tDisaster\tInternal Displacements\nCRI\tCosta Rica\tThe Americas\t2016\tDisaster\tInternal Displacements\nCUB\tCuba\tThe Americas\t2008\tDisaster\tInternal Displacements\nCUB\tCuba\tThe Americas\t2012\tDisaster\tInternal Displacements\nCUB\tCuba\tThe Americas\t2013\tDisaster\tInternal Displacements\nCUB\tCuba\tThe Americas\t2014\tDisaster\tInternal Displacements\nCUB\tCuba\tThe Americas\t2015\tDisaster\tInternal Displacements\nCZE\tCzech Republic\tEurope and Central Asia\t2009\tDisaster\tInternal Displacements\nCZE\tCzech Republic\tEurope and Central Asia\t2011\tDisaster\tInternal Displacements\nDEU\tGermany\tEurope and Central Asia\t2015\tDisaster\tInternal Displacements\nDJI\tDjibouti\tMiddle East and North Africa\t2012\tDisaster\tInternal Displacements\nDJI\tDjibouti\tMiddle East and North Africa\t2016\tDisaster\tInternal Displacements\nDMA\tDominica\tThe Americas\t2008\tDisaster\tInternal Displacements\nDMA\tDominica\tThe Americas\t2011\tDisaster\tInternal Displacements\nDMA\tDominica\tThe Americas\t2013\tDisaster\tInternal Displacements\nDMA\tDominica\tThe Americas\t2015\tDisaster\tInternal Displacements\nDMA\tDominica\tThe Americas\t2016\tDisaster\tInternal Displacements\nDOM\tDominican Republic\tThe Americas\t2008\tDisaster\tInternal Displacements\nDOM\tDominican Republic\tThe Americas\t2009\tDisaster\tInternal Displacements\nDOM\tDominican Republic\tThe Americas\t2010\tDisaster\tInternal Displacements\nDOM\tDominican Republic\tThe Americas\t2011\tDisaster\tInternal Displacements\nDOM\tDominican Republic\tThe Americas\t2012\tDisaster\tInternal Displacements\nDOM\tDominican Republic\tThe Americas\t2013\tDisaster\tInternal Displacements\nDOM\tDominican Republic\tThe Americas\t2014\tDisaster\tInternal Displacements\nDOM\tDominican Republic\tThe Americas\t2015\tDisaster\tInternal Displacements\nDOM\tDominican Republic\tThe Americas\t2016\tDisaster\tInternal Displacements\nDZA\tAlgeria\tMiddle East and North Africa\t2011\tDisaster\tInternal Displacements\nDZA\tAlgeria\tMiddle East and North Africa\t2013\tDisaster\tInternal Displacements\nDZA\tAlgeria\tMiddle East and North Africa\t2015\tDisaster\tInternal Displacements\nECU\tEcuador\tThe Americas\t2008\tDisaster\tInternal Displacements\nECU\tEcuador\tThe Americas\t2009\tDisaster\tInternal Displacements\nECU\tEcuador\tThe Americas\t2010\tDisaster\tInternal Displacements\nECU\tEcuador\tThe Americas\t2011\tDisaster\tInternal Displacements\nECU\tEcuador\tThe Americas\t2012\tDisaster\tInternal Displacements\nECU\tEcuador\tThe Americas\t2013\tDisaster\tInternal Displacements\nECU\tEcuador\tThe Americas\t2014\tDisaster\tInternal Displacements\nECU\tEcuador\tThe Americas\t2015\tDisaster\tInternal Displacements\nECU\tEcuador\tThe Americas\t2016\tDisaster\tInternal Displacements\nEGY\tEgypt\tMiddle East and North Africa\t2008\tDisaster\tInternal Displacements\nEGY\tEgypt\tMiddle East and North Africa\t2010\tDisaster\tInternal Displacements\nEGY\tEgypt\tMiddle East and North Africa\t2016\tDisaster\tInternal Displacements\nERI\tEritrea\tSub-Saharan Africa\t2011\tDisaster\tInternal Displacements\nERI\tEritrea\tSub-Saharan Africa\t2012\tDisaster\tInternal Displacements\nERI\tEritrea\tSub-Saharan Africa\t2013\tDisaster\tInternal Displacements\nERI\tEritrea\tSub-Saharan Africa\t2015\tDisaster\tInternal Displacements\nESP\tSpain\tEurope and Central Asia\t2008\tDisaster\tInternal Displacements\nESP\tSpain\tEurope and Central Asia\t2009\tDisaster\tInternal Displacements\nESP\tSpain\tEurope and Central Asia\t2010\tDisaster\tInternal Displacements\nESP\tSpain\tEurope and Central Asia\t2011\tDisaster\tInternal Displacements\nESP\tSpain\tEurope and Central Asia\t2012\tDisaster\tInternal Displacements\nESP\tSpain\tEurope and Central Asia\t2013\tDisaster\tInternal Displacements\nESP\tSpain\tEurope and Central Asia\t2014\tDisaster\tInternal Displacements\nESP\tSpain\tEurope and Central Asia\t2015\tDisaster\tInternal Displacements\nESP\tSpain\tEurope and Central Asia\t2016\tDisaster\tInternal Displacements\nETH\tEthiopia\tSub-Saharan Africa\t2008\tDisaster\tInternal Displacements\nFJI\tFiji\tEast Asia and Pacific\t2008\tDisaster\tInternal Displacements\nFJI\tFiji\tEast Asia and Pacific\t2009\tDisaster\tInternal Displacements\nFJI\tFiji\tEast Asia and Pacific\t2010\tDisaster\tInternal Displacements\nFJI\tFiji\tEast Asia and Pacific\t2012\tDisaster\tInternal Displacements\nFJI\tFiji\tEast Asia and Pacific\t2014\tDisaster\tInternal Displacements\nFJI\tFiji\tEast Asia and Pacific\t2015\tDisaster\tInternal Displacements\nFJI\tFiji\tEast Asia and Pacific\t2016\tDisaster\tInternal Displacements\nFRA\tFrance\tEurope and Central Asia\t2010\tDisaster\tInternal Displacements\nFRA\tFrance\tEurope and Central Asia\t2011\tDisaster\tInternal Displacements\nFRA\tFrance\tEurope and Central Asia\t2014\tDisaster\tInternal Displacements\nFRA\tFrance\tEurope and Central Asia\t2016\tDisaster\tInternal Displacements\nFSM\tMicronesia\tEast Asia and Pacific\t2015\tDisaster\tInternal Displacements\nGAB\tGabon\tSub-Saharan Africa\t2009\tDisaster\tInternal Displacements\nGAB\tGabon\tSub-Saharan Africa\t2010\tDisaster\tInternal Displacements\nGAB\tGabon\tSub-Saharan Africa\t2011\tDisaster\tInternal Displacements\nGAB\tGabon\tSub-Saharan Africa\t2013\tDisaster\tInternal Displacements\nGBR\tUnited Kingdom\tEurope and Central Asia\t2009\tDisaster\tInternal Displacements\nGBR\tUnited Kingdom\tEurope and Central Asia\t2012\tDisaster\tInternal Displacements\nGBR\tUnited Kingdom\tEurope and Central Asia\t2013\tDisaster\tInternal Displacements\nGBR\tUnited Kingdom\tEurope and Central Asia\t2014\tDisaster\tInternal Displacements\nGBR\tUnited Kingdom\tEurope and Central Asia\t2015\tDisaster\tInternal Displacements\nGEO\tGeorgia\tEurope and Central Asia\t2008\tConflict\tInternal Displacements\nGEO\tGeorgia\tEurope and Central Asia\t2009\tDisaster\tInternal Displacements\nGEO\tGeorgia\tEurope and Central Asia\t2012\tDisaster\tInternal Displacements\nGEO\tGeorgia\tEurope and Central Asia\t2013\tDisaster\tInternal Displacements\nGEO\tGeorgia\tEurope and Central Asia\t2014\tDisaster\tInternal Displacements\nGEO\tGeorgia\tEurope and Central Asia\t2015\tDisaster\tInternal Displacements\nGHA\tGhana\tSub-Saharan Africa\t2008\tDisaster\tInternal Displacements\nGHA\tGhana\tSub-Saharan Africa\t2009\tDisaster\tInternal Displacements\nGHA\tGhana\tSub-Saharan Africa\t2010\tDisaster\tInternal Displacements\nGHA\tGhana\tSub-Saharan Africa\t2011\tDisaster\tInternal Displacements\nGHA\tGhana\tSub-Saharan Africa\t2013\tDisaster\tInternal Displacements\nGIN\tGuinea\tSub-Saharan Africa\t2009\tDisaster\tInternal Displacements\nGIN\tGuinea\tSub-Saharan Africa\t2010\tDisaster\tInternal Displacements\nGIN\tGuinea\tSub-Saharan Africa\t2011\tDisaster\tInternal Displacements\nGIN\tGuinea\tSub-Saharan Africa\t2015\tDisaster\tInternal Displacements\nGLP\tGuadeloupe\tThe Americas\t2011\tDisaster\tInternal Displacements\nGMB\tGambia\tSub-Saharan Africa\t2008\tDisaster\tInternal Displacements\nGMB\tGambia\tSub-Saharan Africa\t2009\tDisaster\tInternal Displacements\nGMB\tGambia\tSub-Saharan Africa\t2011\tDisaster\tInternal Displacements\nGMB\tGambia\tSub-Saharan Africa\t2015\tDisaster\tInternal Displacements\nGMB\tGambia\tSub-Saharan Africa\t2016\tDisaster\tInternal Displacements\nGNB\tGuinea-Bissau\tSub-Saharan Africa\t2008\tDisaster\tInternal Displacements\nGRC\tGreece\tEurope and Central Asia\t2009\tDisaster\tInternal Displacements\nGRC\tGreece\tEurope and Central Asia\t2013\tDisaster\tInternal Displacements\nGRC\tGreece\tEurope and Central Asia\t2014\tDisaster\tInternal Displacements\nGTM\tGuatemala\tThe Americas\t2008\tDisaster\tInternal Displacements\nGTM\tGuatemala\tThe Americas\t2009\tDisaster\tInternal Displacements\nGTM\tGuatemala\tThe Americas\t2010\tDisaster\tInternal Displacements\nGTM\tGuatemala\tThe Americas\t2011\tDisaster\tInternal Displacements\nGTM\tGuatemala\tThe Americas\t2012\tDisaster\tInternal Displacements\nGTM\tGuatemala\tThe Americas\t2013\tDisaster\tInternal Displacements\nGTM\tGuatemala\tThe Americas\t2014\tDisaster\tInternal Displacements\nGTM\tGuatemala\tThe Americas\t2015\tDisaster\tInternal Displacements\nGTM\tGuatemala\tThe Americas\t2016\tDisaster\tInternal Displacements\nGUM\tGuam\tEast Asia and Pacific\t2015\tDisaster\tInternal Displacements\nGUY\tGuyana\tThe Americas\t2010\tDisaster\tInternal Displacements\nGUY\tGuyana\tThe Americas\t2011\tDisaster\tInternal Displacements\nGUY\tGuyana\tThe Americas\t2012\tDisaster\tInternal Displacements\nGUY\tGuyana\tThe Americas\t2015\tDisaster\tInternal Displacements\nHKG\tHong Kong, China\tEast Asia and Pacific\t2008\tDisaster\tInternal Displacements\nHKG\tHong Kong, China\tEast Asia and Pacific\t2009\tDisaster\tInternal Displacements\nHKG\tHong Kong, China\tEast Asia and Pacific\t2012\tDisaster\tInternal Displacements\nHKG\tHong Kong, China\tEast Asia and Pacific\t2013\tDisaster\tInternal Displacements\nHKG\tHong Kong, China\tEast Asia and Pacific\t2016\tDisaster\tInternal Displacements\nHND\tHonduras\tThe Americas\t2008\tDisaster\tInternal Displacements\nHND\tHonduras\tThe Americas\t2009\tDisaster\tInternal Displacements\nHND\tHonduras\tThe Americas\t2010\tDisaster\tInternal Displacements\nHND\tHonduras\tThe Americas\t2011\tDisaster\tInternal Displacements\nHND\tHonduras\tThe Americas\t2012\tDisaster\tInternal Displacements\nHND\tHonduras\tThe Americas\t2013\tDisaster\tInternal Displacements\nHND\tHonduras\tThe Americas\t2014\tDisaster\tInternal Displacements\nHND\tHonduras\tThe Americas\t2015\tDisaster\tInternal Displacements\nHND\tHonduras\tThe Americas\t2016\tDisaster\tInternal Displacements\nHTI\tHaiti\tThe Americas\t2008\tDisaster\tInternal Displacements\nHTI\tHaiti\tThe Americas\t2011\tDisaster\tInternal Displacements\nHTI\tHaiti\tThe Americas\t2015\tDisaster\tInternal Displacements\nHUN\tHungary\tEurope and Central Asia\t2010\tDisaster\tInternal Displacements\nHUN\tHungary\tEurope and Central Asia\t2013\tDisaster\tInternal Displacements\nHUN\tHungary\tEurope and Central Asia\t2014\tDisaster\tInternal Displacements\nIDN\tIndonesia\tEast Asia and Pacific\t2008\tConflict\tInternal Displacements\nIDN\tIndonesia\tEast Asia and Pacific\t2008\tDisaster\tInternal Displacements\nIDN\tIndonesia\tEast Asia and Pacific\t2009\tDisaster\tInternal Displacements\nIDN\tIndonesia\tEast Asia and Pacific\t2010\tConflict\tInternal Displacements\nIDN\tIndonesia\tEast Asia and Pacific\t2010\tDisaster\tInternal Displacements\nIDN\tIndonesia\tEast Asia and Pacific\t2011\tDisaster\tInternal Displacements\nIDN\tIndonesia\tEast Asia and Pacific\t2012\tDisaster\tInternal Displacements\nIDN\tIndonesia\tEast Asia and Pacific\t2013\tConflict\tInternal Displacements\nIDN\tIndonesia\tEast Asia and Pacific\t2013\tDisaster\tInternal Displacements\nIDN\tIndonesia\tEast Asia and Pacific\t2014\tDisaster\tInternal Displacements\nIDN\tIndonesia\tEast Asia and Pacific\t2015\tDisaster\tInternal Displacements\nIDN\tIndonesia\tEast Asia and Pacific\t2016\tDisaster\tInternal Displacements\nIND\tIndia\tSouth Asia\t2008\tDisaster\tInternal Displacements\nIND\tIndia\tSouth Asia\t2009\tDisaster\tInternal Displacements\nIND\tIndia\tSouth Asia\t2010\tDisaster\tInternal Displacements\nIND\tIndia\tSouth Asia\t2011\tDisaster\tInternal Displacements\nIND\tIndia\tSouth Asia\t2012\tDisaster\tInternal Displacements\nIND\tIndia\tSouth Asia\t2013\tDisaster\tInternal Displacements\nIND\tIndia\tSouth Asia\t2014\tDisaster\tInternal Displacements\nIND\tIndia\tSouth Asia\t2015\tDisaster\tInternal Displacements\nIND\tIndia\tSouth Asia\t2016\tDisaster\tInternal Displacements\nIRL\tIreland\tEurope and Central Asia\t2015\tDisaster\tInternal Displacements\nIRL\tIreland\tEurope and Central Asia\t2016\tDisaster\tInternal Displacements\nIRN\tIran\tMiddle East and North Africa\t2010\tDisaster\tInternal Displacements\nIRN\tIran\tMiddle East and North Africa\t2011\tDisaster\tInternal Displacements\nIRN\tIran\tMiddle East and North Africa\t2012\tDisaster\tInternal Displacements\nIRN\tIran\tMiddle East and North Africa\t2013\tDisaster\tInternal Displacements\nIRN\tIran\tMiddle East and North Africa\t2014\tDisaster\tInternal Displacements\nIRN\tIran\tMiddle East and North Africa\t2015\tDisaster\tInternal Displacements\nIRN\tIran\tMiddle East and North Africa\t2016\tDisaster\tInternal Displacements\nIRQ\tIraq\tMiddle East and North Africa\t2008\tDisaster\tInternal Displacements\nIRQ\tIraq\tMiddle East and North Africa\t2011\tDisaster\tInternal Displacements\nIRQ\tIraq\tMiddle East and North Africa\t2013\tDisaster\tInternal Displacements\nIRQ\tIraq\tMiddle East and North Africa\t2014\tConflict\tInternal Displacements\nIRQ\tIraq\tMiddle East and North Africa\t2014\tDisaster\tInternal Displacements\nIRQ\tIraq\tMiddle East and North Africa\t2015\tConflict\tInternal Displacements\nIRQ\tIraq\tMiddle East and North Africa\t2015\tDisaster\tInternal Displacements\nIRQ\tIraq\tMiddle East and North Africa\t2016\tConflict\tInternal Displacements\nIRQ\tIraq\tMiddle East and North Africa\t2016\tDisaster\tInternal Displacements\nISR\tIsrael\tMiddle East and North Africa\t2010\tDisaster\tInternal Displacements\nISR\tIsrael\tMiddle East and North Africa\t2016\tDisaster\tInternal Displacements\nITA\tItaly\tEurope and Central Asia\t2009\tDisaster\tInternal Displacements\nITA\tItaly\tEurope and Central Asia\t2012\tDisaster\tInternal Displacements\nITA\tItaly\tEurope and Central Asia\t2013\tDisaster\tInternal Displacements\nITA\tItaly\tEurope and Central Asia\t2014\tDisaster\tInternal Displacements\nITA\tItaly\tEurope and Central Asia\t2015\tDisaster\tInternal Displacements\nITA\tItaly\tEurope and Central Asia\t2016\tDisaster\tInternal Displacements\nJAM\tJamaica\tThe Americas\t2008\tDisaster\tInternal Displacements\nJAM\tJamaica\tThe Americas\t2010\tDisaster\tInternal Displacements\nJAM\tJamaica\tThe Americas\t2016\tDisaster\tInternal Displacements\nJOR\tJordan\tMiddle East and North Africa\t2008\tDisaster\tInternal Displacements\nJOR\tJordan\tMiddle East and North Africa\t2009\tDisaster\tInternal Displacements\nJOR\tJordan\tMiddle East and North Africa\t2010\tDisaster\tInternal Displacements\nJOR\tJordan\tMiddle East and North Africa\t2013\tDisaster\tInternal Displacements\nJOR\tJordan\tMiddle East and North Africa\t2015\tDisaster\tInternal Displacements\nJOR\tJordan\tMiddle East and North Africa\t2016\tDisaster\tInternal Displacements\nJPN\tJapan\tEast Asia and Pacific\t2011\tDisaster\tInternal Displacements\nJPN\tJapan\tEast Asia and Pacific\t2012\tDisaster\tInternal Displacements\nJPN\tJapan\tEast Asia and Pacific\t2013\tDisaster\tInternal Displacements\nJPN\tJapan\tEast Asia and Pacific\t2014\tDisaster\tInternal Displacements\nJPN\tJapan\tEast Asia and Pacific\t2015\tDisaster\tInternal Displacements\nJPN\tJapan\tEast Asia and Pacific\t2016\tDisaster\tInternal Displacements\nKAZ\tKazakhstan\tEurope and Central Asia\t2008\tDisaster\tInternal Displacements\nKAZ\tKazakhstan\tEurope and Central Asia\t2010\tDisaster\tInternal Displacements\nKAZ\tKazakhstan\tEurope and Central Asia\t2011\tDisaster\tInternal Displacements\nKAZ\tKazakhstan\tEurope and Central Asia\t2012\tDisaster\tInternal Displacements\nKAZ\tKazakhstan\tEurope and Central Asia\t2014\tDisaster\tInternal Displacements\nKGZ\tKyrgyzstan\tEurope and Central Asia\t2009\tDisaster\tInternal Displacements\nKGZ\tKyrgyzstan\tEurope and Central Asia\t2010\tDisaster\tInternal Displacements\nKGZ\tKyrgyzstan\tEurope and Central Asia\t2011\tDisaster\tInternal Displacements\nKGZ\tKyrgyzstan\tEurope and Central Asia\t2012\tDisaster\tInternal Displacements\nKGZ\tKyrgyzstan\tEurope and Central Asia\t2015\tDisaster\tInternal Displacements\nKHM\tCambodia\tEast Asia and Pacific\t2009\tDisaster\tInternal Displacements\nKHM\tCambodia\tEast Asia and Pacific\t2010\tDisaster\tInternal Displacements\nKHM\tCambodia\tEast Asia and Pacific\t2011\tDisaster\tInternal Displacements\nKHM\tCambodia\tEast Asia and Pacific\t2012\tDisaster\tInternal Displacements\nKHM\tCambodia\tEast Asia and Pacific\t2013\tDisaster\tInternal Displacements\nKIR\tKiribati\tEast Asia and Pacific\t2008\tDisaster\tInternal Displacements\nKIR\tKiribati\tEast Asia and Pacific\t2015\tDisaster\tInternal Displacements\nKNA\tSt. Kitts and Nevis\tThe Americas\t2008\tDisaster\tInternal Displacements\nKOR\tKorea\tEast Asia and Pacific\t2008\tDisaster\tInternal Displacements\nKOR\tKorea\tEast Asia and Pacific\t2011\tDisaster\tInternal Displacements\nLAO\tLao PDR\tEast Asia and Pacific\t2009\tDisaster\tInternal Displacements\nLAO\tLao PDR\tEast Asia and Pacific\t2013\tDisaster\tInternal Displacements\nLAO\tLao PDR\tEast Asia and Pacific\t2014\tDisaster\tInternal Displacements\nLBN\tLebanon\tMiddle East and North Africa\t2013\tDisaster\tInternal Displacements\nLBN\tLebanon\tMiddle East and North Africa\t2015\tDisaster\tInternal Displacements\nLBR\tLiberia\tSub-Saharan Africa\t2009\tDisaster\tInternal Displacements\nLBR\tLiberia\tSub-Saharan Africa\t2011\tDisaster\tInternal Displacements\nLBY\tLibya\tMiddle East and North Africa\t2016\tConflict\tInternal Displacements\nLCA\tSt. Lucia\tThe Americas\t2010\tDisaster\tInternal Displacements\nLCA\tSt. Lucia\tThe Americas\t2016\tDisaster\tInternal Displacements\nLSO\tLesotho\tSub-Saharan Africa\t2008\tDisaster\tInternal Displacements\nLSO\tLesotho\tSub-Saharan Africa\t2010\tDisaster\tInternal Displacements\nLSO\tLesotho\tSub-Saharan Africa\t2011\tDisaster\tInternal Displacements\nMAR\tMorocco\tMiddle East and North Africa\t2008\tDisaster\tInternal Displacements\nMAR\tMorocco\tMiddle East and North Africa\t2009\tDisaster\tInternal Displacements\nMAR\tMorocco\tMiddle East and North Africa\t2013\tDisaster\tInternal Displacements\nMDA\tMoldova\tEurope and Central Asia\t2008\tDisaster\tInternal Displacements\nMDA\tMoldova\tEurope and Central Asia\t2010\tDisaster\tInternal Displacements\nMDV\tMaldives\tSouth Asia\t2009\tDisaster\tInternal Displacements\nMDV\tMaldives\tSouth Asia\t2012\tDisaster\tInternal Displacements\nMEX\tMexico\tThe Americas\t2016\tDisaster\tInternal Displacements\nMHL\tMarshall Islands\tEast Asia and Pacific\t2008\tDisaster\tInternal Displacements\nMHL\tMarshall Islands\tEast Asia and Pacific\t2014\tDisaster\tInternal Displacements\nMHL\tMarshall Islands\tEast Asia and Pacific\t2015\tDisaster\tInternal Displacements\nMKD\tNorth Macedonia\tEurope and Central Asia\t2013\tDisaster\tInternal Displacements\nMKD\tNorth Macedonia\tEurope and Central Asia\t2015\tDisaster\tInternal Displacements\nMKD\tNorth Macedonia\tEurope and Central Asia\t2016\tDisaster\tInternal Displacements\nMLI\tMali\tSub-Saharan Africa\t2008\tDisaster\tInternal Displacements\nMLI\tMali\tSub-Saharan Africa\t2010\tDisaster\tInternal Displacements\nMLI\tMali\tSub-Saharan Africa\t2011\tDisaster\tInternal Displacements\nMLI\tMali\tSub-Saharan Africa\t2012\tDisaster\tInternal Displacements\nMLI\tMali\tSub-Saharan Africa\t2013\tDisaster\tInternal Displacements\nMLI\tMali\tSub-Saharan Africa\t2014\tConflict\tInternal Displacements\nMLI\tMali\tSub-Saharan Africa\t2014\tDisaster\tInternal Displacements\nMLI\tMali\tSub-Saharan Africa\t2015\tConflict\tInternal Displacements\nMLI\tMali\tSub-Saharan Africa\t2015\tDisaster\tInternal Displacements\nMLI\tMali\tSub-Saharan Africa\t2016\tConflict\tInternal Displacements\nMLI\tMali\tSub-Saharan Africa\t2016\tDisaster\tInternal Displacements\nMMR\tMyanmar\tEast Asia and Pacific\t2016\tDisaster\tInternal Displacements\nMNE\tMontenegro\tEurope and Central Asia\t2010\tDisaster\tInternal Displacements\nMNE\tMontenegro\tEurope and Central Asia\t2016\tDisaster\tInternal Displacements\nMNG\tMongolia\tEast Asia and Pacific\t2009\tDisaster\tInternal Displacements\nMNG\tMongolia\tEast Asia and Pacific\t2010\tDisaster\tInternal Displacements\nMNG\tMongolia\tEast Asia and Pacific\t2013\tDisaster\tInternal Displacements\nMNG\tMongolia\tEast Asia and Pacific\t2014\tDisaster\tInternal Displacements\nMNP\tNorthern Mariana Islands\tEast Asia and Pacific\t2015\tDisaster\tInternal Displacements\nMOZ\tMozambique\tSub-Saharan Africa\t2008\tDisaster\tInternal Displacements\nMOZ\tMozambique\tSub-Saharan Africa\t2009\tDisaster\tInternal Displacements\nMOZ\tMozambique\tSub-Saharan Africa\t2010\tDisaster\tInternal Displacements\nMOZ\tMozambique\tSub-Saharan Africa\t2015\tDisaster\tInternal Displacements\nMRT\tMauritania\tSub-Saharan Africa\t2008\tDisaster\tInternal Displacements\nMRT\tMauritania\tSub-Saharan Africa\t2009\tDisaster\tInternal Displacements\nMRT\tMauritania\tSub-Saharan Africa\t2010\tDisaster\tInternal Displacements\nMRT\tMauritania\tSub-Saharan Africa\t2013\tDisaster\tInternal Displacements\nMRT\tMauritania\tSub-Saharan Africa\t2014\tDisaster\tInternal Displacements\nMUS\tMauritius\tSub-Saharan Africa\t2013\tDisaster\tInternal Displacements\nMUS\tMauritius\tSub-Saharan Africa\t2014\tDisaster\tInternal Displacements\nMUS\tMauritius\tSub-Saharan Africa\t2015\tDisaster\tInternal Displacements\nMWI\tMalawi\tSub-Saharan Africa\t2015\tDisaster\tInternal Displacements\nMWI\tMalawi\tSub-Saharan Africa\t2016\tDisaster\tInternal Displacements\nMYS\tMalaysia\tEast Asia and Pacific\t2008\tDisaster\tInternal Displacements\nMYS\tMalaysia\tEast Asia and Pacific\t2009\tDisaster\tInternal Displacements\nMYS\tMalaysia\tEast Asia and Pacific\t2010\tDisaster\tInternal Displacements\nMYS\tMalaysia\tEast Asia and Pacific\t2012\tDisaster\tInternal Displacements\nMYS\tMalaysia\tEast Asia and Pacific\t2013\tDisaster\tInternal Displacements\nMYS\tMalaysia\tEast Asia and Pacific\t2014\tDisaster\tInternal Displacements\nMYS\tMalaysia\tEast Asia and Pacific\t2015\tDisaster\tInternal Displacements\nMYS\tMalaysia\tEast Asia and Pacific\t2016\tDisaster\tInternal Displacements\nNAM\tNamibia\tSub-Saharan Africa\t2008\tDisaster\tInternal Displacements\nNAM\tNamibia\tSub-Saharan Africa\t2009\tDisaster\tInternal Displacements\nNAM\tNamibia\tSub-Saharan Africa\t2010\tDisaster\tInternal Displacements\nNAM\tNamibia\tSub-Saharan Africa\t2011\tDisaster\tInternal Displacements\nNAM\tNamibia\tSub-Saharan Africa\t2013\tDisaster\tInternal Displacements\nNER\tNiger\tSub-Saharan Africa\t2008\tDisaster\tInternal Displacements\nNER\tNiger\tSub-Saharan Africa\t2009\tDisaster\tInternal Displacements\nNER\tNiger\tSub-Saharan Africa\t2010\tDisaster\tInternal Displacements\nNER\tNiger\tSub-Saharan Africa\t2012\tDisaster\tInternal Displacements\nNER\tNiger\tSub-Saharan Africa\t2014\tDisaster\tInternal Displacements\nNER\tNiger\tSub-Saharan Africa\t2015\tDisaster\tInternal Displacements\nNER\tNiger\tSub-Saharan Africa\t2016\tDisaster\tInternal Displacements\nNGA\tNigeria\tSub-Saharan Africa\t2009\tDisaster\tInternal Displacements\nNGA\tNigeria\tSub-Saharan Africa\t2010\tDisaster\tInternal Displacements\nNGA\tNigeria\tSub-Saharan Africa\t2012\tDisaster\tInternal Displacements\nNGA\tNigeria\tSub-Saharan Africa\t2013\tDisaster\tInternal Displacements\nNGA\tNigeria\tSub-Saharan Africa\t2015\tDisaster\tInternal Displacements\nNGA\tNigeria\tSub-Saharan Africa\t2016\tConflict\tInternal Displacements\nNIC\tNicaragua\tThe Americas\t2008\tDisaster\tInternal Displacements\nNIC\tNicaragua\tThe Americas\t2009\tDisaster\tInternal Displacements\nNIC\tNicaragua\tThe Americas\t2010\tDisaster\tInternal Displacements\nNIC\tNicaragua\tThe Americas\t2011\tDisaster\tInternal Displacements\nNIC\tNicaragua\tThe Americas\t2012\tDisaster\tInternal Displacements\nNIC\tNicaragua\tThe Americas\t2013\tDisaster\tInternal Displacements\nNIC\tNicaragua\tThe Americas\t2014\tDisaster\tInternal Displacements\nNIC\tNicaragua\tThe Americas\t2015\tDisaster\tInternal Displacements\nNIC\tNicaragua\tThe Americas\t2016\tDisaster\tInternal Displacements\nNOR\tNorway\tEurope and Central Asia\t2015\tDisaster\tInternal Displacements\nNPL\tNepal\tSouth Asia\t2011\tDisaster\tInternal Displacements\nNPL\tNepal\tSouth Asia\t2012\tDisaster\tInternal Displacements\nNPL\tNepal\tSouth Asia\t2015\tDisaster\tInternal Displacements\nNZL\tNew Zealand\tEast Asia and Pacific\t2011\tDisaster\tInternal Displacements\nNZL\tNew Zealand\tEast Asia and Pacific\t2015\tDisaster\tInternal Displacements\nPAK\tPakistan\tSouth Asia\t2008\tDisaster\tInternal Displacements\nPAK\tPakistan\tSouth Asia\t2009\tDisaster\tInternal Displacements\nPAK\tPakistan\tSouth Asia\t2010\tDisaster\tInternal Displacements\nPAK\tPakistan\tSouth Asia\t2011\tDisaster\tInternal Displacements\nPAK\tPakistan\tSouth Asia\t2012\tDisaster\tInternal Displacements\nPAK\tPakistan\tSouth Asia\t2013\tDisaster\tInternal Displacements\nPAK\tPakistan\tSouth Asia\t2014\tDisaster\tInternal Displacements\nPAK\tPakistan\tSouth Asia\t2015\tDisaster\tInternal Displacements\nPAK\tPakistan\tSouth Asia\t2016\tDisaster\tInternal Displacements\nPAN\tPanama\tThe Americas\t2008\tDisaster\tInternal Displacements\nPAN\tPanama\tThe Americas\t2009\tDisaster\tInternal Displacements\nPAN\tPanama\tThe Americas\t2010\tDisaster\tInternal Displacements\nPAN\tPanama\tThe Americas\t2011\tDisaster\tInternal Displacements\nPAN\tPanama\tThe Americas\t2012\tDisaster\tInternal Displacements\nPAN\tPanama\tThe Americas\t2014\tDisaster\tInternal Displacements\nPAN\tPanama\tThe Americas\t2015\tDisaster\tInternal Displacements\nPAN\tPanama\tThe Americas\t2016\tDisaster\tInternal Displacements\nPER\tPeru\tThe Americas\t2008\tDisaster\tInternal Displacements\nPER\tPeru\tThe Americas\t2009\tDisaster\tInternal Displacements\nPER\tPeru\tThe Americas\t2010\tDisaster\tInternal Displacements\nPER\tPeru\tThe Americas\t2011\tDisaster\tInternal Displacements\nPER\tPeru\tThe Americas\t2012\tDisaster\tInternal Displacements\nPER\tPeru\tThe Americas\t2013\tDisaster\tInternal Displacements\nPER\tPeru\tThe Americas\t2014\tDisaster\tInternal Displacements\nPER\tPeru\tThe Americas\t2015\tDisaster\tInternal Displacements\nPER\tPeru\tThe Americas\t2016\tDisaster\tInternal Displacements\nPHL\tPhilippines\tEast Asia and Pacific\t2008\tDisaster\tInternal Displacements\nPHL\tPhilippines\tEast Asia and Pacific\t2009\tDisaster\tInternal Displacements\nPHL\tPhilippines\tEast Asia and Pacific\t2015\tDisaster\tInternal Displacements\nPLW\tPalau\tEast Asia and Pacific\t2012\tDisaster\tInternal Displacements\nPNG\tPapua New Guinea\tEast Asia and Pacific\t2008\tDisaster\tInternal Displacements\nPNG\tPapua New Guinea\tEast Asia and Pacific\t2010\tConflict\tInternal Displacements\nPNG\tPapua New Guinea\tEast Asia and Pacific\t2010\tDisaster\tInternal Displacements\nPNG\tPapua New Guinea\tEast Asia and Pacific\t2011\tDisaster\tInternal Displacements\nPNG\tPapua New Guinea\tEast Asia and Pacific\t2012\tDisaster\tInternal Displacements\nPNG\tPapua New Guinea\tEast Asia and Pacific\t2013\tConflict\tInternal Displacements\nPNG\tPapua New Guinea\tEast Asia and Pacific\t2013\tDisaster\tInternal Displacements\nPNG\tPapua New Guinea\tEast Asia and Pacific\t2014\tDisaster\tInternal Displacements\nPNG\tPapua New Guinea\tEast Asia and Pacific\t2015\tConflict\tInternal Displacements\nPNG\tPapua New Guinea\tEast Asia and Pacific\t2015\tDisaster\tInternal Displacements\nPNG\tPapua New Guinea\tEast Asia and Pacific\t2016\tDisaster\tInternal Displacements\nPOL\tPoland\tEurope and Central Asia\t2009\tDisaster\tInternal Displacements\nPRI\tPuerto Rico\tThe Americas\t2008\tDisaster\tInternal Displacements\nPRI\tPuerto Rico\tThe Americas\t2011\tDisaster\tInternal Displacements\nPRI\tPuerto Rico\tThe Americas\t2012\tDisaster\tInternal Displacements\nPRI\tPuerto Rico\tThe Americas\t2014\tDisaster\tInternal Displacements\nPRK\tDem. People's Rep. Korea\tEast Asia and Pacific\t2010\tDisaster\tInternal Displacements\nPRK\tDem. People's Rep. Korea\tEast Asia and Pacific\t2011\tDisaster\tInternal Displacements\nPRK\tDem. People's Rep. Korea\tEast Asia and Pacific\t2012\tDisaster\tInternal Displacements\nPRK\tDem. People's Rep. Korea\tEast Asia and Pacific\t2013\tDisaster\tInternal Displacements\nPRK\tDem. People's Rep. Korea\tEast Asia and Pacific\t2015\tDisaster\tInternal Displacements\nPRK\tDem. People's Rep. Korea\tEast Asia and Pacific\t2016\tDisaster\tInternal Displacements\nPRY\tParaguay\tThe Americas\t2008\tDisaster\tInternal Displacements\nPRY\tParaguay\tThe Americas\t2009\tDisaster\tInternal Displacements\nPRY\tParaguay\tThe Americas\t2010\tDisaster\tInternal Displacements\nPRY\tParaguay\tThe Americas\t2011\tDisaster\tInternal Displacements\nPRY\tParaguay\tThe Americas\t2012\tDisaster\tInternal Displacements\nPRY\tParaguay\tThe Americas\t2014\tDisaster\tInternal Displacements\nPRY\tParaguay\tThe Americas\t2015\tDisaster\tInternal Displacements\nPRY\tParaguay\tThe Americas\t2016\tDisaster\tInternal Displacements\nPSE\tPalestine\tMiddle East and North Africa\t2009\tConflict\tInternal Displacements\nPSE\tPalestine\tMiddle East and North Africa\t2010\tConflict\tInternal Displacements\nPSE\tPalestine\tMiddle East and North Africa\t2010\tDisaster\tInternal Displacements\nPSE\tPalestine\tMiddle East and North Africa\t2011\tConflict\tInternal Displacements\nPSE\tPalestine\tMiddle East and North Africa\t2012\tConflict\tInternal Displacements\nPSE\tPalestine\tMiddle East and North Africa\t2012\tDisaster\tInternal Displacements\nPSE\tPalestine\tMiddle East and North Africa\t2013\tConflict\tInternal Displacements\nPSE\tPalestine\tMiddle East and North Africa\t2013\tDisaster\tInternal Displacements\nPSE\tPalestine\tMiddle East and North Africa\t2014\tConflict\tInternal Displacements\nPSE\tPalestine\tMiddle East and North Africa\t2014\tDisaster\tInternal Displacements\nPSE\tPalestine\tMiddle East and North Africa\t2015\tConflict\tInternal Displacements\nPSE\tPalestine\tMiddle East and North Africa\t2015\tDisaster\tInternal Displacements\nPSE\tPalestine\tMiddle East and North Africa\t2016\tConflict\tInternal Displacements\nPSE\tPalestine\tMiddle East and North Africa\t2016\tDisaster\tInternal Displacements\nPYF\tFrench Polynesia\tEast Asia and Pacific\t2010\tDisaster\tInternal Displacements\nROU\tRomania\tEurope and Central Asia\t2008\tDisaster\tInternal Displacements\nROU\tRomania\tEurope and Central Asia\t2009\tDisaster\tInternal Displacements\nROU\tRomania\tEurope and Central Asia\t2010\tDisaster\tInternal Displacements\nROU\tRomania\tEurope and Central Asia\t2011\tDisaster\tInternal Displacements\nROU\tRomania\tEurope and Central Asia\t2013\tDisaster\tInternal Displacements\nROU\tRomania\tEurope and Central Asia\t2014\tDisaster\tInternal Displacements\nROU\tRomania\tEurope and Central Asia\t2016\tDisaster\tInternal Displacements\nRUS\tRussia\tEurope and Central Asia\t2010\tDisaster\tInternal Displacements\nRUS\tRussia\tEurope and Central Asia\t2011\tDisaster\tInternal Displacements\nRUS\tRussia\tEurope and Central Asia\t2012\tDisaster\tInternal Displacements\nRUS\tRussia\tEurope and Central Asia\t2013\tDisaster\tInternal Displacements\nRUS\tRussia\tEurope and Central Asia\t2014\tDisaster\tInternal Displacements\nRUS\tRussia\tEurope and Central Asia\t2015\tDisaster\tInternal Displacements\nRWA\tRwanda\tSub-Saharan Africa\t2008\tDisaster\tInternal Displacements\nRWA\tRwanda\tSub-Saharan Africa\t2010\tDisaster\tInternal Displacements\nRWA\tRwanda\tSub-Saharan Africa\t2011\tDisaster\tInternal Displacements\nRWA\tRwanda\tSub-Saharan Africa\t2012\tDisaster\tInternal Displacements\nRWA\tRwanda\tSub-Saharan Africa\t2013\tDisaster\tInternal Displacements\nRWA\tRwanda\tSub-Saharan Africa\t2015\tDisaster\tInternal Displacements\nRWA\tRwanda\tSub-Saharan Africa\t2016\tDisaster\tInternal Displacements\nSAU\tSaudi Arabia\tMiddle East and North Africa\t2009\tDisaster\tInternal Displacements\nSAU\tSaudi Arabia\tMiddle East and North Africa\t2011\tDisaster\tInternal Displacements\nSAU\tSaudi Arabia\tMiddle East and North Africa\t2012\tDisaster\tInternal Displacements\nSEN\tSenegal\tSub-Saharan Africa\t2008\tDisaster\tInternal Displacements\nSEN\tSenegal\tSub-Saharan Africa\t2010\tDisaster\tInternal Displacements\nSEN\tSenegal\tSub-Saharan Africa\t2011\tDisaster\tInternal Displacements\nSEN\tSenegal\tSub-Saharan Africa\t2014\tDisaster\tInternal Displacements\nSEN\tSenegal\tSub-Saharan Africa\t2015\tDisaster\tInternal Displacements\nSEN\tSenegal\tSub-Saharan Africa\t2016\tDisaster\tInternal Displacements\nSLB\tSolomon Islands\tEast Asia and Pacific\t2008\tDisaster\tInternal Displacements\nSLB\tSolomon Islands\tEast Asia and Pacific\t2009\tDisaster\tInternal Displacements\nSLB\tSolomon Islands\tEast Asia and Pacific\t2010\tDisaster\tInternal Displacements\nSLB\tSolomon Islands\tEast Asia and Pacific\t2012\tDisaster\tInternal Displacements\nSLB\tSolomon Islands\tEast Asia and Pacific\t2013\tDisaster\tInternal Displacements\nSLB\tSolomon Islands\tEast Asia and Pacific\t2014\tDisaster\tInternal Displacements\nSLB\tSolomon Islands\tEast Asia and Pacific\t2015\tDisaster\tInternal Displacements\nSLB\tSolomon Islands\tEast Asia and Pacific\t2016\tDisaster\tInternal Displacements\nSLE\tSierra Leone\tSub-Saharan Africa\t2008\tDisaster\tInternal Displacements\nSLE\tSierra Leone\tSub-Saharan Africa\t2010\tDisaster\tInternal Displacements\nSLE\tSierra Leone\tSub-Saharan Africa\t2012\tDisaster\tInternal Displacements\nSLE\tSierra Leone\tSub-Saharan Africa\t2014\tDisaster\tInternal Displacements\nSLE\tSierra Leone\tSub-Saharan Africa\t2015\tDisaster\tInternal Displacements\nSLV\tEl Salvador\tThe Americas\t2008\tDisaster\tInternal Displacements\nSLV\tEl Salvador\tThe Americas\t2009\tDisaster\tInternal Displacements\nSLV\tEl Salvador\tThe Americas\t2010\tDisaster\tInternal Displacements\nSLV\tEl Salvador\tThe Americas\t2011\tDisaster\tInternal Displacements\nSLV\tEl Salvador\tThe Americas\t2012\tDisaster\tInternal Displacements\nSLV\tEl Salvador\tThe Americas\t2013\tDisaster\tInternal Displacements\nSLV\tEl Salvador\tThe Americas\t2014\tDisaster\tInternal Displacements\nSLV\tEl Salvador\tThe Americas\t2016\tDisaster\tInternal Displacements\nSOM\tSomalia\tSub-Saharan Africa\t2016\tConflict\tInternal Displacements\nSOM\tSomalia\tSub-Saharan Africa\t2016\tDisaster\tInternal Displacements\nSRB\tSerbia\tEurope and Central Asia\t2009\tDisaster\tInternal Displacements\nSRB\tSerbia\tEurope and Central Asia\t2010\tDisaster\tInternal Displacements\nSRB\tSerbia\tEurope and Central Asia\t2011\tDisaster\tInternal Displacements\nSRB\tSerbia\tEurope and Central Asia\t2012\tDisaster\tInternal Displacements\nSRB\tSerbia\tEurope and Central Asia\t2014\tDisaster\tInternal Displacements\nSRB\tSerbia\tEurope and Central Asia\t2015\tDisaster\tInternal Displacements\nSRB\tSerbia\tEurope and Central Asia\t2016\tDisaster\tInternal Displacements\nSUR\tSuriname\tThe Americas\t2008\tDisaster\tInternal Displacements\nSVK\tSlovakia\tEurope and Central Asia\t2013\tDisaster\tInternal Displacements\nSVN\tSlovenia\tEurope and Central Asia\t2010\tDisaster\tInternal Displacements\nSYC\tSeychelles\tSub-Saharan Africa\t2013\tDisaster\tInternal Displacements\nSYC\tSeychelles\tSub-Saharan Africa\t2014\tDisaster\tInternal Displacements\nSYR\tSyria\tMiddle East and North Africa\t2009\tDisaster\tInternal Displacements\nSYR\tSyria\tMiddle East and North Africa\t2013\tDisaster\tInternal Displacements\nSYR\tSyria\tMiddle East and North Africa\t2014\tDisaster\tInternal Displacements\nSYR\tSyria\tMiddle East and North Africa\t2016\tDisaster\tInternal Displacements\nTCA\tTurks and Caicos Islands\tThe Americas\t2008\tDisaster\tInternal Displacements\nTCA\tTurks and Caicos Islands\tThe Americas\t2011\tDisaster\tInternal Displacements\nTCD\tChad\tSub-Saharan Africa\t2008\tConflict\tInternal Displacements\nTCD\tChad\tSub-Saharan Africa\t2008\tDisaster\tInternal Displacements\nTCD\tChad\tSub-Saharan Africa\t2009\tDisaster\tInternal Displacements\nTCD\tChad\tSub-Saharan Africa\t2011\tDisaster\tInternal Displacements\nTCD\tChad\tSub-Saharan Africa\t2012\tDisaster\tInternal Displacements\nTCD\tChad\tSub-Saharan Africa\t2013\tDisaster\tInternal Displacements\nTCD\tChad\tSub-Saharan Africa\t2014\tDisaster\tInternal Displacements\nTCD\tChad\tSub-Saharan Africa\t2016\tDisaster\tInternal Displacements\nTGO\tTogo\tSub-Saharan Africa\t2008\tDisaster\tInternal Displacements\nTGO\tTogo\tSub-Saharan Africa\t2009\tDisaster\tInternal Displacements\nTGO\tTogo\tSub-Saharan Africa\t2010\tDisaster\tInternal Displacements\nTGO\tTogo\tSub-Saharan Africa\t2011\tDisaster\tInternal Displacements\nTGO\tTogo\tSub-Saharan Africa\t2013\tDisaster\tInternal Displacements\nTHA\tThailand\tEast Asia and Pacific\t2008\tDisaster\tInternal Displacements\nTHA\tThailand\tEast Asia and Pacific\t2009\tDisaster\tInternal Displacements\nTHA\tThailand\tEast Asia and Pacific\t2010\tDisaster\tInternal Displacements\nTHA\tThailand\tEast Asia and Pacific\t2011\tDisaster\tInternal Displacements\nTHA\tThailand\tEast Asia and Pacific\t2012\tDisaster\tInternal Displacements\nTHA\tThailand\tEast Asia and Pacific\t2013\tDisaster\tInternal Displacements\nTHA\tThailand\tEast Asia and Pacific\t2014\tDisaster\tInternal Displacements\nTHA\tThailand\tEast Asia and Pacific\t2015\tDisaster\tInternal Displacements\nTJK\tTajikistan\tEurope and Central Asia\t2009\tDisaster\tInternal Displacements\nTJK\tTajikistan\tEurope and Central Asia\t2010\tDisaster\tInternal Displacements\nTJK\tTajikistan\tEurope and Central Asia\t2011\tDisaster\tInternal Displacements\nTJK\tTajikistan\tEurope and Central Asia\t2012\tDisaster\tInternal Displacements\nTJK\tTajikistan\tEurope and Central Asia\t2014\tDisaster\tInternal Displacements\nTJK\tTajikistan\tEurope and Central Asia\t2015\tDisaster\tInternal Displacements\nTJK\tTajikistan\tEurope and Central Asia\t2016\tDisaster\tInternal Displacements\nTLS\tTimor-Leste\tEast Asia and Pacific\t2008\tDisaster\tInternal Displacements\nTLS\tTimor-Leste\tEast Asia and Pacific\t2009\tDisaster\tInternal Displacements\nTLS\tTimor-Leste\tEast Asia and Pacific\t2010\tDisaster\tInternal Displacements\nTLS\tTimor-Leste\tEast Asia and Pacific\t2011\tDisaster\tInternal Displacements\nTLS\tTimor-Leste\tEast Asia and Pacific\t2012\tDisaster\tInternal Displacements\nTON\tTonga\tEast Asia and Pacific\t2009\tDisaster\tInternal Displacements\nTON\tTonga\tEast Asia and Pacific\t2010\tDisaster\tInternal Displacements\nTON\tTonga\tEast Asia and Pacific\t2011\tDisaster\tInternal Displacements\nTON\tTonga\tEast Asia and Pacific\t2012\tDisaster\tInternal Displacements\nTON\tTonga\tEast Asia and Pacific\t2014\tDisaster\tInternal Displacements\nTTO\tTrinidad and Tobago\tThe Americas\t2012\tDisaster\tInternal Displacements\nTTO\tTrinidad and Tobago\tThe Americas\t2016\tDisaster\tInternal Displacements\nTUN\tTunisia\tMiddle East and North Africa\t2009\tDisaster\tInternal Displacements\nTUN\tTunisia\tMiddle East and North Africa\t2012\tDisaster\tInternal Displacements\nTUN\tTunisia\tMiddle East and North Africa\t2013\tDisaster\tInternal Displacements\nTUR\tTürkiye\tEurope and Central Asia\t2009\tDisaster\tInternal Displacements\nTUR\tTürkiye\tEurope and Central Asia\t2010\tDisaster\tInternal Displacements\nTUR\tTürkiye\tEurope and Central Asia\t2012\tDisaster\tInternal Displacements\nTUR\tTürkiye\tEurope and Central Asia\t2015\tDisaster\tInternal Displacements\nTUV\tTuvalu\tEast Asia and Pacific\t2015\tDisaster\tInternal Displacements\nTWN\tTaiwan, China\tEast Asia and Pacific\t2009\tDisaster\tInternal Displacements\nTWN\tTaiwan, China\tEast Asia and Pacific\t2012\tDisaster\tInternal Displacements\nTWN\tTaiwan, China\tEast Asia and Pacific\t2015\tDisaster\tInternal Displacements\nTWN\tTaiwan, China\tEast Asia and Pacific\t2016\tDisaster\tInternal Displacements\nTZA\tTanzania\tSub-Saharan Africa\t2008\tDisaster\tInternal Displacements\nTZA\tTanzania\tSub-Saharan Africa\t2010\tDisaster\tInternal Displacements\nTZA\tTanzania\tSub-Saharan Africa\t2011\tDisaster\tInternal Displacements\nTZA\tTanzania\tSub-Saharan Africa\t2012\tDisaster\tInternal Displacements\nTZA\tTanzania\tSub-Saharan Africa\t2013\tDisaster\tInternal Displacements\nTZA\tTanzania\tSub-Saharan Africa\t2014\tDisaster\tInternal Displacements\nTZA\tTanzania\tSub-Saharan Africa\t2015\tDisaster\tInternal Displacements\nTZA\tTanzania\tSub-Saharan Africa\t2016\tDisaster\tInternal Displacements\nUGA\tUganda\tSub-Saharan Africa\t2008\tDisaster\tInternal Displacements\nUGA\tUganda\tSub-Saharan Africa\t2009\tDisaster\tInternal Displacements\nUGA\tUganda\tSub-Saharan Africa\t2010\tDisaster\tInternal Displacements\nUGA\tUganda\tSub-Saharan Africa\t2011\tDisaster\tInternal Displacements\nUGA\tUganda\tSub-Saharan Africa\t2012\tDisaster\tInternal Displacements\nUGA\tUganda\tSub-Saharan Africa\t2013\tDisaster\tInternal Displacements\nUGA\tUganda\tSub-Saharan Africa\t2015\tDisaster\tInternal Displacements\nUGA\tUganda\tSub-Saharan Africa\t2016\tDisaster\tInternal Displacements\nUKR\tUkraine\tEurope and Central Asia\t2008\tDisaster\tInternal Displacements\nUKR\tUkraine\tEurope and Central Asia\t2010\tDisaster\tInternal Displacements\nUKR\tUkraine\tEurope and Central Asia\t2013\tDisaster\tInternal Displacements\nUKR\tUkraine\tEurope and Central Asia\t2016\tConflict\tInternal Displacements\nURY\tUruguay\tThe Americas\t2008\tDisaster\tInternal Displacements\nURY\tUruguay\tThe Americas\t2009\tDisaster\tInternal Displacements\nURY\tUruguay\tThe Americas\t2010\tDisaster\tInternal Displacements\nURY\tUruguay\tThe Americas\t2011\tDisaster\tInternal Displacements\nURY\tUruguay\tThe Americas\t2012\tDisaster\tInternal Displacements\nURY\tUruguay\tThe Americas\t2013\tDisaster\tInternal Displacements\nURY\tUruguay\tThe Americas\t2014\tDisaster\tInternal Displacements\nURY\tUruguay\tThe Americas\t2015\tDisaster\tInternal Displacements\nURY\tUruguay\tThe Americas\t2016\tDisaster\tInternal Displacements\nUSA\tUnited States\tThe Americas\t2008\tDisaster\tInternal Displacements\nUSA\tUnited States\tThe Americas\t2009\tDisaster\tInternal Displacements\nUSA\tUnited States\tThe Americas\t2010\tDisaster\tInternal Displacements\nUSA\tUnited States\tThe Americas\t2011\tDisaster\tInternal Displacements\nUSA\tUnited States\tThe Americas\t2012\tDisaster\tInternal Displacements\nUSA\tUnited States\tThe Americas\t2013\tDisaster\tInternal Displacements\nUSA\tUnited States\tThe Americas\t2014\tDisaster\tInternal Displacements\nUSA\tUnited States\tThe Americas\t2015\tDisaster\tInternal Displacements\nVCT\tSt. Vincent and the Grenadines\tThe Americas\t2011\tDisaster\tInternal Displacements\nVCT\tSt. Vincent and the Grenadines\tThe Americas\t2016\tDisaster\tInternal Displacements\nVEN\tVenezuela\tThe Americas\t2008\tDisaster\tInternal Displacements\nVEN\tVenezuela\tThe Americas\t2010\tDisaster\tInternal Displacements\nVEN\tVenezuela\tThe Americas\t2011\tDisaster\tInternal Displacements\nVEN\tVenezuela\tThe Americas\t2012\tDisaster\tInternal Displacements\nVEN\tVenezuela\tThe Americas\t2013\tDisaster\tInternal Displacements\nVEN\tVenezuela\tThe Americas\t2014\tDisaster\tInternal Displacements\nVEN\tVenezuela\tThe Americas\t2015\tDisaster\tInternal Displacements\nVEN\tVenezuela\tThe Americas\t2016\tDisaster\tInternal Displacements\nVNM\tViet Nam\tEast Asia and Pacific\t2008\tDisaster\tInternal Displacements\nVNM\tViet Nam\tEast Asia and Pacific\t2009\tDisaster\tInternal Displacements\nVNM\tViet Nam\tEast Asia and Pacific\t2010\tDisaster\tInternal Displacements\nVNM\tViet Nam\tEast Asia and Pacific\t2011\tDisaster\tInternal Displacements\nVNM\tViet Nam\tEast Asia and Pacific\t2012\tDisaster\tInternal Displacements\nVNM\tViet Nam\tEast Asia and Pacific\t2013\tDisaster\tInternal Displacements\nVNM\tViet Nam\tEast Asia and Pacific\t2014\tDisaster\tInternal Displacements\nVNM\tViet Nam\tEast Asia and Pacific\t2015\tDisaster\tInternal Displacements\nVNM\tViet Nam\tEast Asia and Pacific\t2016\tDisaster\tInternal Displacements\nVUT\tVanuatu\tEast Asia and Pacific\t2009\tDisaster\tInternal Displacements\nVUT\tVanuatu\tEast Asia and Pacific\t2011\tDisaster\tInternal Displacements\nVUT\tVanuatu\tEast Asia and Pacific\t2012\tDisaster\tInternal Displacements\nVUT\tVanuatu\tEast Asia and Pacific\t2014\tDisaster\tInternal Displacements\nVUT\tVanuatu\tEast Asia and Pacific\t2015\tDisaster\tInternal Displacements\nWSM\tSamoa\tEast Asia and Pacific\t2009\tDisaster\tInternal Displacements\nYEM\tYemen\tMiddle East and North Africa\t2008\tDisaster\tInternal Displacements\nYEM\tYemen\tMiddle East and North Africa\t2009\tDisaster\tInternal Displacements\nYEM\tYemen\tMiddle East and North Africa\t2010\tDisaster\tInternal Displacements\nYEM\tYemen\tMiddle East and North Africa\t2011\tDisaster\tInternal Displacements\nYEM\tYemen\tMiddle East and North Africa\t2013\tDisaster\tInternal Displacements\nYEM\tYemen\tMiddle East and North Africa\t2015\tDisaster\tInternal Displacements\nYEM\tYemen\tMiddle East and North Africa\t2016\tConflict\tInternal Displacements\nZAF\tSouth Africa\tSub-Saharan Africa\t2008\tConflict\tInternal Displacements\nZAF\tSouth Africa\tSub-Saharan Africa\t2009\tDisaster\tInternal Displacements\nZAF\tSouth Africa\tSub-Saharan Africa\t2010\tDisaster\tInternal Displacements\nZAF\tSouth Africa\tSub-Saharan Africa\t2011\tDisaster\tInternal Displacements\nZMB\tZambia\tSub-Saharan Africa\t2008\tDisaster\tInternal Displacements\nZMB\tZambia\tSub-Saharan Africa\t2009\tDisaster\tInternal Displacements\nZMB\tZambia\tSub-Saharan Africa\t2010\tDisaster\tInternal Displacements\nZMB\tZambia\tSub-Saharan Africa\t2012\tDisaster\tInternal Displacements\nZMB\tZambia\tSub-Saharan Africa\t2014\tDisaster\tInternal Displacements\nZMB\tZambia\tSub-Saharan Africa\t2015\tDisaster\tInternal Displacements\nZMB\tZambia\tSub-Saharan Africa\t2016\tDisaster\tInternal Displacements\nZWE\tZimbabwe\tSub-Saharan Africa\t2008\tConflict\tInternal Displacements\nZWE\tZimbabwe\tSub-Saharan Africa\t2010\tDisaster\tInternal Displacements\nZWE\tZimbabwe\tSub-Saharan Africa\t2011\tDisaster\tInternal Displacements\nZWE\tZimbabwe\tSub-Saharan Africa\t2012\tDisaster\tInternal Displacements\nZWE\tZimbabwe\tSub-Saharan Africa\t2013\tDisaster\tInternal Displacements\nZWE\tZimbabwe\tSub-Saharan Africa\t2014\tDisaster\tInternal Displacements\nZWE\tZimbabwe\tSub-Saharan Africa\t2015\tDisaster\tInternal Displacements\n",
+  "lastUpdated": "2026-08-31",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            72.444633,
+            34.08144
+          ]
+        ]
+      },
+      "properties": {
+        "ID": 83190,
+        "ISO3": "PAK",
+        "Country": "Pakistan",
+        "Geographical region": "South Asia",
+        "Figure cause": "Disaster",
+        "Year": 2022,
+        "Figure category": "Internal Displacements",
+        "Figure unit": "Person",
+        "Reported figures": 674318,
+        "Total figures": 674318,
+        "Hazard category": "Weather related",
+        "Hazard sub category": "Hydrological",
+        "Hazard type": "Flood",
+        "Hazard sub type": "Flood",
+        "Start date": "2022-06-14",
+        "Start date accuracy": "Month",
+        "End date": "2022-09-14",
+        "End date accuracy": "Month",
+        "Publishers": [
+          "Provincial Disaster Management Authority (PDMA)",
+          "National Disaster Management Authority (NDMA)"
+        ],
+        "Sources": [
+          "Provincial Disaster Management Authority (PDMA)",
+          "National Disaster Management Authority (NDMA)"
+        ],
+        "Sources type": [
+          "National/Regional Disaster Authority",
+          "National/Regional Disaster Authority"
+        ],
+        "Event ID": 12922,
+        "Event name": "Pakistan: Flood [monsoon] - (Khyber Pakhtunkhwa) - 14/06/2022",
+        "Event cause": "Disaster",
+        "Event main trigger": "Flood",
+        "Event start date": "2022-06-14",
+        "Event end date": "2022-09-30",
+        "Event start date accuracy": "Month",
+        "Event end date accuracy": "Month",
+        "Is housing destruction": "No",
+        "Event codes (Code:Type)": [
+          [
+            "FL-2022-000270-PAK",
+            "Glide Number"
+          ]
+        ],
+        "Locations name": [
+          "Khyber Pakhtunkhwa, Pakistan"
+        ],
+        "Locations accuracy": [
+          "State/Region/Province (ADM1)"
+        ],
+        "Locations type": [
+          "Origin"
+        ],
+        "Pcode": [
+          "PAK-20230404-5"
+        ],
+        "Pcode accuracy": [
+          "ADM1"
+        ],
+        "Pcode source": [
+          "OCHA CODs (Fieldmaps)"
+        ],
+        "Displacement occurred": "Displacement without preventive evacuations reported"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            72.444633,
+            34.08144
+          ]
+        ]
+      },
+      "properties": {
+        "ID": 83199,
+        "ISO3": "PAK",
+        "Country": "Pakistan",
+        "Geographical region": "South Asia",
+        "Figure cause": "Disaster",
+        "Year": 2022,
+        "Figure category": "IDPs",
+        "Figure unit": "Person",
+        "Reported figures": 674318,
+        "Total figures": 674318,
+        "Hazard category": "Weather related",
+        "Hazard sub category": "Hydrological",
+        "Hazard type": "Flood",
+        "Hazard sub type": "Flood",
+        "Stock date": "2022-09-14",
+        "Stock date accuracy": "Month",
+        "Stock reporting date": "2022-12-31",
+        "Publishers": [
+          "Provincial Disaster Management Authority (PDMA)",
+          "National Disaster Management Authority (NDMA)"
+        ],
+        "Sources": [
+          "Provincial Disaster Management Authority (PDMA)",
+          "National Disaster Management Authority (NDMA)"
+        ],
+        "Sources type": [
+          "National/Regional Disaster Authority",
+          "National/Regional Disaster Authority"
+        ],
+        "Event ID": 12922,
+        "Event name": "Pakistan: Flood [monsoon] - (Khyber Pakhtunkhwa) - 14/06/2022",
+        "Event cause": "Disaster",
+        "Event main trigger": "Flood",
+        "Event start date": "2022-06-14",
+        "Event end date": "2022-09-30",
+        "Event start date accuracy": "Month",
+        "Event end date accuracy": "Month",
+        "Is housing destruction": "No",
+        "Event codes (Code:Type)": [
+          [
+            "FL-2022-000270-PAK",
+            "Glide Number"
+          ]
+        ],
+        "Locations name": [
+          "Khyber Pakhtunkhwa, Pakistan"
+        ],
+        "Locations accuracy": [
+          "State/Region/Province (ADM1)"
+        ],
+        "Locations type": [
+          "Origin"
+        ],
+        "Pcode": [
+          "PAK-20230404-5"
+        ],
+        "Pcode accuracy": [
+          "ADM1"
+        ],
+        "Pcode source": [
+          "OCHA CODs (Fieldmaps)"
+        ],
+        "Displacement occurred": "Displacement without preventive evacuations reported"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            71.0,
+            34.0
+          ]
+        ]
+      },
+      "properties": {
+        "ID": 99194,
+        "ISO3": "PAK",
+        "Country": "Pakistan",
+        "Geographical region": "South Asia",
+        "Figure cause": "Conflict",
+        "Year": 2022,
+        "Figure category": "IDPs",
+        "Figure unit": "Person",
+        "Reported figures": 1104,
+        "Total figures": 1104,
+        "Violence type": "Non-International armed conflict (NIAC)",
+        "Stock date": "2022-07-18",
+        "Stock date accuracy": "Day",
+        "Stock reporting date": "2022-12-31",
+        "Publishers": [
+          "Provincial Disaster Management Authority (PDMA)"
+        ],
+        "Sources": [
+          "Provincial Disaster Management Authority (PDMA)"
+        ],
+        "Sources type": [
+          "National/Regional Disaster Authority"
+        ],
+        "Event ID": 11522,
+        "Event name": "Pakistan: Conflict [TTP + Pakistan Military] - Former FATA - 01/01/2002",
+        "Event cause": "Conflict",
+        "Event main trigger": "Non-International armed conflict (NIAC)",
+        "Event start date": "2002-01-01",
+        "Event end date": "2014-12-31",
+        "Event start date accuracy": "Month",
+        "Event end date accuracy": "Month",
+        "Is housing destruction": "No",
+        "Event codes (Code:Type)": [],
+        "Locations name": [
+          "Khyber Agency, Federally Administered Tribal Areas, Pakistan"
+        ],
+        "Locations accuracy": [
+          "District/Zone/Department (ADM2)"
+        ],
+        "Locations type": [
+          "Origin"
+        ],
+        "Pcode": [
+          "PAK-20230404-5"
+        ],
+        "Pcode accuracy": [
+          "ADM1"
+        ],
+        "Pcode source": [
+          "OCHA CODs (Fieldmaps)"
+        ],
+        "Displacement occurred": "Displacement without preventive evacuations reported"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            71.0,
+            34.0
+          ],
+          [
+            71.0,
+            33.666672
+          ],
+          [
+            70.333328,
+            33.75
+          ]
+        ]
+      },
+      "properties": {
+        "ID": 76093,
+        "ISO3": "PAK",
+        "Country": "Pakistan",
+        "Geographical region": "South Asia",
+        "Figure cause": "Conflict",
+        "Year": 2022,
+        "Figure category": "Internal Displacements",
+        "Figure unit": "Household",
+        "Reported figures": 100,
+        "Household size": 6.8,
+        "Total figures": 680,
+        "Violence type": "Non-International armed conflict (NIAC)",
+        "Start date": "2022-09-01",
+        "Start date accuracy": "Month",
+        "End date": "2022-09-22",
+        "End date accuracy": "Month",
+        "Publishers": [
+          "Media"
+        ],
+        "Sources": [
+          "Local residents"
+        ],
+        "Sources type": [
+          "Civil Society"
+        ],
+        "Event ID": 13874,
+        "Event name": "Pakistan: Non-International armed conflict (NIAC) - Khyber Pakhtunkhwa (Tirah Valley) - 01/08/2022",
+        "Event cause": "Conflict",
+        "Event main trigger": "Non-International armed conflict (NIAC)",
+        "Event start date": "2022-09-01",
+        "Event end date": "2022-09-30",
+        "Event start date accuracy": "Month",
+        "Event end date accuracy": "Month",
+        "Is housing destruction": "No",
+        "Event codes (Code:Type)": [],
+        "Locations name": [
+          "Khyber Agency, Federally Administered Tribal Areas, Pakistan",
+          "Orakzai Agency, Federally Administered Tribal Areas, Pakistan",
+          "Kurram Agency, Federally Administered Tribal Areas, Pakistan"
+        ],
+        "Locations accuracy": [
+          "District/Zone/Department (ADM2)",
+          "District/Zone/Department (ADM2)",
+          "District/Zone/Department (ADM2)"
+        ],
+        "Locations type": [
+          "Origin",
+          "Origin",
+          "Origin"
+        ],
+        "Pcode": [
+          "PAK-20230404-5",
+          "PAK-20230404-5",
+          "PAK-20230404-5"
+        ],
+        "Pcode accuracy": [
+          "ADM1",
+          "ADM1",
+          "ADM1"
+        ],
+        "Pcode source": [
+          "OCHA CODs (Fieldmaps)",
+          "OCHA CODs (Fieldmaps)",
+          "OCHA CODs (Fieldmaps)"
+        ],
+        "Displacement occurred": "Displacement without preventive evacuations reported"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            71.75,
+            34.0
+          ],
+          [
+            71.333336,
+            34.5
+          ]
+        ]
+      },
+      "properties": {
+        "ID": 100729,
+        "ISO3": "PAK",
+        "Country": "Pakistan",
+        "Geographical region": "South Asia",
+        "Figure cause": "Disaster",
+        "Year": 2022,
+        "Figure category": "IDPs",
+        "Figure unit": "Household",
+        "Reported figures": 2,
+        "Household size": 6.8,
+        "Total figures": 14,
+        "Hazard category": "Weather related",
+        "Hazard sub category": "Meteorological",
+        "Hazard type": "Storm",
+        "Hazard sub type": "Storm",
+        "Stock date": "2022-01-08",
+        "Stock date accuracy": "Day",
+        "Stock reporting date": "2022-12-31",
+        "Publishers": [
+          "Provincial Disaster Management Authority (PDMA)"
+        ],
+        "Sources": [
+          "Provincial Disaster Management Authority (PDMA)"
+        ],
+        "Sources type": [
+          "National/Regional Disaster Authority"
+        ],
+        "Event ID": 10975,
+        "Event name": "Pakistan: Storm - Khyber Pakhtunkhwa (Peshawar/Mohmand,Peshawar) - 08/01/2022",
+        "Event cause": "Disaster",
+        "Event main trigger": "Storm",
+        "Event start date": "2022-01-08",
+        "Event end date": "2022-01-08",
+        "Event start date accuracy": "Day",
+        "Event end date accuracy": "Day",
+        "Is housing destruction": "No",
+        "Event codes (Code:Type)": [],
+        "Locations name": [
+          "Peshāwar District",
+          "Mohmand Agency"
+        ],
+        "Locations accuracy": [
+          "State/Region/Province (ADM1)",
+          "State/Region/Province (ADM1)"
+        ],
+        "Locations type": [
+          "Origin",
+          "Origin"
+        ],
+        "Pcode": [
+          "PAK-20230404-5",
+          "PAK-20230404-5"
+        ],
+        "Pcode accuracy": [
+          "ADM1",
+          "ADM1"
+        ],
+        "Pcode source": [
+          "OCHA CODs (Fieldmaps)",
+          "OCHA CODs (Fieldmaps)"
+        ],
+        "Displacement occurred": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            70.0,
+            33.0
+          ]
+        ]
+      },
+      "properties": {
+        "ID": 99193,
+        "ISO3": "PAK",
+        "Country": "Pakistan",
+        "Geographical region": "South Asia",
+        "Figure cause": "Conflict",
+        "Year": 2022,
+        "Figure category": "IDPs",
+        "Figure unit": "Person",
+        "Reported figures": 8234,
+        "Total figures": 8234,
+        "Violence type": "Non-International armed conflict (NIAC)",
+        "Stock date": "2022-07-18",
+        "Stock date accuracy": "Day",
+        "Stock reporting date": "2022-12-31",
+        "Publishers": [
+          "Provincial Disaster Management Authority (PDMA)"
+        ],
+        "Sources": [
+          "Provincial Disaster Management Authority (PDMA)"
+        ],
+        "Sources type": [
+          "National/Regional Disaster Authority"
+        ],
+        "Event ID": 11522,
+        "Event name": "Pakistan: Conflict [TTP + Pakistan Military] - Former FATA - 01/01/2002",
+        "Event cause": "Conflict",
+        "Event main trigger": "Non-International armed conflict (NIAC)",
+        "Event start date": "2002-01-01",
+        "Event end date": "2014-12-31",
+        "Event start date accuracy": "Month",
+        "Event end date accuracy": "Month",
+        "Is housing destruction": "No",
+        "Event codes (Code:Type)": [],
+        "Locations name": [
+          "North Wazīristān Agency, Federally Administered Tribal Areas, Pakistan"
+        ],
+        "Locations accuracy": [
+          "District/Zone/Department (ADM2)"
+        ],
+        "Locations type": [
+          "Origin"
+        ],
+        "Pcode": [
+          "PAK-20230404-5"
+        ],
+        "Pcode accuracy": [
+          "ADM1"
+        ],
+        "Pcode source": [
+          "OCHA CODs (Fieldmaps)"
+        ],
+        "Displacement occurred": "Displacement without preventive evacuations reported"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            67.531143,
+            30.273849
+          ]
+        ]
+      },
+      "properties": {
+        "ID": 99195,
+        "ISO3": "PAK",
+        "Country": "Pakistan",
+        "Geographical region": "South Asia",
+        "Figure cause": "Conflict",
+        "Year": 2022,
+        "Figure category": "IDPs",
+        "Figure unit": "Person",
+        "Reported figures": 6552,
+        "Total figures": 6552,
+        "Violence type": "Non-International armed conflict (NIAC)",
+        "Stock date": "2022-07-18",
+        "Stock date accuracy": "Day",
+        "Stock reporting date": "2022-12-31",
+        "Publishers": [
+          "Provincial Disaster Management Authority (PDMA)"
+        ],
+        "Sources": [
+          "Provincial Disaster Management Authority (PDMA)"
+        ],
+        "Sources type": [
+          "National/Regional Disaster Authority"
+        ],
+        "Event ID": 11522,
+        "Event name": "Pakistan: Conflict [TTP + Pakistan Military] - Former FATA - 01/01/2002",
+        "Event cause": "Conflict",
+        "Event main trigger": "Non-International armed conflict (NIAC)",
+        "Event start date": "2002-01-01",
+        "Event end date": "2014-12-31",
+        "Event start date accuracy": "Month",
+        "Event end date accuracy": "Month",
+        "Is housing destruction": "No",
+        "Event codes (Code:Type)": [],
+        "Locations name": [
+          "Khost, Balochistan, Pakistan"
+        ],
+        "Locations accuracy": [
+          "County/City/town/Village/Woreda (ADM3)"
+        ],
+        "Locations type": [
+          "Origin"
+        ],
+        "Pcode": [
+          "PAK-20230404-2"
+        ],
+        "Pcode accuracy": [
+          "ADM1"
+        ],
+        "Pcode source": [
+          "OCHA CODs (Fieldmaps)"
+        ],
+        "Displacement occurred": "Displacement without preventive evacuations reported"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            74.598831,
+            36.296131
+          ]
+        ]
+      },
+      "properties": {
+        "ID": 68255,
+        "ISO3": "PAK",
+        "Country": "Pakistan",
+        "Geographical region": "South Asia",
+        "Figure cause": "Disaster",
+        "Year": 2022,
+        "Figure category": "Internal Displacements",
+        "Figure unit": "Household",
+        "Reported figures": 9,
+        "Household size": 6.8,
+        "Total figures": 61,
+        "Hazard category": "Weather related",
+        "Hazard sub category": "Hydrological",
+        "Hazard type": "Flood",
+        "Hazard sub type": "Flood",
+        "Start date": "2022-05-07",
+        "Start date accuracy": "Day",
+        "End date": "2022-05-07",
+        "End date accuracy": "Day",
+        "Publishers": [
+          "Dawn"
+        ],
+        "Sources": [
+          "Local civil society organisations (CSOs)",
+          "Local residents",
+          "Local Authorities"
+        ],
+        "Sources type": [
+          "Civil Society",
+          "Civil Society",
+          "Local Authority"
+        ],
+        "Event ID": 11907,
+        "Event name": "Pakistan: Flash Flood (GLOF) - Gilgit-Baltistan - 07/05/2022",
+        "Event cause": "Disaster",
+        "Event main trigger": "Flood",
+        "Event start date": "2022-05-07",
+        "Event end date": "2022-05-07",
+        "Event start date accuracy": "Day",
+        "Event end date accuracy": "Day",
+        "Is housing destruction": "Yes",
+        "Event codes (Code:Type)": [],
+        "Locations name": [
+          "Hasanabad"
+        ],
+        "Locations accuracy": [
+          "State/Region/Province (ADM1)"
+        ],
+        "Locations type": [
+          "Origin"
+        ],
+        "Pcode": [
+          "PAK-20230404-3"
+        ],
+        "Pcode accuracy": [
+          "ADM1"
+        ],
+        "Pcode source": [
+          "OCHA CODs (Fieldmaps)"
+        ],
+        "Displacement occurred": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            72.5,
+            35.0
+          ]
+        ]
+      },
+      "properties": {
+        "ID": 36283,
+        "ISO3": "PAK",
+        "Country": "Pakistan",
+        "Geographical region": "South Asia",
+        "Figure cause": "Disaster",
+        "Year": 2022,
+        "Figure category": "Internal Displacements",
+        "Figure unit": "Household",
+        "Reported figures": 1,
+        "Household size": 6.8,
+        "Total figures": 7,
+        "Hazard category": "Weather related",
+        "Hazard sub category": "Meteorological",
+        "Hazard type": "Storm",
+        "Hazard sub type": "Storm",
+        "Start date": "2022-01-07",
+        "Start date accuracy": "Day",
+        "End date": "2022-01-07",
+        "End date accuracy": "Day",
+        "Publishers": [
+          "Provincial Disaster Management Authority (PDMA)"
+        ],
+        "Sources": [
+          "Provincial Disaster Management Authority (PDMA)"
+        ],
+        "Sources type": [
+          "National/Regional Disaster Authority"
+        ],
+        "Event ID": 10976,
+        "Event name": "Pakistan: Storm - Khyber Pakhtunkhwa (Malakand / Swat) - 07/01/2022",
+        "Event cause": "Disaster",
+        "Event main trigger": "Storm",
+        "Event start date": "2022-01-07",
+        "Event end date": "2022-01-07",
+        "Event start date accuracy": "Day",
+        "Event end date accuracy": "Day",
+        "Is housing destruction": "Yes",
+        "Event codes (Code:Type)": [],
+        "Locations name": [
+          "Swāt District"
+        ],
+        "Locations accuracy": [
+          "State/Region/Province (ADM1)"
+        ],
+        "Locations type": [
+          "Origin"
+        ],
+        "Pcode": [
+          "PAK-20230404-5"
+        ],
+        "Pcode accuracy": [
+          "ADM1"
+        ],
+        "Pcode source": [
+          "OCHA CODs (Fieldmaps)"
+        ],
+        "Displacement occurred": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            61.747265,
+            25.050526
+          ],
+          [
+            62.069546,
+            25.122713
+          ],
+          [
+            62.453457,
+            25.229334
+          ],
+          [
+            64.575089,
+            25.16691
+          ]
+        ]
+      },
+      "properties": {
+        "ID": 36184,
+        "ISO3": "PAK",
+        "Country": "Pakistan",
+        "Geographical region": "South Asia",
+        "Figure cause": "Disaster",
+        "Year": 2022,
+        "Figure category": "Internal Displacements",
+        "Figure unit": "Household",
+        "Reported figures": 500,
+        "Household size": 6.8,
+        "Total figures": 3400,
+        "Hazard category": "Weather related",
+        "Hazard sub category": "Hydrological",
+        "Hazard type": "Flood",
+        "Hazard sub type": "Flood",
+        "Start date": "2022-01-03",
+        "Start date accuracy": "Day",
+        "End date": "2022-01-05",
+        "End date accuracy": "Day",
+        "Publishers": [
+          "Office for the Coordination of Humanitarian Affairs (OCHA)"
+        ],
+        "Sources": [
+          "Provincial Disaster Management Authority (PDMA)"
+        ],
+        "Sources type": [
+          "National/Regional Disaster Authority"
+        ],
+        "Event ID": 11386,
+        "Event name": "Pakistan: Flash Flood - Balochistan (Makran / Gwadar / 4 Tehsils) - 03/01/2022",
+        "Event cause": "Disaster",
+        "Event main trigger": "Flood",
+        "Event start date": "2022-01-03",
+        "Event end date": "2022-01-05",
+        "Event start date accuracy": "Day",
+        "Event end date accuracy": "Day",
+        "Is housing destruction": "Yes",
+        "Event codes (Code:Type)": [],
+        "Locations name": [
+          "Jiwani",
+          "Pishukan",
+          "Surbandar",
+          "Ras Ormara"
+        ],
+        "Locations accuracy": [
+          "State/Region/Province (ADM1)",
+          "State/Region/Province (ADM1)",
+          "State/Region/Province (ADM1)",
+          "State/Region/Province (ADM1)"
+        ],
+        "Locations type": [
+          "Origin",
+          "Origin",
+          "Origin",
+          "Origin"
+        ],
+        "Pcode": [
+          "PAK-20230404-2",
+          "PAK-20230404-2",
+          "PAK-20230404-2",
+          "PAK-20230404-2"
+        ],
+        "Pcode accuracy": [
+          "ADM1",
+          "ADM1",
+          "ADM1",
+          "ADM1"
+        ],
+        "Pcode source": [
+          "OCHA CODs (Fieldmaps)",
+          "OCHA CODs (Fieldmaps)",
+          "OCHA CODs (Fieldmaps)",
+          "OCHA CODs (Fieldmaps)"
+        ],
+        "Displacement occurred": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            71.598351,
+            34.304966
+          ]
+        ]
+      },
+      "properties": {
+        "ID": 36657,
+        "ISO3": "PAK",
+        "Country": "Pakistan",
+        "Geographical region": "South Asia",
+        "Figure cause": "Disaster",
+        "Year": 2022,
+        "Figure category": "Internal Displacements",
+        "Figure unit": "Household",
+        "Reported figures": 1,
+        "Household size": 6.8,
+        "Total figures": 7,
+        "Hazard category": "Weather related",
+        "Hazard sub category": "Hydrological",
+        "Hazard type": "Flood",
+        "Hazard sub type": "Flood",
+        "Start date": "2022-01-23",
+        "Start date accuracy": "Day",
+        "End date": "2022-01-23",
+        "End date accuracy": "Day",
+        "Publishers": [
+          "Provincial Disaster Management Authority (PDMA)"
+        ],
+        "Sources": [
+          "Provincial Disaster Management Authority (PDMA)"
+        ],
+        "Sources type": [
+          "National/Regional Disaster Authority"
+        ],
+        "Event ID": 11490,
+        "Event name": "Pakistan: Flood - Khyber Pakhtunkhwa (Shangla, Swat) - 20/01/2022",
+        "Event cause": "Disaster",
+        "Event main trigger": "Flood",
+        "Event start date": "2022-01-20",
+        "Event end date": "2022-01-23",
+        "Event start date accuracy": "Day",
+        "Event end date accuracy": "Day",
+        "Is housing destruction": "Yes",
+        "Event codes (Code:Type)": [
+          [
+            "FL-2022-000155-PAK",
+            "Glide Number"
+          ]
+        ],
+        "Locations name": [
+          "Swat"
+        ],
+        "Locations accuracy": [
+          "State/Region/Province (ADM1)"
+        ],
+        "Locations type": [
+          "Origin"
+        ],
+        "Pcode": [
+          "PAK-20230404-5"
+        ],
+        "Pcode accuracy": [
+          "ADM1"
+        ],
+        "Pcode source": [
+          "OCHA CODs (Fieldmaps)"
+        ],
+        "Displacement occurred": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            66.548981,
+            27.14529
+          ]
+        ]
+      },
+      "properties": {
+        "ID": 39323,
+        "ISO3": "PAK",
+        "Country": "Pakistan",
+        "Geographical region": "South Asia",
+        "Figure cause": "Disaster",
+        "Year": 2022,
+        "Figure category": "Internal Displacements",
+        "Figure unit": "Household",
+        "Reported figures": 80,
+        "Household size": 6.8,
+        "Total figures": 544,
+        "Hazard category": "Geophysical",
+        "Hazard sub category": "Geophysical",
+        "Hazard type": "Earthquake",
+        "Hazard sub type": "Earthquake",
+        "Start date": "2022-05-06",
+        "Start date accuracy": "Day",
+        "End date": "2022-05-06",
+        "End date accuracy": "Day",
+        "Publishers": [
+          "Dawn"
+        ],
+        "Sources": [
+          "Local Authorities"
+        ],
+        "Sources type": [
+          "Local Authority"
+        ],
+        "Event ID": 11923,
+        "Event name": "Pakistan: Earthquake - Balochistan (Khuzdar) - 06/05/2022",
+        "Event cause": "Disaster",
+        "Event main trigger": "Earthquake",
+        "Event start date": "2022-05-06",
+        "Event end date": "2022-05-06",
+        "Event start date accuracy": "Day",
+        "Event end date accuracy": "Day",
+        "Is housing destruction": "Yes",
+        "Event codes (Code:Type)": [],
+        "Locations name": [
+          "Khuzdar District"
+        ],
+        "Locations accuracy": [
+          "State/Region/Province (ADM1)"
+        ],
+        "Locations type": [
+          "Origin"
+        ],
+        "Pcode": [
+          "PAK-20230404-2"
+        ],
+        "Pcode accuracy": [
+          "ADM1"
+        ],
+        "Pcode source": [
+          "OCHA CODs (Fieldmaps)"
+        ],
+        "Displacement occurred": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            71.75,
+            34.0
+          ]
+        ]
+      },
+      "properties": {
+        "ID": 61499,
+        "ISO3": "PAK",
+        "Country": "Pakistan",
+        "Geographical region": "South Asia",
+        "Figure cause": "Disaster",
+        "Year": 2022,
+        "Figure category": "Internal Displacements",
+        "Figure unit": "Household",
+        "Reported figures": 1,
+        "Household size": 6.8,
+        "Total figures": 7,
+        "Hazard category": "Weather related",
+        "Hazard sub category": "Meteorological",
+        "Hazard type": "Storm",
+        "Hazard sub type": "Storm",
+        "Start date": "2022-06-09",
+        "Start date accuracy": "Day",
+        "End date": "2022-06-09",
+        "End date accuracy": "Day",
+        "Publishers": [
+          "Provincial Disaster Management Authority (PDMA)"
+        ],
+        "Sources": [
+          "Provincial Disaster Management Authority (PDMA)"
+        ],
+        "Sources type": [
+          "National/Regional Disaster Authority"
+        ],
+        "Event ID": 12930,
+        "Event name": "Pakistan: Storm - Khyber Pakhtunkhwa (Peshawar/Peshawar)  - 09/06/2022",
+        "Event cause": "Disaster",
+        "Event main trigger": "Storm",
+        "Event start date": "2022-06-09",
+        "Event end date": "2022-06-09",
+        "Event start date accuracy": "Day",
+        "Event end date accuracy": "Day",
+        "Is housing destruction": "Yes",
+        "Event codes (Code:Type)": [],
+        "Locations name": [
+          "Peshāwar District, Khyber Pakhtunkhwa, Pakistan"
+        ],
+        "Locations accuracy": [
+          "County/City/town/Village/Woreda (ADM3)"
+        ],
+        "Locations type": [
+          "Origin"
+        ],
+        "Pcode": [
+          "PAK-20230404-5"
+        ],
+        "Pcode accuracy": [
+          "ADM1"
+        ],
+        "Pcode source": [
+          "OCHA CODs (Fieldmaps)"
+        ],
+        "Displacement occurred": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            74.847557,
+            35.801041
+          ]
+        ]
+      },
+      "properties": {
+        "ID": 100735,
+        "ISO3": "PAK",
+        "Country": "Pakistan",
+        "Geographical region": "South Asia",
+        "Figure cause": "Disaster",
+        "Year": 2022,
+        "Figure category": "IDPs",
+        "Figure unit": "Household",
+        "Reported figures": 667,
+        "Household size": 6.8,
+        "Total figures": 4536,
+        "Hazard category": "Weather related",
+        "Hazard sub category": "Hydrological",
+        "Hazard type": "Flood",
+        "Hazard sub type": "Flood",
+        "Stock date": "2022-06-14",
+        "Stock date accuracy": "Month",
+        "Stock reporting date": "2022-12-31",
+        "Publishers": [
+          "National Disaster Management Authority (NDMA)"
+        ],
+        "Sources": [
+          "Provincial Disaster Management Authority (PDMA)",
+          "National Disaster Management Authority (NDMA)"
+        ],
+        "Sources type": [
+          "National/Regional Disaster Authority",
+          "National/Regional Disaster Authority"
+        ],
+        "Event ID": 12927,
+        "Event name": "Pakistan: Flood [monsoon] - (Gilgit-Baltistan) - 14/06/2022",
+        "Event cause": "Disaster",
+        "Event main trigger": "Flood",
+        "Event start date": "2022-06-14",
+        "Event end date": "2022-09-30",
+        "Event start date accuracy": "Month",
+        "Event end date accuracy": "Month",
+        "Is housing destruction": "No",
+        "Event codes (Code:Type)": [
+          [
+            "FL-2022-000270-PAK",
+            "Glide Number"
+          ]
+        ],
+        "Locations name": [
+          "Gilgit-Baltistan, Pakistan"
+        ],
+        "Locations accuracy": [
+          "State/Region/Province (ADM1)"
+        ],
+        "Locations type": [
+          "Origin"
+        ],
+        "Pcode": [
+          "PAK-20230404-3"
+        ],
+        "Pcode accuracy": [
+          "ADM1"
+        ],
+        "Pcode source": [
+          "OCHA CODs (Fieldmaps)"
+        ],
+        "Displacement occurred": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            68.772652,
+            26.00691
+          ]
+        ]
+      },
+      "properties": {
+        "ID": 99456,
+        "ISO3": "PAK",
+        "Country": "Pakistan",
+        "Geographical region": "South Asia",
+        "Figure cause": "Disaster",
+        "Year": 2022,
+        "Figure category": "IDPs",
+        "Figure unit": "Person",
+        "Reported figures": 105976,
+        "Total figures": 105976,
+        "Hazard category": "Weather related",
+        "Hazard sub category": "Hydrological",
+        "Hazard type": "Flood",
+        "Hazard sub type": "Flood",
+        "Stock date": "2022-12-30",
+        "Stock date accuracy": "Day",
+        "Stock reporting date": "2022-12-31",
+        "Publishers": [
+          "Provincial Disaster Management Authority (PDMA)"
+        ],
+        "Sources": [
+          "Provincial Disaster Management Authority (PDMA)"
+        ],
+        "Sources type": [
+          "National/Regional Disaster Authority"
+        ],
+        "Event ID": 12924,
+        "Event name": "Pakistan: Flood [monsoon] - (Sindh) - 14/06/2022",
+        "Event cause": "Disaster",
+        "Event main trigger": "Flood",
+        "Event start date": "2022-06-14",
+        "Event end date": "2022-09-30",
+        "Event start date accuracy": "Month",
+        "Event end date accuracy": "Month",
+        "Is housing destruction": "No",
+        "Event codes (Code:Type)": [
+          [
+            "FL-2022-000270-PAK",
+            "Glide Number"
+          ]
+        ],
+        "Locations name": [
+          "Sindh, Pakistan"
+        ],
+        "Locations accuracy": [
+          "State/Region/Province (ADM1)"
+        ],
+        "Locations type": [
+          "Origin"
+        ],
+        "Pcode": [
+          "PAK-20230404-7"
+        ],
+        "Pcode accuracy": [
+          "ADM1"
+        ],
+        "Pcode source": [
+          "OCHA CODs (Fieldmaps)"
+        ],
+        "Displacement occurred": "Displacement without preventive evacuations reported"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            66.548981,
+            27.14529
+          ]
+        ]
+      },
+      "properties": {
+        "ID": 100733,
+        "ISO3": "PAK",
+        "Country": "Pakistan",
+        "Geographical region": "South Asia",
+        "Figure cause": "Disaster",
+        "Year": 2022,
+        "Figure category": "IDPs",
+        "Figure unit": "Household",
+        "Reported figures": 80,
+        "Household size": 6.8,
+        "Total figures": 544,
+        "Hazard category": "Geophysical",
+        "Hazard sub category": "Geophysical",
+        "Hazard type": "Earthquake",
+        "Hazard sub type": "Earthquake",
+        "Stock date": "2022-05-06",
+        "Stock date accuracy": "Day",
+        "Stock reporting date": "2022-12-31",
+        "Publishers": [
+          "Dawn"
+        ],
+        "Sources": [
+          "Local Authorities"
+        ],
+        "Sources type": [
+          "Local Authority"
+        ],
+        "Event ID": 11923,
+        "Event name": "Pakistan: Earthquake - Balochistan (Khuzdar) - 06/05/2022",
+        "Event cause": "Disaster",
+        "Event main trigger": "Earthquake",
+        "Event start date": "2022-05-06",
+        "Event end date": "2022-05-06",
+        "Event start date accuracy": "Day",
+        "Event end date accuracy": "Day",
+        "Is housing destruction": "No",
+        "Event codes (Code:Type)": [],
+        "Locations name": [
+          "Khuzdar District"
+        ],
+        "Locations accuracy": [
+          "State/Region/Province (ADM1)"
+        ],
+        "Locations type": [
+          "Origin"
+        ],
+        "Pcode": [
+          "PAK-20230404-2"
+        ],
+        "Pcode accuracy": [
+          "ADM1"
+        ],
+        "Pcode source": [
+          "OCHA CODs (Fieldmaps)"
+        ],
+        "Displacement occurred": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            74.598831,
+            36.296131
+          ]
+        ]
+      },
+      "properties": {
+        "ID": 100732,
+        "ISO3": "PAK",
+        "Country": "Pakistan",
+        "Geographical region": "South Asia",
+        "Figure cause": "Disaster",
+        "Year": 2022,
+        "Figure category": "IDPs",
+        "Figure unit": "Household",
+        "Reported figures": 9,
+        "Household size": 6.8,
+        "Total figures": 61,
+        "Hazard category": "Weather related",
+        "Hazard sub category": "Hydrological",
+        "Hazard type": "Flood",
+        "Hazard sub type": "Flood",
+        "Stock date": "2022-05-07",
+        "Stock date accuracy": "Day",
+        "Stock reporting date": "2022-12-31",
+        "Publishers": [
+          "Dawn"
+        ],
+        "Sources": [
+          "Local civil society organisations (CSOs)",
+          "Local residents",
+          "Local Authorities"
+        ],
+        "Sources type": [
+          "Civil Society",
+          "Civil Society",
+          "Local Authority"
+        ],
+        "Event ID": 11907,
+        "Event name": "Pakistan: Flash Flood (GLOF) - Gilgit-Baltistan - 07/05/2022",
+        "Event cause": "Disaster",
+        "Event main trigger": "Flood",
+        "Event start date": "2022-05-07",
+        "Event end date": "2022-05-07",
+        "Event start date accuracy": "Day",
+        "Event end date accuracy": "Day",
+        "Is housing destruction": "No",
+        "Event codes (Code:Type)": [],
+        "Locations name": [
+          "Hasanabad"
+        ],
+        "Locations accuracy": [
+          "State/Region/Province (ADM1)"
+        ],
+        "Locations type": [
+          "Origin"
+        ],
+        "Pcode": [
+          "PAK-20230404-3"
+        ],
+        "Pcode accuracy": [
+          "ADM1"
+        ],
+        "Pcode source": [
+          "OCHA CODs (Fieldmaps)"
+        ],
+        "Displacement occurred": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            73.904808,
+            33.962551
+          ]
+        ]
+      },
+      "properties": {
+        "ID": 100734,
+        "ISO3": "PAK",
+        "Country": "Pakistan",
+        "Geographical region": "South Asia",
+        "Figure cause": "Disaster",
+        "Year": 2022,
+        "Figure category": "IDPs",
+        "Figure unit": "Household",
+        "Reported figures": 327,
+        "Household size": 6.8,
+        "Total figures": 2224,
+        "Hazard category": "Weather related",
+        "Hazard sub category": "Hydrological",
+        "Hazard type": "Flood",
+        "Hazard sub type": "Flood",
+        "Stock date": "2022-06-14",
+        "Stock date accuracy": "Month",
+        "Stock reporting date": "2022-12-31",
+        "Publishers": [
+          "National Disaster Management Authority (NDMA)"
+        ],
+        "Sources": [
+          "Provincial Disaster Management Authority (PDMA)",
+          "National Disaster Management Authority (NDMA)"
+        ],
+        "Sources type": [
+          "National/Regional Disaster Authority",
+          "National/Regional Disaster Authority"
+        ],
+        "Event ID": 12926,
+        "Event name": "Pakistan: Flood [monsoon] - (Azad Jammu and Kashmir) - 14/06/2022",
+        "Event cause": "Disaster",
+        "Event main trigger": "Flood",
+        "Event start date": "2022-06-14",
+        "Event end date": "2022-09-30",
+        "Event start date accuracy": "Month",
+        "Event end date accuracy": "Month",
+        "Is housing destruction": "No",
+        "Event codes (Code:Type)": [
+          [
+            "FL-2022-000270-PAK",
+            "Glide Number"
+          ]
+        ],
+        "Locations name": [
+          "Azad Jammu and Kashmir - آزاد جموں و کشمیر, Pakistan"
+        ],
+        "Locations accuracy": [
+          "State/Region/Province (ADM1)"
+        ],
+        "Locations type": [
+          "Origin"
+        ],
+        "Pcode": [
+          "PAK-20230404-1"
+        ],
+        "Pcode accuracy": [
+          "ADM1"
+        ],
+        "Pcode source": [
+          "OCHA CODs (Fieldmaps)"
+        ],
+        "Displacement occurred": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            72.319489,
+            30.863251
+          ]
+        ]
+      },
+      "properties": {
+        "ID": 83188,
+        "ISO3": "PAK",
+        "Country": "Pakistan",
+        "Geographical region": "South Asia",
+        "Figure cause": "Disaster",
+        "Year": 2022,
+        "Figure category": "Internal Displacements",
+        "Figure unit": "Person",
+        "Reported figures": 4163,
+        "Total figures": 4163,
+        "Hazard category": "Weather related",
+        "Hazard sub category": "Hydrological",
+        "Hazard type": "Flood",
+        "Hazard sub type": "Flood",
+        "Start date": "2022-06-14",
+        "Start date accuracy": "Month",
+        "End date": "2022-09-17",
+        "End date accuracy": "Month",
+        "Publishers": [
+          "Provincial Disaster Management Authority (PDMA)",
+          "National Disaster Management Authority (NDMA)"
+        ],
+        "Sources": [
+          "Provincial Disaster Management Authority (PDMA)",
+          "National Disaster Management Authority (NDMA)"
+        ],
+        "Sources type": [
+          "National/Regional Disaster Authority",
+          "National/Regional Disaster Authority"
+        ],
+        "Event ID": 12925,
+        "Event name": "Pakistan: Flood [monsoon] - (Punjab) - 14/06/2022",
+        "Event cause": "Disaster",
+        "Event main trigger": "Flood",
+        "Event start date": "2022-06-14",
+        "Event end date": "2022-09-30",
+        "Event start date accuracy": "Month",
+        "Event end date accuracy": "Month",
+        "Is housing destruction": "No",
+        "Event codes (Code:Type)": [
+          [
+            "FL-2022-000270-PAK",
+            "Glide Number"
+          ]
+        ],
+        "Locations name": [
+          "Punjab, Pakistan"
+        ],
+        "Locations accuracy": [
+          "State/Region/Province (ADM1)"
+        ],
+        "Locations type": [
+          "Origin"
+        ],
+        "Pcode": [
+          "PAK-20230404-6"
+        ],
+        "Pcode accuracy": [
+          "ADM1"
+        ],
+        "Pcode source": [
+          "OCHA CODs (Fieldmaps)"
+        ],
+        "Displacement occurred": "Displacement without preventive evacuations reported"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            68.772652,
+            26.00691
+          ]
+        ]
+      },
+      "properties": {
+        "ID": 83189,
+        "ISO3": "PAK",
+        "Country": "Pakistan",
+        "Geographical region": "South Asia",
+        "Figure cause": "Disaster",
+        "Year": 2022,
+        "Figure category": "Internal Displacements",
+        "Figure unit": "Person",
+        "Reported figures": 7245490,
+        "Total figures": 7245490,
+        "Hazard category": "Weather related",
+        "Hazard sub category": "Hydrological",
+        "Hazard type": "Flood",
+        "Hazard sub type": "Flood",
+        "Start date": "2022-06-14",
+        "Start date accuracy": "Month",
+        "End date": "2022-09-26",
+        "End date accuracy": "Month",
+        "Publishers": [
+          "Provincial Disaster Management Authority (PDMA)",
+          "National Disaster Management Authority (NDMA)"
+        ],
+        "Sources": [
+          "Provincial Disaster Management Authority (PDMA)",
+          "National Disaster Management Authority (NDMA)"
+        ],
+        "Sources type": [
+          "National/Regional Disaster Authority",
+          "National/Regional Disaster Authority"
+        ],
+        "Event ID": 12924,
+        "Event name": "Pakistan: Flood [monsoon] - (Sindh) - 14/06/2022",
+        "Event cause": "Disaster",
+        "Event main trigger": "Flood",
+        "Event start date": "2022-06-14",
+        "Event end date": "2022-09-30",
+        "Event start date accuracy": "Month",
+        "Event end date accuracy": "Month",
+        "Is housing destruction": "No",
+        "Event codes (Code:Type)": [
+          [
+            "FL-2022-000270-PAK",
+            "Glide Number"
+          ]
+        ],
+        "Locations name": [
+          "Sindh, Pakistan"
+        ],
+        "Locations accuracy": [
+          "State/Region/Province (ADM1)"
+        ],
+        "Locations type": [
+          "Origin"
+        ],
+        "Pcode": [
+          "PAK-20230404-7"
+        ],
+        "Pcode accuracy": [
+          "ADM1"
+        ],
+        "Pcode source": [
+          "OCHA CODs (Fieldmaps)"
+        ],
+        "Displacement occurred": "Displacement without preventive evacuations reported"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            65.413658,
+            28.442949
+          ]
+        ]
+      },
+      "properties": {
+        "ID": 99451,
+        "ISO3": "PAK",
+        "Country": "Pakistan",
+        "Geographical region": "South Asia",
+        "Figure cause": "Disaster",
+        "Year": 2022,
+        "Figure category": "IDPs",
+        "Figure unit": "Person",
+        "Reported figures": 229692,
+        "Total figures": 229692,
+        "Hazard category": "Weather related",
+        "Hazard sub category": "Hydrological",
+        "Hazard type": "Flood",
+        "Hazard sub type": "Flood",
+        "Stock date": "2022-10-17",
+        "Stock date accuracy": "Week",
+        "Stock reporting date": "2022-12-31",
+        "Publishers": [
+          "IOM Displacement Tracking Matrix (IOM DTM)"
+        ],
+        "Sources": [
+          "IOM Displacement Tracking Matrix (IOM DTM)"
+        ],
+        "Sources type": [
+          "United Nations"
+        ],
+        "Event ID": 12923,
+        "Event name": "Pakistan: Flood [monsoon] - (Balochistan) - 14/06/2022",
+        "Event cause": "Disaster",
+        "Event main trigger": "Flood",
+        "Event start date": "2022-06-14",
+        "Event end date": "2022-09-30",
+        "Event start date accuracy": "Month",
+        "Event end date accuracy": "Month",
+        "Is housing destruction": "No",
+        "Event codes (Code:Type)": [
+          [
+            "FL-2022-000270-PAK",
+            "Glide Number"
+          ],
+          [
+            "FL-2022-000254-PAK",
+            "Glide Number"
+          ]
+        ],
+        "Locations name": [
+          "Balochistan, Pakistan"
+        ],
+        "Locations accuracy": [
+          "State/Region/Province (ADM1)"
+        ],
+        "Locations type": [
+          "Origin"
+        ],
+        "Pcode": [
+          "PAK-20230404-2"
+        ],
+        "Pcode accuracy": [
+          "ADM1"
+        ],
+        "Pcode source": [
+          "OCHA CODs (Fieldmaps)"
+        ],
+        "Displacement occurred": "Displacement without preventive evacuations reported"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            71.598351,
+            34.304966
+          ]
+        ]
+      },
+      "properties": {
+        "ID": 100718,
+        "ISO3": "PAK",
+        "Country": "Pakistan",
+        "Geographical region": "South Asia",
+        "Figure cause": "Disaster",
+        "Year": 2022,
+        "Figure category": "IDPs",
+        "Figure unit": "Household",
+        "Reported figures": 1,
+        "Household size": 6.8,
+        "Total figures": 7,
+        "Hazard category": "Weather related",
+        "Hazard sub category": "Hydrological",
+        "Hazard type": "Flood",
+        "Hazard sub type": "Flood",
+        "Stock date": "2022-01-23",
+        "Stock date accuracy": "Day",
+        "Stock reporting date": "2022-12-31",
+        "Publishers": [
+          "Provincial Disaster Management Authority (PDMA)"
+        ],
+        "Sources": [
+          "Provincial Disaster Management Authority (PDMA)"
+        ],
+        "Sources type": [
+          "National/Regional Disaster Authority"
+        ],
+        "Event ID": 11490,
+        "Event name": "Pakistan: Flood - Khyber Pakhtunkhwa (Shangla, Swat) - 20/01/2022",
+        "Event cause": "Disaster",
+        "Event main trigger": "Flood",
+        "Event start date": "2022-01-20",
+        "Event end date": "2022-01-23",
+        "Event start date accuracy": "Day",
+        "Event end date accuracy": "Day",
+        "Is housing destruction": "No",
+        "Event codes (Code:Type)": [
+          [
+            "FL-2022-000155-PAK",
+            "Glide Number"
+          ]
+        ],
+        "Locations name": [
+          "Swat"
+        ],
+        "Locations accuracy": [
+          "State/Region/Province (ADM1)"
+        ],
+        "Locations type": [
+          "Origin"
+        ],
+        "Pcode": [
+          "PAK-20230404-5"
+        ],
+        "Pcode accuracy": [
+          "ADM1"
+        ],
+        "Pcode source": [
+          "OCHA CODs (Fieldmaps)"
+        ],
+        "Displacement occurred": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            72.848053,
+            34.956944
+          ]
+        ]
+      },
+      "properties": {
+        "ID": 100719,
+        "ISO3": "PAK",
+        "Country": "Pakistan",
+        "Geographical region": "South Asia",
+        "Figure cause": "Disaster",
+        "Year": 2022,
+        "Figure category": "IDPs",
+        "Figure unit": "Household",
+        "Reported figures": 1,
+        "Household size": 6.8,
+        "Total figures": 7,
+        "Hazard category": "Weather related",
+        "Hazard sub category": "Hydrological",
+        "Hazard type": "Flood",
+        "Hazard sub type": "Flood",
+        "Stock date": "2022-01-21",
+        "Stock date accuracy": "Day",
+        "Stock reporting date": "2022-12-31",
+        "Publishers": [
+          "Provincial Disaster Management Authority (PDMA)"
+        ],
+        "Sources": [
+          "Provincial Disaster Management Authority (PDMA)"
+        ],
+        "Sources type": [
+          "National/Regional Disaster Authority"
+        ],
+        "Event ID": 11490,
+        "Event name": "Pakistan: Flood - Khyber Pakhtunkhwa (Shangla, Swat) - 20/01/2022",
+        "Event cause": "Disaster",
+        "Event main trigger": "Flood",
+        "Event start date": "2022-01-20",
+        "Event end date": "2022-01-23",
+        "Event start date accuracy": "Day",
+        "Event end date accuracy": "Day",
+        "Is housing destruction": "No",
+        "Event codes (Code:Type)": [
+          [
+            "FL-2022-000155-PAK",
+            "Glide Number"
+          ]
+        ],
+        "Locations name": [
+          "Shangla"
+        ],
+        "Locations accuracy": [
+          "State/Region/Province (ADM1)"
+        ],
+        "Locations type": [
+          "Origin"
+        ],
+        "Pcode": [
+          "PAK-20230404-5"
+        ],
+        "Pcode accuracy": [
+          "ADM1"
+        ],
+        "Pcode source": [
+          "OCHA CODs (Fieldmaps)"
+        ],
+        "Displacement occurred": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            65.413658,
+            28.442949
+          ]
+        ]
+      },
+      "properties": {
+        "ID": 99450,
+        "ISO3": "PAK",
+        "Country": "Pakistan",
+        "Geographical region": "South Asia",
+        "Figure cause": "Disaster",
+        "Year": 2022,
+        "Figure category": "Internal Displacements",
+        "Figure unit": "Person",
+        "Reported figures": 229692,
+        "Total figures": 229692,
+        "Hazard category": "Weather related",
+        "Hazard sub category": "Hydrological",
+        "Hazard type": "Flood",
+        "Hazard sub type": "Flood",
+        "Start date": "2022-06-14",
+        "Start date accuracy": "Month",
+        "End date": "2022-09-30",
+        "End date accuracy": "Month",
+        "Publishers": [
+          "IOM Displacement Tracking Matrix (IOM DTM)"
+        ],
+        "Sources": [
+          "IOM Displacement Tracking Matrix (IOM DTM)"
+        ],
+        "Sources type": [
+          "United Nations"
+        ],
+        "Event ID": 12923,
+        "Event name": "Pakistan: Flood [monsoon] - (Balochistan) - 14/06/2022",
+        "Event cause": "Disaster",
+        "Event main trigger": "Flood",
+        "Event start date": "2022-06-14",
+        "Event end date": "2022-09-30",
+        "Event start date accuracy": "Month",
+        "Event end date accuracy": "Month",
+        "Is housing destruction": "No",
+        "Event codes (Code:Type)": [
+          [
+            "FL-2022-000270-PAK",
+            "Glide Number"
+          ],
+          [
+            "FL-2022-000254-PAK",
+            "Glide Number"
+          ]
+        ],
+        "Locations name": [
+          "Balochistan, Pakistan"
+        ],
+        "Locations accuracy": [
+          "State/Region/Province (ADM1)"
+        ],
+        "Locations type": [
+          "Origin"
+        ],
+        "Pcode": [
+          "PAK-20230404-2"
+        ],
+        "Pcode accuracy": [
+          "ADM1"
+        ],
+        "Pcode source": [
+          "OCHA CODs (Fieldmaps)"
+        ],
+        "Displacement occurred": "Displacement without preventive evacuations reported"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            74.847557,
+            35.801041
+          ]
+        ]
+      },
+      "properties": {
+        "ID": 96712,
+        "ISO3": "PAK",
+        "Country": "Pakistan",
+        "Geographical region": "South Asia",
+        "Figure cause": "Disaster",
+        "Year": 2022,
+        "Figure category": "Internal Displacements",
+        "Figure unit": "Household",
+        "Reported figures": 667,
+        "Household size": 6.8,
+        "Total figures": 4536,
+        "Hazard category": "Weather related",
+        "Hazard sub category": "Hydrological",
+        "Hazard type": "Flood",
+        "Hazard sub type": "Flood",
+        "Start date": "2022-06-14",
+        "Start date accuracy": "Month",
+        "End date": "2022-11-18",
+        "End date accuracy": "Month",
+        "Publishers": [
+          "National Disaster Management Authority (NDMA)"
+        ],
+        "Sources": [
+          "Provincial Disaster Management Authority (PDMA)",
+          "National Disaster Management Authority (NDMA)"
+        ],
+        "Sources type": [
+          "National/Regional Disaster Authority",
+          "National/Regional Disaster Authority"
+        ],
+        "Event ID": 12927,
+        "Event name": "Pakistan: Flood [monsoon] - (Gilgit-Baltistan) - 14/06/2022",
+        "Event cause": "Disaster",
+        "Event main trigger": "Flood",
+        "Event start date": "2022-06-14",
+        "Event end date": "2022-09-30",
+        "Event start date accuracy": "Month",
+        "Event end date accuracy": "Month",
+        "Is housing destruction": "Yes",
+        "Event codes (Code:Type)": [
+          [
+            "FL-2022-000270-PAK",
+            "Glide Number"
+          ]
+        ],
+        "Locations name": [
+          "Gilgit-Baltistan, Pakistan"
+        ],
+        "Locations accuracy": [
+          "State/Region/Province (ADM1)"
+        ],
+        "Locations type": [
+          "Origin"
+        ],
+        "Pcode": [
+          "PAK-20230404-3"
+        ],
+        "Pcode accuracy": [
+          "ADM1"
+        ],
+        "Pcode source": [
+          "OCHA CODs (Fieldmaps)"
+        ],
+        "Displacement occurred": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            73.904808,
+            33.962551
+          ]
+        ]
+      },
+      "properties": {
+        "ID": 96710,
+        "ISO3": "PAK",
+        "Country": "Pakistan",
+        "Geographical region": "South Asia",
+        "Figure cause": "Disaster",
+        "Year": 2022,
+        "Figure category": "Internal Displacements",
+        "Figure unit": "Household",
+        "Reported figures": 327,
+        "Household size": 6.8,
+        "Total figures": 2224,
+        "Hazard category": "Weather related",
+        "Hazard sub category": "Hydrological",
+        "Hazard type": "Flood",
+        "Hazard sub type": "Flood",
+        "Start date": "2022-06-14",
+        "Start date accuracy": "Month",
+        "End date": "2022-11-18",
+        "End date accuracy": "Month",
+        "Publishers": [
+          "National Disaster Management Authority (NDMA)"
+        ],
+        "Sources": [
+          "Provincial Disaster Management Authority (PDMA)",
+          "National Disaster Management Authority (NDMA)"
+        ],
+        "Sources type": [
+          "National/Regional Disaster Authority",
+          "National/Regional Disaster Authority"
+        ],
+        "Event ID": 12926,
+        "Event name": "Pakistan: Flood [monsoon] - (Azad Jammu and Kashmir) - 14/06/2022",
+        "Event cause": "Disaster",
+        "Event main trigger": "Flood",
+        "Event start date": "2022-06-14",
+        "Event end date": "2022-09-30",
+        "Event start date accuracy": "Month",
+        "Event end date accuracy": "Month",
+        "Is housing destruction": "Yes",
+        "Event codes (Code:Type)": [
+          [
+            "FL-2022-000270-PAK",
+            "Glide Number"
+          ]
+        ],
+        "Locations name": [
+          "Azad Jammu and Kashmir - آزاد جموں و کشمیر, Pakistan"
+        ],
+        "Locations accuracy": [
+          "State/Region/Province (ADM1)"
+        ],
+        "Locations type": [
+          "Origin"
+        ],
+        "Pcode": [
+          "PAK-20230404-1"
+        ],
+        "Pcode accuracy": [
+          "ADM1"
+        ],
+        "Pcode source": [
+          "OCHA CODs (Fieldmaps)"
+        ],
+        "Displacement occurred": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            61.747265,
+            25.050526
+          ],
+          [
+            62.069546,
+            25.122713
+          ],
+          [
+            62.453457,
+            25.229334
+          ],
+          [
+            64.575089,
+            25.16691
+          ]
+        ]
+      },
+      "properties": {
+        "ID": 100731,
+        "ISO3": "PAK",
+        "Country": "Pakistan",
+        "Geographical region": "South Asia",
+        "Figure cause": "Disaster",
+        "Year": 2022,
+        "Figure category": "IDPs",
+        "Figure unit": "Household",
+        "Reported figures": 500,
+        "Household size": 6.8,
+        "Total figures": 3400,
+        "Hazard category": "Weather related",
+        "Hazard sub category": "Hydrological",
+        "Hazard type": "Flood",
+        "Hazard sub type": "Flood",
+        "Stock date": "2022-01-03",
+        "Stock date accuracy": "Day",
+        "Stock reporting date": "2022-12-31",
+        "Publishers": [
+          "Office for the Coordination of Humanitarian Affairs (OCHA)"
+        ],
+        "Sources": [
+          "Provincial Disaster Management Authority (PDMA)"
+        ],
+        "Sources type": [
+          "National/Regional Disaster Authority"
+        ],
+        "Event ID": 11386,
+        "Event name": "Pakistan: Flash Flood - Balochistan (Makran / Gwadar / 4 Tehsils) - 03/01/2022",
+        "Event cause": "Disaster",
+        "Event main trigger": "Flood",
+        "Event start date": "2022-01-03",
+        "Event end date": "2022-01-05",
+        "Event start date accuracy": "Day",
+        "Event end date accuracy": "Day",
+        "Is housing destruction": "No",
+        "Event codes (Code:Type)": [],
+        "Locations name": [
+          "Jiwani",
+          "Pishukan",
+          "Surbandar",
+          "Ras Ormara"
+        ],
+        "Locations accuracy": [
+          "State/Region/Province (ADM1)",
+          "State/Region/Province (ADM1)",
+          "State/Region/Province (ADM1)",
+          "State/Region/Province (ADM1)"
+        ],
+        "Locations type": [
+          "Origin",
+          "Origin",
+          "Origin",
+          "Origin"
+        ],
+        "Pcode": [
+          "PAK-20230404-2",
+          "PAK-20230404-2",
+          "PAK-20230404-2",
+          "PAK-20230404-2"
+        ],
+        "Pcode accuracy": [
+          "ADM1",
+          "ADM1",
+          "ADM1",
+          "ADM1"
+        ],
+        "Pcode source": [
+          "OCHA CODs (Fieldmaps)",
+          "OCHA CODs (Fieldmaps)",
+          "OCHA CODs (Fieldmaps)",
+          "OCHA CODs (Fieldmaps)"
+        ],
+        "Displacement occurred": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            72.5,
+            35.0
+          ]
+        ]
+      },
+      "properties": {
+        "ID": 100727,
+        "ISO3": "PAK",
+        "Country": "Pakistan",
+        "Geographical region": "South Asia",
+        "Figure cause": "Disaster",
+        "Year": 2022,
+        "Figure category": "IDPs",
+        "Figure unit": "Household",
+        "Reported figures": 1,
+        "Household size": 6.8,
+        "Total figures": 7,
+        "Hazard category": "Weather related",
+        "Hazard sub category": "Meteorological",
+        "Hazard type": "Storm",
+        "Hazard sub type": "Storm",
+        "Stock date": "2022-01-07",
+        "Stock date accuracy": "Day",
+        "Stock reporting date": "2022-12-31",
+        "Publishers": [
+          "Provincial Disaster Management Authority (PDMA)"
+        ],
+        "Sources": [
+          "Provincial Disaster Management Authority (PDMA)"
+        ],
+        "Sources type": [
+          "National/Regional Disaster Authority"
+        ],
+        "Event ID": 10976,
+        "Event name": "Pakistan: Storm - Khyber Pakhtunkhwa (Malakand / Swat) - 07/01/2022",
+        "Event cause": "Disaster",
+        "Event main trigger": "Storm",
+        "Event start date": "2022-01-07",
+        "Event end date": "2022-01-07",
+        "Event start date accuracy": "Day",
+        "Event end date accuracy": "Day",
+        "Is housing destruction": "No",
+        "Event codes (Code:Type)": [],
+        "Locations name": [
+          "Swāt District"
+        ],
+        "Locations accuracy": [
+          "State/Region/Province (ADM1)"
+        ],
+        "Locations type": [
+          "Origin"
+        ],
+        "Pcode": [
+          "PAK-20230404-5"
+        ],
+        "Pcode accuracy": [
+          "ADM1"
+        ],
+        "Pcode source": [
+          "OCHA CODs (Fieldmaps)"
+        ],
+        "Displacement occurred": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            72.012619,
+            35.14603
+          ]
+        ]
+      },
+      "properties": {
+        "ID": 100728,
+        "ISO3": "PAK",
+        "Country": "Pakistan",
+        "Geographical region": "South Asia",
+        "Figure cause": "Disaster",
+        "Year": 2022,
+        "Figure category": "IDPs",
+        "Figure unit": "Household",
+        "Reported figures": 1,
+        "Household size": 6.8,
+        "Total figures": 7,
+        "Hazard category": "Weather related",
+        "Hazard sub category": "Meteorological",
+        "Hazard type": "Storm",
+        "Hazard sub type": "Storm",
+        "Stock date": "2022-01-10",
+        "Stock date accuracy": "Day",
+        "Stock reporting date": "2022-12-31",
+        "Publishers": [
+          "Provincial Disaster Management Authority (PDMA)"
+        ],
+        "Sources": [
+          "Provincial Disaster Management Authority (PDMA)"
+        ],
+        "Sources type": [
+          "National/Regional Disaster Authority"
+        ],
+        "Event ID": 10974,
+        "Event name": "Pakistan: Storm - Khyber Pakhtunkhwa (Malakand / Upper Dir) - 10/01/2022",
+        "Event cause": "Disaster",
+        "Event main trigger": "Storm",
+        "Event start date": "2022-01-10",
+        "Event end date": "2022-01-10",
+        "Event start date accuracy": "Day",
+        "Event end date accuracy": "Day",
+        "Is housing destruction": "No",
+        "Event codes (Code:Type)": [],
+        "Locations name": [
+          "Upper Dīr District"
+        ],
+        "Locations accuracy": [
+          "State/Region/Province (ADM1)"
+        ],
+        "Locations type": [
+          "Origin"
+        ],
+        "Pcode": [
+          "PAK-20230404-5"
+        ],
+        "Pcode accuracy": [
+          "ADM1"
+        ],
+        "Pcode source": [
+          "OCHA CODs (Fieldmaps)"
+        ],
+        "Displacement occurred": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            72.319489,
+            30.863251
+          ]
+        ]
+      },
+      "properties": {
+        "ID": 83198,
+        "ISO3": "PAK",
+        "Country": "Pakistan",
+        "Geographical region": "South Asia",
+        "Figure cause": "Disaster",
+        "Year": 2022,
+        "Figure category": "IDPs",
+        "Figure unit": "Person",
+        "Reported figures": 4163,
+        "Total figures": 4163,
+        "Hazard category": "Weather related",
+        "Hazard sub category": "Hydrological",
+        "Hazard type": "Flood",
+        "Hazard sub type": "Flood",
+        "Stock date": "2022-09-17",
+        "Stock date accuracy": "Month",
+        "Stock reporting date": "2022-12-31",
+        "Publishers": [
+          "Provincial Disaster Management Authority (PDMA)",
+          "National Disaster Management Authority (NDMA)"
+        ],
+        "Sources": [
+          "Provincial Disaster Management Authority (PDMA)",
+          "National Disaster Management Authority (NDMA)"
+        ],
+        "Sources type": [
+          "National/Regional Disaster Authority",
+          "National/Regional Disaster Authority"
+        ],
+        "Event ID": 12925,
+        "Event name": "Pakistan: Flood [monsoon] - (Punjab) - 14/06/2022",
+        "Event cause": "Disaster",
+        "Event main trigger": "Flood",
+        "Event start date": "2022-06-14",
+        "Event end date": "2022-09-30",
+        "Event start date accuracy": "Month",
+        "Event end date accuracy": "Month",
+        "Is housing destruction": "No",
+        "Event codes (Code:Type)": [
+          [
+            "FL-2022-000270-PAK",
+            "Glide Number"
+          ]
+        ],
+        "Locations name": [
+          "Punjab, Pakistan"
+        ],
+        "Locations accuracy": [
+          "State/Region/Province (ADM1)"
+        ],
+        "Locations type": [
+          "Origin"
+        ],
+        "Pcode": [
+          "PAK-20230404-6"
+        ],
+        "Pcode accuracy": [
+          "ADM1"
+        ],
+        "Pcode source": [
+          "OCHA CODs (Fieldmaps)"
+        ],
+        "Displacement occurred": "Displacement without preventive evacuations reported"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            72.669121,
+            34.732552
+          ]
+        ]
+      },
+      "properties": {
+        "ID": 100730,
+        "ISO3": "PAK",
+        "Country": "Pakistan",
+        "Geographical region": "South Asia",
+        "Figure cause": "Disaster",
+        "Year": 2022,
+        "Figure category": "IDPs",
+        "Figure unit": "Household",
+        "Reported figures": 1,
+        "Household size": 6.8,
+        "Total figures": 7,
+        "Hazard category": "Weather related",
+        "Hazard sub category": "Meteorological",
+        "Hazard type": "Storm",
+        "Hazard sub type": "Storm",
+        "Stock date": "2022-03-19",
+        "Stock date accuracy": "Day",
+        "Stock reporting date": "2022-12-31",
+        "Publishers": [
+          "Provincial Disaster Management Authority (PDMA)"
+        ],
+        "Sources": [
+          "Provincial Disaster Management Authority (PDMA)"
+        ],
+        "Sources type": [
+          "National/Regional Disaster Authority"
+        ],
+        "Event ID": 11733,
+        "Event name": "Pakistan: Storm - Khyber Pakhtunkhwa (Malakand/Buner) - 19/03/2022",
+        "Event cause": "Disaster",
+        "Event main trigger": "Storm",
+        "Event start date": "2022-03-19",
+        "Event end date": "2022-03-19",
+        "Event start date accuracy": "Day",
+        "Event end date accuracy": "Day",
+        "Is housing destruction": "No",
+        "Event codes (Code:Type)": [],
+        "Locations name": [
+          "Bunerwāl"
+        ],
+        "Locations accuracy": [
+          "State/Region/Province (ADM1)"
+        ],
+        "Locations type": [
+          "Origin"
+        ],
+        "Pcode": [
+          "PAK-20230404-5"
+        ],
+        "Pcode accuracy": [
+          "ADM1"
+        ],
+        "Pcode source": [
+          "OCHA CODs (Fieldmaps)"
+        ],
+        "Displacement occurred": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            71.166664,
+            33.333332
+          ]
+        ]
+      },
+      "properties": {
+        "ID": 100726,
+        "ISO3": "PAK",
+        "Country": "Pakistan",
+        "Geographical region": "South Asia",
+        "Figure cause": "Disaster",
+        "Year": 2022,
+        "Figure category": "IDPs",
+        "Figure unit": "Household",
+        "Reported figures": 1,
+        "Household size": 6.8,
+        "Total figures": 7,
+        "Hazard category": "Weather related",
+        "Hazard sub category": "Meteorological",
+        "Hazard type": "Storm",
+        "Hazard sub type": "Storm",
+        "Stock date": "2022-01-08",
+        "Stock date accuracy": "Day",
+        "Stock reporting date": "2022-12-31",
+        "Publishers": [
+          "Provincial Disaster Management Authority (PDMA)"
+        ],
+        "Sources": [
+          "Provincial Disaster Management Authority (PDMA)"
+        ],
+        "Sources type": [
+          "National/Regional Disaster Authority"
+        ],
+        "Event ID": 10987,
+        "Event name": "Pakistan: Storm - Khyber Pakhtunkhwa (Kohat/Karak) - 08/01/2022",
+        "Event cause": "Disaster",
+        "Event main trigger": "Storm",
+        "Event start date": "2022-01-08",
+        "Event end date": "2022-01-08",
+        "Event start date accuracy": "Day",
+        "Event end date accuracy": "Day",
+        "Is housing destruction": "No",
+        "Event codes (Code:Type)": [],
+        "Locations name": [
+          "Kohāt District"
+        ],
+        "Locations accuracy": [
+          "Point"
+        ],
+        "Locations type": [
+          "Origin"
+        ],
+        "Pcode": [
+          "PAK-20230404-5"
+        ],
+        "Pcode accuracy": [
+          "ADM1"
+        ],
+        "Pcode source": [
+          "OCHA CODs (Fieldmaps)"
+        ],
+        "Displacement occurred": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            72.012619,
+            35.14603
+          ]
+        ]
+      },
+      "properties": {
+        "ID": 36288,
+        "ISO3": "PAK",
+        "Country": "Pakistan",
+        "Geographical region": "South Asia",
+        "Figure cause": "Disaster",
+        "Year": 2022,
+        "Figure category": "Internal Displacements",
+        "Figure unit": "Household",
+        "Reported figures": 1,
+        "Household size": 6.8,
+        "Total figures": 7,
+        "Hazard category": "Weather related",
+        "Hazard sub category": "Meteorological",
+        "Hazard type": "Storm",
+        "Hazard sub type": "Storm",
+        "Start date": "2022-01-10",
+        "Start date accuracy": "Day",
+        "End date": "2022-01-10",
+        "End date accuracy": "Day",
+        "Publishers": [
+          "Provincial Disaster Management Authority (PDMA)"
+        ],
+        "Sources": [
+          "Provincial Disaster Management Authority (PDMA)"
+        ],
+        "Sources type": [
+          "National/Regional Disaster Authority"
+        ],
+        "Event ID": 10974,
+        "Event name": "Pakistan: Storm - Khyber Pakhtunkhwa (Malakand / Upper Dir) - 10/01/2022",
+        "Event cause": "Disaster",
+        "Event main trigger": "Storm",
+        "Event start date": "2022-01-10",
+        "Event end date": "2022-01-10",
+        "Event start date accuracy": "Day",
+        "Event end date accuracy": "Day",
+        "Is housing destruction": "Yes",
+        "Event codes (Code:Type)": [],
+        "Locations name": [
+          "Upper Dīr District"
+        ],
+        "Locations accuracy": [
+          "State/Region/Province (ADM1)"
+        ],
+        "Locations type": [
+          "Origin"
+        ],
+        "Pcode": [
+          "PAK-20230404-5"
+        ],
+        "Pcode accuracy": [
+          "ADM1"
+        ],
+        "Pcode source": [
+          "OCHA CODs (Fieldmaps)"
+        ],
+        "Displacement occurred": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            71.166664,
+            33.333332
+          ]
+        ]
+      },
+      "properties": {
+        "ID": 36287,
+        "ISO3": "PAK",
+        "Country": "Pakistan",
+        "Geographical region": "South Asia",
+        "Figure cause": "Disaster",
+        "Year": 2022,
+        "Figure category": "Internal Displacements",
+        "Figure unit": "Household",
+        "Reported figures": 1,
+        "Household size": 6.8,
+        "Total figures": 7,
+        "Hazard category": "Weather related",
+        "Hazard sub category": "Meteorological",
+        "Hazard type": "Storm",
+        "Hazard sub type": "Storm",
+        "Start date": "2022-01-08",
+        "Start date accuracy": "Day",
+        "End date": "2022-01-08",
+        "End date accuracy": "Day",
+        "Publishers": [
+          "Provincial Disaster Management Authority (PDMA)"
+        ],
+        "Sources": [
+          "Provincial Disaster Management Authority (PDMA)"
+        ],
+        "Sources type": [
+          "National/Regional Disaster Authority"
+        ],
+        "Event ID": 10987,
+        "Event name": "Pakistan: Storm - Khyber Pakhtunkhwa (Kohat/Karak) - 08/01/2022",
+        "Event cause": "Disaster",
+        "Event main trigger": "Storm",
+        "Event start date": "2022-01-08",
+        "Event end date": "2022-01-08",
+        "Event start date accuracy": "Day",
+        "Event end date accuracy": "Day",
+        "Is housing destruction": "Yes",
+        "Event codes (Code:Type)": [],
+        "Locations name": [
+          "Kohāt District"
+        ],
+        "Locations accuracy": [
+          "Point"
+        ],
+        "Locations type": [
+          "Origin"
+        ],
+        "Pcode": [
+          "PAK-20230404-5"
+        ],
+        "Pcode accuracy": [
+          "ADM1"
+        ],
+        "Pcode source": [
+          "OCHA CODs (Fieldmaps)"
+        ],
+        "Displacement occurred": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            72.848053,
+            34.956944
+          ]
+        ]
+      },
+      "properties": {
+        "ID": 36656,
+        "ISO3": "PAK",
+        "Country": "Pakistan",
+        "Geographical region": "South Asia",
+        "Figure cause": "Disaster",
+        "Year": 2022,
+        "Figure category": "Internal Displacements",
+        "Figure unit": "Household",
+        "Reported figures": 1,
+        "Household size": 6.8,
+        "Total figures": 7,
+        "Hazard category": "Weather related",
+        "Hazard sub category": "Hydrological",
+        "Hazard type": "Flood",
+        "Hazard sub type": "Flood",
+        "Start date": "2022-01-21",
+        "Start date accuracy": "Day",
+        "End date": "2022-01-21",
+        "End date accuracy": "Day",
+        "Publishers": [
+          "Provincial Disaster Management Authority (PDMA)"
+        ],
+        "Sources": [
+          "Provincial Disaster Management Authority (PDMA)"
+        ],
+        "Sources type": [
+          "National/Regional Disaster Authority"
+        ],
+        "Event ID": 11490,
+        "Event name": "Pakistan: Flood - Khyber Pakhtunkhwa (Shangla, Swat) - 20/01/2022",
+        "Event cause": "Disaster",
+        "Event main trigger": "Flood",
+        "Event start date": "2022-01-20",
+        "Event end date": "2022-01-23",
+        "Event start date accuracy": "Day",
+        "Event end date accuracy": "Day",
+        "Is housing destruction": "Yes",
+        "Event codes (Code:Type)": [
+          [
+            "FL-2022-000155-PAK",
+            "Glide Number"
+          ]
+        ],
+        "Locations name": [
+          "Shangla"
+        ],
+        "Locations accuracy": [
+          "State/Region/Province (ADM1)"
+        ],
+        "Locations type": [
+          "Origin"
+        ],
+        "Pcode": [
+          "PAK-20230404-5"
+        ],
+        "Pcode accuracy": [
+          "ADM1"
+        ],
+        "Pcode source": [
+          "OCHA CODs (Fieldmaps)"
+        ],
+        "Displacement occurred": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            69.642937,
+            32.892078
+          ]
+        ]
+      },
+      "properties": {
+        "ID": 39393,
+        "ISO3": "PAK",
+        "Country": "Pakistan",
+        "Geographical region": "South Asia",
+        "Figure cause": "Disaster",
+        "Year": 2022,
+        "Figure category": "Internal Displacements",
+        "Figure unit": "Person",
+        "Reported figures": 4000,
+        "Household size": 6.8,
+        "Total figures": 4000,
+        "Hazard category": "Weather related",
+        "Hazard sub category": "Climatological",
+        "Hazard type": "Wildfire",
+        "Hazard sub type": "Wildfire",
+        "Start date": "2022-05-15",
+        "Start date accuracy": "Day",
+        "End date": "2022-05-22",
+        "End date accuracy": "Day",
+        "Publishers": [
+          "European Civil Protection and Humanitarian Aid Operations (ECHO)"
+        ],
+        "Sources": [
+          "Provincial Disaster Management Authority (PDMA)"
+        ],
+        "Sources type": [
+          "National/Regional Disaster Authority"
+        ],
+        "Event ID": 11835,
+        "Event name": "Pakistan: Forest Fire - Khyber Pakhtunkhwa, Balochistan - 15/05/2022",
+        "Event cause": "Disaster",
+        "Event main trigger": "Wildfire",
+        "Event start date": "2022-05-09",
+        "Event end date": "2022-05-24",
+        "Event start date accuracy": "Day",
+        "Event end date accuracy": "Day",
+        "Is housing destruction": "No",
+        "Event codes (Code:Type)": [],
+        "Locations name": [
+          "Sheranni"
+        ],
+        "Locations accuracy": [
+          "State/Region/Province (ADM1)"
+        ],
+        "Locations type": [
+          "Origin"
+        ],
+        "Pcode": [
+          "PAK-20230404-5"
+        ],
+        "Pcode accuracy": [
+          "ADM1"
+        ],
+        "Pcode source": [
+          "OCHA CODs (Fieldmaps)"
+        ],
+        "Displacement occurred": "Displacement without preventive evacuations reported"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            71.75,
+            34.0
+          ],
+          [
+            71.333336,
+            34.5
+          ]
+        ]
+      },
+      "properties": {
+        "ID": 36286,
+        "ISO3": "PAK",
+        "Country": "Pakistan",
+        "Geographical region": "South Asia",
+        "Figure cause": "Disaster",
+        "Year": 2022,
+        "Figure category": "Internal Displacements",
+        "Figure unit": "Household",
+        "Reported figures": 2,
+        "Household size": 6.8,
+        "Total figures": 14,
+        "Hazard category": "Weather related",
+        "Hazard sub category": "Meteorological",
+        "Hazard type": "Storm",
+        "Hazard sub type": "Storm",
+        "Start date": "2022-01-08",
+        "Start date accuracy": "Day",
+        "End date": "2022-01-08",
+        "End date accuracy": "Day",
+        "Publishers": [
+          "Provincial Disaster Management Authority (PDMA)"
+        ],
+        "Sources": [
+          "Provincial Disaster Management Authority (PDMA)"
+        ],
+        "Sources type": [
+          "National/Regional Disaster Authority"
+        ],
+        "Event ID": 10975,
+        "Event name": "Pakistan: Storm - Khyber Pakhtunkhwa (Peshawar/Mohmand,Peshawar) - 08/01/2022",
+        "Event cause": "Disaster",
+        "Event main trigger": "Storm",
+        "Event start date": "2022-01-08",
+        "Event end date": "2022-01-08",
+        "Event start date accuracy": "Day",
+        "Event end date accuracy": "Day",
+        "Is housing destruction": "Yes",
+        "Event codes (Code:Type)": [],
+        "Locations name": [
+          "Peshāwar District",
+          "Mohmand Agency"
+        ],
+        "Locations accuracy": [
+          "State/Region/Province (ADM1)",
+          "State/Region/Province (ADM1)"
+        ],
+        "Locations type": [
+          "Origin",
+          "Origin"
+        ],
+        "Pcode": [
+          "PAK-20230404-5",
+          "PAK-20230404-5"
+        ],
+        "Pcode accuracy": [
+          "ADM1",
+          "ADM1"
+        ],
+        "Pcode source": [
+          "OCHA CODs (Fieldmaps)",
+          "OCHA CODs (Fieldmaps)"
+        ],
+        "Displacement occurred": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            72.669121,
+            34.732552
+          ]
+        ]
+      },
+      "properties": {
+        "ID": 38261,
+        "ISO3": "PAK",
+        "Country": "Pakistan",
+        "Geographical region": "South Asia",
+        "Figure cause": "Disaster",
+        "Year": 2022,
+        "Figure category": "Internal Displacements",
+        "Figure unit": "Household",
+        "Reported figures": 1,
+        "Household size": 6.8,
+        "Total figures": 7,
+        "Hazard category": "Weather related",
+        "Hazard sub category": "Meteorological",
+        "Hazard type": "Storm",
+        "Hazard sub type": "Storm",
+        "Start date": "2022-03-19",
+        "Start date accuracy": "Day",
+        "End date": "2022-03-19",
+        "End date accuracy": "Day",
+        "Publishers": [
+          "Provincial Disaster Management Authority (PDMA)"
+        ],
+        "Sources": [
+          "Provincial Disaster Management Authority (PDMA)"
+        ],
+        "Sources type": [
+          "National/Regional Disaster Authority"
+        ],
+        "Event ID": 11733,
+        "Event name": "Pakistan: Storm - Khyber Pakhtunkhwa (Malakand/Buner) - 19/03/2022",
+        "Event cause": "Disaster",
+        "Event main trigger": "Storm",
+        "Event start date": "2022-03-19",
+        "Event end date": "2022-03-19",
+        "Event start date accuracy": "Day",
+        "Event end date accuracy": "Day",
+        "Is housing destruction": "Yes",
+        "Event codes (Code:Type)": [],
+        "Locations name": [
+          "Bunerwāl"
+        ],
+        "Locations accuracy": [
+          "State/Region/Province (ADM1)"
+        ],
+        "Locations type": [
+          "Origin"
+        ],
+        "Pcode": [
+          "PAK-20230404-5"
+        ],
+        "Pcode accuracy": [
+          "ADM1"
+        ],
+        "Pcode source": [
+          "OCHA CODs (Fieldmaps)"
+        ],
+        "Displacement occurred": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            71.75,
+            34.0
+          ]
+        ]
+      },
+      "properties": {
+        "ID": 100717,
+        "ISO3": "PAK",
+        "Country": "Pakistan",
+        "Geographical region": "South Asia",
+        "Figure cause": "Disaster",
+        "Year": 2022,
+        "Figure category": "IDPs",
+        "Figure unit": "Household",
+        "Reported figures": 1,
+        "Household size": 6.8,
+        "Total figures": 7,
+        "Hazard category": "Weather related",
+        "Hazard sub category": "Meteorological",
+        "Hazard type": "Storm",
+        "Hazard sub type": "Storm",
+        "Stock date": "2022-06-09",
+        "Stock date accuracy": "Day",
+        "Stock reporting date": "2022-12-31",
+        "Publishers": [
+          "Provincial Disaster Management Authority (PDMA)"
+        ],
+        "Sources": [
+          "Provincial Disaster Management Authority (PDMA)"
+        ],
+        "Sources type": [
+          "National/Regional Disaster Authority"
+        ],
+        "Event ID": 12930,
+        "Event name": "Pakistan: Storm - Khyber Pakhtunkhwa (Peshawar/Peshawar)  - 09/06/2022",
+        "Event cause": "Disaster",
+        "Event main trigger": "Storm",
+        "Event start date": "2022-06-09",
+        "Event end date": "2022-06-09",
+        "Event start date accuracy": "Day",
+        "Event end date accuracy": "Day",
+        "Is housing destruction": "No",
+        "Event codes (Code:Type)": [],
+        "Locations name": [
+          "Peshāwar District, Khyber Pakhtunkhwa, Pakistan"
+        ],
+        "Locations accuracy": [
+          "County/City/town/Village/Woreda (ADM3)"
+        ],
+        "Locations type": [
+          "Origin"
+        ],
+        "Pcode": [
+          "PAK-20230404-5"
+        ],
+        "Pcode accuracy": [
+          "ADM1"
+        ],
+        "Pcode source": [
+          "OCHA CODs (Fieldmaps)"
+        ],
+        "Displacement occurred": ""
+      }
+    }
+  ]
+}

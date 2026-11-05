@@ -1,0 +1,81 @@
+{
+  "source": "IDMC IDU API",
+  "endpoint": "idus/all/",
+  "dataset": "all",
+  "dump_retrieved_at_utc": "2026-11-05T09:18:49.705544+00:00",
+  "dump_from_cache": true,
+  "filters": {
+    "iso3": "AFG",
+    "start": "2025-01-01",
+    "end": "2025-12-31",
+    "cause": null,
+    "event_id": null,
+    "glide": null,
+    "date_rule": "displacement period overlaps [start, end]"
+  },
+  "undated_dropped": 0,
+  "retrieved_at_utc": "2026-11-05T09:42:58.013208+00:00",
+  "columns": [
+    "id",
+    "country",
+    "iso3",
+    "latitude",
+    "longitude",
+    "centroid",
+    "role",
+    "displacement_type",
+    "qualifier",
+    "figure",
+    "displacement_date",
+    "displacement_start_date",
+    "displacement_end_date",
+    "year",
+    "event_id",
+    "event_name",
+    "event_codes",
+    "event_code_types",
+    "event_start_date",
+    "event_end_date",
+    "category",
+    "subcategory",
+    "type",
+    "subtype",
+    "standard_popup_text",
+    "standard_info_text",
+    "old_id",
+    "sources",
+    "source_url",
+    "locations_name",
+    "locations_coordinates",
+    "locations_accuracy",
+    "locations_type",
+    "displacement_occurred",
+    "created_at"
+  ],
+  "checks": {
+    "n_rows": 12,
+    "first_displacement": "2025-02-27",
+    "last_displacement": "2025-11-03",
+    "unparsable_dates": 0,
+    "n_events": 11,
+    "figure_missing": 0,
+    "figure_sum_raw": 235817,
+    "no_coordinates": 0,
+    "displacement_type": {
+      "Disaster": 9,
+      "Conflict": 3
+    },
+    "role": {
+      "Triangulation": 9,
+      "Recommended figure": 3
+    },
+    "type": {
+      "Flood": 6,
+      "Earthquake": 3,
+      "International armed conflict (IAC)": 2,
+      "Non-International armed conflict (NIAC)": 1
+    }
+  },
+  "raw_file": "idu_figures_AFG_2025-01-01_2025-12-31.json",
+  "table_file": "idu_figures_AFG_2025-01-01_2025-12-31.parquet"
+}

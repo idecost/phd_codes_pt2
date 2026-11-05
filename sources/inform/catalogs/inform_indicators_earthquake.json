@@ -1,0 +1,1157 @@
+{
+  "dataset": "INFORM Risk Mid 2026 (v073)",
+  "scope": "Indicatori potenzialmente utili a prevedere i People in Need (PIN) da terremoto",
+  "methodology_note": "In INFORM solo la dimensione Hazard & Exposure e' specifica per pericolo: per il terremoto conta solo la componente Earthquake. Vulnerability e Lack of Coping Capacity sono calcolate a livello-paese e sono identiche per tutti i pericoli, quindi valgono integralmente anche per il terremoto. Sono escluse le voci specifiche di altri disastri naturali (flood, tsunami, cyclone, coastal flood, drought) e di epidemia, salvo quelle segnalate come population-context rilevanti e marcate doubtful.",
+  "type_legend": {
+    "raw": "Dato grezzo di input (foglio 'Indicator Data' / 'Population Data', con IndicatorId e anno di rilevazione)",
+    "aggregated": "Valore aggregato/normalizzato 0-10 o punteggio composito (fogli 'Hazard & Exposure','Vulnerability','Lack of Coping Capacity','INFORM Risk 2026 (a-z)')"
+  },
+  "categories": [
+    {
+      "dimension": "Composite scores (output finali INFORM)",
+      "note": "Punteggi compositi finali, direttamente usabili o da scomporre",
+      "indicators": [
+        {
+          "id": "INFORM RISK",
+          "name": "INFORM Risk (composite)",
+          "type": "aggregated",
+          "sheet": "INFORM Risk 2026 (a-z)",
+          "unit": "0-10",
+          "note": "Rischio complessivo; non e' solo sismico",
+          "doubtful": false
+        },
+        {
+          "id": "HAZARD & EXPOSURE",
+          "name": "Hazard & Exposure (dimensione)",
+          "type": "aggregated",
+          "sheet": "INFORM Risk 2026 (a-z)",
+          "unit": "0-10",
+          "note": "Aggrega tutti i pericoli, non solo earthquake",
+          "doubtful": false
+        },
+        {
+          "id": "Natural",
+          "name": "Natural hazard (categoria)",
+          "type": "aggregated",
+          "sheet": "INFORM Risk 2026 (a-z)",
+          "unit": "0-10",
+          "note": "Aggrega tutti i pericoli naturali",
+          "doubtful": false
+        },
+        {
+          "id": "VULNERABILITY",
+          "name": "Vulnerability (dimensione)",
+          "type": "aggregated",
+          "sheet": "INFORM Risk 2026 (a-z)",
+          "unit": "0-10",
+          "note": "Vale per il terremoto (hazard-independent)",
+          "doubtful": false
+        },
+        {
+          "id": "LACK OF COPING CAPACITY",
+          "name": "Lack of Coping Capacity (dimensione)",
+          "type": "aggregated",
+          "sheet": "INFORM Risk 2026 (a-z)",
+          "unit": "0-10",
+          "note": "Vale per il terremoto (hazard-independent)",
+          "doubtful": false
+        },
+        {
+          "id": "Lack of Reliability (*)",
+          "name": "Lack of Reliability Index",
+          "type": "aggregated",
+          "sheet": "INFORM Risk 2026 (a-z)",
+          "unit": "0-10",
+          "note": "Affidabilita'/completezza dati del paese",
+          "doubtful": false
+        }
+      ]
+    },
+    {
+      "dimension": "Hazard & Exposure",
+      "component": "Earthquake",
+      "note": "Unica parte hazard-specifica rilevante per il terremoto",
+      "indicators": [
+        {
+          "id": "NH.EQ.GEM.MMI6.SP",
+          "name": "Physical exposure to earthquake MMI VI (extensive)",
+          "type": "raw",
+          "sheet": "Indicator Data",
+          "reference_year": "2025",
+          "unit": "persone esposte/anno",
+          "note": "Esposizione fisica a scuotimento MMI>=VI",
+          "doubtful": false
+        },
+        {
+          "id": "NH.EQ.GEM.MMI8.SP",
+          "name": "Physical exposure to earthquake MMI VIII (intensive)",
+          "type": "raw",
+          "sheet": "Indicator Data",
+          "reference_year": "2025",
+          "unit": "persone esposte/anno",
+          "note": "Esposizione fisica a scuotimento MMI>=VIII",
+          "doubtful": false
+        },
+        {
+          "id": "HA.NAT.EQ.EXT-ABS",
+          "name": "Physical exposure to extensive earthquake (absolute)",
+          "type": "aggregated",
+          "sheet": "Hazard & Exposure",
+          "unit": "0-10",
+          "doubtful": false
+        },
+        {
+          "id": "HA.NAT.EQ.EXT-REL",
+          "name": "Physical exposure to extensive earthquake (relative)",
+          "type": "aggregated",
+          "sheet": "Hazard & Exposure",
+          "unit": "0-10",
+          "note": "Normalizzato su popolazione",
+          "doubtful": false
+        },
+        {
+          "id": "HA.NAT.EQ.INT-ABS",
+          "name": "Physical exposure to intensive earthquake (absolute)",
+          "type": "aggregated",
+          "sheet": "Hazard & Exposure",
+          "unit": "0-10",
+          "doubtful": false
+        },
+        {
+          "id": "HA.NAT.EQ.INT-REL",
+          "name": "Physical exposure to intensive earthquake (relative)",
+          "type": "aggregated",
+          "sheet": "Hazard & Exposure",
+          "unit": "0-10",
+          "note": "Normalizzato su popolazione",
+          "doubtful": false
+        },
+        {
+          "id": "Earthquake",
+          "name": "Physical exposure to earthquake (component score)",
+          "type": "aggregated",
+          "sheet": "INFORM Risk 2026 (a-z)",
+          "unit": "0-10",
+          "note": "Punteggio componente terremoto",
+          "doubtful": false
+        }
+      ]
+    },
+    {
+      "dimension": "Population & exposure base",
+      "note": "Livello popolazione: denominatori ed esposizione, essenziali per convertire rischio in PIN assoluti",
+      "indicators": [
+        {
+          "id": "POP",
+          "name": "Total population (serie 2016-2026)",
+          "type": "raw",
+          "sheet": "Population Data",
+          "reference_year": "2016-2026",
+          "unit": "persone",
+          "note": "Popolazione totale annua; denominatore per PIN e per esposizione relativa",
+          "doubtful": false
+        },
+        {
+          "id": "POP",
+          "name": "Total population",
+          "type": "raw",
+          "sheet": "Indicator Data",
+          "unit": "persone",
+          "note": "Popolazione totale (comune a tutto il modello)",
+          "doubtful": false
+        },
+        {
+          "id": "AG.LND.TOTL.K2",
+          "name": "Land area",
+          "type": "raw",
+          "sheet": "Indicator Data",
+          "reference_year": "2013-2014",
+          "unit": "sq km",
+          "note": "Area; usata per densita'",
+          "doubtful": false
+        },
+        {
+          "id": "EN.POP.DNST",
+          "name": "Population density",
+          "type": "raw",
+          "sheet": "Indicator Data",
+          "reference_year": "2023",
+          "unit": "persone/sq km",
+          "doubtful": true,
+          "doubt_reason": "In INFORM e' input della componente Epidemic, ma la densita' di popolazione e' plausibilmente rilevante per i PIN da terremoto (piu' densita' = piu' esposti per evento)"
+        },
+        {
+          "id": "SP.URB.TOTL.IN.ZS",
+          "name": "Population living in urban areas (%)",
+          "type": "raw",
+          "sheet": "Indicator Data",
+          "reference_year": "2025",
+          "unit": "%",
+          "doubtful": true,
+          "doubt_reason": "Input Epidemic in INFORM; urbanizzazione rilevante per esposizione sismica del costruito"
+        },
+        {
+          "id": "EN.POP.SLUM.UR.ZS",
+          "name": "Population living in slums (% urban)",
+          "type": "raw",
+          "sheet": "Indicator Data",
+          "reference_year": "2020",
+          "unit": "%",
+          "doubtful": true,
+          "doubt_reason": "Input Epidemic in INFORM; ottimo proxy di qualita'/vulnerabilita' del costruito, forte driver di mortalita' sismica"
+        },
+        {
+          "id": "SP.DEM.HOUS.AV",
+          "name": "Household size",
+          "type": "raw",
+          "sheet": "Indicator Data",
+          "reference_year": "2014-2021",
+          "unit": "persone/nucleo",
+          "doubtful": true,
+          "doubt_reason": "Input Epidemic in INFORM; dimensione nucleo utile per stimare persone colpite per edificio"
+        }
+      ]
+    },
+    {
+      "dimension": "Vulnerability",
+      "category": "Socio-Economic Vulnerability",
+      "indicators": [
+        {
+          "id": "HDI",
+          "name": "Human Development Index",
+          "type": "raw",
+          "sheet": "Indicator Data",
+          "reference_year": "2023",
+          "unit": "index 0-1",
+          "doubtful": false
+        },
+        {
+          "id": "VU.SEV.PD.HDI",
+          "name": "Human Development Index (score)",
+          "type": "aggregated",
+          "sheet": "Vulnerability",
+          "unit": "0-10",
+          "doubtful": false
+        },
+        {
+          "id": "MPI",
+          "name": "Multidimensional Poverty Index",
+          "type": "raw",
+          "sheet": "Indicator Data",
+          "reference_year": "2023",
+          "unit": "index",
+          "doubtful": false
+        },
+        {
+          "id": "VU.SEV.PD.MPI",
+          "name": "Multidimensional Poverty Index (score)",
+          "type": "aggregated",
+          "sheet": "Vulnerability",
+          "unit": "0-10",
+          "doubtful": false
+        },
+        {
+          "id": "Development & Deprivation",
+          "name": "Development & Deprivation (component)",
+          "type": "aggregated",
+          "sheet": "INFORM Risk 2026 (a-z)",
+          "unit": "0-10",
+          "doubtful": false
+        },
+        {
+          "id": "GII",
+          "name": "Gender Inequality Index",
+          "type": "raw",
+          "sheet": "Indicator Data",
+          "reference_year": "2021-2023",
+          "unit": "index 0-1",
+          "doubtful": false
+        },
+        {
+          "id": "VU.SEV.INQ.GII",
+          "name": "Gender Inequality Index (score)",
+          "type": "aggregated",
+          "sheet": "Vulnerability",
+          "unit": "0-10",
+          "doubtful": false
+        },
+        {
+          "id": "GINI",
+          "name": "Income Gini coefficient",
+          "type": "raw",
+          "sheet": "Indicator Data",
+          "reference_year": "2012-2025",
+          "unit": "0-100",
+          "doubtful": false
+        },
+        {
+          "id": "VU.SEV.INQ.GINI",
+          "name": "Income Gini coefficient (score)",
+          "type": "aggregated",
+          "sheet": "Vulnerability",
+          "unit": "0-10",
+          "doubtful": false
+        },
+        {
+          "id": "Inequality",
+          "name": "Inequality (component)",
+          "type": "aggregated",
+          "sheet": "INFORM Risk 2026 (a-z)",
+          "unit": "0-10",
+          "doubtful": false
+        },
+        {
+          "id": "FTS",
+          "name": "Humanitarian aid per capita",
+          "type": "raw",
+          "sheet": "Indicator Data",
+          "reference_year": "2024",
+          "unit": "US$ per capita",
+          "doubtful": false
+        },
+        {
+          "id": "FTS-INS",
+          "name": "Humanitarian aid per capita instability",
+          "type": "raw",
+          "sheet": "Indicator Data",
+          "reference_year": "2026",
+          "doubtful": false
+        },
+        {
+          "id": "VU.SEV.AD.FTS-POP.NORM",
+          "name": "Humanitarian aid per capita (score)",
+          "type": "aggregated",
+          "sheet": "Vulnerability",
+          "unit": "0-10",
+          "doubtful": false
+        },
+        {
+          "id": "ODA-1",
+          "name": "Development aid (ODA) per capita",
+          "type": "raw",
+          "sheet": "Indicator Data",
+          "reference_year": "2023",
+          "unit": "US$ per capita",
+          "doubtful": false
+        },
+        {
+          "id": "ODA-INS",
+          "name": "Development aid per capita instability",
+          "type": "raw",
+          "sheet": "Indicator Data",
+          "reference_year": "2025",
+          "doubtful": false
+        },
+        {
+          "id": "VU.SEV.AD.ODA-POP.NORM",
+          "name": "Development aid per capita (score)",
+          "type": "aggregated",
+          "sheet": "Vulnerability",
+          "unit": "0-10",
+          "doubtful": false
+        },
+        {
+          "id": "DT.ODA.ODAT.GN.ZS",
+          "name": "Net ODA received (% of GNI)",
+          "type": "raw",
+          "sheet": "Indicator Data",
+          "reference_year": "2021-2023",
+          "unit": "% GNI",
+          "doubtful": false
+        },
+        {
+          "id": "ECO.DT.ODA.ODAT.GN.ZS.INST",
+          "name": "Net ODA received (% GNI) instability",
+          "type": "raw",
+          "sheet": "Indicator Data",
+          "doubtful": false
+        },
+        {
+          "id": "VU.SEV.AD.ODA-GNI",
+          "name": "Net ODA received (% GNI) (score)",
+          "type": "aggregated",
+          "sheet": "Vulnerability",
+          "unit": "0-10",
+          "doubtful": false
+        },
+        {
+          "id": "BX_TRF_PWKR",
+          "name": "Volume of remittances (% of GDP)",
+          "type": "raw",
+          "sheet": "Indicator Data",
+          "reference_year": "2020-2023",
+          "unit": "% GDP",
+          "doubtful": false
+        },
+        {
+          "id": "BX.TRF.PWKR.DT.GD.ZS.INST",
+          "name": "Volume of remittances instability",
+          "type": "raw",
+          "sheet": "Indicator Data",
+          "doubtful": false
+        },
+        {
+          "id": "VU.SEV.AD.REM",
+          "name": "Volume of remittances (score)",
+          "type": "aggregated",
+          "sheet": "Vulnerability",
+          "unit": "0-10",
+          "doubtful": false
+        },
+        {
+          "id": "Economic Dependency",
+          "name": "Economic Dependency (component)",
+          "type": "aggregated",
+          "sheet": "INFORM Risk 2026 (a-z)",
+          "unit": "0-10",
+          "doubtful": false
+        },
+        {
+          "id": "Socio-Economic Vulnerability",
+          "name": "Socio-Economic Vulnerability (category)",
+          "type": "aggregated",
+          "sheet": "INFORM Risk 2026 (a-z)",
+          "unit": "0-10",
+          "doubtful": false
+        }
+      ]
+    },
+    {
+      "dimension": "Vulnerability",
+      "category": "Vulnerable Groups",
+      "indicators": [
+        {
+          "id": "TRPS",
+          "name": "Refugees and asylum-seekers (country of asylum)",
+          "type": "raw",
+          "sheet": "Indicator Data",
+          "reference_year": "2025",
+          "unit": "persone",
+          "doubtful": false
+        },
+        {
+          "id": "VU.VG.UP.REF-TOT",
+          "name": "Refugees and asylum-seekers (score)",
+          "type": "aggregated",
+          "sheet": "Vulnerability",
+          "unit": "0-10",
+          "doubtful": false
+        },
+        {
+          "id": "POP.SEC.IDP",
+          "name": "Internally displaced persons (IDPs)",
+          "type": "raw",
+          "sheet": "Indicator Data",
+          "reference_year": "2025",
+          "unit": "persone",
+          "doubtful": false
+        },
+        {
+          "id": "VU.VG.UP.IDP-TOT",
+          "name": "Internally displaced persons (score)",
+          "type": "aggregated",
+          "sheet": "Vulnerability",
+          "unit": "0-10",
+          "doubtful": false
+        },
+        {
+          "id": "RET_REF",
+          "name": "Returned refugees",
+          "type": "raw",
+          "sheet": "Indicator Data",
+          "reference_year": "2024",
+          "unit": "persone",
+          "doubtful": false
+        },
+        {
+          "id": "VU.VG.UP.RET-REF-TOT",
+          "name": "Returned refugees (score)",
+          "type": "aggregated",
+          "sheet": "Vulnerability",
+          "unit": "0-10",
+          "doubtful": false
+        },
+        {
+          "id": "Uprooted people",
+          "name": "Uprooted people (component)",
+          "type": "aggregated",
+          "sheet": "INFORM Risk 2026 (a-z)",
+          "unit": "0-10",
+          "doubtful": false
+        },
+        {
+          "id": "CM",
+          "name": "Child mortality (under-5)",
+          "type": "raw",
+          "sheet": "Indicator Data",
+          "reference_year": "2024",
+          "unit": "per 1,000",
+          "doubtful": false
+        },
+        {
+          "id": "VU.VGR.OG.U5.CM",
+          "name": "Child Mortality (score)",
+          "type": "aggregated",
+          "sheet": "Vulnerability",
+          "unit": "0-10",
+          "doubtful": false
+        },
+        {
+          "id": "CUW",
+          "name": "Children underweight (under-5)",
+          "type": "raw",
+          "sheet": "Indicator Data",
+          "reference_year": "2013-2024",
+          "unit": "%",
+          "doubtful": false
+        },
+        {
+          "id": "VU.VGR.OG.U5.UW",
+          "name": "Children Under Weight (score)",
+          "type": "aggregated",
+          "sheet": "Vulnerability",
+          "unit": "0-10",
+          "doubtful": false
+        },
+        {
+          "id": "Children U5",
+          "name": "Children U5 (component)",
+          "type": "aggregated",
+          "sheet": "INFORM Risk 2026 (a-z)",
+          "unit": "0-10",
+          "doubtful": false
+        },
+        {
+          "id": "FS.ADSA",
+          "name": "Average dietary supply adequacy",
+          "type": "raw",
+          "sheet": "Indicator Data",
+          "reference_year": "2023-2024",
+          "unit": "%",
+          "doubtful": false
+        },
+        {
+          "id": "VU.VGR.OG.FS.MA.ADSA",
+          "name": "Average dietary supply adequacy (score)",
+          "type": "aggregated",
+          "sheet": "Vulnerability",
+          "unit": "0-10",
+          "doubtful": false
+        },
+        {
+          "id": "SN.ITK.DEFC.ZS",
+          "name": "Prevalence of undernourishment",
+          "type": "raw",
+          "sheet": "Indicator Data",
+          "reference_year": "2023-2024",
+          "unit": "%",
+          "doubtful": false
+        },
+        {
+          "id": "VU.VGR.OG.FS.MA.PU",
+          "name": "Prevalence of undernourishment (score)",
+          "type": "aggregated",
+          "sheet": "Vulnerability",
+          "unit": "0-10",
+          "doubtful": false
+        },
+        {
+          "id": "Food Security",
+          "name": "Food Security (component)",
+          "type": "aggregated",
+          "sheet": "INFORM Risk 2026 (a-z)",
+          "unit": "0-10",
+          "doubtful": true,
+          "doubt_reason": "Vulnerabilita' generica; piu' legata a crisi alimentari/siccita' che a terremoto, ma concorre al punteggio condiviso"
+        },
+        {
+          "id": "VU.VGR.OG.NATDIS-CUR",
+          "name": "People affected by natural disasters (last 3y)",
+          "type": "raw",
+          "sheet": "Indicator Data",
+          "reference_year": "2024-2026",
+          "unit": "persone/%",
+          "doubtful": true,
+          "doubt_reason": "Generico su tutti i disastri naturali (terremoti inclusi): rilevante ma non isolabile per solo sisma"
+        },
+        {
+          "id": "VU.VGR.OG.NATDIS-REL",
+          "name": "Recent shocks - natural disasters (score)",
+          "type": "aggregated",
+          "sheet": "Vulnerability",
+          "unit": "0-10",
+          "doubtful": true,
+          "doubt_reason": "Vedi sopra"
+        },
+        {
+          "id": "Recent Shocks",
+          "name": "Recent Shocks (component)",
+          "type": "aggregated",
+          "sheet": "INFORM Risk 2026 (a-z)",
+          "unit": "0-10",
+          "doubtful": true,
+          "doubt_reason": "Include tutti i disastri recenti, non solo sismici"
+        },
+        {
+          "id": "HIV",
+          "name": "Adult prevalence of HIV-AIDS",
+          "type": "raw",
+          "sheet": "Indicator Data",
+          "reference_year": "2021-2024",
+          "unit": "numero/%",
+          "doubtful": true,
+          "doubt_reason": "Health condition epidemica; concorre al punteggio Vulnerability condiviso ma di natura sanitaria"
+        },
+        {
+          "id": "SH_HIV_INCD",
+          "name": "Incidence of HIV (per 1,000)",
+          "type": "raw",
+          "sheet": "Indicator Data",
+          "reference_year": "2022-2024",
+          "unit": "per 1,000",
+          "doubtful": true,
+          "doubt_reason": "Vedi sopra"
+        },
+        {
+          "id": "VU.VGR.OG.HE.HIV.PRV",
+          "name": "Adult Prevalence of HIV-AIDS (score)",
+          "type": "aggregated",
+          "sheet": "Vulnerability",
+          "unit": "0-10",
+          "doubtful": true,
+          "doubt_reason": "Vedi sopra"
+        },
+        {
+          "id": "VU.VGR.OG.HE.HIV.INCD",
+          "name": "Incidence of HIV (score)",
+          "type": "aggregated",
+          "sheet": "Vulnerability",
+          "unit": "0-10",
+          "doubtful": true,
+          "doubt_reason": "Vedi sopra"
+        },
+        {
+          "id": "TB",
+          "name": "Incidence of Tuberculosis",
+          "type": "raw",
+          "sheet": "Indicator Data",
+          "reference_year": "2023",
+          "unit": "per 100,000",
+          "doubtful": true,
+          "doubt_reason": "Health condition; natura sanitaria/epidemica"
+        },
+        {
+          "id": "VU.VGR.OG.HE.TBC",
+          "name": "Incidence of Tuberculosis (score)",
+          "type": "aggregated",
+          "sheet": "Vulnerability",
+          "unit": "0-10",
+          "doubtful": true,
+          "doubt_reason": "Vedi sopra"
+        },
+        {
+          "id": "SH_STA_MALR",
+          "name": "Malaria incidence per 1,000 at risk",
+          "type": "raw",
+          "sheet": "Indicator Data",
+          "reference_year": "2023-2024",
+          "unit": "per 1,000",
+          "doubtful": true,
+          "doubt_reason": "Health condition epidemica"
+        },
+        {
+          "id": "VU.VGR.OG.HE.MAL",
+          "name": "Malaria incidence (score)",
+          "type": "aggregated",
+          "sheet": "Vulnerability",
+          "unit": "0-10",
+          "doubtful": true,
+          "doubt_reason": "Vedi sopra"
+        },
+        {
+          "id": "SH_TRP_INTVN",
+          "name": "Neglected tropical diseases (interventions)",
+          "type": "raw",
+          "sheet": "Indicator Data",
+          "reference_year": "2024",
+          "unit": "numero",
+          "doubtful": true,
+          "doubt_reason": "Health condition epidemica"
+        },
+        {
+          "id": "VU.VGR.OG.HE.TRP",
+          "name": "Neglected tropical diseases (score)",
+          "type": "aggregated",
+          "sheet": "Vulnerability",
+          "unit": "0-10",
+          "doubtful": true,
+          "doubt_reason": "Vedi sopra"
+        },
+        {
+          "id": "Health Conditions",
+          "name": "Health Conditions (component)",
+          "type": "aggregated",
+          "sheet": "INFORM Risk 2026 (a-z)",
+          "unit": "0-10",
+          "doubtful": true,
+          "doubt_reason": "Insieme di indicatori sanitari/epidemici; concorre al punteggio condiviso"
+        },
+        {
+          "id": "Other Vulnerable Groups",
+          "name": "Other Vulnerable Groups (category aggregate)",
+          "type": "aggregated",
+          "sheet": "INFORM Risk 2026 (a-z)",
+          "unit": "0-10",
+          "doubtful": false
+        },
+        {
+          "id": "Vulnerable Groups",
+          "name": "Vulnerable Groups (category)",
+          "type": "aggregated",
+          "sheet": "INFORM Risk 2026 (a-z)",
+          "unit": "0-10",
+          "doubtful": false
+        }
+      ]
+    },
+    {
+      "dimension": "Lack of Coping Capacity",
+      "category": "Institutional",
+      "indicators": [
+        {
+          "id": "SG_DSR_LGRGSR",
+          "name": "Sendai Framework Monitor indicator E-1 (score)",
+          "type": "raw",
+          "sheet": "Indicator Data",
+          "reference_year": "2016-2025",
+          "unit": "0-1",
+          "note": "DRR: strategie di riduzione rischio disastri",
+          "doubtful": false
+        },
+        {
+          "id": "SG_DSR_LGRGSR_FREQ",
+          "name": "SFM E-1 reporting frequency (10y)",
+          "type": "raw",
+          "sheet": "Indicator Data",
+          "reference_year": "2016-2025",
+          "doubtful": false
+        },
+        {
+          "id": "CC.INS.DRR.SG_DSR_LGRGSR",
+          "name": "SFM E-1 (score)",
+          "type": "aggregated",
+          "sheet": "Lack of Coping Capacity",
+          "unit": "0-10",
+          "doubtful": false
+        },
+        {
+          "id": "CC.INS.DRR.SG_DSR_LGRGSR_FREQ",
+          "name": "SFM E-1 frequency (score)",
+          "type": "aggregated",
+          "sheet": "Lack of Coping Capacity",
+          "unit": "0-10",
+          "doubtful": false
+        },
+        {
+          "id": "DRR",
+          "name": "DRR (component)",
+          "type": "aggregated",
+          "sheet": "INFORM Risk 2026 (a-z)",
+          "unit": "0-10",
+          "note": "Disaster Risk Reduction - molto rilevante per PIN sismici",
+          "doubtful": false
+        },
+        {
+          "id": "GovernmentEffectiveness",
+          "name": "Government effectiveness",
+          "type": "raw",
+          "sheet": "Indicator Data",
+          "reference_year": "2023",
+          "unit": "-2.5..2.5",
+          "doubtful": false
+        },
+        {
+          "id": "CC.INS.GOV.GE",
+          "name": "Government effectiveness (score)",
+          "type": "aggregated",
+          "sheet": "Lack of Coping Capacity",
+          "unit": "0-10",
+          "doubtful": false
+        },
+        {
+          "id": "CPI",
+          "name": "Corruption Perception Index",
+          "type": "raw",
+          "sheet": "Indicator Data",
+          "reference_year": "2020-2024",
+          "unit": "0-100",
+          "doubtful": false
+        },
+        {
+          "id": "CC.INS.GOV.CPI",
+          "name": "Corruption Perception Index (score)",
+          "type": "aggregated",
+          "sheet": "Lack of Coping Capacity",
+          "unit": "0-10",
+          "doubtful": false
+        },
+        {
+          "id": "Governance",
+          "name": "Governance (component)",
+          "type": "aggregated",
+          "sheet": "INFORM Risk 2026 (a-z)",
+          "unit": "0-10",
+          "doubtful": false
+        },
+        {
+          "id": "Institutional",
+          "name": "Institutional (category)",
+          "type": "aggregated",
+          "sheet": "INFORM Risk 2026 (a-z)",
+          "unit": "0-10",
+          "doubtful": false
+        }
+      ]
+    },
+    {
+      "dimension": "Lack of Coping Capacity",
+      "category": "Infrastructure",
+      "indicators": [
+        {
+          "id": "SE.ADT.LITR.ZS",
+          "name": "Adult literacy rate",
+          "type": "raw",
+          "sheet": "Indicator Data",
+          "reference_year": "2013-2025",
+          "unit": "%",
+          "doubtful": false
+        },
+        {
+          "id": "CC.INF.COM.LITR",
+          "name": "Adult literacy rate (score)",
+          "type": "aggregated",
+          "sheet": "Lack of Coping Capacity",
+          "unit": "0-10",
+          "doubtful": false
+        },
+        {
+          "id": "EG.ELC.ACCS.ZS",
+          "name": "Access to electricity",
+          "type": "raw",
+          "sheet": "Indicator Data",
+          "reference_year": "2023",
+          "unit": "%",
+          "doubtful": false
+        },
+        {
+          "id": "CC.INF.COM.ELACCS",
+          "name": "Access to electricity (score)",
+          "type": "aggregated",
+          "sheet": "Lack of Coping Capacity",
+          "unit": "0-10",
+          "doubtful": false
+        },
+        {
+          "id": "IT.NET.USER.P2",
+          "name": "Internet users",
+          "type": "raw",
+          "sheet": "Indicator Data",
+          "reference_year": "2017-2025",
+          "unit": "%",
+          "doubtful": false
+        },
+        {
+          "id": "CC.INF.COM.NETUS",
+          "name": "Internet users (score)",
+          "type": "aggregated",
+          "sheet": "Lack of Coping Capacity",
+          "unit": "0-10",
+          "doubtful": false
+        },
+        {
+          "id": "IT.CEL.SETS.P2",
+          "name": "Mobile cellular subscriptions",
+          "type": "raw",
+          "sheet": "Indicator Data",
+          "reference_year": "2022-2024",
+          "unit": "per 100",
+          "doubtful": false
+        },
+        {
+          "id": "CC.INF.COM.CEL",
+          "name": "Mobile cellular subscriptions (score)",
+          "type": "aggregated",
+          "sheet": "Lack of Coping Capacity",
+          "unit": "0-10",
+          "doubtful": false
+        },
+        {
+          "id": "Communication",
+          "name": "Communication (component)",
+          "type": "aggregated",
+          "sheet": "INFORM Risk 2026 (a-z)",
+          "unit": "0-10",
+          "doubtful": false
+        },
+        {
+          "id": "IS.ROD.TOTL.KM",
+          "name": "Road length / density",
+          "type": "raw",
+          "sheet": "Indicator Data",
+          "reference_year": "2014",
+          "unit": "km",
+          "note": "Accessibilita' per soccorsi",
+          "doubtful": false
+        },
+        {
+          "id": "CC.INF.PHY.ROD",
+          "name": "Road density (score)",
+          "type": "aggregated",
+          "sheet": "Lack of Coping Capacity",
+          "unit": "0-10",
+          "doubtful": false
+        },
+        {
+          "id": "SH.STA.BASS.ZS",
+          "name": "People using at least basic sanitation",
+          "type": "raw",
+          "sheet": "Indicator Data",
+          "reference_year": "2016-2024",
+          "unit": "%",
+          "doubtful": false
+        },
+        {
+          "id": "CC.INF.PHY.STA",
+          "name": "Improved sanitation (score)",
+          "type": "aggregated",
+          "sheet": "Lack of Coping Capacity",
+          "unit": "0-10",
+          "doubtful": false
+        },
+        {
+          "id": "SH.H2O.SAFE.ZS",
+          "name": "People using at least basic drinking water",
+          "type": "raw",
+          "sheet": "Indicator Data",
+          "reference_year": "2016-2024",
+          "unit": "%",
+          "doubtful": false
+        },
+        {
+          "id": "CC.INF.PHY.H2O",
+          "name": "Improved water source (score)",
+          "type": "aggregated",
+          "sheet": "Lack of Coping Capacity",
+          "unit": "0-10",
+          "doubtful": false
+        },
+        {
+          "id": "Physical infrastructure",
+          "name": "Physical infrastructure (component)",
+          "type": "aggregated",
+          "sheet": "INFORM Risk 2026 (a-z)",
+          "unit": "0-10",
+          "doubtful": false
+        },
+        {
+          "id": "HEALTH_EXP",
+          "name": "Current health expenditure per capita",
+          "type": "raw",
+          "sheet": "Indicator Data",
+          "reference_year": "2021-2024",
+          "unit": "US$ per capita",
+          "doubtful": false
+        },
+        {
+          "id": "CC.INF.AHC.HEALTH_EXP",
+          "name": "Current health expenditure per capita (score)",
+          "type": "aggregated",
+          "sheet": "Lack of Coping Capacity",
+          "unit": "0-10",
+          "doubtful": false
+        },
+        {
+          "id": "PHIS",
+          "name": "Physicians density",
+          "type": "raw",
+          "sheet": "Indicator Data",
+          "reference_year": "2013-2023",
+          "unit": "per 1,000",
+          "note": "Capacita' sanitaria per i feriti",
+          "doubtful": false
+        },
+        {
+          "id": "CC.INF.AHC.PHYS",
+          "name": "Physicians density (score)",
+          "type": "aggregated",
+          "sheet": "Lack of Coping Capacity",
+          "unit": "0-10",
+          "doubtful": false
+        },
+        {
+          "id": "MMR",
+          "name": "Maternal Mortality Ratio",
+          "type": "raw",
+          "sheet": "Indicator Data",
+          "reference_year": "2023-2025",
+          "unit": "per 100,000",
+          "doubtful": false
+        },
+        {
+          "id": "CC.INF.AHC.MMR",
+          "name": "Maternal Mortality Ratio (score)",
+          "type": "aggregated",
+          "sheet": "Lack of Coping Capacity",
+          "unit": "0-10",
+          "doubtful": false
+        },
+        {
+          "id": "SH_ACS_DTP3",
+          "name": "Coverage of DTP3 vaccine",
+          "type": "raw",
+          "sheet": "Indicator Data",
+          "reference_year": "2023-2024",
+          "unit": "%",
+          "doubtful": true,
+          "doubt_reason": "Immunizzazione: proxy di capacita' sanitaria ma di natura vaccinale/epidemica"
+        },
+        {
+          "id": "SH_ACS_MCV2",
+          "name": "Coverage of measles vaccine",
+          "type": "raw",
+          "sheet": "Indicator Data",
+          "reference_year": "2023-2024",
+          "unit": "%",
+          "doubtful": true,
+          "doubt_reason": "Vedi sopra"
+        },
+        {
+          "id": "SH_ACS_PCV3",
+          "name": "Coverage of pneumococcal vaccine",
+          "type": "raw",
+          "sheet": "Indicator Data",
+          "reference_year": "2023-2024",
+          "unit": "%",
+          "doubtful": true,
+          "doubt_reason": "Vedi sopra"
+        },
+        {
+          "id": "CC.INF.AHC.IMM.DTP3",
+          "name": "DTP3 coverage (score)",
+          "type": "aggregated",
+          "sheet": "Lack of Coping Capacity",
+          "unit": "0-10",
+          "doubtful": true,
+          "doubt_reason": "Vedi sopra"
+        },
+        {
+          "id": "CC.INF.AHC.IMM.MCV2",
+          "name": "Measles coverage (score)",
+          "type": "aggregated",
+          "sheet": "Lack of Coping Capacity",
+          "unit": "0-10",
+          "doubtful": true,
+          "doubt_reason": "Vedi sopra"
+        },
+        {
+          "id": "CC.INF.AHC.IMM.PCV3",
+          "name": "Pneumococcal coverage (score)",
+          "type": "aggregated",
+          "sheet": "Lack of Coping Capacity",
+          "unit": "0-10",
+          "doubtful": true,
+          "doubt_reason": "Vedi sopra"
+        },
+        {
+          "id": "Access to health care",
+          "name": "Access to health care (component)",
+          "type": "aggregated",
+          "sheet": "INFORM Risk 2026 (a-z)",
+          "unit": "0-10",
+          "doubtful": false
+        },
+        {
+          "id": "Infrastructure",
+          "name": "Infrastructure (category)",
+          "type": "aggregated",
+          "sheet": "INFORM Risk 2026 (a-z)",
+          "unit": "0-10",
+          "doubtful": false
+        }
+      ]
+    },
+    {
+      "dimension": "Common / support variables",
+      "note": "Variabili trasversali usate dal modello e utili come feature per PIN",
+      "indicators": [
+        {
+          "id": "GDPpp",
+          "name": "GDP per capita",
+          "type": "raw",
+          "sheet": "Indicator Data",
+          "reference_year": "2023-2025",
+          "unit": "US$ per capita",
+          "note": "Proxy di ricchezza/capacita' di risposta economica",
+          "doubtful": false
+        }
+      ]
+    },
+    {
+      "dimension": "Human hazard (dubbio)",
+      "note": "Non e' altro disastro naturale ne epidemia ('il resto si'), ma e' un pericolo a se non fisicamente legato al sisma. Utile solo come contesto di crisi composta.",
+      "indicators": [
+        {
+          "id": "HVC.PROB",
+          "name": "Projected Conflict Probability",
+          "type": "raw",
+          "sheet": "Indicator Data",
+          "reference_year": "2025",
+          "doubtful": true,
+          "doubt_reason": "Pericolo conflitto, non terremoto; utile come contesto per crisi composte"
+        },
+        {
+          "id": "CON_GPI",
+          "name": "Current Conflict Intensity",
+          "type": "raw",
+          "sheet": "Indicator Data",
+          "reference_year": "2025",
+          "doubtful": true,
+          "doubt_reason": "Vedi sopra"
+        },
+        {
+          "id": "Projected Conflict Probability",
+          "name": "Projected Conflict Probability (score)",
+          "type": "aggregated",
+          "sheet": "INFORM Risk 2026 (a-z)",
+          "unit": "0-10",
+          "doubtful": true,
+          "doubt_reason": "Vedi sopra"
+        },
+        {
+          "id": "Current Conflict Intensity",
+          "name": "Current Conflict Intensity (score)",
+          "type": "aggregated",
+          "sheet": "INFORM Risk 2026 (a-z)",
+          "unit": "0-10",
+          "doubtful": true,
+          "doubt_reason": "Vedi sopra"
+        },
+        {
+          "id": "Human",
+          "name": "Human hazard (categoria)",
+          "type": "aggregated",
+          "sheet": "INFORM Risk 2026 (a-z)",
+          "unit": "0-10",
+          "doubtful": true,
+          "doubt_reason": "Vedi sopra"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_indicators": 124,
+    "raw": 54,
+    "aggregated": 70,
+    "doubtful_flagged": 30
+  }
+}

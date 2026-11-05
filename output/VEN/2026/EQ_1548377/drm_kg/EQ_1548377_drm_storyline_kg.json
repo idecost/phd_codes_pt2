@@ -1,0 +1,2107 @@
+{
+  "event": {
+    "eventtype": "EQ",
+    "eventid": "1548377",
+    "glide": "EQ-2026-000093",
+    "name": "Earthquake Venezuala June 2026",
+    "hazard": "Earthquake",
+    "country": "Venezuela",
+    "location": "Venezuela",
+    "date": "2026-06-24",
+    "id": "EQ_1548377"
+  },
+  "storyline": {
+    "overview": {
+      "title": "Event overview",
+      "content": "On the evening of 24 June 2026, at around 18:04 local time (2204/2205 UTC), two major earthquakes struck north-central Venezuela about 39-40 seconds apart: a magnitude 7.2 foreshock near San Felipe, Yaracuy (depth about 22 km) and a magnitude 7.5 mainshock near Yumare, Veroes, Yaracuy (depth about 10 km, shallow), with epicentres also described as some 28-30 km north-west of Montalbán, Carabobo, and west of Caracas near Yaracuy and Carabobo (OCHA, PAHO/WHO). USGS recorded this as the strongest earthquake in Venezuela in more than 125 years, generating very strong to violent shaking (peak intensity approaching MMI 9) felt across a densely populated corridor including Caracas, La Guaira, Miranda, Carabobo, Aragua, Falcón and Yaracuy, and as far as Colombia (Data Friendly Space/USGS/Al Jazeera). The shocks occurred on the Boconó-Morón-El Pilar fault system at the Caribbean-South American plate boundary; USGS issued a Red PAGER alert indicating high probable casualties and extensive damage, and a brief Caribbean tsunami advisory was cancelled within about an hour.",
+      "confidence": "high"
+    },
+    "hazards": {
+      "title": "Hazard and cascading hazards",
+      "content": "The primary hazard was the dual shallow earthquake sequence (M7.2 and M7.5), followed by extensive aftershock activity: at least 20 aftershocks within two hours of the mainshock (six felt in Caracas), more than 302 aftershocks by 26 June (OCHA), nearly 1,000 by 6 July (UNFPA), and over 1,000 by mid-July, including a M5.1 event near Tucacas (Falcón) on 25 June and a M4.4 aftershock near Guatire (Miranda) on 26 June; USGS estimated about a 40% chance of a magnitude 6+ aftershock in the first week. The Shelter Cluster/UNHCR flagged secondary hazard risk from the onset of the annual rainy season, with potential for heavy rains, hurricanes or tropical low-pressure systems triggering landslides and mud flows in already seismically weakened slopes, requiring landslide and debris-flow mapping in the North Coastal Range. PAHO also identified elevated risk of outbreaks of vaccine-preventable diseases (measles, diphtheria, pertussis, polio), acute diarrheal disease, cholera, and other water/vector-borne illnesses linked to displacement, overcrowding and damaged WASH systems.",
+      "confidence": "high"
+    },
+    "exposure_vulnerability": {
+      "title": "Exposure and vulnerability",
+      "content": "UNDP's RAPIDA assessment estimated 8.6 million people exposed to above-moderate shaking across northern Venezuela, including about 2.1 million exposed to stronger shaking, with 1.7 million structures located in affected areas. The earthquake struck a context of protracted economic and humanitarian crisis: Venezuela ranked 24th of 97 crises on the INFORM Severity Index (high severity, 7.6/10) as of May 2026, with nearly 8 million people already in humanitarian need before the quakes (IRC/UNDRR). ACAPS and REACH note widespread pre-existing vulnerabilities in the hardest-hit states (La Guaira, Caracas, Carabobo, Yaracuy, Aragua, Falcón): weak shelter, water and health systems, substandard and unreinforced construction with poor enforcement of building codes, informal settlements on unstable hillsides, a 94% poverty rate and 46% multidimensional poverty rate in La Guaira, 62% of housing in fragile condition with repair needs, and a Protection Cluster that had reached only 8% of its 1.9 million target population by April 2026. About 30% of the population is under 18 and 9% over 65 (IFRC), and years of emigration (roughly 8 million people) left critical workforce gaps affecting search-and-rescue and recovery capacity (IRC).",
+      "confidence": "high"
+    },
+    "impacts": {
+      "title": "Impacts",
+      "content": "Casualty figures rose steadily and sometimes diverged between sources: Data Friendly Space reported 164 dead/971 injured on 25 June (up from an initial 32 dead); OCHA Sitrep No.3 (26 June) reported a provisional 920 dead/3,360 injured and REACH the same day cited 589 dead/2,980 injured; by 29 June MSF reported 1,430 dead/3,230 injured while UNHCR cited 1,719 dead, 5,034 hospitalised and 15,866 affected; IFRC's 1 July brief noted \"tens of thousands\" reported missing, with USGS modelling giving even odds that final deaths fall between 1,000-10,000 and a 30% chance of exceeding 10,000; UNFPA (6 July) reported 3,342 dead/16,470 injured, rising to 4,490 dead by UNICEF's 15 July count and 5,208 dead per CESVI by 20 July, with people injured holding at 16,740 across PAHO, UNFPA and CESVI reports from early July onward. Displacement estimates also varied: OCHA cited over 3,000 displaced (26 June), UNHCR 15,000+ affected/displaced by 29 June, UNFPA 17,345 who lost homes and 10,702 in 79 temporary camps by 6 July, rising to 17,907 homeless per UNICEF (15 July) and CESVI (20 July). Infrastructure damage reports progressed from 1,423 affected structures (OCHA, 26 June) to 2,501 damaged sites including 774 housing units, 189 fully collapsed, and 38 hospitals (UNHCR, 29 June), with CESVI (20 July) citing 856 affected buildings; UNDP estimated preliminary direct physical damage at US$6.7 billion (about 6% of GDP) within hours of the quake, while UNDRR's 3 July analytical estimate put total direct damage at approximately US$37 billion (US$24 billion to buildings, US$13 billion to infrastructure), equivalent to roughly 3-4% of exposed stock. Key infrastructure losses included closure of Maiquetía/Simón Bolívar International Airport, suspension of Caracas Metro and railways, multi-state power outages, and damage to electricity, water, telecommunications, roads and bridges.",
+      "confidence": "high"
+    },
+    "prevention": {
+      "title": "Prevention and mitigation",
+      "content": "Documents report significant prevention gaps rather than successful mitigation measures: ACAPS states that most buildings in Venezuela are unlikely to have been built in line with modern earthquake regulations, citing reports of a lack of enforcement of building standards (CNN, APnews). IFRC and ACAPS both note widespread informal settlements built on unstable hillsides and vulnerable unreinforced construction as pre-existing risk factors that amplified damage. No risk-financing, retrofitting programmes, or land-use planning measures prior to the event are described in the documents.",
+      "confidence": "medium"
+    },
+    "preparedness": {
+      "title": "Preparedness",
+      "content": "The documents do not describe specific pre-event early warning systems, contingency plans, drills or stockpiles for this earthquake; FUNVISIS (Venezuela's seismological institute) is referenced only as an information source, not for prior monitoring performance. A brief Caribbean tsunami advisory was issued by relevant authorities and cancelled within about an hour, indicating some monitoring capacity was operational at the time of the event (Data Friendly Space, citing USGS/CNN/NPR). Pre-existing weak institutional capacity is implied by ACAPS' observation that censorship and limited transparency have historically weakened public trust in official information, likely hindering situational awareness and risk communication during the response.",
+      "confidence": "low"
+    },
+    "response": {
+      "title": "Response",
+      "content": "The Venezuelan government declared a national state of emergency and designated La Guaira a disaster zone; Acting President Delcy Rodríguez and National Assembly President Jorge Rodríguez provided official casualty updates from 25-26 June. The Venezuelan Red Cross began search-and-rescue in the Capital District on 24 June and received CHF 2 million from IFRC's DREF on 25 June; IFRC launched a CHF 50 million Emergency Appeal on 26 June (later CHF 55 million Federation-wide) targeting 300,000 people, and set up a field hospital at Jorge García Carmeiro Stadium plus a Field Operations Centre. International UNDAC and USAR teams under INSARAG coordination arrived from 25 June; authorities imposed temporary access restrictions to La Guaira state from the night of 26 June to prioritize search and rescue. The Expanded Health Cluster, co-led with the Ministry of Popular Power for Health (MPPS), was activated 26 June to consolidate a single response mechanism integrating state actors, UN agencies and NGOs. UN agencies scaled up: UNICEF, UNFPA (targeting 64,000-230,000 people for SRH/GBV services), UNHCR (seeking $14.8-14.85 million for 30,000 people), WFP-supported logistics, and PAHO/WHO delivered medical supplies and equipment, including to Maternal and Child Hospital Leopoldo Aguerrevere by mid-August. NGOs including MSF, Good Neighbors, CESVI, Project HOPE/Proyecto Esperanza and the Turkish Red Crescent mobilized emergency relief, health posts and needs assessments. Constraints included blocked roads from debris, damaged Maiquetía airport, disrupted telecommunications, erratic fuel availability, and logistics congestion at the airport and Port of La Guaira, as flagged by UNICEF and the OCHA Logistics Working Group ($0.8M requirement).",
+      "confidence": "high"
+    },
+    "recovery": {
+      "title": "Recovery and reconstruction",
+      "content": "By late July, CESVI reported the response transitioning from immediate emergency to a more structured, large-scale operation, and by 12 August (PAHO Sitrep No.9, seven weeks on) efforts were shifting toward early recovery, including rehabilitation planning at priority health facilities, restoration of intensive care and maternity capacity at Hospital Dr. José Gregorio Hernández, and a USD 18 million PAHO Revolving Fund credit line to support national vaccine supply security. OCHA's Humanitarian Response Plan Addendum (July 2026) and UNICEF's HAC Appeal Addendum ($65.7 million to reach 470,000 people, including 167,000 children) outline sector plans aligned with the earthquake addendum targeting 1.3 million affected people across 7 states. IRC warned on 22 July that without urgent investment in local economies and livelihoods, Venezuela risked spiraling into a deeper crisis, citing UNDRR's $37 billion damage estimate and noting that over half the population already lived in extreme poverty before the quakes.",
+      "confidence": "medium"
+    },
+    "needs_gaps": {
+      "title": "Needs and gaps",
+      "content": "The Health Cluster (27 June) identified critical gaps in food, safe water, hygiene kits, non-food items, clothing and safe temporary shelter, alongside needs for logistics support, specialized medical personnel, mental health/psychosocial support, and protection pathways for unaccompanied children. REACH highlighted pre-existing weak shelter, WASH and health systems in Aragua, La Guaira, Carabobo and Falcón limiting absorptive capacity, with water cited as the top priority need nationally since March 2026. Project HOPE's assessment (16 health facilities, 48 hours post-event; expanded to 12 facilities/160 households) found significant gaps in emergency obstetric care, mental health and psychosocial support, water quality monitoring, handwashing infrastructure and protection mechanisms. UNFPA flagged unmet needs in survivor-centred GBV and SRH services amid overcrowded shelters and family separation. PAHO (10 July) noted persistent gaps in registration and follow-up of injured and hospitalized patients, likely causing underestimation of casualties, plus a severely strained health system with shortages of personnel, medicines, supplies and surgical capacity even before the quakes.",
+      "confidence": "high"
+    },
+    "lessons": {
+      "title": "Lessons and recommendations",
+      "content": "ACAPS noted that censorship, limited transparency and restrictions on media and civil society have weakened public trust in official information, increasing reliance on informal networks and complicating coordination between authorities, responders and communities, delaying assistance delivery and targeting. The Shelter Cluster/UNHCR Environmental Quick Note recommended guiding the response with Sphere Shelter Standard 7 and ECHO Minimum Environmental Requirements, including environmental impact assessment, sustainable materials, debris reuse/recycling, safe solid waste management and protection of ecological value at temporary settlement sites, alongside daily monitoring of rainfall/landslide risk. IRC stressed that immediate investment in local economies and livelihood support is critical in the early recovery window to prevent the disaster from deepening the pre-existing humanitarian crisis, given the workforce gaps created by prior mass emigration.",
+      "confidence": "medium"
+    },
+    "confidence": {
+      "title": "Information quality",
+      "content": "Reporting is frequent and multi-sourced (OCHA, PAHO/WHO, UNDP, UNHCR, UNICEF, UNFPA, IFRC, ACAPS, REACH, UNDRR, NGOs) spanning day +0 to +48, allowing a fairly detailed timeline, but casualty and damage figures are explicitly described by multiple agencies as preliminary and subject to change, with notable discrepancies between sources reporting on the same or similar dates (e.g., 589 vs 920 dead on 26 June; 1,423 vs 2,501 vs 1,500 vs 856 damaged structures across different sitreps). Figures for missing persons remain ambiguous and unreconciled (IFRC), and later UNICEF/CESVI death tolls (4,490-5,208 by mid-to-late July) are not cross-confirmed by PAHO, which continued citing the 3,342-3,300+ figure as of 10 July. No information is provided on pre-event early warning system performance, detailed prevention/building-code history, or final reconstruction costs, leaving medium-to-low confidence in those areas despite high confidence in response and impact chronology.",
+      "confidence": "medium"
+    }
+  },
+  "kg": {
+    "nodes": [
+      {
+        "id": "eq_foreshock_m72",
+        "label": "M7.2 foreshock San Felipe",
+        "type": "hazard",
+        "drm_phase": "none",
+        "description": "Magnitude 7.2 shallow foreshock near San Felipe, Yaracuy, 22 km depth, 24 June 2026."
+      },
+      {
+        "id": "eq_mainshock_m75",
+        "label": "M7.5 mainshock Yumare",
+        "type": "hazard",
+        "drm_phase": "none",
+        "description": "Magnitude 7.5 shallow mainshock near Yumare, Veroes, Yaracuy, 10 km depth, 39-40s after foreshock."
+      },
+      {
+        "id": "aftershocks",
+        "label": "Extensive aftershock sequence",
+        "type": "hazard",
+        "drm_phase": "none",
+        "description": "Over 1,000 aftershocks recorded by mid-July, including M5.1 Tucacas and M4.4 Guatire events, continuing to weaken structures."
+      },
+      {
+        "id": "landslide_risk",
+        "label": "Landslide/debris-flow risk from rains",
+        "type": "hazard",
+        "drm_phase": "none",
+        "description": "Onset of rainy season, hurricanes or tropical lows could trigger landslides and mud flows on seismically weakened slopes in North Coastal Range."
+      },
+      {
+        "id": "disease_outbreak_risk",
+        "label": "Risk of disease outbreaks",
+        "type": "hazard",
+        "drm_phase": "none",
+        "description": "PAHO identified elevated risk of measles, diphtheria, pertussis, polio, acute diarrheal disease, cholera and vector-borne illness linked to displacement and damaged WASH."
+      },
+      {
+        "id": "deaths",
+        "label": "Deaths from earthquakes",
+        "type": "impact",
+        "drm_phase": "none",
+        "description": "Death toll rose from 32 to over 5,200 across successive reports (DFS, OCHA, UNHCR, UNFPA, UNICEF, CESVI)."
+      },
+      {
+        "id": "injuries",
+        "label": "Injuries from earthquakes",
+        "type": "impact",
+        "drm_phase": "none",
+        "description": "Injuries rose from about 700 to over 16,700 across multiple situation reports."
+      },
+      {
+        "id": "missing_persons",
+        "label": "Tens of thousands missing",
+        "type": "impact",
+        "drm_phase": "none",
+        "description": "IFRC noted tens of thousands reported missing, with ambiguous unreconciled figures across sources."
+      },
+      {
+        "id": "displacement",
+        "label": "Mass displacement/homelessness",
+        "type": "impact",
+        "drm_phase": "none",
+        "description": "Displacement estimates rose from 3,000 (OCHA) to over 17,900 homeless (UNICEF/CESVI) with people in temporary camps."
+      },
+      {
+        "id": "collapsed_structures",
+        "label": "Collapsed/damaged buildings",
+        "type": "impact",
+        "drm_phase": "none",
+        "description": "2,501 damaged sites including 774 housing units, 189 fully collapsed, and 38 hospitals (UNHCR); CESVI cites 856 affected buildings."
+      },
+      {
+        "id": "economic_losses",
+        "label": "US$6.7-37 billion economic damage",
+        "type": "impact",
+        "drm_phase": "none",
+        "description": "UNDP preliminary estimate of $6.7bn direct physical damage; UNDRR analytical estimate of ~$37bn total direct damage to buildings and infrastructure."
+      },
+      {
+        "id": "infrastructure_disruption",
+        "label": "Critical infrastructure disruption",
+        "type": "impact",
+        "drm_phase": "none",
+        "description": "Closure of Maiquetía airport, suspension of Caracas Metro/railways, power outages, damage to water, telecoms, roads and bridges."
+      },
+      {
+        "id": "health_system_strain",
+        "label": "Overwhelmed health system",
+        "type": "impact",
+        "drm_phase": "none",
+        "description": "Hospitals managing large trauma caseloads within an already weakened health system with pre-crisis shortages of supplies and surgical capacity."
+      },
+      {
+        "id": "livelihood_loss",
+        "label": "Loss of livelihoods/income",
+        "type": "impact",
+        "drm_phase": "none",
+        "description": "Households lost homes, productive assets, employment; small businesses, informal commerce and tourism severely disrupted (IFRC)."
+      },
+      {
+        "id": "protection_risks",
+        "label": "Heightened protection risks",
+        "type": "impact",
+        "drm_phase": "none",
+        "description": "Overcrowded shelters, family separation and displacement increased GBV and protection risks especially for women, girls, disabled and older persons (UNFPA)."
+      },
+      {
+        "id": "logistics_congestion",
+        "label": "Logistics congestion at ports/airport",
+        "type": "impact",
+        "drm_phase": "none",
+        "description": "Damaged Maiquetía airport and concentration of operations at Port of La Guaira increased risk of delays in receipt, storage and distribution of supplies."
+      },
+      {
+        "id": "vuln_unreinforced_construction",
+        "label": "Unreinforced/informal construction",
+        "type": "vulnerability",
+        "drm_phase": "none",
+        "description": "Most buildings unlikely built to modern earthquake regulations; lack of enforcement of building standards; informal settlements on unstable hillsides."
+      },
+      {
+        "id": "vuln_preexisting_crisis",
+        "label": "Protracted economic/humanitarian crisis",
+        "type": "vulnerability",
+        "drm_phase": "none",
+        "description": "Venezuela ranked 24th/97 on INFORM Severity Index (7.6/10), nearly 8 million already in humanitarian need before the quakes."
+      },
+      {
+        "id": "vuln_poverty",
+        "label": "High poverty/multidimensional poverty",
+        "type": "vulnerability",
+        "drm_phase": "none",
+        "description": "94% poverty rate and 46% multidimensional poverty in La Guaira; over half population in extreme poverty nationally before quakes."
+      },
+      {
+        "id": "vuln_weak_services",
+        "label": "Weak pre-existing shelter/WASH/health systems",
+        "type": "vulnerability",
+        "drm_phase": "none",
+        "description": "REACH/ACAPS found weak shelter, water and health systems in Aragua, La Guaira, Carabobo, Falcón limiting absorptive capacity before the quakes."
+      },
+      {
+        "id": "vuln_fragile_housing",
+        "label": "Fragile housing stock",
+        "type": "vulnerability",
+        "drm_phase": "none",
+        "description": "62% of housing in fragile condition with repair needs in La Guaira; widespread housing deterioration reported pre-quake."
+      },
+      {
+        "id": "vuln_workforce_gap",
+        "label": "Workforce gaps from emigration",
+        "type": "vulnerability",
+        "drm_phase": "none",
+        "description": "Years of emigration (~8 million people) left critical workforce gaps impacting search-and-rescue and recovery capacity (IRC)."
+      },
+      {
+        "id": "vuln_low_protection_coverage",
+        "label": "Low Protection Cluster coverage",
+        "type": "vulnerability",
+        "drm_phase": "none",
+        "description": "Protection Cluster had reached only 8% of its 1.9 million target population by April 2026."
+      },
+      {
+        "id": "vuln_censorship",
+        "label": "Censorship/limited transparency",
+        "type": "vulnerability",
+        "drm_phase": "none",
+        "description": "Censorship, limited transparency and restrictions on media/civil society weakened public trust in official information (ACAPS/Amnesty International)."
+      },
+      {
+        "id": "vuln_weak_health_system",
+        "label": "Pre-crisis weak health system",
+        "type": "vulnerability",
+        "drm_phase": "none",
+        "description": "Public health system in protracted collapse with shortages of personnel, medicines, supplies and surgical capacity before the quakes."
+      },
+      {
+        "id": "need_shelter",
+        "label": "Need for safe temporary shelter",
+        "type": "need",
+        "drm_phase": "response",
+        "description": "Health Cluster identified critical need for safe temporary shelter amid families sleeping in streets, cars and makeshift tents."
+      },
+      {
+        "id": "need_water_sanitation",
+        "label": "Need for safe water and sanitation",
+        "type": "need",
+        "drm_phase": "response",
+        "description": "Water cited as top priority need nationally since March 2026; WASH gaps worsened post-quake per Health Cluster and Project HOPE."
+      },
+      {
+        "id": "need_health_personnel",
+        "label": "Need for specialized medical personnel/supplies",
+        "type": "need",
+        "drm_phase": "response",
+        "description": "Need for logistics support, specialized medical personnel, medicines and equipment flagged by Health Cluster and PAHO."
+      },
+      {
+        "id": "need_mhpss",
+        "label": "Need for mental health/psychosocial support",
+        "type": "need",
+        "drm_phase": "response",
+        "description": "Critical need for specialized MHPSS amid widespread fear, grief and distress; Project HOPE found significant MHPSS gaps."
+      },
+      {
+        "id": "need_child_protection",
+        "label": "Need for child protection pathways",
+        "type": "need",
+        "drm_phase": "response",
+        "description": "Need to activate protection pathways for unaccompanied children identified in health centers."
+      },
+      {
+        "id": "need_srh_gbv",
+        "label": "Need for SRH and GBV services",
+        "type": "need",
+        "drm_phase": "response",
+        "description": "UNFPA flagged unmet needs in survivor-centred GBV and SRH services amid overcrowded shelters and family separation."
+      },
+      {
+        "id": "need_structural_assessment",
+        "label": "Need for structural safety assessment",
+        "type": "need",
+        "drm_phase": "recovery",
+        "description": "Risk that buildings not collapsed sustained unseen structural damage, requiring assessment before safe return (ACAPS)."
+      },
+      {
+        "id": "need_logistics_coordination",
+        "label": "Need for logistics coordination",
+        "type": "need",
+        "drm_phase": "response",
+        "description": "OCHA Logistics Working Group identified need for coordination given congestion at airport/port, fuel shortages and access constraints."
+      },
+      {
+        "id": "need_livelihoods_investment",
+        "label": "Need for livelihoods/economic investment",
+        "type": "need",
+        "drm_phase": "recovery",
+        "description": "IRC warned urgent investment in local economies and livelihoods is needed to prevent deepening crisis in early recovery window."
+      },
+      {
+        "id": "need_landslide_monitoring",
+        "label": "Need for landslide/rainfall monitoring",
+        "type": "need",
+        "drm_phase": "preparedness",
+        "description": "Shelter Cluster recommended daily monitoring of rainfall/landslide risk and landslide/debris-flow mapping in North Coastal Range."
+      },
+      {
+        "id": "need_vaccine_security",
+        "label": "Need for vaccine supply security",
+        "type": "need",
+        "drm_phase": "recovery",
+        "description": "PAHO identified need to restore routine immunization services, cold chain and vaccine supply given outbreak risk."
+      },
+      {
+        "id": "need_registration_tracking",
+        "label": "Need for casualty registration/tracking",
+        "type": "need",
+        "drm_phase": "response",
+        "description": "PAHO noted persistent gaps in registration and follow-up of injured/hospitalized patients causing underestimation of casualties."
+      },
+      {
+        "id": "m_sar_operations",
+        "label": "Search and rescue operations",
+        "type": "measure",
+        "drm_phase": "response",
+        "description": "Venezuelan Red Cross and international UNDAC/USAR teams under INSARAG conducted search and rescue from 24-25 June."
+      },
+      {
+        "id": "m_state_emergency",
+        "label": "National state of emergency declared",
+        "type": "measure",
+        "drm_phase": "response",
+        "description": "Government declared national state of emergency and designated La Guaira a disaster zone."
+      },
+      {
+        "id": "m_access_restrictions",
+        "label": "Temporary access restrictions La Guaira",
+        "type": "measure",
+        "drm_phase": "response",
+        "description": "Authorities imposed temporary access restrictions to La Guaira state from night of 26 June to prioritize search and rescue."
+      },
+      {
+        "id": "m_health_cluster_activation",
+        "label": "Expanded Health Cluster activation",
+        "type": "measure",
+        "drm_phase": "response",
+        "description": "Expanded Health Cluster co-led with MPPS activated 26 June to consolidate single response mechanism integrating state, UN and NGO actors."
+      },
+      {
+        "id": "m_dref_emergency_appeal",
+        "label": "IFRC DREF and Emergency Appeal",
+        "type": "measure",
+        "drm_phase": "response",
+        "description": "IFRC allocated CHF 2 million DREF and launched CHF 50-55 million Emergency Appeal targeting 300,000 people."
+      },
+      {
+        "id": "m_field_hospital",
+        "label": "Field hospital and operations centre",
+        "type": "measure",
+        "drm_phase": "response",
+        "description": "Venezuelan Red Cross set up field hospital at Jorge García Carmeiro Stadium and a Field Operations Centre."
+      },
+      {
+        "id": "m_unhcr_protection_shelter",
+        "label": "UNHCR protection and shelter support",
+        "type": "measure",
+        "drm_phase": "response",
+        "description": "UNHCR seeking $14.8-14.85M to support 30,000 people with protection, core relief items and shelter, including multi-service centres."
+      },
+      {
+        "id": "m_unfpa_srh_gbv_response",
+        "label": "UNFPA SRH/GBV response scale-up",
+        "type": "measure",
+        "drm_phase": "response",
+        "description": "UNFPA scaling up life-saving SRH and GBV prevention/response services targeting 64,000-230,000 people."
+      },
+      {
+        "id": "m_unicef_response",
+        "label": "UNICEF earthquake response appeal",
+        "type": "measure",
+        "drm_phase": "response",
+        "description": "UNICEF requested $65.7M to reach 470,000 people including 167,000 children, addressing health, WASH, protection and education needs."
+      },
+      {
+        "id": "m_ngo_relief",
+        "label": "NGO emergency relief mobilization",
+        "type": "measure",
+        "drm_phase": "response",
+        "description": "MSF, Good Neighbors, CESVI, Project HOPE/Proyecto Esperanza and Turkish Red Crescent mobilized relief, health posts and needs assessments."
+      },
+      {
+        "id": "m_logistics_working_group",
+        "label": "OCHA Logistics Working Group services",
+        "type": "measure",
+        "drm_phase": "response",
+        "description": "LWG provides shared logistics services, transport, storage and information on access conditions, with $0.8M budget."
+      },
+      {
+        "id": "m_paho_medical_supplies",
+        "label": "PAHO/WHO medical supply delivery",
+        "type": "measure",
+        "drm_phase": "response",
+        "description": "PAHO/WHO delivered medical supplies and equipment including to Maternal and Child Hospital Leopoldo Aguerrevere."
+      },
+      {
+        "id": "m_needs_assessments",
+        "label": "Rapid needs assessments",
+        "type": "measure",
+        "drm_phase": "response",
+        "description": "UNDAC, REACH, Project HOPE and other partners conducted rapid needs assessments of health, shelter and WASH conditions."
+      },
+      {
+        "id": "m_hrp_addendum",
+        "label": "HRP Addendum and sector planning",
+        "type": "measure",
+        "drm_phase": "recovery",
+        "description": "OCHA Humanitarian Response Plan Addendum and UNICEF HAC Appeal Addendum outline sector plans targeting 1.3 million affected people across 7 states."
+      },
+      {
+        "id": "m_health_facility_rehab",
+        "label": "Health facility rehabilitation",
+        "type": "measure",
+        "drm_phase": "recovery",
+        "description": "Rehabilitation planning and restoration of ICU/maternity capacity at Hospital Dr. José Gregorio Hernández underway by 12 August."
+      },
+      {
+        "id": "m_revolving_fund_vaccines",
+        "label": "PAHO Revolving Fund credit line",
+        "type": "measure",
+        "drm_phase": "recovery",
+        "description": "USD 18 million PAHO Revolving Fund credit line to support national vaccine supply security."
+      },
+      {
+        "id": "m_environmental_guidance",
+        "label": "Environmental guidance for shelter response",
+        "type": "measure",
+        "drm_phase": "response",
+        "description": "Shelter Cluster/UNHCR recommended Sphere Standard 7 and ECHO Minimum Environmental Requirements for shelter siting, debris reuse and waste management."
+      },
+      {
+        "id": "m_rainfall_landslide_monitoring",
+        "label": "Daily rainfall/landslide monitoring",
+        "type": "measure",
+        "drm_phase": "preparedness",
+        "description": "Recommended daily monitoring of rainfall and landslide risk, plus landslide/debris-flow mapping in North Coastal Range."
+      },
+      {
+        "id": "m_tsunami_advisory",
+        "label": "Caribbean tsunami advisory",
+        "type": "measure",
+        "drm_phase": "response",
+        "description": "A brief Caribbean tsunami advisory was issued and cancelled within about an hour, indicating some monitoring capacity was operational."
+      },
+      {
+        "id": "m_livelihoods_investment",
+        "label": "Livelihoods/economic recovery investment",
+        "type": "measure",
+        "drm_phase": "recovery",
+        "description": "IRC recommends urgent investment in local economies and livelihood support during early recovery window."
+      },
+      {
+        "id": "m_building_code_enforcement",
+        "label": "Building code enforcement (lacking)",
+        "type": "measure",
+        "drm_phase": "prevention",
+        "description": "ACAPS notes lack of enforcement of building standards; no retrofitting or land-use planning programmes described prior to the event."
+      },
+      {
+        "id": "act_venezuelan_red_cross",
+        "label": "Venezuelan Red Cross",
+        "type": "actor",
+        "drm_phase": "none",
+        "description": "National Red Cross society conducting SAR, health posts and receiving DREF funding."
+      },
+      {
+        "id": "act_ifrc",
+        "label": "IFRC",
+        "type": "actor",
+        "drm_phase": "none",
+        "description": "International Federation of Red Cross and Red Crescent Societies supporting Venezuelan Red Cross with funding and appeals."
+      },
+      {
+        "id": "act_unhcr",
+        "label": "UNHCR",
+        "type": "actor",
+        "drm_phase": "none",
+        "description": "UN Refugee Agency scaling up protection and shelter response."
+      },
+      {
+        "id": "act_unfpa",
+        "label": "UNFPA",
+        "type": "actor",
+        "drm_phase": "none",
+        "description": "UN Population Fund scaling up SRH and GBV response."
+      },
+      {
+        "id": "act_unicef",
+        "label": "UNICEF",
+        "type": "actor",
+        "drm_phase": "none",
+        "description": "UN Children's Fund providing child-focused humanitarian response."
+      },
+      {
+        "id": "act_paho_who",
+        "label": "PAHO/WHO",
+        "type": "actor",
+        "drm_phase": "none",
+        "description": "Pan American Health Organization/WHO co-leading Health Cluster and providing medical supplies."
+      },
+      {
+        "id": "act_ocha",
+        "label": "OCHA",
+        "type": "actor",
+        "drm_phase": "none",
+        "description": "UN Office for the Coordination of Humanitarian Affairs coordinating situation reports and logistics working group."
+      },
+      {
+        "id": "act_undp",
+        "label": "UNDP",
+        "type": "actor",
+        "drm_phase": "none",
+        "description": "UN Development Programme conducted RAPIDA damage assessment."
+      },
+      {
+        "id": "act_shelter_cluster",
+        "label": "Shelter Cluster/UNHCR",
+        "type": "actor",
+        "drm_phase": "none",
+        "description": "Shelter Cluster co-led by UNHCR issuing environmental guidance and shelter standards."
+      },
+      {
+        "id": "act_ngos",
+        "label": "International NGOs (MSF, CESVI, Project HOPE, Good Neighbors, Turkish Red Crescent)",
+        "type": "actor",
+        "drm_phase": "none",
+        "description": "International NGOs providing emergency relief, health services and needs assessments."
+      },
+      {
+        "id": "act_irc",
+        "label": "IRC",
+        "type": "actor",
+        "drm_phase": "none",
+        "description": "International Rescue Committee warning on economic recovery needs."
+      }
+    ],
+    "edges": [
+      {
+        "source": "eq_foreshock_m72",
+        "relation": "triggers",
+        "target": "eq_mainshock_m75",
+        "drm_phase": "none",
+        "status": "observed",
+        "explanation": "The M7.2 foreshock occurred about 39-40 seconds before the M7.5 mainshock on the same fault system.",
+        "confidence": "high"
+      },
+      {
+        "source": "eq_mainshock_m75",
+        "relation": "triggers",
+        "target": "aftershocks",
+        "drm_phase": "none",
+        "status": "observed",
+        "explanation": "The mainshock was followed by over 1,000 aftershocks recorded by mid-July, including notable M5.1 and M4.4 events.",
+        "confidence": "high"
+      },
+      {
+        "source": "eq_mainshock_m75",
+        "relation": "causes",
+        "target": "deaths",
+        "drm_phase": "none",
+        "status": "observed",
+        "explanation": "Casualty figures rose steadily from the dual earthquake sequence per multiple agency sitreps.",
+        "confidence": "high"
+      },
+      {
+        "source": "eq_mainshock_m75",
+        "relation": "causes",
+        "target": "injuries",
+        "drm_phase": "none",
+        "status": "observed",
+        "explanation": "Injury tolls rose across sitreps directly attributed to the earthquakes.",
+        "confidence": "high"
+      },
+      {
+        "source": "eq_mainshock_m75",
+        "relation": "causes",
+        "target": "collapsed_structures",
+        "drm_phase": "none",
+        "status": "observed",
+        "explanation": "UNHCR and OCHA reported thousands of damaged/collapsed structures caused by the earthquakes.",
+        "confidence": "high"
+      },
+      {
+        "source": "eq_mainshock_m75",
+        "relation": "causes",
+        "target": "infrastructure_disruption",
+        "drm_phase": "none",
+        "status": "observed",
+        "explanation": "Airport closure, metro suspension, power outages and damage to water/telecoms/roads attributed to the earthquakes.",
+        "confidence": "high"
+      },
+      {
+        "source": "eq_mainshock_m75",
+        "relation": "causes",
+        "target": "economic_losses",
+        "drm_phase": "none",
+        "status": "observed",
+        "explanation": "UNDP and UNDRR estimated billions in direct physical damage from the earthquakes.",
+        "confidence": "high"
+      },
+      {
+        "source": "eq_mainshock_m75",
+        "relation": "causes",
+        "target": "displacement",
+        "drm_phase": "none",
+        "status": "observed",
+        "explanation": "Families displaced from damaged or unsafe homes per UNHCR and UNFPA reporting.",
+        "confidence": "high"
+      },
+      {
+        "source": "collapsed_structures",
+        "relation": "causes",
+        "target": "displacement",
+        "drm_phase": "none",
+        "status": "observed",
+        "explanation": "Damaged and collapsed housing left families homeless and seeking temporary shelter.",
+        "confidence": "high"
+      },
+      {
+        "source": "collapsed_structures",
+        "relation": "causes",
+        "target": "health_system_strain",
+        "drm_phase": "none",
+        "status": "observed",
+        "explanation": "38 hospitals reported damaged, compounding strain on an already weakened health system.",
+        "confidence": "high"
+      },
+      {
+        "source": "deaths",
+        "relation": "amplifies",
+        "target": "missing_persons",
+        "drm_phase": "none",
+        "status": "observed",
+        "explanation": "IFRC notes some missing persons figures may ultimately correspond to fatalities as registration progresses.",
+        "confidence": "medium"
+      },
+      {
+        "source": "infrastructure_disruption",
+        "relation": "causes",
+        "target": "logistics_congestion",
+        "drm_phase": "none",
+        "status": "observed",
+        "explanation": "Damage to Maiquetía airport and concentration at Port of La Guaira increased logistics congestion risk per OCHA LWG.",
+        "confidence": "high"
+      },
+      {
+        "source": "infrastructure_disruption",
+        "relation": "amplifies",
+        "target": "disease_outbreak_risk",
+        "drm_phase": "none",
+        "status": "observed",
+        "explanation": "Damaged WASH systems and overcrowding increase risk of vaccine-preventable and water-borne disease outbreaks per PAHO.",
+        "confidence": "high"
+      },
+      {
+        "source": "aftershocks",
+        "relation": "causes",
+        "target": "landslide_risk",
+        "drm_phase": "none",
+        "status": "observed",
+        "explanation": "Shelter Cluster flagged increased landslide/debris-flow potential associated with seismic weakening of slopes compounded by rains.",
+        "confidence": "medium"
+      },
+      {
+        "source": "displacement",
+        "relation": "causes",
+        "target": "protection_risks",
+        "drm_phase": "none",
+        "status": "observed",
+        "explanation": "Overcrowding in shelters, family separation and displacement heightened GBV and protection risks per UNFPA.",
+        "confidence": "high"
+      },
+      {
+        "source": "displacement",
+        "relation": "amplifies",
+        "target": "disease_outbreak_risk",
+        "drm_phase": "none",
+        "status": "observed",
+        "explanation": "Overcrowded temporary camps with inadequate sanitation increase risk of diarrheal and vaccine-preventable diseases per PAHO.",
+        "confidence": "high"
+      },
+      {
+        "source": "economic_losses",
+        "relation": "amplifies",
+        "target": "livelihood_loss",
+        "drm_phase": "none",
+        "status": "observed",
+        "explanation": "Extensive damage to commercial buildings and infrastructure disrupted small businesses, informal commerce and tourism per IFRC.",
+        "confidence": "high"
+      },
+      {
+        "source": "vuln_unreinforced_construction",
+        "relation": "amplifies",
+        "target": "collapsed_structures",
+        "drm_phase": "none",
+        "status": "observed",
+        "explanation": "ACAPS/IFRC note unreinforced construction and informal hillside settlements as pre-existing risk factors that amplified structural damage.",
+        "confidence": "high"
+      },
+      {
+        "source": "vuln_fragile_housing",
+        "relation": "amplifies",
+        "target": "collapsed_structures",
+        "drm_phase": "none",
+        "status": "observed",
+        "explanation": "62% of housing already in fragile condition with repair needs increased susceptibility to earthquake damage.",
+        "confidence": "medium"
+      },
+      {
+        "source": "vuln_preexisting_crisis",
+        "relation": "amplifies",
+        "target": "livelihood_loss",
+        "drm_phase": "none",
+        "status": "observed",
+        "explanation": "Pre-existing economic crisis and high inflation limit recovery capacity and amplify livelihood losses per IFRC.",
+        "confidence": "high"
+      },
+      {
+        "source": "vuln_poverty",
+        "relation": "amplifies",
+        "target": "need_shelter",
+        "drm_phase": "none",
+        "status": "observed",
+        "explanation": "High poverty (94% in La Guaira) limits households' ability to self-recover, increasing shelter needs.",
+        "confidence": "medium"
+      },
+      {
+        "source": "vuln_weak_services",
+        "relation": "amplifies",
+        "target": "need_water_sanitation",
+        "drm_phase": "none",
+        "status": "observed",
+        "explanation": "REACH found weak pre-existing water, shelter and health systems in affected states limiting absorptive capacity, worsening water needs.",
+        "confidence": "high"
+      },
+      {
+        "source": "vuln_weak_health_system",
+        "relation": "amplifies",
+        "target": "health_system_strain",
+        "drm_phase": "none",
+        "status": "observed",
+        "explanation": "Pre-crisis shortages of personnel, medicines and surgical capacity compounded the health system's strain post-quake.",
+        "confidence": "high"
+      },
+      {
+        "source": "vuln_workforce_gap",
+        "relation": "amplifies",
+        "target": "need_livelihoods_investment",
+        "drm_phase": "none",
+        "status": "observed",
+        "explanation": "IRC notes mass emigration left workforce gaps that constrain search-and-rescue and recovery capacity, increasing need for economic investment.",
+        "confidence": "high"
+      },
+      {
+        "source": "vuln_low_protection_coverage",
+        "relation": "amplifies",
+        "target": "protection_risks",
+        "drm_phase": "none",
+        "status": "observed",
+        "explanation": "Low pre-existing Protection Cluster coverage (8% of target) limited capacity to address heightened post-quake protection risks.",
+        "confidence": "medium"
+      },
+      {
+        "source": "vuln_censorship",
+        "relation": "amplifies",
+        "target": "need_registration_tracking",
+        "drm_phase": "none",
+        "status": "observed",
+        "explanation": "ACAPS notes censorship and limited transparency hinder situational awareness and complicate coordination, worsening registration/tracking gaps.",
+        "confidence": "medium"
+      },
+      {
+        "source": "m_building_code_enforcement",
+        "relation": "prevents",
+        "target": "collapsed_structures",
+        "drm_phase": "prevention",
+        "status": "lacking",
+        "explanation": "ACAPS reports lack of enforcement of building standards, meaning this preventive measure was absent and failed to prevent collapses.",
+        "confidence": "high"
+      },
+      {
+        "source": "deaths",
+        "relation": "causes",
+        "target": "need_registration_tracking",
+        "drm_phase": "none",
+        "status": "observed",
+        "explanation": "PAHO noted persistent gaps in registration and follow-up of deaths/injuries likely causing underestimation of casualties.",
+        "confidence": "medium"
+      },
+      {
+        "source": "displacement",
+        "relation": "causes",
+        "target": "need_shelter",
+        "drm_phase": "none",
+        "status": "observed",
+        "explanation": "Families displaced from damaged homes are staying in streets, cars and makeshift tents, generating urgent shelter needs.",
+        "confidence": "high"
+      },
+      {
+        "source": "infrastructure_disruption",
+        "relation": "causes",
+        "target": "need_water_sanitation",
+        "drm_phase": "none",
+        "status": "observed",
+        "explanation": "Damage to water infrastructure combined with pre-existing weak systems created critical water and sanitation needs per Health Cluster.",
+        "confidence": "high"
+      },
+      {
+        "source": "health_system_strain",
+        "relation": "causes",
+        "target": "need_health_personnel",
+        "drm_phase": "none",
+        "status": "observed",
+        "explanation": "Overwhelmed hospitals generated need for specialized medical personnel, medicines and equipment per Health Cluster.",
+        "confidence": "high"
+      },
+      {
+        "source": "deaths",
+        "relation": "causes",
+        "target": "need_mhpss",
+        "drm_phase": "none",
+        "status": "observed",
+        "explanation": "Widespread fear, grief and distress from deaths and displacement generated critical MHPSS needs per Health Cluster.",
+        "confidence": "high"
+      },
+      {
+        "source": "displacement",
+        "relation": "causes",
+        "target": "need_child_protection",
+        "drm_phase": "none",
+        "status": "observed",
+        "explanation": "Unaccompanied children identified in health centers required activation of protection pathways.",
+        "confidence": "high"
+      },
+      {
+        "source": "protection_risks",
+        "relation": "causes",
+        "target": "need_srh_gbv",
+        "drm_phase": "none",
+        "status": "observed",
+        "explanation": "Heightened protection risks in overcrowded shelters drove UNFPA's identification of unmet SRH and GBV service needs.",
+        "confidence": "high"
+      },
+      {
+        "source": "vuln_unreinforced_construction",
+        "relation": "causes",
+        "target": "need_structural_assessment",
+        "drm_phase": "none",
+        "status": "observed",
+        "explanation": "ACAPS warns buildings that did not collapse may have unseen structural damage, requiring structural safety assessment before safe return.",
+        "confidence": "medium"
+      },
+      {
+        "source": "logistics_congestion",
+        "relation": "causes",
+        "target": "need_logistics_coordination",
+        "drm_phase": "none",
+        "status": "observed",
+        "explanation": "Congestion at airport/port and fuel shortages generated need for logistics coordination per OCHA LWG.",
+        "confidence": "high"
+      },
+      {
+        "source": "landslide_risk",
+        "relation": "causes",
+        "target": "need_landslide_monitoring",
+        "drm_phase": "none",
+        "status": "observed",
+        "explanation": "Shelter Cluster identified need for daily rainfall/landslide monitoring and mapping given seismic weakening of slopes.",
+        "confidence": "high"
+      },
+      {
+        "source": "disease_outbreak_risk",
+        "relation": "causes",
+        "target": "need_vaccine_security",
+        "drm_phase": "none",
+        "status": "observed",
+        "explanation": "PAHO identified need to strengthen vaccine supply, cold chain and immunization to mitigate outbreak risk.",
+        "confidence": "high"
+      },
+      {
+        "source": "livelihood_loss",
+        "relation": "causes",
+        "target": "need_livelihoods_investment",
+        "drm_phase": "none",
+        "status": "observed",
+        "explanation": "IRC warns loss of livelihoods and disrupted economies necessitate urgent investment to prevent deeper crisis.",
+        "confidence": "high"
+      },
+      {
+        "source": "m_sar_operations",
+        "relation": "mitigates",
+        "target": "deaths",
+        "drm_phase": "response",
+        "status": "observed",
+        "explanation": "Venezuelan Red Cross and international USAR/UNDAC teams conducted search and rescue to save lives after the earthquakes.",
+        "confidence": "high"
+      },
+      {
+        "source": "m_state_emergency",
+        "relation": "mitigates",
+        "target": "collapsed_structures",
+        "drm_phase": "response",
+        "status": "observed",
+        "explanation": "Declaration of national emergency and disaster zone designation enabled prioritized response in the hardest-hit La Guaira state.",
+        "confidence": "medium"
+      },
+      {
+        "source": "m_access_restrictions",
+        "relation": "mitigates",
+        "target": "deaths",
+        "drm_phase": "response",
+        "status": "observed",
+        "explanation": "Temporary access restrictions to La Guaira prioritized search and rescue efforts to save lives.",
+        "confidence": "medium"
+      },
+      {
+        "source": "m_health_cluster_activation",
+        "relation": "addresses",
+        "target": "need_health_personnel",
+        "drm_phase": "response",
+        "status": "observed",
+        "explanation": "Expanded Health Cluster consolidated a single response mechanism integrating actors to optimize health operations on the ground.",
+        "confidence": "high"
+      },
+      {
+        "source": "m_dref_emergency_appeal",
+        "relation": "addresses",
+        "target": "need_shelter",
+        "drm_phase": "response",
+        "status": "observed",
+        "explanation": "IFRC DREF/Emergency Appeal funding targeted 300,000 people for relief including shelter support.",
+        "confidence": "medium"
+      },
+      {
+        "source": "m_field_hospital",
+        "relation": "mitigates",
+        "target": "health_system_strain",
+        "drm_phase": "response",
+        "status": "observed",
+        "explanation": "Field hospital at Jorge García Carmeiro Stadium added surge capacity to relieve overwhelmed hospitals.",
+        "confidence": "high"
+      },
+      {
+        "source": "m_unhcr_protection_shelter",
+        "relation": "addresses",
+        "target": "need_shelter",
+        "drm_phase": "response",
+        "status": "observed",
+        "explanation": "UNHCR scaling up protection, core relief items and shelter support for 30,000 affected people.",
+        "confidence": "high"
+      },
+      {
+        "source": "m_unhcr_protection_shelter",
+        "relation": "addresses",
+        "target": "need_child_protection",
+        "drm_phase": "response",
+        "status": "observed",
+        "explanation": "UNHCR provides tools and equipment for identifying protection needs and facilitating referrals, including for children.",
+        "confidence": "medium"
+      },
+      {
+        "source": "m_unfpa_srh_gbv_response",
+        "relation": "addresses",
+        "target": "need_srh_gbv",
+        "drm_phase": "response",
+        "status": "observed",
+        "explanation": "UNFPA scaling up SRH and GBV prevention/response services directly addresses identified survivor-centred service gaps.",
+        "confidence": "high"
+      },
+      {
+        "source": "m_unicef_response",
+        "relation": "addresses",
+        "target": "need_water_sanitation",
+        "drm_phase": "response",
+        "status": "observed",
+        "explanation": "UNICEF's $65.7M appeal addresses health, WASH, protection and education needs for 470,000 people including children.",
+        "confidence": "medium"
+      },
+      {
+        "source": "m_ngo_relief",
+        "relation": "addresses",
+        "target": "need_mhpss",
+        "drm_phase": "response",
+        "status": "observed",
+        "explanation": "Project HOPE and other NGOs conducted assessments and identified significant MHPSS gaps needing response.",
+        "confidence": "medium"
+      },
+      {
+        "source": "m_logistics_working_group",
+        "relation": "addresses",
+        "target": "need_logistics_coordination",
+        "drm_phase": "response",
+        "status": "observed",
+        "explanation": "OCHA LWG provides shared logistics services and information to address congestion and access constraints.",
+        "confidence": "high"
+      },
+      {
+        "source": "m_paho_medical_supplies",
+        "relation": "addresses",
+        "target": "need_health_personnel",
+        "drm_phase": "response",
+        "status": "observed",
+        "explanation": "PAHO/WHO delivered medical supplies and equipment to hospitals including Maternal and Child Hospital Leopoldo Aguerrevere.",
+        "confidence": "high"
+      },
+      {
+        "source": "m_needs_assessments",
+        "relation": "addresses",
+        "target": "need_registration_tracking",
+        "drm_phase": "response",
+        "status": "observed",
+        "explanation": "Rapid needs assessments by UNDAC/REACH/Project HOPE aim to consolidate evaluations and guide response, addressing data/registration gaps.",
+        "confidence": "medium"
+      },
+      {
+        "source": "m_hrp_addendum",
+        "relation": "addresses",
+        "target": "need_livelihoods_investment",
+        "drm_phase": "recovery",
+        "status": "planned",
+        "explanation": "OCHA HRP Addendum and UNICEF HAC Addendum outline sector plans targeting 1.3 million affected people including recovery-oriented support.",
+        "confidence": "medium"
+      },
+      {
+        "source": "m_health_facility_rehab",
+        "relation": "mitigates",
+        "target": "health_system_strain",
+        "drm_phase": "recovery",
+        "status": "observed",
+        "explanation": "Rehabilitation planning and restoration of ICU/maternity capacity at Hospital Dr. José Gregorio Hernández reduces ongoing health system strain.",
+        "confidence": "high"
+      },
+      {
+        "source": "m_revolving_fund_vaccines",
+        "relation": "addresses",
+        "target": "need_vaccine_security",
+        "drm_phase": "recovery",
+        "status": "observed",
+        "explanation": "USD 18 million PAHO Revolving Fund credit line directly supports national vaccine supply security.",
+        "confidence": "high"
+      },
+      {
+        "source": "m_environmental_guidance",
+        "relation": "mitigates",
+        "target": "landslide_risk",
+        "drm_phase": "response",
+        "status": "recommended",
+        "explanation": "Shelter Cluster recommends environmental screening, sustainable siting and daily rainfall/landslide monitoring to reduce environmental and landslide harms.",
+        "confidence": "medium"
+      },
+      {
+        "source": "m_rainfall_landslide_monitoring",
+        "relation": "addresses",
+        "target": "need_landslide_monitoring",
+        "drm_phase": "preparedness",
+        "status": "recommended",
+        "explanation": "Shelter Cluster recommended daily monitoring of rainfall/landslide risk and landslide/debris-flow mapping as a preparedness measure.",
+        "confidence": "high"
+      },
+      {
+        "source": "m_tsunami_advisory",
+        "relation": "mitigates",
+        "target": "deaths",
+        "drm_phase": "response",
+        "status": "observed",
+        "explanation": "A brief Caribbean tsunami advisory was issued and then cancelled, indicating functioning monitoring capacity during the event.",
+        "confidence": "low"
+      },
+      {
+        "source": "m_livelihoods_investment",
+        "relation": "mitigates",
+        "target": "need_livelihoods_investment",
+        "drm_phase": "recovery",
+        "status": "recommended",
+        "explanation": "IRC recommends urgent investment in local economies and livelihood support during the early recovery window to prevent deepening crisis.",
+        "confidence": "high"
+      },
+      {
+        "source": "act_venezuelan_red_cross",
+        "relation": "implements",
+        "target": "m_sar_operations",
+        "drm_phase": "response",
+        "status": "observed",
+        "explanation": "Venezuelan Red Cross began search-and-rescue in the Capital District on 24 June.",
+        "confidence": "high"
+      },
+      {
+        "source": "act_ifrc",
+        "relation": "implements",
+        "target": "m_dref_emergency_appeal",
+        "drm_phase": "response",
+        "status": "observed",
+        "explanation": "IFRC allocated DREF funding and launched the Emergency Appeal in support of the Venezuelan Red Cross.",
+        "confidence": "high"
+      },
+      {
+        "source": "act_venezuelan_red_cross",
+        "relation": "implements",
+        "target": "m_field_hospital",
+        "drm_phase": "response",
+        "status": "observed",
+        "explanation": "Venezuelan Red Cross set up the field hospital and Field Operations Centre.",
+        "confidence": "high"
+      },
+      {
+        "source": "act_unhcr",
+        "relation": "implements",
+        "target": "m_unhcr_protection_shelter",
+        "drm_phase": "response",
+        "status": "observed",
+        "explanation": "UNHCR is scaling up protection and shelter support as described in its emergency update and preparedness/response documents.",
+        "confidence": "high"
+      },
+      {
+        "source": "act_unfpa",
+        "relation": "implements",
+        "target": "m_unfpa_srh_gbv_response",
+        "drm_phase": "response",
+        "status": "observed",
+        "explanation": "UNFPA is scaling up SRH and GBV response per its Flash Update and Country Appeal.",
+        "confidence": "high"
+      },
+      {
+        "source": "act_unicef",
+        "relation": "implements",
+        "target": "m_unicef_response",
+        "drm_phase": "response",
+        "status": "planned",
+        "explanation": "UNICEF's HAC Appeal Addendum requests $65.7 million for its earthquake response targeting 470,000 people.",
+        "confidence": "high"
+      },
+      {
+        "source": "act_paho_who",
+        "relation": "implements",
+        "target": "m_health_cluster_activation",
+        "drm_phase": "response",
+        "status": "observed",
+        "explanation": "PAHO/WHO co-leads the Expanded Health Cluster with MPPS, activated 26 June.",
+        "confidence": "high"
+      },
+      {
+        "source": "act_paho_who",
+        "relation": "implements",
+        "target": "m_paho_medical_supplies",
+        "drm_phase": "response",
+        "status": "observed",
+        "explanation": "PAHO/WHO delivered medical supplies and equipment to affected health facilities.",
+        "confidence": "high"
+      },
+      {
+        "source": "act_paho_who",
+        "relation": "implements",
+        "target": "m_revolving_fund_vaccines",
+        "drm_phase": "recovery",
+        "status": "observed",
+        "explanation": "PAHO's Revolving Fund credit line supports national vaccine supply security as reported in Sitrep No.9.",
+        "confidence": "high"
+      },
+      {
+        "source": "act_paho_who",
+        "relation": "implements",
+        "target": "m_health_facility_rehab",
+        "drm_phase": "recovery",
+        "status": "observed",
+        "explanation": "PAHO Sitrep No.9 reports rehabilitation planning and restoration of hospital capacity as part of early recovery efforts.",
+        "confidence": "high"
+      },
+      {
+        "source": "act_ocha",
+        "relation": "implements",
+        "target": "m_logistics_working_group",
+        "drm_phase": "response",
+        "status": "observed",
+        "explanation": "OCHA's Logistics Working Group provides shared logistics services for the earthquake response.",
+        "confidence": "high"
+      },
+      {
+        "source": "act_ocha",
+        "relation": "implements",
+        "target": "m_hrp_addendum",
+        "drm_phase": "recovery",
+        "status": "planned",
+        "explanation": "OCHA produced the Humanitarian Response Plan Addendum outlining sector plans for the earthquake response.",
+        "confidence": "high"
+      },
+      {
+        "source": "act_undp",
+        "relation": "implements",
+        "target": "m_needs_assessments",
+        "drm_phase": "response",
+        "status": "observed",
+        "explanation": "UNDP conducted the RAPIDA satellite-based rapid damage assessment within hours of the earthquake.",
+        "confidence": "high"
+      },
+      {
+        "source": "act_shelter_cluster",
+        "relation": "implements",
+        "target": "m_environmental_guidance",
+        "drm_phase": "response",
+        "status": "recommended",
+        "explanation": "Shelter Cluster/UNHCR issued the Environmental Quick Note guiding the response with Sphere and ECHO standards.",
+        "confidence": "high"
+      },
+      {
+        "source": "act_shelter_cluster",
+        "relation": "implements",
+        "target": "m_rainfall_landslide_monitoring",
+        "drm_phase": "preparedness",
+        "status": "recommended",
+        "explanation": "Shelter Cluster recommended daily rainfall/landslide monitoring and mapping as part of its environmental guidance.",
+        "confidence": "high"
+      },
+      {
+        "source": "act_ngos",
+        "relation": "implements",
+        "target": "m_ngo_relief",
+        "drm_phase": "response",
+        "status": "observed",
+        "explanation": "MSF, Good Neighbors, CESVI, Project HOPE and Turkish Red Crescent mobilized emergency relief and needs assessments.",
+        "confidence": "high"
+      },
+      {
+        "source": "act_irc",
+        "relation": "implements",
+        "target": "m_livelihoods_investment",
+        "drm_phase": "recovery",
+        "status": "recommended",
+        "explanation": "IRC's 22 July statement recommends urgent investment in local economies and livelihood support.",
+        "confidence": "high"
+      }
+    ],
+    "validation": {
+      "dropped_edges": [
+        {
+          "edge": "aftershocks -amplifies-> collapsed_structures",
+          "reason": "types not allowed (hazard -amplifies-> impact)"
+        },
+        {
+          "edge": "landslide_risk -amplifies-> displacement",
+          "reason": "types not allowed (hazard -amplifies-> impact)"
+        }
+      ],
+      "dropped_nodes": [
+        [
+          "need_food_nfi",
+          "isolated"
+        ],
+        [
+          "act_undrr",
+          "isolated"
+        ]
+      ],
+      "merged_nodes": []
+    }
+  },
+  "passages": [
+    {
+      "n": 1,
+      "reliefweb_id": "4218006",
+      "title": "Venezuela Earthquake Situation Overview (25 June, 2026)",
+      "url": "https://reliefweb.int/node/4218006",
+      "date": "2026-06-25",
+      "days_after_event": 0.08,
+      "sources": [
+        "Data Friendly Space"
+      ],
+      "field": "pdf",
+      "pdf_filename": "4218006_2738082_260625 GANNET Venezuela EQ v1.pdf",
+      "phases": [
+        "event",
+        "preparedness",
+        "prevention",
+        "response"
+      ],
+      "text": "Venezuela Earthquake Situation Overview 25 June 2026 Contents Contents..2 Earthquake overview..2 Casualties and exposure..3 Geographic distribution..4 Priority parishes for assessment..5 Pre-Crisis Context..7 Impact on Population and Services..8 Displacement..8 Damage to Shelter..9 Infrastructure and Services..9 Priority Needs..11 Outlook..13 Immediate phase (0–72 hours)..13 Days 4–7 (assessment and scale-up)..13 Days 8–14 (sustained emergency and early transition)..13 Annex 1. Parishes by state, ranked by modelled impact..14 Annex 2. Estimation method and data sources..18 Earthquake overview On the evening of 24 June 2026, two major earthquakes struck northern Venezuela about 40 seconds apart: a magnitude 7.2 foreshock and a magnitude 7.5 mainshock. The USGS records it as the strongest earthquake in Venezuela in more than 125 years (USGS 24/06/2026, Al Jazeera 25/06/2026. Both shocks were shallow on the Boconó-Morón-El Pilar fault system, at the Caribbean and South American plate boundary; the mainshockʼs depth of about 10 km amplified surface shaking, with peak intensity approaching MMI 9 (violent). Shaking was felt across northern Venezuela and into Colombia (USGS 24/06/2026, Al Jazeera 25/06/2026. Magnitude Mw 7.2 (first reported as 7.1 Mw 7.5 Time 2204 UTC / 1804 local 2205 UTC / 1805 local Epicentre USGS Near San Felipe, Yaracuy Near Yumare, Veroes, Yaracuy Depth About 22 km About 10 km (shallow) USGS PAGER alert Orange Red The PAGER red alert indicates that high casualties and extensive damage are probable. At least 20 aftershocks followed within roughly two hours, six of them felt in Caracas, and the USGS puts the chance of a magnitude 6 or greater aftershock in the first week at about 40 percent. A brief Caribbean tsunami advisory was cancelled within about an hour (USGS 24/06/2026, CNN 25/06/2026, NPR 25/06/2026. Casualties and exposure At least 164 people are confirmed dead and 971 injured nationally, in an update from Acting President Delcy Rodríguez early on 25 June, revised up from an initial 32 dead and around 700 injured."
+    },
+    {
+      "n": 2,
+      "reliefweb_id": "4218098",
+      "title": "Good Neighbors Statement on the Venezuela Earthquake",
+      "url": "https://reliefweb.int/node/4218098",
+      "date": "2026-06-26",
+      "days_after_event": 1.08,
+      "sources": [
+        "Good Neighbors International"
+      ],
+      "field": "pdf",
+      "pdf_filename": "4218098_2727867_Good Neighbors Statment on the Venezuela Earthquake.pdf",
+      "phases": [
+        "preparedness",
+        "prevention"
+      ],
+      "text": "Date: 26 June 2026 Good Neighbors Statement on the Venezuela Earthquake Good Neighbors expresses its deepest sympathy to the communities affected by the devastating earthquakes that struck Venezuela on 24 June 2026. The earthquakes caused widespread destruction to homes, public infrastructure, and essential services, leaving thousands of families in urgent need of humanitarian assistance. Families have lost loved ones, their homes, and their sense of safety. Children, in particular, are facing fear, uncertainty, and significant disruption to their daily lives. As aftershocks continue, many families remain displaced, taking shelter in cars, makeshift tents, and other temporary accommodations without reliable access to electricity, safe drinking water, food, or protection services. In response to this crisis, Good Neighbors is preparing an emergency response to protect the safety, well-being, and dignity of children and their families. Initial support is expected to include emergency shelter and other essential relief items, while additional assistance will be determined based on ongoing needs assessments and operational feasibility."
+    },
+    {
+      "n": 3,
+      "reliefweb_id": "4218210",
+      "title": "Earthquakes in Venezuela: Situation Report No. 3 (26 June 2026, Time: 3:00 pm)",
+      "url": "https://reliefweb.int/node/4218210",
+      "date": "2026-06-26",
+      "days_after_event": 1.08,
+      "sources": [
+        "UN Office for the Coordination of Humanitarian Affairs"
+      ],
+      "field": "body_text",
+      "pdf_filename": "",
+      "phases": [
+        "event"
+      ],
+      "text": "**Situation Report No. 3** **Earthquakes in Venezuela** **26 June 2026** **Time: 3:00 pm** **Highlights** Two consecutive earthquakes of magnitude 7.2 and 7.5 on 24 June (18:00 local time); authorities report more than 302 aftershocks. Provisional official toll: 920 people dead and 3,360 injured; the figure continues to rise. More than 3,000 people resulted displaced, according to authorities. At least 1,423 infrastructures were affected; La Guaira remains the most affected state. Maiquetía International Airport closed without commercial flights; Caracas Metro and railways suspended; power outages in multiple states. International teams are already present in the country, including the United Nations Disaster Assessment and Coordination (UNDAC) team and Urban Search and Rescue (USAR) teams under INSARAG coordination. **Situation overview** Venezuela is facing a national emergency following the two consecutive high-magnitude earthquakes (7.2 and 7.5) of 24 June (18:00 local time) in the north-central region, with the epicentre off the coast some 28–30 km north-west of Montalbán (Carabobo). Authorities report more than 302 aftershocks, including a magnitude 5.1 event reported in Tucacas (Falcón state) on the night of 25 June, and a magnitude 4.4 aftershock northeast of Guatire (Miranda state) in the early hours of 26 June, sustaining high-risk conditions."
+    },
+    {
+      "n": 4,
+      "reliefweb_id": "4218321",
+      "title": "Venezuela faces US$6.7 billion in economic losses from earthquakes, UNDP estimates",
+      "url": "https://reliefweb.int/node/4218321",
+      "date": "2026-06-26",
+      "days_after_event": 1.08,
+      "sources": [
+        "UN Development Programme"
+      ],
+      "field": "body_text",
+      "pdf_filename": "",
+      "phases": [
+        "event",
+        "recovery",
+        "response"
+      ],
+      "text": "**Caracas/New York, 26 June 2026** – The earthquakes that struck Venezuela on 24 June caused significant human suffering and loss of life, while also severely affecting livelihoods, infrastructure, and essential services. This includes a preliminary estimate of $6.7 billion in direct physical damage, equivalent to around 6% of GDP, according to a satellite-based Rapid Digital Assessment (RAPIDA) by the United Nations Development Programme (UNDP). While the economic impact is substantial, the greatest loss is borne by the people and communities. The assessment is based on seismic modelling, satellite imagery and population data and was carried out in the hours after the quake. The quakes, measuring magnitude 7.2 and 7.5, hit near Venezuela’s northern coast and were felt across major population and economically important areas, including Caracas and the states of La Guaira, Carabobo, Miranda, Yaracuy, and Aragua. UNDP estimates that 1.7 million structures were in affected areas, including large numbers in the hardest-hit states. The analysis found that around 8.6 million people were exposed to above moderate shaking across the country’s north, including around 2.1 million exposed to stronger shaking."
+    },
+    {
+      "n": 5,
+      "reliefweb_id": "4218325",
+      "title": "Venezuela June 2026 Earthquake: Emergency Situation Overview (26/06/2026)",
+      "url": "https://reliefweb.int/node/4218325",
+      "date": "2026-06-26",
+      "days_after_event": 1.08,
+      "sources": [
+        "REACH Initiative"
+      ],
+      "field": "pdf",
+      "pdf_filename": "4218325_2728123_IMPACT_Venezuela-Earthquake-June-2026_Emergency-Situation-Overview-Brief_26062026_compressed-1.pdf",
+      "phases": [
+        "prevention",
+        "response"
+      ],
+      "text": "The earthquake struck areas where essential services were already operating under severe strain, limiting their capacity to absorb additional shocks. Across several affected states, HSM data indicated widespread housing deterioration, serious water access problems, and health systems facing shortages of medicines, equipment and trained staff. These pre-existing constraints are likely to amplify humanitarian needs as displacement and demand for services increase. The earthquake risks disrupting fragile livelihoods and reversing recent improvements in household food access. As food insecurity in Venezuela is primarily driven by limited purchasing power rather than market availability, households relying on daily labour, small businesses or informal income may see their ability to meet basic needs deteriorate rapidly, particularly where alternative coping mechanisms such as remittances or social assistance are limited. Pre-existing vulnerabilities suggest that humanitarian needs may be particularly severe in specific affected states rather than evenly distributed. HSM data indicate that Aragua, La Guaira, Carabobo and Falcón consistently reported some of the weakest pre-earthquake conditions across shelter, water access and health services, suggesting these areas may face greater challenges absorbing the impacts of the earthquake. CONTEXT & RATIONALE On 24 June 2026 at around 18:04 local time, two powerful earthquakes (magnitudes 7.2 and 7.5) struck northern Venezuela seconds apart. Both were shallow with the main shock’s depth of around 10 km. The fault runs east towards one of the country’s most densely populated corridors, home to Caracas and several major coastal cities. Significant damage was reported in Caracas and the states of La Guaira, Miranda, Carabobo, Aragua, Falcón, and Yaracuy."
+    },
+    {
+      "n": 6,
+      "reliefweb_id": "4218325",
+      "title": "Venezuela June 2026 Earthquake: Emergency Situation Overview (26/06/2026)",
+      "url": "https://reliefweb.int/node/4218325",
+      "date": "2026-06-26",
+      "days_after_event": 1.08,
+      "sources": [
+        "REACH Initiative"
+      ],
+      "field": "pdf",
+      "pdf_filename": "4218325_2728123_IMPACT_Venezuela-Earthquake-June-2026_Emergency-Situation-Overview-Brief_26062026_compressed-1.pdf",
+      "phases": [
+        "event",
+        "preparedness",
+        "prevention",
+        "response"
+      ],
+      "text": "The fault runs east towards one of the country’s most densely populated corridors, home to Caracas and several major coastal cities. Significant damage was reported in Caracas and the states of La Guaira, Miranda, Carabobo, Aragua, Falcón, and Yaracuy. As of 26 June the situation remains highly fluid: official figures report at least 589 dead and 2,980 injured but are preliminary and expected to rise. The full scale of damage and needs is not yet established, and aftershocks remain possible. The impact of the earthquake is likely to be compounded by the high levels of vulnerability already present in Venezuela after years of economic crisis and the gradual deterioration of basic services. Based on HSM data (see p.4), this brief aims to identify what humanitarian consequences are likely, given what was already known about pre-existing vulnerabilities in the affected states It aims to support an early understanding of the risk factors to monitor as the situation evolves. June 2026 Earthquake: Emergency Situation Overview| Venezuela 2 Weak shelter, health and WASH systems against a backdrop % of assessed parroquias likely to compound impact and response capacity. where, KIs reported that the majority of houses According to REACH’s Humanitarian of March 2026, for the first time, HSM presented significant Situation Monitoring data from recorded water as the first priority need at and/or severe damage to March 2026, shelter conditions in the national level. The public water network was their roofs, floors, walls, earthquake-affected states (admin1) the main source of drinking water reported doors and windows, by were concerning, pointing to a situation of across the affected states, though many state (pre-earthquake) high vulnerability in the face of an event KIs also pointed to bottled water and, in such as an earthquake."
+    },
+    {
+      "n": 7,
+      "reliefweb_id": "4218325",
+      "title": "Venezuela June 2026 Earthquake: Emergency Situation Overview (26/06/2026)",
+      "url": "https://reliefweb.int/node/4218325",
+      "date": "2026-06-26",
+      "days_after_event": 1.08,
+      "sources": [
+        "REACH Initiative"
+      ],
+      "field": "pdf",
+      "pdf_filename": "4218325_2728123_IMPACT_Venezuela-Earthquake-June-2026_Emergency-Situation-Overview-Brief_26062026_compressed-1.pdf",
+      "phases": [
+        "context"
+      ],
+      "text": "June 2026 Earthquake: Emergency Situation Overview| Venezuela 2 Weak shelter, health and WASH systems against a backdrop % of assessed parroquias likely to compound impact and response capacity. where, KIs reported that the majority of houses According to REACH’s Humanitarian of March 2026, for the first time, HSM presented significant Situation Monitoring data from recorded water as the first priority need at and/or severe damage to March 2026, shelter conditions in the national level. The public water network was their roofs, floors, walls, earthquake-affected states (admin1) the main source of drinking water reported doors and windows, by were concerning, pointing to a situation of across the affected states, though many state (pre-earthquake) high vulnerability in the face of an event KIs also pointed to bottled water and, in such as an earthquake. In La Guaira, the some states such as Falcón, to tanker trucks. most affected state, key informants (KIs) in Reliance on the public network came 44% all assessed parroquias (admin3) reported with limitations: supply was reported to Aragua that the majority of houses presented some be intermittent and, in places, dependent 25% kind of damage. In all the other affected on electricity that was itself unreliable, La Guaira states, KIs reported the same in over 70% and some KIs described water points that of assessed parroquias. The Capital District were distant or no longer functioning. 19% Carabobo was the exception, with KIs reporting widespread damage in 44% of assessed Reaching safe water faced further 12% Falcon parroquias. barriers: water was often described as of poor taste or quality, costly in several states, 11% Distrito Capital Against a backdrop of years of economic and in parts of Falcón and Carabobo the crisis, falling purchasing power and the supply points were said to be hard to reach. 9% Yaracuy gradual deterioration of infrastructure, Where the network fell short, households the two explanations most commonly given reportedly fall back on tanker trucks, bottled 4% Miranda by KIs for the damage across the considered water, or surface and rainwater, sources that states were progressive deterioration linked generally require treatment to be safe."
+    },
+    {
+      "n": 8,
+      "reliefweb_id": "4218263",
+      "title": "Venezuela Health Cluster: Earthquakes Situation Report #2 (27 June 2026) [EN/ES]",
+      "url": "https://reliefweb.int/node/4218263",
+      "date": "2026-06-27",
+      "days_after_event": 2.08,
+      "sources": [
+        "Health Cluster",
+        "Pan American Health Organization",
+        "World Health Organization"
+      ],
+      "field": "pdf",
+      "pdf_filename": "4218263_2728026_20260627_VEN_HC_SitrepV2final_ES.pdf",
+      "phases": [
+        "recovery"
+      ],
+      "text": "Brechas críticas en suministros básicos para la población afectada, incluyendo alimentos, agua potable, kits de higiene, artículos no alimentarios, ropa y refugio temporal seguro. Necesidad de una intervención integral que complemente la asistencia inicial brindada principalmente por civiles particulares, especialmente en agua, alimentos preparados y apoyo básico. Necesidad de apoyo logístico para movilización de suministros médicos, personal especializado y equipos hacia las zonas de impacto. Necesidad crítica de salud mental y apoyo psicosocial especializado para la población afectada, ante signos generalizados de miedo, duelo, tristeza y frustración, agravados por las condiciones de pernocta en la vía pública. Activación de rutas de protección para niños y niñas no acompañados identificados en centros de salud. Necesidad de consolidar evaluaciones in situ y reportes de socios para orientar la respuesta, priorizar brechas y evitar duplicidades. Fuentes de información Minuta de la Reunión del Clúster de Salud ampliado con el MPPS del v26 de Junio de 2026 Informe de situación n.° 1 de la OPS/OMS: Terremotos en Venezuela (magnitud 7,2 y magnitud 7,5), 25 de junio de 2026 Ministerio de Salud de Venezuela, comunicado oficial, 25 de junio de 2026 FUNVISIS: Clúster de Salud de Venezuela: ReliefWeb Venezuela: HDX Venezuela: OPS/OMS Venezuela: Acción Humanitaria HNRP 2026: Radio Miraflores: Informes de análisis rápido de necesidades de los socios. Venezuela Earthquake, Situation Report #1, June 26, 2026 - Venezuela (Bolivarian Republic of) | ReliefWe NOTAS: Los datos están sujetos a cambios."
+    },
+    {
+      "n": 9,
+      "reliefweb_id": "4218263",
+      "title": "Venezuela Health Cluster: Earthquakes Situation Report #2 (27 June 2026) [EN/ES]",
+      "url": "https://reliefweb.int/node/4218263",
+      "date": "2026-06-27",
+      "days_after_event": 2.08,
+      "sources": [
+        "Health Cluster",
+        "Pan American Health Organization",
+        "World Health Organization"
+      ],
+      "field": "pdf",
+      "pdf_filename": "4218263_2728026_20260627_VEN_HC_SitrepV2final_ES.pdf",
+      "phases": [
+        "context"
+      ],
+      "text": "Fuentes de información Minuta de la Reunión del Clúster de Salud ampliado con el MPPS del v26 de Junio de 2026 Informe de situación n.° 1 de la OPS/OMS: Terremotos en Venezuela (magnitud 7,2 y magnitud 7,5), 25 de junio de 2026 Ministerio de Salud de Venezuela, comunicado oficial, 25 de junio de 2026 FUNVISIS: Clúster de Salud de Venezuela: ReliefWeb Venezuela: HDX Venezuela: OPS/OMS Venezuela: Acción Humanitaria HNRP 2026: Radio Miraflores: Informes de análisis rápido de necesidades de los socios. Venezuela Earthquake, Situation Report #1, June 26, 2026 - Venezuela (Bolivarian Republic of) | ReliefWe NOTAS: Los datos están sujetos a cambios. La información disponible es parcial y está siendo verificada por las autoridades nacionales, la OPS/OMS, Protección Civil, socios y actores locales de respuesta. Las cifras de víctimas, los daños a las instalaciones de salud, la funcionalidad de los hospitales y las estimaciones de exposición deben considerarse preliminares hasta su confirmación oficial. Las iniciativas ciudadanas digitales se enumeran con fines informativos y de referencia; su inclusión no implica validación ni respaldo formal por parte del Grupo de Salud ni de la OPS/OMS."
+    },
+    {
+      "n": 10,
+      "reliefweb_id": "4218263",
+      "title": "Venezuela Health Cluster: Earthquakes Situation Report #2 (27 June 2026) [EN/ES]",
+      "url": "https://reliefweb.int/node/4218263",
+      "date": "2026-06-27",
+      "days_after_event": 2.08,
+      "sources": [
+        "Health Cluster",
+        "Pan American Health Organization",
+        "World Health Organization"
+      ],
+      "field": "pdf",
+      "pdf_filename": "4218263_2728085_20262606 VEN HC Sitrep v2.0_ENG_Final.pdf",
+      "phases": [
+        "preparedness"
+      ],
+      "text": "VENEZUELA: Earthquakes, June 26, 2026 – Situation Report No. 2. Reporting period: Second update, information available as of 08:00 (GMT-4) / 19:00 UTC on June 27, 2026. Prepared by: Venezuela Health Cluster, with support from the Global and Regional Health Clusters. Glide Number: 2026-000093 Pre-existing humanitarian needs: (HRP 2026) need of population (HRP Cluster health facilities assistance coordination in La Event figures (preliminary – subject to change): Families in hospitals ¹ President of the National Assembly – Jorge Rodríguez, 26 June 2026. ² Acting President of the Bolivarian Republic of Venezuela, 26 June 2026. 3 PAHO/WHO earthquake exposure analysis, 25 June 2026. Highlights Strengthened Governance: On June 26, the Expanded Health Cluster meeting was held with the Ministry of Popular Power for Health (MPPS), consolidating a single response mechanism that integrates state actors, United Nations agencies, and non-governmental organizations to optimize operations on the ground. Operational and Access Management: In order to prioritize and expedite search and rescue efforts, the competent authorities have established temporary access restrictions to La Guaira state, effective from the night of June 26. Infrastructure and Human Resources Status: Structural damage has been reported in several health facilities, prompting the establishment of external care areas to ensure service continuity."
+    },
+    {
+      "n": 11,
+      "reliefweb_id": "4218263",
+      "title": "Venezuela Health Cluster: Earthquakes Situation Report #2 (27 June 2026) [EN/ES]",
+      "url": "https://reliefweb.int/node/4218263",
+      "date": "2026-06-27",
+      "days_after_event": 2.08,
+      "sources": [
+        "Health Cluster",
+        "Pan American Health Organization",
+        "World Health Organization"
+      ],
+      "field": "pdf",
+      "pdf_filename": "4218263_2728085_20262606 VEN HC Sitrep v2.0_ENG_Final.pdf",
+      "phases": [
+        "preparedness",
+        "recovery",
+        "response"
+      ],
+      "text": "Activation of protection pathways for unaccompanied children identified in health centers. Need to consolidate on-site assessments and partner reports to guide the response, prioritize gaps, and avoid duplication. Information Sources Minutes of the Expanded Health Cluster Meeting with the MPPS of June 26, 2026 PAHO/WHO Situation Report No. 1: Earthquakes in Venezuela (magnitude 7.2 and magnitude 7.5), June 25, 2026 Venezuela Ministry of Health, official statement, June 25, 2026 FUNVISIS: Venezuela Health Cluster: ReliefWeb Venezuela: HDX Venezuela: PAHO/WHO Venezuela: Humanitarian Action HNRP 2026: Radio Miraflores: Partner rapid needs analysis reports. Venezuela Earthquake, Situation Report #1, June 26, 2026 – Venezuela (Bolivarian Republic of) | ReliefWeb NOTES: Data are subject to change. Available information is partial and is being verified by national authorities, PAHO/WHO, Civil Protection, partners, and local response actors. Casualty figures, damage to health facilities, hospital functionality, and exposure estimates should be considered preliminary until officially confirmed. Digital citizen initiatives are listed for informational and reference purposes only; their inclusion does not imply validation or formal endorsement by the Health Cluster or PAHO/WHO. Contact Website: For more details, contact Translated from the original Spanish using AI, with human supervision during the process and review before official distribution."
+    },
+    {
+      "n": 12,
+      "reliefweb_id": "4218307",
+      "title": "UNICEF Venezuela Humanitarian Situation Report No.2 (Earthquake), 27 June 2026",
+      "url": "https://reliefweb.int/node/4218307",
+      "date": "2026-06-27",
+      "days_after_event": 2.08,
+      "sources": [
+        "UN Children's Fund"
+      ],
+      "field": "pdf",
+      "pdf_filename": "4218307_2728097_UNICEF Venezuela Humanitarian Situation Report No.2 (Earthquake), 27 June 2026.pdf",
+      "phases": [
+        "response"
+      ],
+      "text": "Infrastructure collapse across Caracas, Yaracuy, and Carabobo has left roads blocked by debris, limiting mobility for rescue teams and humanitarian convoys. Damage to Maiquetia International Airport and disruptions in telecommunications further complicate logistics, delaying the arrival of relief supplies and restricting coordination. Power outages and the suspension of household gas services have created unsafe conditions in urban areas, while aftershocks continue to pose risks to responders and affected communities. To overcome these constraints, UNICEF and partners are closely coordinating with government counterparts. Next SitRep: 29 June 2026 Contacts Manuel Rodriguez Pumarol Gabriel Vockel Ana Catalina Fernandez Rojas Representative Deputy Representative Emergency Focal Point UNICEF Venezuela UNICEF Venezuela UNICEF Venezuela +584149174558 +58 4241369876 +507 66140192 i International Organization for Migration (IOM), “676 million people could be affected by Venezuela earthquakes, according to IOM”, 26 June 2026. Available at: ii According to UNICEF’s Urgent Humanitarian Response Plan for the 2026 Venezuela earthquakes. Preliminary targets and funding requirements are subject to revision as damage and needs assessments continue and more information becomes available on the situation and needs of children and families affected by the earthquakes. iii UNICEF–UCV, Informe interno del Grupo de Formación de Gestión de Riesgo de Desastres, documento técnico no publicado, 25 de junio de 2026."
+    },
+    {
+      "n": 13,
+      "reliefweb_id": "4218280",
+      "title": "Situation Report No.2: Earthquakes in Venezuela (M7.2 and M7.5), June 27, 2026",
+      "url": "https://reliefweb.int/node/4218280",
+      "date": "2026-06-28",
+      "days_after_event": 3.08,
+      "sources": [
+        "Pan American Health Organization"
+      ],
+      "field": "pdf",
+      "pdf_filename": "4218280_2728055_ven-earthquakes-sitrep2-27jun2026.pdf",
+      "phases": [
+        "preparedness",
+        "recovery",
+        "response"
+      ],
+      "text": "PAHO/WHO Regional Situation Report No. 2 - Earthquakes in Venezuela. Washington, D.C.: PAHO/WHO; 2026. | © PAHO/WHO, 2026 Earthquake in Venezuela Situation Report N.2 REFERENCES: 1. United Nations Office for the Coordination of Humanitarian Affairs (OCHA). Earthquakes – Venezuela: Situation report no. 3. 26 June 2026. [Cited 27june]. Available from: 2. Pan American Health Organization. Venezuela Earthquake Response Coordination Meeting #1, 26 June 2026. Caracas: PAHO; 2026. Unpublished 3. Pan American Health Organization."
+    },
+    {
+      "n": 14,
+      "reliefweb_id": "4218519",
+      "title": "How MSF is responding to the earthquakes in Venezuela",
+      "url": "https://reliefweb.int/node/4218519",
+      "date": "2026-06-29",
+      "days_after_event": 4.08,
+      "sources": [
+        "Médecins Sans Frontières"
+      ],
+      "field": "body_text",
+      "pdf_filename": "",
+      "phases": [
+        "event"
+      ],
+      "text": "## What is the situation in Venezuela after the earthquakes? On 24 June 2026, two powerful [earthquakes]( struck Venezuela one after another. They have caused widespread damage, with the cities of La Guaira and Caracas particularly affected. At least 1,430 people have died and 3,230 have been injured, according to the authorities.[1]( Search and rescue operations are still ongoing, even as the initial emergency trauma phase is coming to an end. Hospitals that were overwhelmed during the first days after the earthquakes are now receiving fewer patients. It is estimated that over 1,500 buildings were damaged, with most of them being residential. This has [displaced]( many families, who are now in need of shelter, [water and sanitation]( services, food, and medical care. ## How is MSF responding to the earthquakes in Venezuela?"
+    },
+    {
+      "n": 15,
+      "reliefweb_id": "4218861",
+      "title": "Situation Report No.3: Earthquakes in Venezuela (M7.2 and M7.5), June 30, 2026",
+      "url": "https://reliefweb.int/node/4218861",
+      "date": "2026-07-01",
+      "days_after_event": 6.08,
+      "sources": [
+        "Pan American Health Organization"
+      ],
+      "field": "pdf",
+      "pdf_filename": "4218861_2728809_ven-earthquakes-sitrep3-30jun2026.pdf",
+      "phases": [
+        "preparedness",
+        "recovery",
+        "response"
+      ],
+      "text": "PAHO/WHO Regional Situation Report No. 3 - Earthquakes in Venezuela. Washington, D.C.: PAHO/WHO; 2026. | © PAHO/WHO, 2026 Earthquake in Venezuela Situation Report N.3 REFERENCES: 1. United Nations Office for the Coordination of Humanitarian Affairs (OCHA). Earthquakes – Venezuela: Situation report no. 6. 29 June 2026. [Cited 30 June]. Available from: 2. Pan American Health Organization. Venezuela Earthquake Response Coordination Meeting #2, 27 June 2026. Caracas: PAHO; 2026. Unpublished 3. Pan American Health Organization."
+    },
+    {
+      "n": 16,
+      "reliefweb_id": "4219215",
+      "title": "Venezuela Earthquake Emergency Update 24-29 June 2026",
+      "url": "https://reliefweb.int/node/4219215",
+      "date": "2026-07-02",
+      "days_after_event": 7.08,
+      "sources": [
+        "UN High Commissioner for Refugees"
+      ],
+      "field": "pdf",
+      "pdf_filename": "4219215_2729392_venezuela-earthquake-emergency-update-june-2026.pdf",
+      "phases": [
+        "recovery"
+      ],
+      "text": "Families displaced from damaged or unsafe homes are staying with relatives, in streets and public spaces, and in churches, schools, stadiums and other improvised shelters. Many temporary sites do not yet meet minimum protection standards. UNHCR is supporting local authorities in set-up of government-led multi-service centres, while providing tools and equipment for the safe collection and management of information to identify protection needs, deliver protection services, and facilitate referrals to appropriate specialized services. UNHCR is scaling up support in two priority areas: protection and core relief items and shelter, and requires $14.8 million to support up to 30,000 earthquake-affected people over six months. Initial reports also indicate that a temporary accommodation site used for the reception of returnees in La Guaira was severely affected, underscoring the specific risks faced by people who were already in vulnerable situations prior to the earthquake. EMERGENCY UPDATE > Venezuela Earthquake Operational context On 24 June 2026, two consecutive high-magnitude earthquakes struck north-central Venezuela, severely affecting densely populated urban and coastal areas. La Guaira and the Greater Caracas area have reported the most significant impact, with damage also recorded in Miranda, Carabobo, Yaracuy, Falcón and Aragua. Multiple aftershocks continue to create risks for affected communities, further weaken damaged structures and complicate humanitarian operations. The earthquakes have caused extensive loss of life, injuries, displacement and disruption of essential services. Damage to electricity, water, telecommunications, roads, bridges, health facilities and the Simón Bolívar International Airport in Maiquetía has affected mobility, access to services and the operating environment for the response. In La Guaira, damage to key infrastructure has further constrained access to severely affected areas."
+    },
+    {
+      "n": 17,
+      "reliefweb_id": "4219216",
+      "title": "UNHCR preparedness and response - Venezuela earthquake 2026 emergency (July - December 2026)",
+      "url": "https://reliefweb.int/node/4219216",
+      "date": "2026-07-02",
+      "days_after_event": 7.08,
+      "sources": [
+        "UN High Commissioner for Refugees"
+      ],
+      "field": "pdf",
+      "pdf_filename": "4219216_2729394_unhcr-preparedness-and-response-venezuela-earthquake-2026-emergency.pdf",
+      "phases": [
+        "event",
+        "preparedness",
+        "recovery",
+        "response"
+      ],
+      "text": "UNHCR Preparedness and Response Venezuela Earthquake 2026 Emergency July – December 2026 UNHCR Preparedness and Response | Venezuela Earthquake Emergency 2026 KEY FIGURES 1,700+ 5,000+ 15,000+ 813 People Injured Affected Damaged reported dead people persons buildings 38 30,000+ USD 14.85 million Hospitals People targeted Funding required affected by UNHCR Following the devastating earthquakes that struck north-central Venezuela on 24 June 2026, thousands of families have been affected by loss of life, injuries, displacement, damage to homes and disruption of essential services. UNHCR, the UN Refugee Agency, is scaling up its response and seeks USD 14.85 million in flexible funding to support up to 30,000 earthquake-affected people over a six-month period. The response will focus on protection, emergency relief items and temporary shelter support for displaced and vulnerable populations, including refugees, asylum-seekers, returnees and affected host communities. UNHCR is working with local authorities to assess needs and identify how UNHCR can further support response efforts. © UNHCR/Jose Peña UNHCR Preparedness and Response | Venezuela Earthquake Emergency 2026 OVERVIEW AND HUMANITARIAN IMPACT The boundaries and names shown and the designations used on this map do not imply official endorsement or acceptance by the United Nations. Creation date: As of 27 June (8:00 GMT-4) Sources: OCHA Urban Search and Rescue (USAR) Team Snapshot On 24 June 2026, two major earthquakes of magnitude 7.2 and 7.5 struck north-central Venezuela, causing extensive loss of life, injuries, displacement and damage in densely populated areas. As of 29 June, at least 1,719 people had been reported dead, more than 5,034 remained in hospitals and 15,866 people were reported affected, with figures expected to evolve as search-and-rescue operations continue. The most severe impact has been reported in La Guaira and the Greater Caracas area, with damage also recorded in Miranda, Carabobo, Yaracuy, Falcón and Aragua."
+    },
+    {
+      "n": 18,
+      "reliefweb_id": "4219216",
+      "title": "UNHCR preparedness and response - Venezuela earthquake 2026 emergency (July - December 2026)",
+      "url": "https://reliefweb.int/node/4219216",
+      "date": "2026-07-02",
+      "days_after_event": 7.08,
+      "sources": [
+        "UN High Commissioner for Refugees"
+      ],
+      "field": "pdf",
+      "pdf_filename": "4219216_2729394_unhcr-preparedness-and-response-venezuela-earthquake-2026-emergency.pdf",
+      "phases": [
+        "context"
+      ],
+      "text": "As of 29 June, at least 1,719 people had been reported dead, more than 5,034 remained in hospitals and 15,866 people were reported affected, with figures expected to evolve as search-and-rescue operations continue. The most severe impact has been reported in La Guaira and the Greater Caracas area, with damage also recorded in Miranda, Carabobo, Yaracuy, Falcón and Aragua. Multiple aftershocks continue to endanger affected communities and weaken already damaged structures. Updated reports indicate 2,501 damaged infrastructure sites, including 774 housing units and 38 hospitals, while 189 housing units have completely collapsed. Damage to electricity, water, telecommunications, roads, bridges, health facilities and the Simón Bolívar International Airport in Maiquetía has disrupted essential services and constrained access."
+    },
+    {
+      "n": 19,
+      "reliefweb_id": "4219421",
+      "title": "Analytical estimate of damages caused by the June 24, 2026 earthquakes in Venezuela",
+      "url": "https://reliefweb.int/node/4219421",
+      "date": "2026-07-03",
+      "days_after_event": 8.08,
+      "sources": [
+        "UN Office for Disaster Risk Reduction"
+      ],
+      "field": "pdf",
+      "pdf_filename": "4219421_2729703_Analytical-Estimate-of-Damages-Caused-by-the-June-24-2026-Earthquakes-in-Venezuela.pdf",
+      "phases": [
+        "event",
+        "preparedness",
+        "prevention",
+        "recovery",
+        "response"
+      ],
+      "text": "Analytical Estimate of Damages Caused by the June 24, 2026 Earthquakes in Venezuela 1. Scope and Objective of the Assessment This document constitutes a first estimate of the direct such as the one obtained from the global multi-hazard physical damage, obtained through analytical modeling, risk model developed for CDRI (Cardona et al., 2023)1 of the effects caused by the earthquakes of June 24, indicate that the expected annual loss for buildings 2026 in Venezuela. Its main purpose is to establish in and infrastructure is approximately $1,200 million US a timely manner, an order of magnitude, technically dollars. supported, of the impact on buildings and infrastructure, however, it does not seek to provide a definitive The United Nations Office for Disaster Risk Reduction quantification of the damages. (UNDRR), with the support of Ingeniar CAD/CAE Ltda2. and ERN,3 has made a first quantitative estimate of the It is worth highlighting that the understanding of direct physical damage caused by both earthquakes the impact of a disaster evolves as new information to buildings and infrastructure. The results indicate becomes available. Consequently, this assessment that damage to buildings (residential, commercial, represents a first technical diagnosis, which can be educational, health, institutional and industrial) is progressively refined by incorporating information from estimated at around 3% of the total exposed stock field inspections, analysis of satellite images, official (equivalent to $24,000 million US dollars), while reports and models with higher resolution. damage to infrastructure (water and sanitation, telecommunications, roads, railways, energy, ports, airports, oil and gas) is estimated at around 4% of the Introduction total exposed stock (equivalent to $13,000 million US On June 24, two shallow earthquakes of M 7.2 and dollars). These values, totaling US$37,000 million W M 7.5 shook the northern part of Venezuela just thirty- US dollars, correspond exclusively to direct physical W nine seconds apart."
+    },
+    {
+      "n": 20,
+      "reliefweb_id": "4219448",
+      "title": "Venezuela earthquake: Disaster brief EQ-2026-000093-VEN| Americas | Venezuela | July 1, 2026",
+      "url": "https://reliefweb.int/node/4219448",
+      "date": "2026-07-03",
+      "days_after_event": 8.08,
+      "sources": [
+        "International Federation of Red Cross and Red Crescent Societies"
+      ],
+      "field": "pdf",
+      "pdf_filename": "4219448_2729719_IFRC_Disaster_Brief_External_Venezuela_Earthquake NC.pdf",
+      "phases": [
+        "prevention"
+      ],
+      "text": "In addition, tens of thousands of people have been reported as missing although the figures from various sources are ambiguous. Consequently, the number of missing people is expected to decrease as communications are restored and registration and family reunification efforts progress, although a proportion may ultimately correspond to fatalities. USGS modelling indicates that there is one chance out of two that the casualties’ numbers will ultimately fall in the range between 1,000 and 10,000, and three chances out of ten that they may exceed 10.000. Beyond the direct casualties, many households have experienced the loss of homes, productive assets, employment, and livelihoods. Small businesses, informal commerce and tourism-related activities in the affected coastal areas have been severely disrupted, reducing household income and increasing dependence on humanitarian assistance during the initial recovery period. Extensive damage to housing, commercial buildings and critical infrastructure has disrupted electricity, water supply, telecommunications, public transportation and airport operations, significantly constraining emergency response and access to affected communities. The health sector is under increasing pressure as hospitals manage large numbers of trauma cases within an already weakened healthcare system characterized by pre-crisis shortages of medical supplies and limited surgical capacity. The impact has been exacerbated by pre-existing vulnerabilities, including widespread informal settlements built on unstable hillsides, vulnerable unreinforced construction, and a fragile economic Earthquake Venezuela | Disaster Brief | July 1, 2026 | PUBLIC 2 context marked by high inflation and limited recovery capacity."
+    },
+    {
+      "n": 21,
+      "reliefweb_id": "4219448",
+      "title": "Venezuela earthquake: Disaster brief EQ-2026-000093-VEN| Americas | Venezuela | July 1, 2026",
+      "url": "https://reliefweb.int/node/4219448",
+      "date": "2026-07-03",
+      "days_after_event": 8.08,
+      "sources": [
+        "International Federation of Red Cross and Red Crescent Societies"
+      ],
+      "field": "pdf",
+      "pdf_filename": "4219448_2729719_IFRC_Disaster_Brief_External_Venezuela_Earthquake NC.pdf",
+      "phases": [
+        "context"
+      ],
+      "text": "The health sector is under increasing pressure as hospitals manage large numbers of trauma cases within an already weakened healthcare system characterized by pre-crisis shortages of medical supplies and limited surgical capacity. The impact has been exacerbated by pre-existing vulnerabilities, including widespread informal settlements built on unstable hillsides, vulnerable unreinforced construction, and a fragile economic Earthquake Venezuela | Disaster Brief | July 1, 2026 | PUBLIC 2 context marked by high inflation and limited recovery capacity. Damage to water and sanitation infrastructure increases the risk of secondary public health emergencies in the coming weeks. Pre-existing demographic characteristics are likely to amplify humanitarian needs. Approximately 30% of Venezuela's population is under 18 years of age, while around 9% is aged 65 years or older."
+    },
+    {
+      "n": 22,
+      "reliefweb_id": "4219471",
+      "title": "ACAPS Thematic Report: Venezuela - Pre-existing vulnerabilities, access constraints, and anticipated impact in earthquake-affected areas of La Guaira, Caracas, Carabobo, and Yaracuy, 03 July 2026",
+      "url": "https://reliefweb.int/node/4219471",
+      "date": "2026-07-03",
+      "days_after_event": 8.08,
+      "sources": [
+        "ACAPS"
+      ],
+      "field": "pdf",
+      "pdf_filename": "4219471_2729748_20260703_ACAPS_Venezuela_-_Pre-existing_vulnerabilities__access_constraints__and_anticipated_impact_in_earthquake-affected_areas.pdf",
+      "phases": [
+        "prevention"
+      ],
+      "text": "Most of the population cannot afford private medicine, and the public health Censorship, limited transparency, and restrictions on the media and civil society system is in a state of protracted collapse because of the lack of personnel, have weakened public trust in official information, increasing communities’ Health supplies, medicine, and equipment (HumVenezuela 31/03/2026). reliance on informal networks for information and assistance (Amnesty International Since 2023, doctors have reported a shortage of vaccines against measles, 25/06/2026). This is likely to hinder situational awareness, reduce the effectiveness rubella, and tetanus-diphtheria toxoid, among others, putting thousands of people at risk, particularly children (Cronicauno 09/06/2026; Infobae of official risk communication, and complicate coordination between authorities, 08/06/2026). humanitarian responders, and affected communities, delaying the delivery and targeting of assistance (Amnesty International 25/06/2026; El Pais 30/06/2026). Most buildings across the country are unlikely to have been built in line with modern earthquake regulations; reports indicate a lack of enforcement of building standards (CNN 26/06/2026; APnews 27/06/2026). This translates into As a result of its prolonged economic and political deterioration, Venezuela ranked a higher likelihood of homes becoming uninhabitable or unsafe to return to, 24th of 97 crises globally on the INFORM Severity Index by May 2026 for the prolonging displacement and increasing reliance on temporary shelters. There severity of the pre-existing humanitarian crisis, with a ‘high’ severity classification is also the risk that buildings that did not collapse during the earthquake may have sustained unseen structural damage and are at higher risk of harm from (7.6/10) (EC accessed 30/06/2026). future seismic activity. Thematic report | 03 July 2026 LA GUAIRA Homes built with substandard materials are more susceptible to structural collapse. Shelter Table 2. Baseline information for La Guaira prior to the earthquakes Venezuela lacks emergency shelters and, as a result, many buildings have been repurposed and are likely to not have the conditions to host many people."
+    },
+    {
+      "n": 23,
+      "reliefweb_id": "4219471",
+      "title": "ACAPS Thematic Report: Venezuela - Pre-existing vulnerabilities, access constraints, and anticipated impact in earthquake-affected areas of La Guaira, Caracas, Carabobo, and Yaracuy, 03 July 2026",
+      "url": "https://reliefweb.int/node/4219471",
+      "date": "2026-07-03",
+      "days_after_event": 8.08,
+      "sources": [
+        "ACAPS"
+      ],
+      "field": "pdf",
+      "pdf_filename": "4219471_2729748_20260703_ACAPS_Venezuela_-_Pre-existing_vulnerabilities__access_constraints__and_anticipated_impact_in_earthquake-affected_areas.pdf",
+      "phases": [
+        "context"
+      ],
+      "text": "Shelter Table 2. Baseline information for La Guaira prior to the earthquakes Venezuela lacks emergency shelters and, as a result, many buildings have been repurposed and are likely to not have the conditions to host many people. TOTAL POPULATION 360,888 Between May–September 2026, it is expected that people across the country will experience Stressed (IPC Phase 2) levels of food insecurity, which means Population under 15 years 29% (by 2020) that households may be able to meet minimum food needs, but only by Population over 65 years 7% (by 2020) depleting essential livelihood assets or through coping strategies unsustainable Food security in the long term, such as reducing meals, spending on health, education, or Population density 241.07 per km2 other basic needs (FEWS NET 01/06/2026). After the earthquakes, food security and nutrition needs will increase, placing children, those with pre-existing health Poverty rate 94% (by 2021) conditions, pregnant and lactating women, and older people at particular risk. Multidimensional poverty rate 46% (by 2026) While information on national intersectional protection needs is lacking, Population living in fragile housing with repair needs 62% the Protection Cluster reported that it had only reached 8% of its 1.9-million Food-insecure population 27% target population by April 2026 (Protection Cluster 29/05/2026)."
+    },
+    {
+      "n": 24,
+      "reliefweb_id": "4219634",
+      "title": "UNICEF Venezuela Humanitarian Situation Report No.3 (Earthquake), 02 July 2026",
+      "url": "https://reliefweb.int/node/4219634",
+      "date": "2026-07-05",
+      "days_after_event": 10.08,
+      "sources": [
+        "UN Children's Fund"
+      ],
+      "field": "pdf",
+      "pdf_filename": "4219634_2729965_UNICEF Venezuela Humanitarian Situation Report No.3 (Earthquake response), 28 Jun-02 Jul 2026.pdf",
+      "phases": [
+        "preparedness"
+      ],
+      "text": "Idem 6. According to UNICEF’s Urgent Humanitarian Response Plan for the 2026 Venezuela earthquakes. Preliminary targets and funding requirements are subject to revision as damage and needs assessments continue and more information becomes available on the situation and needs of children and families affected by the earthquakes. 7. Idem 8. OCHA Venezuela. Situation Report No. 6 – Earthquakes in Venezuela, 29 June 2026. Available at:"
+    },
+    {
+      "n": 25,
+      "reliefweb_id": "4219763",
+      "title": "Turkish Red Crescent: Response to the Venezuela Earthquake : Humanitarian Situation (as of July 6 2026)",
+      "url": "https://reliefweb.int/node/4219763",
+      "date": "2026-07-06",
+      "days_after_event": 11.08,
+      "sources": [
+        "Turkish Red Crescent Society"
+      ],
+      "field": "body_text",
+      "pdf_filename": "",
+      "phases": [
+        "event"
+      ],
+      "text": "On 24 June 2026, Venezuela was struck by two powerful earthquakes measuring 7.2 and 7.5 in magnitude, causing widespread devastation across the northern part of the country. The disaster severely affected densely populated areas, leading to the collapse of residential buildings, damage to critical infrastructure, and the disruption of essential public services."
+    },
+    {
+      "n": 26,
+      "reliefweb_id": "4220440",
+      "title": "Venezuela, Americas | Earthquake: Emergency Appeal - Operational Strategy (MDRVE015)",
+      "url": "https://reliefweb.int/node/4220440",
+      "date": "2026-07-06",
+      "days_after_event": 11.08,
+      "sources": [
+        "International Federation of Red Cross and Red Crescent Societies"
+      ],
+      "field": "pdf",
+      "pdf_filename": "4220440_2730508_MDRVE015OS.pdf",
+      "phases": [
+        "preparedness",
+        "response"
+      ],
+      "text": "People to be assisted: Appeal launched: Appeal No.: 300,000 people 26/06/2026 Glide No.: DREF allocated: Disaster categorisation: EQ-2026-000093-VEN CHF 2 million RED Operation start date: Operation end date: Date: 06/07/2026 IFRC Secretariat funding requirement: CHF 50 million Federation-wide funding requirement: CHF 55 million1 1 The Federation-wide funding requirement encompasses all financial support to be directed to the Venezuelan Red Cross in response to the emergency. It includes the Venezuelan Red Cross’ domestic fundraising requests and the fundraising appeals of supporting Red Cross and Red Crescent National Societies (CHF 5 million), as well as the funding ask of the IFRC secretariat (CHF 50 million). This comprehensive approach ensures that all available resources are mobilised to address the urgent humanitarian needs of the affected communities. The Venezuelan Red Cross sets up a health post in La Guaira, Venezuela, on 26 June 2026. (Source: Venezuelan Red Cross Communications Team). TIMELINE 24 June 2026: Earthquakes in Venezuela (two major earthquakes in Venezuela with preliminary magnitudes of 7.2 and 7.5). Declaration of a national state of emergency in Venezuela, with La Guaira designated as a disaster zone. Commencement of search-and-rescue actions by the Venezuelan Red Cross and other emergency response organisations in the Capital District. 25 June 2026: CHF 2 million is allocated to the Venezuelan Red Cross from the IFRC’s Disaster Response Emergency Fund (DREF). Arrival of the first international search and rescue and humanitarian assistance teams. Qualitative damage and needs assessment conducted in La Guaira. 26 June 2026: The IFRC launches a CHF 50 million Emergency Appeal in support of the Venezuelan Red Cross. A field hospital is installed at Jorge García Carmeiro Stadium and a Field Operations Centre is established."
+    },
+    {
+      "n": 27,
+      "reliefweb_id": "4220470",
+      "title": "UNFPA Flash Update: Earthquakes in Venezuela (26 June-6 July 2026)",
+      "url": "https://reliefweb.int/node/4220470",
+      "date": "2026-07-08",
+      "days_after_event": 13.08,
+      "sources": [
+        "United Nations Population Fund"
+      ],
+      "field": "pdf",
+      "pdf_filename": "4220470_2730570_Venezuela Earthquake_Flash Update2.pdf",
+      "phases": [
+        "event"
+      ],
+      "text": "Earthquakes in Venezuela Flash Update 26 June - 6 July 2026 Highlights Venezuela is facing a major humanitarian emergency following two powerful earthquakes of magnitudes 7.2 and 7.5 that struck the central-northern region of the country on 24 June. Nearly 1,000 aftershocks have been recorded, while search and rescue operations and humanitarian assistance continue across affected areas. Official reports indicate that at least 3,342 people have died and more than 16,470 have been injured.1 The states most affected remain La Guaira, Distrito Capital, Miranda, Carabobo, Yaracuy, Falcón and other neighbouring areas. More than 2,500 infrastructures have sustained damage, including 38 health facilities, while thousands of people remain displaced or accommodated in temporary shelters. The disruption of essential services, overcrowding in shelters, family separation and increased psychosocial distress are heightening protection risks, particularly for women, adolescent girls, persons with disabilities and older persons. Strengthening survivor-centred services and safe access to assistance remains an urgent priority. UNFPA is scaling up its life-saving sexual and reproductive health (SRH) and protection response to ensure continued access to maternal health services, emergency obstetric care, family planning, clinical management of rape, and gender-based violence (GBV) prevention and response. Initial shipments of reproductive health supplies and equipment are being mobilized to support affected communities. 789,00 36,700 4,000 850,000 230,000 Women of Estimated preg nant Women expected to give People targeted w/ People targeted w/ reproductive age2 women2 birth in the next month2 SRH services GBV programmes 1 OCHA. Situation Report No. 12 Earthquakes in Venezuela. 5 July 2026. 2 Estimated figures are based on the Minimum Initial Service Package (MISP) for Sexual and Reproductive Health in Humanitarian Settings calculator. UNFPA Flash Update I Venezuela I 26 June - 6 July 2026 Situation Overview Twelve days after the earthquakes, Venezuela remains in an active emergency response phase."
+    },
+    {
+      "n": 28,
+      "reliefweb_id": "4220470",
+      "title": "UNFPA Flash Update: Earthquakes in Venezuela (26 June-6 July 2026)",
+      "url": "https://reliefweb.int/node/4220470",
+      "date": "2026-07-08",
+      "days_after_event": 13.08,
+      "sources": [
+        "United Nations Population Fund"
+      ],
+      "field": "pdf",
+      "pdf_filename": "4220470_2730570_Venezuela Earthquake_Flash Update2.pdf",
+      "phases": [
+        "response"
+      ],
+      "text": "Situation Report No. 12 Earthquakes in Venezuela. 5 July 2026. 2 Estimated figures are based on the Minimum Initial Service Package (MISP) for Sexual and Reproductive Health in Humanitarian Settings calculator. UNFPA Flash Update I Venezuela I 26 June - 6 July 2026 Situation Overview Twelve days after the earthquakes, Venezuela remains in an active emergency response phase. Authorities report more than 1,000 aftershocks, although their frequency and intensity have gradually decreased. Search and rescue operations continue alongside damage assessments and the restoration of essential services. Official figures indicate 3,342 fatalities and 16,470 injuries, although figures are expected to continue to rise with tens of thousands of people still missing. More than 26,000 people are directly affected and over 17,345 have lost their homes. Currently, 10,702 people are currently residing across 79 temporary camps, which have been established across the most affected areas. The health system remains under considerable pressure."
+    },
+    {
+      "n": 29,
+      "reliefweb_id": "4221902",
+      "title": "Public Health Situation Analysis of Venezuela (Bolivarian Republic of), As of July 10, 2026",
+      "url": "https://reliefweb.int/node/4221902",
+      "date": "2026-07-11",
+      "days_after_event": 16.08,
+      "sources": [
+        "Pan American Health Organization"
+      ],
+      "field": "body_text",
+      "pdf_filename": "",
+      "phases": [
+        "event",
+        "preparedness",
+        "prevention",
+        "recovery",
+        "response"
+      ],
+      "text": "**CONTEXT** The Bolivarian Republic of Venezuela (hereinafter “Venezuela”) entered 2026 with pre-existing socioeconomic and humanitarian vulnerabilities that continue to affect population health and the resilience of essential services. Although some macroeconomic indicators showed modest improvement in recent years, millions of people continue to face difficulties accessing health care, safe water, food, and other basic services. These underlying conditions have increased the country's vulnerability to the health impacts of emergencies and disasters. On 24 June 2026, two powerful earthquakes of magnitude 7.2 and 7.5 struck northern Venezuela within less than one minute of each other, with epicentres located west of Caracas near the states of Yaracuy andCarabobo. The earthquakes generated very strong to violent ground shaking across a densely populated corridor, causing widespread damage to homes, health facilities, transport infrastructure, and essential services. As of 5 July 2026, official reports indicate more than 3,300 deaths, over 16,700 injuries, approximately 17,300 people displaced after losing their homes, and more than 6,400 people rescued. Three health facilities have been reported as damaged, while damage assessments continue in the affected areas. Numerous aftershocks followed the main event, further complicating emergency response and recovery efforts. This document provides a comprehensive assessment of the public health situation in Venezuela following the earthquakes of June 2026. It covers the context of the emergency, the impact on the population and health services, and an analysis of key health risks and priority actions for the humanitarian response."
+    },
+    {
+      "n": 30,
+      "reliefweb_id": "4221902",
+      "title": "Public Health Situation Analysis of Venezuela (Bolivarian Republic of), As of July 10, 2026",
+      "url": "https://reliefweb.int/node/4221902",
+      "date": "2026-07-11",
+      "days_after_event": 16.08,
+      "sources": [
+        "Pan American Health Organization"
+      ],
+      "field": "pdf",
+      "pdf_filename": "4221902_2732453_phsa-venezuela-earthquakes-2026.pdf",
+      "phases": [
+        "event"
+      ],
+      "text": "10 July 2026 Public Health Situation Analysis of Venezuela (Bolivarian Republic of) As of July 10, 2026 Type of emergency Major health risks Other health issues  Injuries  Malnutrition and child health  Acute diarrheal diseases  Maternal mortality  Mental health/ psychosocial conditions  Sexual and reproductive health  Tuberculosis  Influenza, SARS-CoV-2, RSV, and other  Violence and civil unrest respiratory viruses  Vaccine-preventable diseases (measles, DisplacemCheonlte ra  Human rabies transmitted by dogs diphtheria, pertussis)  Sexually transmitted diseases  Poisoning from snake bites and other  Skin infections (scabies) venomous animals  Diseases transmitted by vectors and rodents  Non-Communicable Diseases (NCDs) CONTEXT Summary of the impact of the 24 June 2026 earthquakes in Venezuela (as of 5 July 2026) 3,342 16,740 6,462 17,345 3 PEOPLE LOST HEALTH FACILITIES DEATHS INJURIES RESCUED THEIR HOME REPORTED STRUCTURAL DAMAGES Available from: (1) The Bolivarian Republic of Venezuela (hereinafter “Venezuela”) entered 2026 with pre-existing socioeconomic and humanitarian vulnerabilities that continue to affect population health and the resilience of essential services. Although some macroeconomic indicators showed modest improvement in recent years, millions of people continue to face difficulties accessing health care, safe water, food, and other basic services (2). These underlying conditions have increased the country's vulnerability to the health impacts of emergencies and disasters. On 24 June 2026, two powerful earthquakes Figure 1 Geographic location and of Venezuela earthquakes with shake of magnitude 7.2 and 7.5 struck northern intensity extent Venezuela within less than one minute of of shake intensity each other, with epicentres located west of Caracas near the states of Yaracuy and Carabobo. The earthquakes generated very strong to violent ground shaking across a densely populated corridor, causing widespread damage to homes, health facilities, transport infrastructure, and essential services. As of 5 July 2026, official reports indicate more than 3,300 deaths, over 16,700 injuries, approximately 17,300 people displaced after losing their homes, and more than 6,400 people rescued. Three health facilities have been reported as damaged, while damage assessments continue in the affected areas."
+    },
+    {
+      "n": 31,
+      "reliefweb_id": "4221902",
+      "title": "Public Health Situation Analysis of Venezuela (Bolivarian Republic of), As of July 10, 2026",
+      "url": "https://reliefweb.int/node/4221902",
+      "date": "2026-07-11",
+      "days_after_event": 16.08,
+      "sources": [
+        "Pan American Health Organization"
+      ],
+      "field": "pdf",
+      "pdf_filename": "4221902_2732453_phsa-venezuela-earthquakes-2026.pdf",
+      "phases": [
+        "context"
+      ],
+      "text": "As of 5 July 2026, official reports indicate more than 3,300 deaths, over 16,700 injuries, approximately 17,300 people displaced after losing their homes, and more than 6,400 people rescued. Three health facilities have been reported as damaged, while damage assessments continue in the affected areas. Numerous aftershocks followed the main event, further complicating emergency response and Source: Pan American Health Organization (PAHO). Near Real-Time Natural recovery efforts (3,4). Hazards in the Americas (ArcGIS Online web application); Washington, D.C.: OPS, 2026."
+    },
+    {
+      "n": 32,
+      "reliefweb_id": "4221902",
+      "title": "Public Health Situation Analysis of Venezuela (Bolivarian Republic of), As of July 10, 2026",
+      "url": "https://reliefweb.int/node/4221902",
+      "date": "2026-07-11",
+      "days_after_event": 16.08,
+      "sources": [
+        "Pan American Health Organization"
+      ],
+      "field": "pdf",
+      "pdf_filename": "4221902_2732453_phsa-venezuela-earthquakes-2026.pdf",
+      "phases": [
+        "event",
+        "prevention"
+      ],
+      "text": "In densely populated urban areas, informal settlements, remote communities, and temporary displacement sites, populations with incomplete coverage of DTP3, MCV2, and POL3 often coexist in conditions of overcrowding, food insecurity, and inadequate water, sanitation, and hygiene (WASH), increasing the risk of transmission of measles, diphtheria, pertussis, poliomyelitis, and other vaccine-preventable diseases. Strengthening targeted catch-up immunization strategies, prioritizing vaccination of displaced and host communities, reinforcing early warning and epidemiological surveillance for priority vaccine-preventable syndromes, and ensuring the sustained restoration and protection of routine immunization services, including vaccine supply, cold chain functionality, transport, laboratory capacity, and human resources, are critical to mitigating outbreak risks and preventing further erosion of population immunity in Venezuela (24). Americas. Washington, D.C.: PAHO/WHO; 2025. Available from: (24) HEALTH RISKS The primary health risks associated with the 2026 earthquakes in Venezuela are summarized in the following table. This table presents the health risks that may emerge or be exacerbated over the next three months as a result of the earthquakes, including their potential effects on affected populations, health service delivery, critical infrastructure, and living conditions. Public Health Public Health Level of  As of 5 July 2026, a total of 16,740 people in have been injured as result of the earthquakes (1).  Following the earthquakes, further injuries from structural/ building collapse, aftershocks, trauma injuries, etc. remain the main risks at this time (25).  The available information does not allow for a precise assessment of the situation and progress of those affected following initial care. Limitations persist in the registration and follow-up of injured individuals and hospitalized patients, Injuries Highly likely Severe Very High including medical discharges, scheduled or pending surgeries, waiting lists for procedures, and other indicators of clinical progress."
+    },
+    {
+      "n": 33,
+      "reliefweb_id": "4221902",
+      "title": "Public Health Situation Analysis of Venezuela (Bolivarian Republic of), As of July 10, 2026",
+      "url": "https://reliefweb.int/node/4221902",
+      "date": "2026-07-11",
+      "days_after_event": 16.08,
+      "sources": [
+        "Pan American Health Organization"
+      ],
+      "field": "pdf",
+      "pdf_filename": "4221902_2732453_phsa-venezuela-earthquakes-2026.pdf",
+      "phases": [
+        "context"
+      ],
+      "text": "Public Health Public Health Level of  As of 5 July 2026, a total of 16,740 people in have been injured as result of the earthquakes (1).  Following the earthquakes, further injuries from structural/ building collapse, aftershocks, trauma injuries, etc. remain the main risks at this time (25).  The available information does not allow for a precise assessment of the situation and progress of those affected following initial care. Limitations persist in the registration and follow-up of injured individuals and hospitalized patients, Injuries Highly likely Severe Very High including medical discharges, scheduled or pending surgeries, waiting lists for procedures, and other indicators of clinical progress. These gaps could contribute to an underestimation of the number of people injured, hospitalized, and killed as a result of the earthquake.  This context heightens the risk of severe traumatic injuries requiring specialized care in health facilities and adds further pressure on an already weakened health system, characterized by severe shortages of health personnel, medicines, supplies, and surgical capacity (26).  Damage caused by the earthquake may lead to the displacement of the population to temporary camps that lack adequate sanitation facilities, established mechanisms for solid waste management, and appropriate systems for water treatment, chlorination, and quality control. Furthermore, overcrowded conditions, limited availability of supplies for the storage, transport, and safe use of water, and poor hygiene practices can increase exposure to unsafe drinking water and improper food handling. These conditions increase the risk of acute diarrheal diseases and other water- and sanitation-related illnesses, especially among children under five, older adults, pregnant women, and people with underlying health conditions."
+    },
+    {
+      "n": 34,
+      "reliefweb_id": "4220996",
+      "title": "Terremotos Venezuela: Adenda al Plan de Respuesta Humanitaria 2026 [EN/ES]",
+      "url": "https://reliefweb.int/node/4220996",
+      "date": "2026-07-12",
+      "days_after_event": 17.08,
+      "sources": [
+        "UN Office for the Coordination of Humanitarian Affairs"
+      ],
+      "field": "pdf",
+      "pdf_filename": "4220996_2732771_Venezuela_2026_HNRP_Addendum_EN_.pdf",
+      "phases": [
+        "preparedness",
+        "response"
+      ],
+      "text": "As assessments continue and the response gradually moves beyond search and rescue, coordination needs are increasing in relation to information management, the prioritisation of responses, cross-sectoral planning, referral pathways, community feedback and complementarity with national, state and municipal response efforts. Response The sector will seek to support the coordination structures led by the authorities through cross-sectoral mechanisms, on-the-ground coordination and information management that reinforce prioritisation and evidence-based decision-making. Furthermore, it will provide response monitoring, gap analysis and regular updates to national, state and municipal authorities, as well as to humanitarian partners, on needs, response coverage and operational constraints. It will also coordinate with authorities to support cross-sectoral actions in transit camps, including protection monitoring, risk mitigation and safe referral pathways. Accountability to affected people, community participation and feedback mechanisms will be strengthened to ensure that the response remains people-centred. VENEZUELA – ADDENDUM TO THE 2026 HUMANITARIAN RESPONSE PLAN Furthermore, it will strengthen coordination with national and local authorities, Local Coordination Forums, clusters and partners to align humanitarian action with government-led response efforts, reinforce complementarity and avoid duplication. Emergency Logistics and Telecommunications Financial requirements (US$) $0.8M Impact and needs The 2026 earthquake in Venezuela has significantly increased the need for logistics coordination to ensure a timely and efficient humanitarian response. The scale of the event has increased the demand for logistical coordination, realtime operational information, and shared services that enable aid to be mobilised quickly, safely, and efficiently to affected areas."
+    },
+    {
+      "n": 35,
+      "reliefweb_id": "4220996",
+      "title": "Terremotos Venezuela: Adenda al Plan de Respuesta Humanitaria 2026 [EN/ES]",
+      "url": "https://reliefweb.int/node/4220996",
+      "date": "2026-07-12",
+      "days_after_event": 17.08,
+      "sources": [
+        "UN Office for the Coordination of Humanitarian Affairs"
+      ],
+      "field": "pdf",
+      "pdf_filename": "4220996_2732771_Venezuela_2026_HNRP_Addendum_EN_.pdf",
+      "phases": [
+        "response"
+      ],
+      "text": "Emergency Logistics and Telecommunications Financial requirements (US$) $0.8M Impact and needs The 2026 earthquake in Venezuela has significantly increased the need for logistics coordination to ensure a timely and efficient humanitarian response. The scale of the event has increased the demand for logistical coordination, realtime operational information, and shared services that enable aid to be mobilised quickly, safely, and efficiently to affected areas. Photo: WFP Damage to transport infrastructure and the concentration of humanitarian operations at strategic entry points, such as Simón Bolívar International Airport in Maiquetía and the Port of La Guaira, increase the risk of logistical congestion and delays in the receipt, storage and distribution of emergency supplies Added to this are the erratic availability of fuel and potential security or access restrictions to the affected areas – factors that may place additional strain on the humanitarian supply chain and cause delays in the transport and delivery of aid. In this context, it is essential to strengthen coordination between the authorities and humanitarian organisations in order to exchange up-to-date operational information, prioritise the use of available logistical capacity and minimise disruptions to the flow of supplies to affected communities. Response To meet these needs, the sector will provide free shared logistics services, including the transport of emergency supplies, temporary storage and cargo consolidation. In addition, the Logistics Working Group (LWG) will collect and disseminate key information on access conditions, infrastructure and the mobilisation of humanitarian supplies. The LWG aims to support all humanitarian partners involved in the earthquake response in order to facilitate humanitarian access and optimise the delivery of aid to affected populations. The budget required for these tasks is $825,000."
+    },
+    {
+      "n": 36,
+      "reliefweb_id": "4221022",
+      "title": "Situation Report No.5: Earthquakes in Venezuela 2026 (M7.2 and M7.5), 12 July 2026",
+      "url": "https://reliefweb.int/node/4221022",
+      "date": "2026-07-12",
+      "days_after_event": 17.08,
+      "sources": [
+        "Pan American Health Organization"
+      ],
+      "field": "pdf",
+      "pdf_filename": "4221022_2731228_ven-earthquakes-sitrep5-12july2026.pdf",
+      "phases": [
+        "preparedness",
+        "prevention",
+        "recovery",
+        "response"
+      ],
+      "text": "PAHO/WHO Regional Situation Report No. 5 - Earthquakes in Venezuela. Washington, D.C.: PAHO/WHO; 2026. | © PAHO/WHO, 2026 Earthquake in Venezuela Situation Report N.5 REFERENCES: 1. United Nations Disaster Assessment and Coordination (UNDAC). Health and Infrastructure Damage Assessment – Earthquakes in Venezuela. 5 July 2026. Caracas: United Nations; 2026. Unpublished. 2. United Nations Disaster Assessment and Coordination (UNDAC). Rapid Needs Assessment (RNA) – Sectoral Analysis: Venezuela Earthquakes 2026. July 2026. Caracas: United Nations; 2026. Unpublished. 3. United Nations Disaster Assessment and Coordination (UNDAC). Health – People in Need (PiN), Target and Severity Analysis: Venezuela Earthquakes 2026. July 2026. Caracas: United Nations; 2026. Unpublished. 4. Ministry of the People's Power for Health (MPPS)."
+    },
+    {
+      "n": 37,
+      "reliefweb_id": "4221453",
+      "title": "Quick Note - Environmental Issues - June 2026 Earthquakes Venezuela",
+      "url": "https://reliefweb.int/node/4221453",
+      "date": "2026-07-14",
+      "days_after_event": 19.08,
+      "sources": [
+        "Shelter Cluster",
+        "UN High Commissioner for Refugees"
+      ],
+      "field": "pdf",
+      "pdf_filename": "4221453_2731868_Environment Quick Note Venezuela Earthquakes.pdf",
+      "phases": [
+        "event",
+        "prevention"
+      ],
+      "text": "14 July 2026 Quick Note – Environmental Issues – June 2026 Earthquakes Venezuela Additional support on environmental issues is available by emailing Guiding Policies The response to the June earthquakes should be guided by: Sphere Shelter Standard 7 - Shelter and settlement assistance minimises any negative programme impact on the natural environment, including:  Environmental impact assessment and management plans,  Using the most sustainable materials and techniques where possible,  The reuse, recycle or re-purpose of debris  Solid waste managed in a safe, timely, culturally sensitive and environmentally sustainable way,  Restoring and safe, reliable, affordable and environmentally sustainable energy systems, and  Protecting, restoring and improving the ecological value of operational sites (temporary settlements) during and after use. ECHO Minimum Environment Environmental Requirements, required for ECHO-funded projects and good practice guidance for all humanitarian operations. Purpose This note summaries environmental policies and challenges associated with the response to the June 2026 Venezuela earthquakes. The information provided can be used to integrate environmental issues into plans and operations. This note focuses on shelter, formal and informal sheltering sites and housing, land and property (HLP), but is relevant for WASH-related efforts and activities involving infrastructure and energy as well. Weather and Hazard Overview: Heavy Rains and Landslides The impacted area is entering the normal annual peak in rainfall1 and can be affected by hurricanes or tropical low-pressure waves which can trigger intense rains. The potential for heavy rains needs to be monitored on a daily basis.2 In addition, landslide and mud flow mapping is needed, given a potential for increased events associated with seismic activity, as a results of heavy rains, or both.3 Experts in Venezuela can be expected to provide detailed technical support on these hazards."
+    },
+    {
+      "n": 38,
+      "reliefweb_id": "4221453",
+      "title": "Quick Note - Environmental Issues - June 2026 Earthquakes Venezuela",
+      "url": "https://reliefweb.int/node/4221453",
+      "date": "2026-07-14",
+      "days_after_event": 19.08,
+      "sources": [
+        "Shelter Cluster",
+        "UN High Commissioner for Refugees"
+      ],
+      "field": "pdf",
+      "pdf_filename": "4221453_2731868_Environment Quick Note Venezuela Earthquakes.pdf",
+      "phases": [
+        "context"
+      ],
+      "text": "Weather and Hazard Overview: Heavy Rains and Landslides The impacted area is entering the normal annual peak in rainfall1 and can be affected by hurricanes or tropical low-pressure waves which can trigger intense rains. The potential for heavy rains needs to be monitored on a daily basis.2 In addition, landslide and mud flow mapping is needed, given a potential for increased events associated with seismic activity, as a results of heavy rains, or both.3 Experts in Venezuela can be expected to provide detailed technical support on these hazards. Screening for Environmental Impacts and Issues Screening humanitarian operations for critical environmental impacts is essential to reducing harm to disaster survivors. While direct surveys of the disaster-affected are preferred, valuable screening results are possible through scraping environment-related information from personal observations, field reports and other assessments. The two screening tools which can be used for this process are the Rapid Environmental Impact Assessment process, providing a broad view of environmental issues, and the Nexus Environmental Assessment Tool (NEAT) +, providing a more operational and project-level 1 See on weather patterns. 2 See for local forecasts in Spanish. 3 Also 2026 Venezuela Earthquakes - Rapid Imagery Assessment for Hazardous Landslides and An Integrated Approach for Debris-Flow Risk Mitigation in the North Coastal Range of Venezuela. 14 July 2026 result.4 In the absence of field data collection, both tools can be used as table-top exercises."
+    },
+    {
+      "n": 39,
+      "reliefweb_id": "4221613",
+      "title": "Venezuela Earthquake Response, July–December 2026 – Addendum to the 2026 UNICEF HAC Appeal",
+      "url": "https://reliefweb.int/node/4221613",
+      "date": "2026-07-15",
+      "days_after_event": 20.08,
+      "sources": [
+        "UN Children's Fund"
+      ],
+      "field": "body_text",
+      "pdf_filename": "",
+      "phases": [
+        "prevention"
+      ],
+      "text": "On 24 June 2026, two powerful earthquakes of magnitude 7.2 and 7.5 struck north-central Venezuela, adding a new layer of humanitarian needs to an already fragile context. Two weeks after the earthquakes, official figures reported 4,490 deaths, 16,740 people injured and 17,907 people left without housing. The earthquakes have created a major child-focused humanitarian emergency on top of already significant needs. Children and families have lost homes, schools, access to safe water, health services, and protection systems, while aftershocks continue to heighten risks and complicate recovery. UNICEF requires **US$65.7 million to reach 470,000 people; of which 167,000 are children**. UNICEF’s earthquake response and is fully aligned with the addendum to the 2026 Humanitarian Response Plan (HRP) in Venezuela, which targets **1.3 million people affected by the earthquake** across 7 states. Before the earthquakes, UNICEF’s Humanitarian Action for Children (HAC) Appeal targeted 2.3 million people, including 1.2 million children, with a focus on addressing critical needs in health care, nutrition, safe water, sanitation, education, and child protection services."
+    },
+    {
+      "n": 40,
+      "reliefweb_id": "4222423",
+      "title": "One month after earthquakes, Venezuela risks spiraling into deeper crisis without urgent investment in economic recovery",
+      "url": "https://reliefweb.int/node/4222423",
+      "date": "2026-07-22",
+      "days_after_event": 27.08,
+      "sources": [
+        "International Rescue Committee"
+      ],
+      "field": "body_text",
+      "pdf_filename": "",
+      "phases": [
+        "recovery"
+      ],
+      "text": "Caracas, Venezuela, July 22, 2026 — Nearly one month after devastating twin earthquakes struck Venezuela on June 24, the window is closing to set the country on a sustainable path toward recovery. Without immediate investment in local economies and livelihood support, the disaster risks spiraling into a deeper humanitarian crisis, the International Rescue Committee (IRC) warns. Venezuela was already experiencing protracted economic instability long before the ground began to shake, with [over half of the population living in extreme poverty]( Years of economic hardship drove roughly 8 million people, mainly young adults, to leave the country. This has left a critical gap in the workforce that has impacted search and rescue efforts and will continue to constrain capacity as the vital early recovery phase begins. Now, the economic situation threatens to unravel further. An initial assessment by the United Nations Office for Disaster Risk Reduction (UNDRR) estimates direct damage to housing and infrastructure to cost approximately $37 billion. Nearly 8 million people were in humanitarian need in Venezuela before the earthquakes."
+    },
+    {
+      "n": 41,
+      "reliefweb_id": "4222435",
+      "title": "Venezuela Emergency Response, Situation Report #4 (9 – 20 July 2026)",
+      "url": "https://reliefweb.int/node/4222435",
+      "date": "2026-07-22",
+      "days_after_event": 27.08,
+      "sources": [
+        "CESVI"
+      ],
+      "field": "pdf",
+      "pdf_filename": "4222435_2733240_2026.07.pdf",
+      "phases": [
+        "preparedness",
+        "recovery"
+      ],
+      "text": "OPERATIONAL CONTEXT 3 3. CESVI’S IMMEDIATE RESPONSE: TIMELINE AND RESULTS 3 4. CESVI RESPONSE CAPACITY 6 5. PRIORITY ACTIONS FOR A SUSTAINED RESPONSE 7 6. NOTES 8 SitRep #4 – Venezuela Emergency Response 1. KEY FIGURES The following figures represent developments recorded following the 24 June 2026 earthquakes:i 5,208 16,740 856 17,907 Fatalities. People injured. Affected buildings. People lost their homes. Most of the damage is concentrated in housing, schools, hospitals, and public facilities. 2. OPERATIONAL CONTEXT Nearly one month after the earthquakes, the humanitarian response in Venezuela is rapidly transitioning from the immediate emergency phase to a more structured, large-scale operation."
+    },
+    {
+      "n": 42,
+      "reliefweb_id": "4224053",
+      "title": "Needs Assessment Report: Venezuela - Assessment findings on the state of health services and urgent humanitarian needs in La Guaira, Miranda, and Distrito Capital following the June 2026 earthquakes (July 2026)",
+      "url": "https://reliefweb.int/node/4224053",
+      "date": "2026-08-03",
+      "days_after_event": 39.08,
+      "sources": [
+        "Project HOPE"
+      ],
+      "field": "pdf",
+      "pdf_filename": "4224053_2735189_PH Report_Needs Assessment Venezuela 06_2026.pdf",
+      "phases": [
+        "preparedness",
+        "recovery",
+        "response"
+      ],
+      "text": "Needs Assessment Report: Venezuela Assessment findings on the state of health services and urgent humanitarian needs in La Guaira, Miranda, and Distrito Capital following the June 2026 earthquakes. July 2026 Following the June 2026 earthquakes in Venezuela, Project HOPE and its local subsidiary, Proyecto Esperanza, conducted a needs assessment across 12 health facilities and 160 households in Distrito Capital, Miranda, and La Guaira to evaluate health service capacity, WASH conditions, and community protection needs. The assessment found significant gaps in emergency obstetric care, mental health and psychosocial support services, water quality monitoring, handwashing infrastructure, and protection mechanisms, despite generally strong community knowledge of disease prevention and existing health system capacity. Findings indicate that humanitarian response efforts should prioritize restoring essential health supplies and infrastructure, strengthening WASH systems, expanding mental health and protection services, and addressing barriers that prevent communities and health facilities from translating existing knowledge into effective practices. Background Needs Assessment Report: Venezuela – July 2026 Page 1 of 15 La Guaira, Venezuela on June 28, 2026. On June 24, 2026, Venezuela was struck by a series of major earthquakes, triggering a humanitarian emergency in the north-central region of the country. The earthquakes caused significant damage to homes, health facilities, water systems, and transportation infrastructure, affecting the response capacity of communities and institutions."
+    },
+    {
+      "n": 43,
+      "reliefweb_id": "4224053",
+      "title": "Needs Assessment Report: Venezuela - Assessment findings on the state of health services and urgent humanitarian needs in La Guaira, Miranda, and Distrito Capital following the June 2026 earthquakes (July 2026)",
+      "url": "https://reliefweb.int/node/4224053",
+      "date": "2026-08-03",
+      "days_after_event": 39.08,
+      "sources": [
+        "Project HOPE"
+      ],
+      "field": "pdf",
+      "pdf_filename": "4224053_2735189_PH Report_Needs Assessment Venezuela 06_2026.pdf",
+      "phases": [
+        "context"
+      ],
+      "text": "On June 24, 2026, Venezuela was struck by a series of major earthquakes, triggering a humanitarian emergency in the north-central region of the country. The earthquakes caused significant damage to homes, health facilities, water systems, and transportation infrastructure, affecting the response capacity of communities and institutions. The emergency occurred against a backdrop of preexisting vulnerabilities: limited access to health services, deteriorated infrastructure, and shortages of medicines and medical supplies. These conditions exacerbated the impact of the disaster. To understand the initial impact on health services, Project HOPE, through its local subsidiary, Proyecto Esperanza, conducted a Rapid Needs Assessment at 16 health facilities in the states of La Guaira, Miranda, and Distrito Capital within 48 hours of the first earthquake."
+    },
+    {
+      "n": 44,
+      "reliefweb_id": "4224219",
+      "title": "Venezuela Earthquakes: Country Appeal (July - December 2026)",
+      "url": "https://reliefweb.int/node/4224219",
+      "date": "2026-08-03",
+      "days_after_event": 39.08,
+      "sources": [
+        "United Nations Population Fund"
+      ],
+      "field": "body_text",
+      "pdf_filename": "",
+      "phases": [
+        "event"
+      ],
+      "text": "Venezuela is facing a major humanitarian emergency following two powerful earthquakes that struck on 24 June 2026. The states most affected include La Guaira, Distrito Capital, Miranda, Carabobo, Yaracuy, Falcón and neighbouring areas. The loss of livelihoods, disruption of health and protection services, and precarious living conditions—particularly for people residing in temporary shelters—are increasing the risk of gender-based violence and harmful coping mechanisms, especially among women, girls and adolescents. The health system is under severe strain. Many health facilities have sustained structural damage and are facing critical shortages of medicines, medical equipment and personnel, while disruptions to electricity, water supply and supply chains continue to hamper service delivery. To respond to the crisis, UNFPA is seeking US$10 million to scale up life-saving sexual and reproductive health services and strengthen gender-based violence prevention and response across the affected areas. UNFPA is targeting 64,000 people with life-saving sexual and reproductive health services, including emergency obstetric care, antenatal and postnatal care, neonatal care, testing and treatment for sexually transmitted infections, family planning services, clinical management of rape, and essential reproductive health information."
+    },
+    {
+      "n": 45,
+      "reliefweb_id": "4225425",
+      "title": "Situation Report No.9: Earthquakes in Venezuela 2026 (M7.2 and M7.5), 12 August 2026",
+      "url": "https://reliefweb.int/node/4225425",
+      "date": "2026-08-12",
+      "days_after_event": 48.08,
+      "sources": [
+        "Pan American Health Organization"
+      ],
+      "field": "body_text",
+      "pdf_filename": "",
+      "phases": [
+        "preparedness",
+        "prevention",
+        "recovery"
+      ],
+      "text": "**HIGHLIGHTS** Seven weeks after the two earthquakes that struck Venezuela on 24 June 2026, the response continues to sustain emergency operations while transitioning toward early recovery. Current efforts are focused on maintaining essential health services, rehabilitating affected facilities, supporting transitional camps, and delivering health services through a comprehensive approach, while mitigating public health risks and ensuring a continuous, needs-based supply of medicines and essential equipment. Health service recovery and critical care capacity are advancing, with rehabilitation planning progressing in priority facilities and intensive care and maternity capacity being restored at Hospital Dr. José Gregorio Hernández, while assessments in Caracas and Miranda continue to identify critical gaps in equipment and human resources. Public health surveillance and immunization systems are being reinforced, with expanded epidemiological analysis and digital reporting, enhanced laboratory diagnostic capacity, and more than 31,000 vaccine doses administered; national vaccine supply security was further supported through a USD 18 million Revolving Fund credit line. Efforts advanced toward the provision of comprehensive care, focusing on mental health, sexual and reproductive health, noncommunicable diseases, and rehabilitation. This included dissemination of the national mental health protocol, training of transitional camp focal points, continuity of oncology care through three designated centers, and attention to emerging needs such as assessing rehabilitation center capacities and training on amputee management and wound care. PAHO/WHO continued supporting the response with critical medicines and equipment, most recently delivering targeted emergency medical supplies – including specialized kits, medicines, and high-complexity surgical instruments – to the Maternal and Child Hospital Leopoldo Aguerrevere in Petare, Sucre."
+    }
+  ],
+  "model": "claude-sonnet-5",
+  "embedding_model": "BAAI/bge-m3",
+  "usage": {
+    "input_tokens": 64057,
+    "output_tokens": 19594,
+    "calls": 2,
+    "cached": 0
+  },
+  "settings": {
+    "selection": "queries",
+    "top_k": 6,
+    "window": 1,
+    "max_passages": 45,
+    "max_chars": 110000,
+    "days_after_event": null
+  }
+}

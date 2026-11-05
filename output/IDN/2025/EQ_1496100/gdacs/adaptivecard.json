@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "title": "M 5.8   in Indonesia on 16 Aug 2025 22:38 UTC",
+      "description": "",
+      "link": "https://www.gdacs.org/report.aspx?eventid=1496100&episodeid=1655658&eventtype=EQ",
+      "image": "https://www.gdacs.org/images/gdacs_icons/big/Red/EQ.png",
+      "summarytable": [
+        {
+          "key": "Countries",
+          "value": "Indonesia"
+        },
+        {
+          "key": "Magnitude",
+          "value": "5.8"
+        },
+        {
+          "key": "Depth",
+          "value": "10 Km"
+        },
+        {
+          "key": "Lat/Lon",
+          "value": "-1.2569 , 120.7409"
+        },
+        {
+          "key": "Event Date",
+          "value": "16 Aug 2025 22:38 UTC"
+        },
+        {
+          "key": "Local Time",
+          "value": "17 Aug 2025 06:38"
+        },
+        {
+          "key": "Exposed population",
+          "value": "130 thousand (in MMI>=VII) - About 700 people  in MMI>=IX"
+        }
+      ]
+    }
+  ]
+}

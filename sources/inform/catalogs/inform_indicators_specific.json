@@ -1,0 +1,630 @@
+{
+  "meta": {
+    "source": "INFORM Risk Mid 2026 (v0.7.3) - JRC / European Commission",
+    "file": "INFORM_Risk_Mid_2026_v073.xlsx",
+    "generated": "2026-09-24",
+    "description": "File 1 - SPECIFIC indicators: only the hazard/exposure indicators that unambiguously belong to a single disaster type (plus that disaster's own INFORM hazard component). No cross-cutting vulnerability or coping-capacity indicators here. Disasters with no dedicated INFORM hazard layer have an empty list.",
+    "indicator_fields": [
+      "code",
+      "name",
+      "description",
+      "unit",
+      "type",
+      "inform_group"
+    ],
+    "type_values": {
+      "raw": "raw hazard/exposure indicator from the data sheet",
+      "raw_proxy": "raw indicator used as a proxy (no dedicated INFORM layer for this hazard)",
+      "aggregated": "computed INFORM component/dimension score (unit: INFORM score 0-10)"
+    }
+  },
+  "macro_categories": {
+    "natural_disasters": [
+      "Earthquake",
+      "Tsunami",
+      "Volcanic activity",
+      "Landslide (mass movement)",
+      "Riverine flood",
+      "Flash flood",
+      "Coastal flood / storm surge",
+      "Tropical cyclone",
+      "Severe / extratropical storm",
+      "Extreme heat (heatwave)",
+      "Extreme cold (cold wave)",
+      "Drought",
+      "Wildfire"
+    ],
+    "conflicts": [
+      "Conflict"
+    ],
+    "epidemics": [
+      "Epidemic"
+    ],
+    "natural_disaster_families": {
+      "Geophysical": [
+        "Earthquake",
+        "Tsunami",
+        "Volcanic activity",
+        "Landslide (mass movement)"
+      ],
+      "Hydrological": [
+        "Riverine flood",
+        "Flash flood",
+        "Coastal flood / storm surge"
+      ],
+      "Meteorological": [
+        "Tropical cyclone",
+        "Severe / extratropical storm",
+        "Extreme heat (heatwave)",
+        "Extreme cold (cold wave)"
+      ],
+      "Climatological": [
+        "Drought",
+        "Wildfire"
+      ]
+    }
+  },
+  "crises": [
+    {
+      "disaster_type": "Earthquake",
+      "macro_category": "Natural disaster",
+      "hazard_family": "Geophysical",
+      "inform_hazard_data": true,
+      "note": "",
+      "n_indicators": 5,
+      "indicators": [
+        {
+          "code": "HA.NAT.EQ.EXT-ABS",
+          "name": "Physical exposure to extensive earthquake (absolute)",
+          "description": "The indicator is based on the estimated number of people exposed to earthquakes of Modified Mercalli Intensity higher than MMI 6 per year. It results from the combination of the hazard zones and the total population living in the spatial unit. It thus indicates the expected number of people exposed in the hazard zone in one year.",
+          "unit": "Number / Year",
+          "type": "raw",
+          "inform_group": "Hazards & Exposure > Natural > Earthquake > Earthquake Extensive (absolute)"
+        },
+        {
+          "code": "HA.NAT.EQ.EXT-REL",
+          "name": "Physical exposure to extensive earthquake (relative)",
+          "description": "The indicator is based on the estimated number of people exposed to earthquakes of Modified Mercalli Intensity higher than MMI 6 per year. It results from the combination of the hazard zones and the total population living in the spatial unit. It thus indicates the percentage of expected average annual population potentially at risk.",
+          "unit": "Number / Year",
+          "type": "raw",
+          "inform_group": "Hazards & Exposure > Natural > Earthquake > Earthquake Extensive (relative)"
+        },
+        {
+          "code": "HA.NAT.EQ.INT-ABS",
+          "name": "Physical exposure to intensive earthquake (absolute)",
+          "description": "The indicator is based on the estimated number of people exposed to earthquakes of Modified Mercalli Intensity higher than MMI 8 per year. It results from the combination of the hazard zones and the total population living in the spatial unit. It thus indicates the expected number of people exposed in the hazard zone in one year.",
+          "unit": "Number / Year",
+          "type": "raw",
+          "inform_group": "Hazards & Exposure > Natural > Earthquake > Earthquake Intensive (absolute)"
+        },
+        {
+          "code": "HA.NAT.EQ.INT-REL",
+          "name": "Physical exposure to intensive earthquake (relative)",
+          "description": "The indicator is based on the estimated number of people exposed to earthquakes of Modified Mercalli Intensity higher than MMI 8 per year. It results from the combination of the hazard zones and the total population living in the spatial unit. It thus indicates the percentage of expected average annual population potentially at risk.",
+          "unit": "Number / Year",
+          "type": "raw",
+          "inform_group": "Hazards & Exposure > Natural > Earthquake > Earthquake Intensive (relative)"
+        },
+        {
+          "code": "HA.NAT.EQ",
+          "name": "INFORM Earthquake hazard component",
+          "description": "Aggregated physical-exposure score for earthquakes (MMI VI and VIII).",
+          "unit": "INFORM score (0-10)",
+          "type": "aggregated",
+          "inform_group": ""
+        }
+      ]
+    },
+    {
+      "disaster_type": "Tsunami",
+      "macro_category": "Natural disaster",
+      "hazard_family": "Geophysical",
+      "inform_hazard_data": true,
+      "note": "Early-warning communications are especially important for tsunamis (see file 2).",
+      "n_indicators": 3,
+      "indicators": [
+        {
+          "code": "HA.NAT.TS-ABS",
+          "name": "Physical exposure to tsunamis (absolute)",
+          "description": "The indicator is based on the estimated number of people exposed to tsunamis per year. It results from the combination of the hazard zones and the total population living in the spatial unit. It thus indicates the expected number of people exposed in the hazard zone in one year.",
+          "unit": "Number / Year",
+          "type": "raw",
+          "inform_group": "Hazards & Exposure > Natural > Tsunami > Tsunami (absolute)"
+        },
+        {
+          "code": "HA.NAT.TS-REL",
+          "name": "Physical exposure to tsunamis (relative)",
+          "description": "The indicator is based on the estimated number of people exposed to tsunamis per year. It results from the combination of the hazard zones and the total population living in the spatial unit. It thus indicates the percentage of expected average annual population potentially at risk.",
+          "unit": "Number / Year",
+          "type": "raw",
+          "inform_group": "Hazards & Exposure > Natural > Tsunami > Tsunami (relative)"
+        },
+        {
+          "code": "HA.NAT.TS",
+          "name": "INFORM Tsunami hazard component",
+          "description": "Aggregated physical-exposure score for tsunamis.",
+          "unit": "INFORM score (0-10)",
+          "type": "aggregated",
+          "inform_group": ""
+        }
+      ]
+    },
+    {
+      "disaster_type": "Volcanic activity",
+      "macro_category": "Natural disaster",
+      "hazard_family": "Geophysical",
+      "inform_hazard_data": false,
+      "note": "No dedicated volcanic hazard layer in INFORM: no disaster-specific indicator available.",
+      "n_indicators": 0,
+      "indicators": []
+    },
+    {
+      "disaster_type": "Landslide (mass movement)",
+      "macro_category": "Natural disaster",
+      "hazard_family": "Geophysical",
+      "inform_hazard_data": false,
+      "note": "No dedicated landslide layer in INFORM: no disaster-specific indicator available (often triggered by earthquakes or heavy rainfall).",
+      "n_indicators": 0,
+      "indicators": []
+    },
+    {
+      "disaster_type": "Riverine flood",
+      "macro_category": "Natural disaster",
+      "hazard_family": "Hydrological",
+      "inform_hazard_data": true,
+      "note": "",
+      "n_indicators": 3,
+      "indicators": [
+        {
+          "code": "HA.NAT.FL-ABS",
+          "name": "Physical exposure to flood (absolute)",
+          "description": "The indicator is based on the estimated number of people exposed to river floods per year. It results from the combination of the hazard zones and the total population living in the spatial unit. It thus indicates the expected number of people exposed in the hazard zone in one year.",
+          "unit": "Number / Year",
+          "type": "raw",
+          "inform_group": "Hazards & Exposure > Natural > Flood > Flood (absolute)"
+        },
+        {
+          "code": "HA.NAT.FL-REL",
+          "name": "Physical exposure to flood (relative)",
+          "description": "The indicator is based on the estimated number of people exposed to river floods per year. It results from the combination of the hazard zones and the total population living in the spatial unit. It thus indicates the percentage of expected average annual population potentially at risk.",
+          "unit": "Number / Year",
+          "type": "raw",
+          "inform_group": "Hazards & Exposure > Natural > Flood > Flood (relative)"
+        },
+        {
+          "code": "HA.NAT.FL",
+          "name": "INFORM Riverine flood hazard component",
+          "description": "Aggregated physical-exposure score for riverine floods.",
+          "unit": "INFORM score (0-10)",
+          "type": "aggregated",
+          "inform_group": ""
+        }
+      ]
+    },
+    {
+      "disaster_type": "Flash flood",
+      "macro_category": "Natural disaster",
+      "hazard_family": "Hydrological",
+      "inform_hazard_data": false,
+      "note": "No dedicated flash-flood layer: riverine flood exposure is used as the closest proxy (type = raw_proxy).",
+      "n_indicators": 3,
+      "indicators": [
+        {
+          "code": "HA.NAT.FL-ABS",
+          "name": "Physical exposure to flood (absolute)",
+          "description": "The indicator is based on the estimated number of people exposed to river floods per year. It results from the combination of the hazard zones and the total population living in the spatial unit. It thus indicates the expected number of people exposed in the hazard zone in one year.",
+          "unit": "Number / Year",
+          "type": "raw_proxy",
+          "inform_group": "Hazards & Exposure > Natural > Flood > Flood (absolute)"
+        },
+        {
+          "code": "HA.NAT.FL-REL",
+          "name": "Physical exposure to flood (relative)",
+          "description": "The indicator is based on the estimated number of people exposed to river floods per year. It results from the combination of the hazard zones and the total population living in the spatial unit. It thus indicates the percentage of expected average annual population potentially at risk.",
+          "unit": "Number / Year",
+          "type": "raw_proxy",
+          "inform_group": "Hazards & Exposure > Natural > Flood > Flood (relative)"
+        },
+        {
+          "code": "HA.NAT.FL",
+          "name": "INFORM Riverine flood hazard component",
+          "description": "Aggregated physical-exposure score for riverine floods.",
+          "unit": "INFORM score (0-10)",
+          "type": "aggregated",
+          "inform_group": ""
+        }
+      ]
+    },
+    {
+      "disaster_type": "Coastal flood / storm surge",
+      "macro_category": "Natural disaster",
+      "hazard_family": "Hydrological",
+      "inform_hazard_data": true,
+      "note": "",
+      "n_indicators": 3,
+      "indicators": [
+        {
+          "code": "HA.NAT.CFL-ABS",
+          "name": "Physical exposure to coastal flood (absolute)",
+          "description": "The indicator is based on the estimated number of people exposed to coastal flood per year. It results from the combination of the hazard zones and the total population living in the spatial unit. It thus indicates the expected number of people exposed in the hazard zone in one year.",
+          "unit": "Number / Year",
+          "type": "raw",
+          "inform_group": "Hazards & Exposure > Natural > Coastal flood > Coastal flood (absolute)"
+        },
+        {
+          "code": "HA.NAT.CFL-REL",
+          "name": "Physical exposure to coastal flood (relative)",
+          "description": "The indicator is based on the estimated number of people exposed to coastal flood per year. It results from the combination of the hazard zones and the total population living in the spatial unit. It thus indicates the expected number of people exposed in the hazard zone in one year.",
+          "unit": "Number / Year",
+          "type": "raw",
+          "inform_group": "Hazards & Exposure > Natural > Coastal flood > Coastal flood (relative)"
+        },
+        {
+          "code": "HA.NAT.CFL",
+          "name": "INFORM Coastal flood hazard component",
+          "description": "Aggregated physical-exposure score for coastal floods / storm surge.",
+          "unit": "INFORM score (0-10)",
+          "type": "aggregated",
+          "inform_group": ""
+        }
+      ]
+    },
+    {
+      "disaster_type": "Tropical cyclone",
+      "macro_category": "Natural disaster",
+      "hazard_family": "Meteorological",
+      "inform_hazard_data": true,
+      "note": "Covers cyclone wind; associated surge/flooding also relevant.",
+      "n_indicators": 5,
+      "indicators": [
+        {
+          "code": "HA.NAT.TC.EXT-ABS",
+          "name": "Physical exposure to extensive tropical cyclone (absolute)",
+          "description": "The indicator is based on the estimated number of people exposed to tropical cyclones winds of Saffir-Simpson (SS) category higher than 1 per year. It results from the combination of the hazard zones and the total population living in the spatial unit. It thus indicates the expected number of people exposed in the hazard zone in one year.",
+          "unit": "Number / Year",
+          "type": "raw",
+          "inform_group": "Hazards & Exposure > Natural > Tropical Cyclone > Tropical Cyclone Wind intensive (absolute)"
+        },
+        {
+          "code": "HA.NAT.TC.EXT-REL",
+          "name": "Physical exposure to extensive tropical cyclone (relative)",
+          "description": "The indicator is based on the estimated number of people exposed to tropical cyclones winds of Saffir-Simpson (SS) category higher than 1 per year. It results from the combination of the hazard zones and the total population living in the spatial unit. It thus indicates the percentage of expected average annual population potentially at risk.",
+          "unit": "Number / Year",
+          "type": "raw",
+          "inform_group": "Hazards & Exposure > Natural > Tropical Cyclone > Tropical Cyclone Wind extensive (relative)"
+        },
+        {
+          "code": "HA.NAT.TC.INT-ABS",
+          "name": "Physical exposure to intensive tropical cyclone (absolute)",
+          "description": "The indicator is based on the estimated number of people exposed to tropical cyclones winds of Saffir-Simpson (SS) category higher than 3 per year. It results from the combination of the hazard zones and the total population living in the spatial unit. It thus indicates the expected number of people exposed in the hazard zone in one year.",
+          "unit": "Number / Year",
+          "type": "raw",
+          "inform_group": "Hazards & Exposure > Natural > Tropical Cyclone > Tropical Cyclone Wind intensive (absolute)"
+        },
+        {
+          "code": "HA.NAT.TC.INT-REL",
+          "name": "Physical exposure to intensive tropical cyclone (relative)",
+          "description": "The indicator is based on the estimated number of people exposed to tropical cyclones winds of Saffir-Simpson (SS) category higher than 3 per year. It results from the combination of the hazard zones and the total population living in the spatial unit. It thus indicates the percentage of expected average annual population potentially at risk.",
+          "unit": "Number / Year",
+          "type": "raw",
+          "inform_group": "Hazards & Exposure > Natural > Tropical Cyclone > Tropical Cyclone Wind intensive (relative)"
+        },
+        {
+          "code": "HA.NAT.TC",
+          "name": "INFORM Tropical cyclone hazard component",
+          "description": "Aggregated physical-exposure score for tropical cyclone wind (SS1 and SS3).",
+          "unit": "INFORM score (0-10)",
+          "type": "aggregated",
+          "inform_group": ""
+        }
+      ]
+    },
+    {
+      "disaster_type": "Severe / extratropical storm",
+      "macro_category": "Natural disaster",
+      "hazard_family": "Meteorological",
+      "inform_hazard_data": false,
+      "note": "No dedicated layer: tropical cyclone wind exposure used as the closest proxy (type = raw_proxy).",
+      "n_indicators": 5,
+      "indicators": [
+        {
+          "code": "HA.NAT.TC.EXT-ABS",
+          "name": "Physical exposure to extensive tropical cyclone (absolute)",
+          "description": "The indicator is based on the estimated number of people exposed to tropical cyclones winds of Saffir-Simpson (SS) category higher than 1 per year. It results from the combination of the hazard zones and the total population living in the spatial unit. It thus indicates the expected number of people exposed in the hazard zone in one year.",
+          "unit": "Number / Year",
+          "type": "raw_proxy",
+          "inform_group": "Hazards & Exposure > Natural > Tropical Cyclone > Tropical Cyclone Wind intensive (absolute)"
+        },
+        {
+          "code": "HA.NAT.TC.EXT-REL",
+          "name": "Physical exposure to extensive tropical cyclone (relative)",
+          "description": "The indicator is based on the estimated number of people exposed to tropical cyclones winds of Saffir-Simpson (SS) category higher than 1 per year. It results from the combination of the hazard zones and the total population living in the spatial unit. It thus indicates the percentage of expected average annual population potentially at risk.",
+          "unit": "Number / Year",
+          "type": "raw_proxy",
+          "inform_group": "Hazards & Exposure > Natural > Tropical Cyclone > Tropical Cyclone Wind extensive (relative)"
+        },
+        {
+          "code": "HA.NAT.TC.INT-ABS",
+          "name": "Physical exposure to intensive tropical cyclone (absolute)",
+          "description": "The indicator is based on the estimated number of people exposed to tropical cyclones winds of Saffir-Simpson (SS) category higher than 3 per year. It results from the combination of the hazard zones and the total population living in the spatial unit. It thus indicates the expected number of people exposed in the hazard zone in one year.",
+          "unit": "Number / Year",
+          "type": "raw_proxy",
+          "inform_group": "Hazards & Exposure > Natural > Tropical Cyclone > Tropical Cyclone Wind intensive (absolute)"
+        },
+        {
+          "code": "HA.NAT.TC.INT-REL",
+          "name": "Physical exposure to intensive tropical cyclone (relative)",
+          "description": "The indicator is based on the estimated number of people exposed to tropical cyclones winds of Saffir-Simpson (SS) category higher than 3 per year. It results from the combination of the hazard zones and the total population living in the spatial unit. It thus indicates the percentage of expected average annual population potentially at risk.",
+          "unit": "Number / Year",
+          "type": "raw_proxy",
+          "inform_group": "Hazards & Exposure > Natural > Tropical Cyclone > Tropical Cyclone Wind intensive (relative)"
+        },
+        {
+          "code": "HA.NAT.TC",
+          "name": "INFORM Tropical cyclone hazard component",
+          "description": "Aggregated physical-exposure score for tropical cyclone wind (SS1 and SS3).",
+          "unit": "INFORM score (0-10)",
+          "type": "aggregated",
+          "inform_group": ""
+        }
+      ]
+    },
+    {
+      "disaster_type": "Extreme heat (heatwave)",
+      "macro_category": "Natural disaster",
+      "hazard_family": "Meteorological",
+      "inform_hazard_data": false,
+      "note": "No dedicated extreme-temperature layer in INFORM: no disaster-specific indicator available.",
+      "n_indicators": 0,
+      "indicators": []
+    },
+    {
+      "disaster_type": "Extreme cold (cold wave)",
+      "macro_category": "Natural disaster",
+      "hazard_family": "Meteorological",
+      "inform_hazard_data": false,
+      "note": "No dedicated extreme-temperature layer in INFORM: no disaster-specific indicator available.",
+      "n_indicators": 0,
+      "indicators": []
+    },
+    {
+      "disaster_type": "Drought",
+      "macro_category": "Natural disaster",
+      "hazard_family": "Climatological",
+      "inform_hazard_data": true,
+      "note": "",
+      "n_indicators": 5,
+      "indicators": [
+        {
+          "code": "HA.NAT.DR.ASI",
+          "name": "Agriculture drought probability",
+          "description": "The indicator is based on the FAO Agriculture Stress Index (ASI) that highlights anomalous vegetation growth and potential drought in arable land. It is defined as the annual probability to have more than 30% of agriculture area affected by drought.",
+          "unit": "%",
+          "type": "raw",
+          "inform_group": "Hazards & Exposure > Natural > Drought"
+        },
+        {
+          "code": "HA.NAT.DR-ABS",
+          "name": "People affected by droughts (absolute)",
+          "description": "The indicator shows the average annual affected population by droughts per country on the period from 1990 to 2013.",
+          "unit": "Number / Year",
+          "type": "raw",
+          "inform_group": "Hazards & Exposure > Natural > Drought > Drought (absolute)"
+        },
+        {
+          "code": "HA.NAT.DR-REL",
+          "name": "People affected by droughts (relative)",
+          "description": "The indicator shows the percentage of the average annual affected population per country by droughts on the period from 1990 to 2013.",
+          "unit": "%",
+          "type": "raw",
+          "inform_group": "Hazards & Exposure > Natural > Drought > Drought (relative)"
+        },
+        {
+          "code": "HA.NAT.DR-FRQ",
+          "name": "Frequency of droughts events",
+          "description": "The indicator shows the frequency of droughts events on the period from 1990 to 2013.",
+          "unit": "%",
+          "type": "raw",
+          "inform_group": "Hazards & Exposure > Natural > Drought > Drought (frequency)"
+        },
+        {
+          "code": "HA.NAT.DR",
+          "name": "INFORM Drought hazard component",
+          "description": "Aggregated drought hazard/exposure score.",
+          "unit": "INFORM score (0-10)",
+          "type": "aggregated",
+          "inform_group": ""
+        }
+      ]
+    },
+    {
+      "disaster_type": "Wildfire",
+      "macro_category": "Natural disaster",
+      "hazard_family": "Climatological",
+      "inform_hazard_data": false,
+      "note": "No dedicated wildfire layer in INFORM: no disaster-specific indicator available.",
+      "n_indicators": 0,
+      "indicators": []
+    },
+    {
+      "disaster_type": "Epidemic",
+      "macro_category": "Epidemic",
+      "hazard_family": "Biological",
+      "inform_hazard_data": true,
+      "note": "",
+      "n_indicators": 17,
+      "indicators": [
+        {
+          "code": "POP.EXP.ZOON.CCHF",
+          "name": "Population exposed to CCHF",
+          "description": "These maps use reported geographic information on index cases of outbreaks and viral detection in animals related to a number of environmental factors thought to influence the distribution of these pathogens using species distribution models in order to build an environmental profile that best characterizes possible pathogen presence.",
+          "unit": "Number",
+          "type": "raw",
+          "inform_group": "Hazards & Exposure > Natural > Epidemic > Zoonoses"
+        },
+        {
+          "code": "POP.EXP.ZOON.EVD",
+          "name": "Population exposed to EVD",
+          "description": "These maps use reported geographic information on index cases of outbreaks and viral detection in animals related to a number of environmental factors thought to influence the distribution of these pathogens using species distribution models in order to build an environmental profile that best characterizes possible pathogen presence.",
+          "unit": "Number",
+          "type": "raw",
+          "inform_group": "Hazards & Exposure > Natural > Epidemic > Zoonoses"
+        },
+        {
+          "code": "POP.EXP.ZOON.LASSA",
+          "name": "Population exposed to Lassa Fever",
+          "description": "These maps use reported geographic information on index cases of outbreaks and viral detection in animals related to a number of environmental factors thought to influence the distribution of these pathogens using species distribution models in order to build an environmental profile that best characterizes possible pathogen presence.",
+          "unit": "Number",
+          "type": "raw",
+          "inform_group": "Hazards & Exposure > Natural > Epidemic > Zoonoses"
+        },
+        {
+          "code": "POP.EXP.ZOON.MVD",
+          "name": "Population exposed to MVD",
+          "description": "These maps use reported geographic information on index cases of outbreaks and viral detection in animals related to a number of environmental factors thought to influence the distribution of these pathogens using species distribution models in order to build an environmental profile that best characterizes possible pathogen presence.",
+          "unit": "Number",
+          "type": "raw",
+          "inform_group": "Hazards & Exposure > Natural > Epidemic > Zoonoses"
+        },
+        {
+          "code": "POP.EXP.ZOON.LA",
+          "name": "Number of live animals per capita",
+          "description": "Number of live animals (cattle and buffaloes, poultry birds, and sheep and goats) in each coutry divided by the total population of the country.",
+          "unit": "Number per capita",
+          "type": "raw",
+          "inform_group": "Hazards & Exposure > Natural > Epidemic > Zoonoses"
+        },
+        {
+          "code": "POP.EXP.VECT.MAL",
+          "name": "Populations at risk of malaria",
+          "description": "The WHO estimates annual population at risk of malaria based on the United Nations population, times the proportion of the population at risk\nat baseline.",
+          "unit": "Number",
+          "type": "raw",
+          "inform_group": "Hazards & Exposure > Natural > Epidemic > Vector borne"
+        },
+        {
+          "code": "POP.EXP.VECT.ZIKA",
+          "name": "Population exposed to Zika",
+          "description": "The indicator is based on the estimated number of people potentially exposed to Zika virus (ZIKV). To calculate the number of people located in an area that is at any level of risk for ZIKV transmission, a global ZIKV environmental suitability map was combined with fine-scale global population map (GHS-POP).",
+          "unit": "Number",
+          "type": "raw",
+          "inform_group": "Hazards & Exposure > Natural > Epidemic > Vector borne"
+        },
+        {
+          "code": "POP.EXP.VECT.AEDES",
+          "name": "Population at Risk to Aedes",
+          "description": "The indicator is based on the estimated number of people potentially exposed to Aedes mosquites. To calculate the number of people located in an area that is suitable for Aedes mosquites, a global Aedes environmental suitability map was combined with fine-scale global population map (GHS-POP).",
+          "unit": "Number",
+          "type": "raw",
+          "inform_group": "Hazards & Exposure > Natural > Epidemic > Vector borne"
+        },
+        {
+          "code": "POP.EXP.VECT.DENGUE",
+          "name": "Population exposed to Dengue",
+          "description": "The indicator is based on the estimated number of people potentially exposed to Dengue. To calculate the number of people located in an area that is at any level of risk for Dengue transmission, a global Dengue suitability map was combined with fine-scale global population map (GHS-POP).",
+          "unit": "Number",
+          "type": "raw",
+          "inform_group": "Hazards & Exposure > Natural > Epidemic > Vector borne"
+        },
+        {
+          "code": "POP.EXP.WATERB",
+          "name": "Population exposed to virus (waterborne)",
+          "description": "Population exposed to waterborne virus; exposure factor for water/food-borne epidemics.",
+          "unit": "Number",
+          "type": "raw",
+          "inform_group": "Hazards & Exposure > Natural > Epidemic > Water and Food borne"
+        },
+        {
+          "code": "HLT.SDGIHR.IHR11",
+          "name": "IHR capacity score: Food safety",
+          "description": "The percentage of the average of all indicators, which reflect the level of performance or achievement of Core Capacity 4. Food Safety Each capacity has one to three indicators. Each indicator is based on five cumulative levels, with attributes (one of a set of specific elements or characteristics that reflect the level of performance or achievement of a specific indicator) for annual reporting.",
+          "unit": "%",
+          "type": "raw",
+          "inform_group": "Hazards & Exposure > Natural > Epidemic > Water and Food borne"
+        },
+        {
+          "code": "SH.SAN.HNDWSH.ZS-P2P",
+          "name": "People with basic handwashing facilities including soap and water (% of population)",
+          "description": "The percentage of people living in households that have a handwashing facility with soap and water available on the premises. Handwashing facilities may be fixed or mobile and include a sink with tap water, buckets with taps, tippy-taps, and jugs or basins designated for handwashing. Soap includes bar soap, liquid soap, powder detergent, and soapy water but does not include ash, soil, sand or other handwashing agents.",
+          "unit": "%",
+          "type": "raw",
+          "inform_group": "Hazards & Exposure > Natural > Epidemic > Water and Food borne"
+        },
+        {
+          "code": "SH.STA.ODFC.ZS",
+          "name": "People practicing open defecation (% of population)",
+          "description": "People practicing open defecation refers to the percentage of the population defecating in the open, such as in fields, forest, bushes, open bodies of water, on beaches, in other open spaces or disposed of with solid waste.",
+          "unit": "%",
+          "type": "raw",
+          "inform_group": "Hazards & Exposure > Natural > Epidemic > P2P / Water and Food borne"
+        },
+        {
+          "code": "HA.NAT.EPI.ZOON",
+          "name": "INFORM Zoonoses exposure sub-component",
+          "description": "Aggregated exposure to zoonotic diseases (CCHF, EVD, Lassa, MVD, livestock).",
+          "unit": "INFORM score (0-10)",
+          "type": "aggregated",
+          "inform_group": ""
+        },
+        {
+          "code": "HA.NAT.EPI.VECT",
+          "name": "INFORM Vector-borne exposure sub-component",
+          "description": "Aggregated exposure to vector-borne diseases (malaria, Zika, Aedes, dengue).",
+          "unit": "INFORM score (0-10)",
+          "type": "aggregated",
+          "inform_group": ""
+        },
+        {
+          "code": "HA.NAT.EPI.WFB",
+          "name": "INFORM Water/food-borne exposure sub-component",
+          "description": "Aggregated exposure to water- and food-borne transmission factors.",
+          "unit": "INFORM score (0-10)",
+          "type": "aggregated",
+          "inform_group": ""
+        },
+        {
+          "code": "HA.NAT.EPI",
+          "name": "INFORM Epidemic hazard component",
+          "description": "Aggregated physical-exposure score for epidemics.",
+          "unit": "INFORM score (0-10)",
+          "type": "aggregated",
+          "inform_group": ""
+        }
+      ]
+    },
+    {
+      "disaster_type": "Conflict",
+      "macro_category": "Conflict",
+      "hazard_family": "Human",
+      "inform_hazard_data": true,
+      "note": "",
+      "n_indicators": 3,
+      "indicators": [
+        {
+          "code": "HA.HUM.CON.GPI",
+          "name": "Current Conflict Intensity",
+          "description": "To assess the intensity of ongoing conflicts around the globe, we use Ongoing Domestic and International Conflict scores from the Global peace Index. The index uses six statistical indicators to investigate the extent to which countries are involved in internal and external conflicts, as well as their role and duration of involvement in conflicts.",
+          "unit": "Index",
+          "type": "raw",
+          "inform_group": "Hazards & Exposure > Human > Conflict Risk > Current Conflict Intensity"
+        },
+        {
+          "code": "HA.HUM.CON.GCRI",
+          "name": "Projected Conflict Probability",
+          "description": "The Global Conflict Risk Index (GCRI) estimates the risk of internal conflict at the country level within the next 4 years. INFORM Risk uses the GCRI probability estimates for the “any conflict” category, which includes the sub-categories “state-based conflict”, “non-state conflict”, and “one-sided violence”.",
+          "unit": "%",
+          "type": "raw",
+          "inform_group": "Hazards & Exposure > Human > Conflict Risk > Projected Conflict Probability"
+        },
+        {
+          "code": "HA.HUM.CON",
+          "name": "INFORM Conflict risk component",
+          "description": "Aggregated score: current conflict intensity + projected conflict probability.",
+          "unit": "INFORM score (0-10)",
+          "type": "aggregated",
+          "inform_group": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "items": [
+    {
+      "title": "M 6   in Afghanistan on 31 Aug 2025 19:17 UTC",
+      "description": "",
+      "link": "https://www.gdacs.org/report.aspx?eventid=1498339&episodeid=1658520&eventtype=EQ",
+      "image": "https://www.gdacs.org/images/gdacs_icons/big/Red/EQ.png",
+      "summarytable": [
+        {
+          "key": "Countries",
+          "value": "Afghanistan"
+        },
+        {
+          "key": "Magnitude",
+          "value": "6.0"
+        },
+        {
+          "key": "Depth",
+          "value": "8 Km"
+        },
+        {
+          "key": "Lat/Lon",
+          "value": "34.7061 , 70.7934"
+        },
+        {
+          "key": "Event Date",
+          "value": "31 Aug 2025 19:17 UTC"
+        },
+        {
+          "key": "Glide Number",
+          "value": "EQ-2025-000153-AFG"
+        },
+        {
+          "key": "Local Time",
+          "value": "31 Aug 2025 23:47"
+        },
+        {
+          "key": "Exposed population",
+          "value": "1.1 million (in MMI>=VII) - About 41000 people  in MMI>=IX"
+        }
+      ]
+    }
+  ]
+}

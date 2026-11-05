@@ -1,0 +1,50 @@
+{
+  "source": "IDMC GIDD API",
+  "endpoint": "gidd/disasters/",
+  "table": "events",
+  "api_filters": {
+    "iso3__in": "AFG",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "event_filter": null,
+  "retrieved_at_utc": "2026-11-04T11:19:02.073339+00:00",
+  "last_updated": "2026-08-31",
+  "columns": [
+    "iso3",
+    "country_name",
+    "year",
+    "start_date",
+    "start_date_accuracy",
+    "end_date",
+    "end_date_accuracy",
+    "event_name",
+    "new_displacement",
+    "new_displacement_rounded",
+    "total_displacement",
+    "total_displacement_rounded",
+    "hazard_category",
+    "hazard_category_name",
+    "hazard_sub_category",
+    "hazard_sub_category_name",
+    "hazard_type",
+    "hazard_type_name",
+    "hazard_sub_type",
+    "hazard_sub_type_name",
+    "event_codes",
+    "event_codes_type"
+  ],
+  "checks": {
+    "n_rows": 1,
+    "years": [
+      2025
+    ],
+    "n_events": 1,
+    "new_displacement": 252815,
+    "hazard_type_name": {
+      "Mixed disasters": 1
+    }
+  },
+  "raw_file": "gidd_events_AFG_2025_2026.json",
+  "table_file": "gidd_events_AFG_2025_2026.parquet"
+}

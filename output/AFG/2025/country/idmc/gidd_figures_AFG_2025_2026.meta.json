@@ -1,0 +1,78 @@
+{
+  "source": "IDMC GIDD API",
+  "endpoint": "gidd/disaggregations/disaggregation-geojson/",
+  "table": "figures",
+  "api_filters": {
+    "iso3__in": "AFG",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "event_filter": null,
+  "retrieved_at_utc": "2026-11-04T11:19:00.668779+00:00",
+  "last_updated": "2026-08-31",
+  "columns": [
+    "ID",
+    "ISO3",
+    "Country",
+    "Geographical region",
+    "Figure cause",
+    "Year",
+    "Figure category",
+    "Figure unit",
+    "Reported figures",
+    "Household size",
+    "Total figures",
+    "Violence type",
+    "Stock date",
+    "Stock date accuracy",
+    "Stock reporting date",
+    "Publishers",
+    "Sources",
+    "Sources type",
+    "Event ID",
+    "Event name",
+    "Event cause",
+    "Event main trigger",
+    "Event start date",
+    "Event end date",
+    "Is housing destruction",
+    "Event codes (Code:Type)",
+    "Locations name",
+    "Locations accuracy",
+    "Locations type",
+    "Pcode",
+    "Pcode accuracy",
+    "Pcode source",
+    "Displacement occurred",
+    "geometry_type",
+    "coordinates",
+    "Start date",
+    "Start date accuracy",
+    "End date",
+    "End date accuracy",
+    "Event start date accuracy",
+    "Event end date accuracy",
+    "Hazard category",
+    "Hazard sub category",
+    "Hazard type",
+    "Hazard sub type"
+  ],
+  "checks": {
+    "n_rows": 12,
+    "years": [
+      2025
+    ],
+    "n_events": 5,
+    "Figure cause": {
+      "Conflict": 7,
+      "Disaster": 5
+    },
+    "Figure category": {
+      "Internal Displacements": 7,
+      "IDPs": 5
+    },
+    "no_coordinates": 0
+  },
+  "raw_file": "gidd_figures_AFG_2025_2026.json",
+  "table_file": "gidd_figures_AFG_2025_2026.parquet"
+}

@@ -1,0 +1,1214 @@
+{
+ "nodes": [
+  {
+   "id": "eq_foreshock_m72",
+   "label": "M7.2 foreshock San Felipe",
+   "type": "hazard",
+   "drm_phase": "none",
+   "description": "Magnitude 7.2 shallow foreshock near San Felipe, Yaracuy, 22 km depth, 24 June 2026."
+  },
+  {
+   "id": "eq_mainshock_m75",
+   "label": "M7.5 mainshock Yumare",
+   "type": "hazard",
+   "drm_phase": "none",
+   "description": "Magnitude 7.5 shallow mainshock near Yumare, Veroes, Yaracuy, 10 km depth, 39-40s after foreshock."
+  },
+  {
+   "id": "aftershocks",
+   "label": "Extensive aftershock sequence",
+   "type": "hazard",
+   "drm_phase": "none",
+   "description": "Over 1,000 aftershocks recorded by mid-July, including M5.1 Tucacas and M4.4 Guatire events, continuing to weaken structures."
+  },
+  {
+   "id": "landslide_risk",
+   "label": "Landslide/debris-flow risk from rains",
+   "type": "hazard",
+   "drm_phase": "none",
+   "description": "Onset of rainy season, hurricanes or tropical lows could trigger landslides and mud flows on seismically weakened slopes in North Coastal Range."
+  },
+  {
+   "id": "disease_outbreak_risk",
+   "label": "Risk of disease outbreaks",
+   "type": "hazard",
+   "drm_phase": "none",
+   "description": "PAHO identified elevated risk of measles, diphtheria, pertussis, polio, acute diarrheal disease, cholera and vector-borne illness linked to displacement and damaged WASH."
+  },
+  {
+   "id": "deaths",
+   "label": "Deaths from earthquakes",
+   "type": "impact",
+   "drm_phase": "none",
+   "description": "Death toll rose from 32 to over 5,200 across successive reports (DFS, OCHA, UNHCR, UNFPA, UNICEF, CESVI)."
+  },
+  {
+   "id": "injuries",
+   "label": "Injuries from earthquakes",
+   "type": "impact",
+   "drm_phase": "none",
+   "description": "Injuries rose from about 700 to over 16,700 across multiple situation reports."
+  },
+  {
+   "id": "missing_persons",
+   "label": "Tens of thousands missing",
+   "type": "impact",
+   "drm_phase": "none",
+   "description": "IFRC noted tens of thousands reported missing, with ambiguous unreconciled figures across sources."
+  },
+  {
+   "id": "displacement",
+   "label": "Mass displacement/homelessness",
+   "type": "impact",
+   "drm_phase": "none",
+   "description": "Displacement estimates rose from 3,000 (OCHA) to over 17,900 homeless (UNICEF/CESVI) with people in temporary camps."
+  },
+  {
+   "id": "collapsed_structures",
+   "label": "Collapsed/damaged buildings",
+   "type": "impact",
+   "drm_phase": "none",
+   "description": "2,501 damaged sites including 774 housing units, 189 fully collapsed, and 38 hospitals (UNHCR); CESVI cites 856 affected buildings."
+  },
+  {
+   "id": "economic_losses",
+   "label": "US$6.7-37 billion economic damage",
+   "type": "impact",
+   "drm_phase": "none",
+   "description": "UNDP preliminary estimate of $6.7bn direct physical damage; UNDRR analytical estimate of ~$37bn total direct damage to buildings and infrastructure."
+  },
+  {
+   "id": "infrastructure_disruption",
+   "label": "Critical infrastructure disruption",
+   "type": "impact",
+   "drm_phase": "none",
+   "description": "Closure of Maiquetía airport, suspension of Caracas Metro/railways, power outages, damage to water, telecoms, roads and bridges."
+  },
+  {
+   "id": "health_system_strain",
+   "label": "Overwhelmed health system",
+   "type": "impact",
+   "drm_phase": "none",
+   "description": "Hospitals managing large trauma caseloads within an already weakened health system with pre-crisis shortages of supplies and surgical capacity."
+  },
+  {
+   "id": "livelihood_loss",
+   "label": "Loss of livelihoods/income",
+   "type": "impact",
+   "drm_phase": "none",
+   "description": "Households lost homes, productive assets, employment; small businesses, informal commerce and tourism severely disrupted (IFRC)."
+  },
+  {
+   "id": "protection_risks",
+   "label": "Heightened protection risks",
+   "type": "impact",
+   "drm_phase": "none",
+   "description": "Overcrowded shelters, family separation and displacement increased GBV and protection risks especially for women, girls, disabled and older persons (UNFPA)."
+  },
+  {
+   "id": "logistics_congestion",
+   "label": "Logistics congestion at ports/airport",
+   "type": "impact",
+   "drm_phase": "none",
+   "description": "Damaged Maiquetía airport and concentration of operations at Port of La Guaira increased risk of delays in receipt, storage and distribution of supplies."
+  },
+  {
+   "id": "vuln_unreinforced_construction",
+   "label": "Unreinforced/informal construction",
+   "type": "vulnerability",
+   "drm_phase": "none",
+   "description": "Most buildings unlikely built to modern earthquake regulations; lack of enforcement of building standards; informal settlements on unstable hillsides."
+  },
+  {
+   "id": "vuln_preexisting_crisis",
+   "label": "Protracted economic/humanitarian crisis",
+   "type": "vulnerability",
+   "drm_phase": "none",
+   "description": "Venezuela ranked 24th/97 on INFORM Severity Index (7.6/10), nearly 8 million already in humanitarian need before the quakes."
+  },
+  {
+   "id": "vuln_poverty",
+   "label": "High poverty/multidimensional poverty",
+   "type": "vulnerability",
+   "drm_phase": "none",
+   "description": "94% poverty rate and 46% multidimensional poverty in La Guaira; over half population in extreme poverty nationally before quakes."
+  },
+  {
+   "id": "vuln_weak_services",
+   "label": "Weak pre-existing shelter/WASH/health systems",
+   "type": "vulnerability",
+   "drm_phase": "none",
+   "description": "REACH/ACAPS found weak shelter, water and health systems in Aragua, La Guaira, Carabobo, Falcón limiting absorptive capacity before the quakes."
+  },
+  {
+   "id": "vuln_fragile_housing",
+   "label": "Fragile housing stock",
+   "type": "vulnerability",
+   "drm_phase": "none",
+   "description": "62% of housing in fragile condition with repair needs in La Guaira; widespread housing deterioration reported pre-quake."
+  },
+  {
+   "id": "vuln_workforce_gap",
+   "label": "Workforce gaps from emigration",
+   "type": "vulnerability",
+   "drm_phase": "none",
+   "description": "Years of emigration (~8 million people) left critical workforce gaps impacting search-and-rescue and recovery capacity (IRC)."
+  },
+  {
+   "id": "vuln_low_protection_coverage",
+   "label": "Low Protection Cluster coverage",
+   "type": "vulnerability",
+   "drm_phase": "none",
+   "description": "Protection Cluster had reached only 8% of its 1.9 million target population by April 2026."
+  },
+  {
+   "id": "vuln_censorship",
+   "label": "Censorship/limited transparency",
+   "type": "vulnerability",
+   "drm_phase": "none",
+   "description": "Censorship, limited transparency and restrictions on media/civil society weakened public trust in official information (ACAPS/Amnesty International)."
+  },
+  {
+   "id": "vuln_weak_health_system",
+   "label": "Pre-crisis weak health system",
+   "type": "vulnerability",
+   "drm_phase": "none",
+   "description": "Public health system in protracted collapse with shortages of personnel, medicines, supplies and surgical capacity before the quakes."
+  },
+  {
+   "id": "need_shelter",
+   "label": "Need for safe temporary shelter",
+   "type": "need",
+   "drm_phase": "response",
+   "description": "Health Cluster identified critical need for safe temporary shelter amid families sleeping in streets, cars and makeshift tents."
+  },
+  {
+   "id": "need_water_sanitation",
+   "label": "Need for safe water and sanitation",
+   "type": "need",
+   "drm_phase": "response",
+   "description": "Water cited as top priority need nationally since March 2026; WASH gaps worsened post-quake per Health Cluster and Project HOPE."
+  },
+  {
+   "id": "need_food_nfi",
+   "label": "Need for food and NFIs",
+   "type": "need",
+   "drm_phase": "response",
+   "description": "Health Cluster identified critical gaps in food, hygiene kits, non-food items and clothing for affected population."
+  },
+  {
+   "id": "need_health_personnel",
+   "label": "Need for specialized medical personnel/supplies",
+   "type": "need",
+   "drm_phase": "response",
+   "description": "Need for logistics support, specialized medical personnel, medicines and equipment flagged by Health Cluster and PAHO."
+  },
+  {
+   "id": "need_mhpss",
+   "label": "Need for mental health/psychosocial support",
+   "type": "need",
+   "drm_phase": "response",
+   "description": "Critical need for specialized MHPSS amid widespread fear, grief and distress; Project HOPE found significant MHPSS gaps."
+  },
+  {
+   "id": "need_child_protection",
+   "label": "Need for child protection pathways",
+   "type": "need",
+   "drm_phase": "response",
+   "description": "Need to activate protection pathways for unaccompanied children identified in health centers."
+  },
+  {
+   "id": "need_srh_gbv",
+   "label": "Need for SRH and GBV services",
+   "type": "need",
+   "drm_phase": "response",
+   "description": "UNFPA flagged unmet needs in survivor-centred GBV and SRH services amid overcrowded shelters and family separation."
+  },
+  {
+   "id": "need_structural_assessment",
+   "label": "Need for structural safety assessment",
+   "type": "need",
+   "drm_phase": "recovery",
+   "description": "Risk that buildings not collapsed sustained unseen structural damage, requiring assessment before safe return (ACAPS)."
+  },
+  {
+   "id": "need_logistics_coordination",
+   "label": "Need for logistics coordination",
+   "type": "need",
+   "drm_phase": "response",
+   "description": "OCHA Logistics Working Group identified need for coordination given congestion at airport/port, fuel shortages and access constraints."
+  },
+  {
+   "id": "need_livelihoods_investment",
+   "label": "Need for livelihoods/economic investment",
+   "type": "need",
+   "drm_phase": "recovery",
+   "description": "IRC warned urgent investment in local economies and livelihoods is needed to prevent deepening crisis in early recovery window."
+  },
+  {
+   "id": "need_landslide_monitoring",
+   "label": "Need for landslide/rainfall monitoring",
+   "type": "need",
+   "drm_phase": "preparedness",
+   "description": "Shelter Cluster recommended daily monitoring of rainfall/landslide risk and landslide/debris-flow mapping in North Coastal Range."
+  },
+  {
+   "id": "need_vaccine_security",
+   "label": "Need for vaccine supply security",
+   "type": "need",
+   "drm_phase": "recovery",
+   "description": "PAHO identified need to restore routine immunization services, cold chain and vaccine supply given outbreak risk."
+  },
+  {
+   "id": "need_registration_tracking",
+   "label": "Need for casualty registration/tracking",
+   "type": "need",
+   "drm_phase": "response",
+   "description": "PAHO noted persistent gaps in registration and follow-up of injured/hospitalized patients causing underestimation of casualties."
+  },
+  {
+   "id": "m_sar_operations",
+   "label": "Search and rescue operations",
+   "type": "measure",
+   "drm_phase": "response",
+   "description": "Venezuelan Red Cross and international UNDAC/USAR teams under INSARAG conducted search and rescue from 24-25 June."
+  },
+  {
+   "id": "m_state_emergency",
+   "label": "National state of emergency declared",
+   "type": "measure",
+   "drm_phase": "response",
+   "description": "Government declared national state of emergency and designated La Guaira a disaster zone."
+  },
+  {
+   "id": "m_access_restrictions",
+   "label": "Temporary access restrictions La Guaira",
+   "type": "measure",
+   "drm_phase": "response",
+   "description": "Authorities imposed temporary access restrictions to La Guaira state from night of 26 June to prioritize search and rescue."
+  },
+  {
+   "id": "m_health_cluster_activation",
+   "label": "Expanded Health Cluster activation",
+   "type": "measure",
+   "drm_phase": "response",
+   "description": "Expanded Health Cluster co-led with MPPS activated 26 June to consolidate single response mechanism integrating state, UN and NGO actors."
+  },
+  {
+   "id": "m_dref_emergency_appeal",
+   "label": "IFRC DREF and Emergency Appeal",
+   "type": "measure",
+   "drm_phase": "response",
+   "description": "IFRC allocated CHF 2 million DREF and launched CHF 50-55 million Emergency Appeal targeting 300,000 people."
+  },
+  {
+   "id": "m_field_hospital",
+   "label": "Field hospital and operations centre",
+   "type": "measure",
+   "drm_phase": "response",
+   "description": "Venezuelan Red Cross set up field hospital at Jorge García Carmeiro Stadium and a Field Operations Centre."
+  },
+  {
+   "id": "m_unhcr_protection_shelter",
+   "label": "UNHCR protection and shelter support",
+   "type": "measure",
+   "drm_phase": "response",
+   "description": "UNHCR seeking $14.8-14.85M to support 30,000 people with protection, core relief items and shelter, including multi-service centres."
+  },
+  {
+   "id": "m_unfpa_srh_gbv_response",
+   "label": "UNFPA SRH/GBV response scale-up",
+   "type": "measure",
+   "drm_phase": "response",
+   "description": "UNFPA scaling up life-saving SRH and GBV prevention/response services targeting 64,000-230,000 people."
+  },
+  {
+   "id": "m_unicef_response",
+   "label": "UNICEF earthquake response appeal",
+   "type": "measure",
+   "drm_phase": "response",
+   "description": "UNICEF requested $65.7M to reach 470,000 people including 167,000 children, addressing health, WASH, protection and education needs."
+  },
+  {
+   "id": "m_ngo_relief",
+   "label": "NGO emergency relief mobilization",
+   "type": "measure",
+   "drm_phase": "response",
+   "description": "MSF, Good Neighbors, CESVI, Project HOPE/Proyecto Esperanza and Turkish Red Crescent mobilized relief, health posts and needs assessments."
+  },
+  {
+   "id": "m_logistics_working_group",
+   "label": "OCHA Logistics Working Group services",
+   "type": "measure",
+   "drm_phase": "response",
+   "description": "LWG provides shared logistics services, transport, storage and information on access conditions, with $0.8M budget."
+  },
+  {
+   "id": "m_paho_medical_supplies",
+   "label": "PAHO/WHO medical supply delivery",
+   "type": "measure",
+   "drm_phase": "response",
+   "description": "PAHO/WHO delivered medical supplies and equipment including to Maternal and Child Hospital Leopoldo Aguerrevere."
+  },
+  {
+   "id": "m_needs_assessments",
+   "label": "Rapid needs assessments",
+   "type": "measure",
+   "drm_phase": "response",
+   "description": "UNDAC, REACH, Project HOPE and other partners conducted rapid needs assessments of health, shelter and WASH conditions."
+  },
+  {
+   "id": "m_hrp_addendum",
+   "label": "HRP Addendum and sector planning",
+   "type": "measure",
+   "drm_phase": "recovery",
+   "description": "OCHA Humanitarian Response Plan Addendum and UNICEF HAC Appeal Addendum outline sector plans targeting 1.3 million affected people across 7 states."
+  },
+  {
+   "id": "m_health_facility_rehab",
+   "label": "Health facility rehabilitation",
+   "type": "measure",
+   "drm_phase": "recovery",
+   "description": "Rehabilitation planning and restoration of ICU/maternity capacity at Hospital Dr. José Gregorio Hernández underway by 12 August."
+  },
+  {
+   "id": "m_revolving_fund_vaccines",
+   "label": "PAHO Revolving Fund credit line",
+   "type": "measure",
+   "drm_phase": "recovery",
+   "description": "USD 18 million PAHO Revolving Fund credit line to support national vaccine supply security."
+  },
+  {
+   "id": "m_environmental_guidance",
+   "label": "Environmental guidance for shelter response",
+   "type": "measure",
+   "drm_phase": "response",
+   "description": "Shelter Cluster/UNHCR recommended Sphere Standard 7 and ECHO Minimum Environmental Requirements for shelter siting, debris reuse and waste management."
+  },
+  {
+   "id": "m_rainfall_landslide_monitoring",
+   "label": "Daily rainfall/landslide monitoring",
+   "type": "measure",
+   "drm_phase": "preparedness",
+   "description": "Recommended daily monitoring of rainfall and landslide risk, plus landslide/debris-flow mapping in North Coastal Range."
+  },
+  {
+   "id": "m_tsunami_advisory",
+   "label": "Caribbean tsunami advisory",
+   "type": "measure",
+   "drm_phase": "response",
+   "description": "A brief Caribbean tsunami advisory was issued and cancelled within about an hour, indicating some monitoring capacity was operational."
+  },
+  {
+   "id": "m_livelihoods_investment",
+   "label": "Livelihoods/economic recovery investment",
+   "type": "measure",
+   "drm_phase": "recovery",
+   "description": "IRC recommends urgent investment in local economies and livelihood support during early recovery window."
+  },
+  {
+   "id": "m_building_code_enforcement",
+   "label": "Building code enforcement (lacking)",
+   "type": "measure",
+   "drm_phase": "prevention",
+   "description": "ACAPS notes lack of enforcement of building standards; no retrofitting or land-use planning programmes described prior to the event."
+  },
+  {
+   "id": "act_venezuelan_red_cross",
+   "label": "Venezuelan Red Cross",
+   "type": "actor",
+   "drm_phase": "none",
+   "description": "National Red Cross society conducting SAR, health posts and receiving DREF funding."
+  },
+  {
+   "id": "act_ifrc",
+   "label": "IFRC",
+   "type": "actor",
+   "drm_phase": "none",
+   "description": "International Federation of Red Cross and Red Crescent Societies supporting Venezuelan Red Cross with funding and appeals."
+  },
+  {
+   "id": "act_unhcr",
+   "label": "UNHCR",
+   "type": "actor",
+   "drm_phase": "none",
+   "description": "UN Refugee Agency scaling up protection and shelter response."
+  },
+  {
+   "id": "act_unfpa",
+   "label": "UNFPA",
+   "type": "actor",
+   "drm_phase": "none",
+   "description": "UN Population Fund scaling up SRH and GBV response."
+  },
+  {
+   "id": "act_unicef",
+   "label": "UNICEF",
+   "type": "actor",
+   "drm_phase": "none",
+   "description": "UN Children's Fund providing child-focused humanitarian response."
+  },
+  {
+   "id": "act_paho_who",
+   "label": "PAHO/WHO",
+   "type": "actor",
+   "drm_phase": "none",
+   "description": "Pan American Health Organization/WHO co-leading Health Cluster and providing medical supplies."
+  },
+  {
+   "id": "act_ocha",
+   "label": "OCHA",
+   "type": "actor",
+   "drm_phase": "none",
+   "description": "UN Office for the Coordination of Humanitarian Affairs coordinating situation reports and logistics working group."
+  },
+  {
+   "id": "act_undp",
+   "label": "UNDP",
+   "type": "actor",
+   "drm_phase": "none",
+   "description": "UN Development Programme conducted RAPIDA damage assessment."
+  },
+  {
+   "id": "act_undrr",
+   "label": "UNDRR",
+   "type": "actor",
+   "drm_phase": "none",
+   "description": "UN Office for Disaster Risk Reduction produced analytical damage estimate."
+  },
+  {
+   "id": "act_shelter_cluster",
+   "label": "Shelter Cluster/UNHCR",
+   "type": "actor",
+   "drm_phase": "none",
+   "description": "Shelter Cluster co-led by UNHCR issuing environmental guidance and shelter standards."
+  },
+  {
+   "id": "act_ngos",
+   "label": "International NGOs (MSF, CESVI, Project HOPE, Good Neighbors, Turkish Red Crescent)",
+   "type": "actor",
+   "drm_phase": "none",
+   "description": "International NGOs providing emergency relief, health services and needs assessments."
+  },
+  {
+   "id": "act_irc",
+   "label": "IRC",
+   "type": "actor",
+   "drm_phase": "none",
+   "description": "International Rescue Committee warning on economic recovery needs."
+  }
+ ],
+ "edges": [
+  {
+   "source": "eq_foreshock_m72",
+   "relation": "triggers",
+   "target": "eq_mainshock_m75",
+   "drm_phase": "none",
+   "status": "observed",
+   "explanation": "The M7.2 foreshock occurred about 39-40 seconds before the M7.5 mainshock on the same fault system.",
+   "confidence": "high"
+  },
+  {
+   "source": "eq_mainshock_m75",
+   "relation": "triggers",
+   "target": "aftershocks",
+   "drm_phase": "none",
+   "status": "observed",
+   "explanation": "The mainshock was followed by over 1,000 aftershocks recorded by mid-July, including notable M5.1 and M4.4 events.",
+   "confidence": "high"
+  },
+  {
+   "source": "eq_mainshock_m75",
+   "relation": "causes",
+   "target": "deaths",
+   "drm_phase": "none",
+   "status": "observed",
+   "explanation": "Casualty figures rose steadily from the dual earthquake sequence per multiple agency sitreps.",
+   "confidence": "high"
+  },
+  {
+   "source": "eq_mainshock_m75",
+   "relation": "causes",
+   "target": "injuries",
+   "drm_phase": "none",
+   "status": "observed",
+   "explanation": "Injury tolls rose across sitreps directly attributed to the earthquakes.",
+   "confidence": "high"
+  },
+  {
+   "source": "eq_mainshock_m75",
+   "relation": "causes",
+   "target": "collapsed_structures",
+   "drm_phase": "none",
+   "status": "observed",
+   "explanation": "UNHCR and OCHA reported thousands of damaged/collapsed structures caused by the earthquakes.",
+   "confidence": "high"
+  },
+  {
+   "source": "eq_mainshock_m75",
+   "relation": "causes",
+   "target": "infrastructure_disruption",
+   "drm_phase": "none",
+   "status": "observed",
+   "explanation": "Airport closure, metro suspension, power outages and damage to water/telecoms/roads attributed to the earthquakes.",
+   "confidence": "high"
+  },
+  {
+   "source": "eq_mainshock_m75",
+   "relation": "causes",
+   "target": "economic_losses",
+   "drm_phase": "none",
+   "status": "observed",
+   "explanation": "UNDP and UNDRR estimated billions in direct physical damage from the earthquakes.",
+   "confidence": "high"
+  },
+  {
+   "source": "eq_mainshock_m75",
+   "relation": "causes",
+   "target": "displacement",
+   "drm_phase": "none",
+   "status": "observed",
+   "explanation": "Families displaced from damaged or unsafe homes per UNHCR and UNFPA reporting.",
+   "confidence": "high"
+  },
+  {
+   "source": "collapsed_structures",
+   "relation": "causes",
+   "target": "displacement",
+   "drm_phase": "none",
+   "status": "observed",
+   "explanation": "Damaged and collapsed housing left families homeless and seeking temporary shelter.",
+   "confidence": "high"
+  },
+  {
+   "source": "collapsed_structures",
+   "relation": "causes",
+   "target": "health_system_strain",
+   "drm_phase": "none",
+   "status": "observed",
+   "explanation": "38 hospitals reported damaged, compounding strain on an already weakened health system.",
+   "confidence": "high"
+  },
+  {
+   "source": "deaths",
+   "relation": "amplifies",
+   "target": "missing_persons",
+   "drm_phase": "none",
+   "status": "observed",
+   "explanation": "IFRC notes some missing persons figures may ultimately correspond to fatalities as registration progresses.",
+   "confidence": "medium"
+  },
+  {
+   "source": "infrastructure_disruption",
+   "relation": "causes",
+   "target": "logistics_congestion",
+   "drm_phase": "none",
+   "status": "observed",
+   "explanation": "Damage to Maiquetía airport and concentration at Port of La Guaira increased logistics congestion risk per OCHA LWG.",
+   "confidence": "high"
+  },
+  {
+   "source": "infrastructure_disruption",
+   "relation": "amplifies",
+   "target": "disease_outbreak_risk",
+   "drm_phase": "none",
+   "status": "observed",
+   "explanation": "Damaged WASH systems and overcrowding increase risk of vaccine-preventable and water-borne disease outbreaks per PAHO.",
+   "confidence": "high"
+  },
+  {
+   "source": "aftershocks",
+   "relation": "amplifies",
+   "target": "collapsed_structures",
+   "drm_phase": "none",
+   "status": "observed",
+   "explanation": "Ongoing aftershocks continue to weaken already damaged structures per UNHCR.",
+   "confidence": "high"
+  },
+  {
+   "source": "aftershocks",
+   "relation": "causes",
+   "target": "landslide_risk",
+   "drm_phase": "none",
+   "status": "observed",
+   "explanation": "Shelter Cluster flagged increased landslide/debris-flow potential associated with seismic weakening of slopes compounded by rains.",
+   "confidence": "medium"
+  },
+  {
+   "source": "landslide_risk",
+   "relation": "amplifies",
+   "target": "displacement",
+   "drm_phase": "none",
+   "status": "observed",
+   "explanation": "Potential landslides/mud flows in seismically weakened slopes could further displace populations during the rainy season.",
+   "confidence": "medium"
+  },
+  {
+   "source": "displacement",
+   "relation": "causes",
+   "target": "protection_risks",
+   "drm_phase": "none",
+   "status": "observed",
+   "explanation": "Overcrowding in shelters, family separation and displacement heightened GBV and protection risks per UNFPA.",
+   "confidence": "high"
+  },
+  {
+   "source": "displacement",
+   "relation": "amplifies",
+   "target": "disease_outbreak_risk",
+   "drm_phase": "none",
+   "status": "observed",
+   "explanation": "Overcrowded temporary camps with inadequate sanitation increase risk of diarrheal and vaccine-preventable diseases per PAHO.",
+   "confidence": "high"
+  },
+  {
+   "source": "economic_losses",
+   "relation": "amplifies",
+   "target": "livelihood_loss",
+   "drm_phase": "none",
+   "status": "observed",
+   "explanation": "Extensive damage to commercial buildings and infrastructure disrupted small businesses, informal commerce and tourism per IFRC.",
+   "confidence": "high"
+  },
+  {
+   "source": "vuln_unreinforced_construction",
+   "relation": "amplifies",
+   "target": "collapsed_structures",
+   "drm_phase": "none",
+   "status": "observed",
+   "explanation": "ACAPS/IFRC note unreinforced construction and informal hillside settlements as pre-existing risk factors that amplified structural damage.",
+   "confidence": "high"
+  },
+  {
+   "source": "vuln_fragile_housing",
+   "relation": "amplifies",
+   "target": "collapsed_structures",
+   "drm_phase": "none",
+   "status": "observed",
+   "explanation": "62% of housing already in fragile condition with repair needs increased susceptibility to earthquake damage.",
+   "confidence": "medium"
+  },
+  {
+   "source": "vuln_preexisting_crisis",
+   "relation": "amplifies",
+   "target": "livelihood_loss",
+   "drm_phase": "none",
+   "status": "observed",
+   "explanation": "Pre-existing economic crisis and high inflation limit recovery capacity and amplify livelihood losses per IFRC.",
+   "confidence": "high"
+  },
+  {
+   "source": "vuln_poverty",
+   "relation": "amplifies",
+   "target": "need_shelter",
+   "drm_phase": "none",
+   "status": "observed",
+   "explanation": "High poverty (94% in La Guaira) limits households' ability to self-recover, increasing shelter needs.",
+   "confidence": "medium"
+  },
+  {
+   "source": "vuln_weak_services",
+   "relation": "amplifies",
+   "target": "need_water_sanitation",
+   "drm_phase": "none",
+   "status": "observed",
+   "explanation": "REACH found weak pre-existing water, shelter and health systems in affected states limiting absorptive capacity, worsening water needs.",
+   "confidence": "high"
+  },
+  {
+   "source": "vuln_weak_health_system",
+   "relation": "amplifies",
+   "target": "health_system_strain",
+   "drm_phase": "none",
+   "status": "observed",
+   "explanation": "Pre-crisis shortages of personnel, medicines and surgical capacity compounded the health system's strain post-quake.",
+   "confidence": "high"
+  },
+  {
+   "source": "vuln_workforce_gap",
+   "relation": "amplifies",
+   "target": "need_livelihoods_investment",
+   "drm_phase": "none",
+   "status": "observed",
+   "explanation": "IRC notes mass emigration left workforce gaps that constrain search-and-rescue and recovery capacity, increasing need for economic investment.",
+   "confidence": "high"
+  },
+  {
+   "source": "vuln_low_protection_coverage",
+   "relation": "amplifies",
+   "target": "protection_risks",
+   "drm_phase": "none",
+   "status": "observed",
+   "explanation": "Low pre-existing Protection Cluster coverage (8% of target) limited capacity to address heightened post-quake protection risks.",
+   "confidence": "medium"
+  },
+  {
+   "source": "vuln_censorship",
+   "relation": "amplifies",
+   "target": "need_registration_tracking",
+   "drm_phase": "none",
+   "status": "observed",
+   "explanation": "ACAPS notes censorship and limited transparency hinder situational awareness and complicate coordination, worsening registration/tracking gaps.",
+   "confidence": "medium"
+  },
+  {
+   "source": "m_building_code_enforcement",
+   "relation": "prevents",
+   "target": "collapsed_structures",
+   "drm_phase": "prevention",
+   "status": "lacking",
+   "explanation": "ACAPS reports lack of enforcement of building standards, meaning this preventive measure was absent and failed to prevent collapses.",
+   "confidence": "high"
+  },
+  {
+   "source": "deaths",
+   "relation": "causes",
+   "target": "need_registration_tracking",
+   "drm_phase": "none",
+   "status": "observed",
+   "explanation": "PAHO noted persistent gaps in registration and follow-up of deaths/injuries likely causing underestimation of casualties.",
+   "confidence": "medium"
+  },
+  {
+   "source": "displacement",
+   "relation": "causes",
+   "target": "need_shelter",
+   "drm_phase": "none",
+   "status": "observed",
+   "explanation": "Families displaced from damaged homes are staying in streets, cars and makeshift tents, generating urgent shelter needs.",
+   "confidence": "high"
+  },
+  {
+   "source": "infrastructure_disruption",
+   "relation": "causes",
+   "target": "need_water_sanitation",
+   "drm_phase": "none",
+   "status": "observed",
+   "explanation": "Damage to water infrastructure combined with pre-existing weak systems created critical water and sanitation needs per Health Cluster.",
+   "confidence": "high"
+  },
+  {
+   "source": "health_system_strain",
+   "relation": "causes",
+   "target": "need_health_personnel",
+   "drm_phase": "none",
+   "status": "observed",
+   "explanation": "Overwhelmed hospitals generated need for specialized medical personnel, medicines and equipment per Health Cluster.",
+   "confidence": "high"
+  },
+  {
+   "source": "deaths",
+   "relation": "causes",
+   "target": "need_mhpss",
+   "drm_phase": "none",
+   "status": "observed",
+   "explanation": "Widespread fear, grief and distress from deaths and displacement generated critical MHPSS needs per Health Cluster.",
+   "confidence": "high"
+  },
+  {
+   "source": "displacement",
+   "relation": "causes",
+   "target": "need_child_protection",
+   "drm_phase": "none",
+   "status": "observed",
+   "explanation": "Unaccompanied children identified in health centers required activation of protection pathways.",
+   "confidence": "high"
+  },
+  {
+   "source": "protection_risks",
+   "relation": "causes",
+   "target": "need_srh_gbv",
+   "drm_phase": "none",
+   "status": "observed",
+   "explanation": "Heightened protection risks in overcrowded shelters drove UNFPA's identification of unmet SRH and GBV service needs.",
+   "confidence": "high"
+  },
+  {
+   "source": "vuln_unreinforced_construction",
+   "relation": "causes",
+   "target": "need_structural_assessment",
+   "drm_phase": "none",
+   "status": "observed",
+   "explanation": "ACAPS warns buildings that did not collapse may have unseen structural damage, requiring structural safety assessment before safe return.",
+   "confidence": "medium"
+  },
+  {
+   "source": "logistics_congestion",
+   "relation": "causes",
+   "target": "need_logistics_coordination",
+   "drm_phase": "none",
+   "status": "observed",
+   "explanation": "Congestion at airport/port and fuel shortages generated need for logistics coordination per OCHA LWG.",
+   "confidence": "high"
+  },
+  {
+   "source": "landslide_risk",
+   "relation": "causes",
+   "target": "need_landslide_monitoring",
+   "drm_phase": "none",
+   "status": "observed",
+   "explanation": "Shelter Cluster identified need for daily rainfall/landslide monitoring and mapping given seismic weakening of slopes.",
+   "confidence": "high"
+  },
+  {
+   "source": "disease_outbreak_risk",
+   "relation": "causes",
+   "target": "need_vaccine_security",
+   "drm_phase": "none",
+   "status": "observed",
+   "explanation": "PAHO identified need to strengthen vaccine supply, cold chain and immunization to mitigate outbreak risk.",
+   "confidence": "high"
+  },
+  {
+   "source": "livelihood_loss",
+   "relation": "causes",
+   "target": "need_livelihoods_investment",
+   "drm_phase": "none",
+   "status": "observed",
+   "explanation": "IRC warns loss of livelihoods and disrupted economies necessitate urgent investment to prevent deeper crisis.",
+   "confidence": "high"
+  },
+  {
+   "source": "m_sar_operations",
+   "relation": "mitigates",
+   "target": "deaths",
+   "drm_phase": "response",
+   "status": "observed",
+   "explanation": "Venezuelan Red Cross and international USAR/UNDAC teams conducted search and rescue to save lives after the earthquakes.",
+   "confidence": "high"
+  },
+  {
+   "source": "m_state_emergency",
+   "relation": "mitigates",
+   "target": "collapsed_structures",
+   "drm_phase": "response",
+   "status": "observed",
+   "explanation": "Declaration of national emergency and disaster zone designation enabled prioritized response in the hardest-hit La Guaira state.",
+   "confidence": "medium"
+  },
+  {
+   "source": "m_access_restrictions",
+   "relation": "mitigates",
+   "target": "deaths",
+   "drm_phase": "response",
+   "status": "observed",
+   "explanation": "Temporary access restrictions to La Guaira prioritized search and rescue efforts to save lives.",
+   "confidence": "medium"
+  },
+  {
+   "source": "m_health_cluster_activation",
+   "relation": "addresses",
+   "target": "need_health_personnel",
+   "drm_phase": "response",
+   "status": "observed",
+   "explanation": "Expanded Health Cluster consolidated a single response mechanism integrating actors to optimize health operations on the ground.",
+   "confidence": "high"
+  },
+  {
+   "source": "m_dref_emergency_appeal",
+   "relation": "addresses",
+   "target": "need_shelter",
+   "drm_phase": "response",
+   "status": "observed",
+   "explanation": "IFRC DREF/Emergency Appeal funding targeted 300,000 people for relief including shelter support.",
+   "confidence": "medium"
+  },
+  {
+   "source": "m_field_hospital",
+   "relation": "mitigates",
+   "target": "health_system_strain",
+   "drm_phase": "response",
+   "status": "observed",
+   "explanation": "Field hospital at Jorge García Carmeiro Stadium added surge capacity to relieve overwhelmed hospitals.",
+   "confidence": "high"
+  },
+  {
+   "source": "m_unhcr_protection_shelter",
+   "relation": "addresses",
+   "target": "need_shelter",
+   "drm_phase": "response",
+   "status": "observed",
+   "explanation": "UNHCR scaling up protection, core relief items and shelter support for 30,000 affected people.",
+   "confidence": "high"
+  },
+  {
+   "source": "m_unhcr_protection_shelter",
+   "relation": "addresses",
+   "target": "need_child_protection",
+   "drm_phase": "response",
+   "status": "observed",
+   "explanation": "UNHCR provides tools and equipment for identifying protection needs and facilitating referrals, including for children.",
+   "confidence": "medium"
+  },
+  {
+   "source": "m_unfpa_srh_gbv_response",
+   "relation": "addresses",
+   "target": "need_srh_gbv",
+   "drm_phase": "response",
+   "status": "observed",
+   "explanation": "UNFPA scaling up SRH and GBV prevention/response services directly addresses identified survivor-centred service gaps.",
+   "confidence": "high"
+  },
+  {
+   "source": "m_unicef_response",
+   "relation": "addresses",
+   "target": "need_water_sanitation",
+   "drm_phase": "response",
+   "status": "observed",
+   "explanation": "UNICEF's $65.7M appeal addresses health, WASH, protection and education needs for 470,000 people including children.",
+   "confidence": "medium"
+  },
+  {
+   "source": "m_ngo_relief",
+   "relation": "addresses",
+   "target": "need_mhpss",
+   "drm_phase": "response",
+   "status": "observed",
+   "explanation": "Project HOPE and other NGOs conducted assessments and identified significant MHPSS gaps needing response.",
+   "confidence": "medium"
+  },
+  {
+   "source": "m_logistics_working_group",
+   "relation": "addresses",
+   "target": "need_logistics_coordination",
+   "drm_phase": "response",
+   "status": "observed",
+   "explanation": "OCHA LWG provides shared logistics services and information to address congestion and access constraints.",
+   "confidence": "high"
+  },
+  {
+   "source": "m_paho_medical_supplies",
+   "relation": "addresses",
+   "target": "need_health_personnel",
+   "drm_phase": "response",
+   "status": "observed",
+   "explanation": "PAHO/WHO delivered medical supplies and equipment to hospitals including Maternal and Child Hospital Leopoldo Aguerrevere.",
+   "confidence": "high"
+  },
+  {
+   "source": "m_needs_assessments",
+   "relation": "addresses",
+   "target": "need_registration_tracking",
+   "drm_phase": "response",
+   "status": "observed",
+   "explanation": "Rapid needs assessments by UNDAC/REACH/Project HOPE aim to consolidate evaluations and guide response, addressing data/registration gaps.",
+   "confidence": "medium"
+  },
+  {
+   "source": "m_hrp_addendum",
+   "relation": "addresses",
+   "target": "need_livelihoods_investment",
+   "drm_phase": "recovery",
+   "status": "planned",
+   "explanation": "OCHA HRP Addendum and UNICEF HAC Addendum outline sector plans targeting 1.3 million affected people including recovery-oriented support.",
+   "confidence": "medium"
+  },
+  {
+   "source": "m_health_facility_rehab",
+   "relation": "mitigates",
+   "target": "health_system_strain",
+   "drm_phase": "recovery",
+   "status": "observed",
+   "explanation": "Rehabilitation planning and restoration of ICU/maternity capacity at Hospital Dr. José Gregorio Hernández reduces ongoing health system strain.",
+   "confidence": "high"
+  },
+  {
+   "source": "m_revolving_fund_vaccines",
+   "relation": "addresses",
+   "target": "need_vaccine_security",
+   "drm_phase": "recovery",
+   "status": "observed",
+   "explanation": "USD 18 million PAHO Revolving Fund credit line directly supports national vaccine supply security.",
+   "confidence": "high"
+  },
+  {
+   "source": "m_environmental_guidance",
+   "relation": "mitigates",
+   "target": "landslide_risk",
+   "drm_phase": "response",
+   "status": "recommended",
+   "explanation": "Shelter Cluster recommends environmental screening, sustainable siting and daily rainfall/landslide monitoring to reduce environmental and landslide harms.",
+   "confidence": "medium"
+  },
+  {
+   "source": "m_rainfall_landslide_monitoring",
+   "relation": "addresses",
+   "target": "need_landslide_monitoring",
+   "drm_phase": "preparedness",
+   "status": "recommended",
+   "explanation": "Shelter Cluster recommended daily monitoring of rainfall/landslide risk and landslide/debris-flow mapping as a preparedness measure.",
+   "confidence": "high"
+  },
+  {
+   "source": "m_tsunami_advisory",
+   "relation": "mitigates",
+   "target": "deaths",
+   "drm_phase": "response",
+   "status": "observed",
+   "explanation": "A brief Caribbean tsunami advisory was issued and then cancelled, indicating functioning monitoring capacity during the event.",
+   "confidence": "low"
+  },
+  {
+   "source": "m_livelihoods_investment",
+   "relation": "mitigates",
+   "target": "need_livelihoods_investment",
+   "drm_phase": "recovery",
+   "status": "recommended",
+   "explanation": "IRC recommends urgent investment in local economies and livelihood support during the early recovery window to prevent deepening crisis.",
+   "confidence": "high"
+  },
+  {
+   "source": "act_venezuelan_red_cross",
+   "relation": "implements",
+   "target": "m_sar_operations",
+   "drm_phase": "response",
+   "status": "observed",
+   "explanation": "Venezuelan Red Cross began search-and-rescue in the Capital District on 24 June.",
+   "confidence": "high"
+  },
+  {
+   "source": "act_ifrc",
+   "relation": "implements",
+   "target": "m_dref_emergency_appeal",
+   "drm_phase": "response",
+   "status": "observed",
+   "explanation": "IFRC allocated DREF funding and launched the Emergency Appeal in support of the Venezuelan Red Cross.",
+   "confidence": "high"
+  },
+  {
+   "source": "act_venezuelan_red_cross",
+   "relation": "implements",
+   "target": "m_field_hospital",
+   "drm_phase": "response",
+   "status": "observed",
+   "explanation": "Venezuelan Red Cross set up the field hospital and Field Operations Centre.",
+   "confidence": "high"
+  },
+  {
+   "source": "act_unhcr",
+   "relation": "implements",
+   "target": "m_unhcr_protection_shelter",
+   "drm_phase": "response",
+   "status": "observed",
+   "explanation": "UNHCR is scaling up protection and shelter support as described in its emergency update and preparedness/response documents.",
+   "confidence": "high"
+  },
+  {
+   "source": "act_unfpa",
+   "relation": "implements",
+   "target": "m_unfpa_srh_gbv_response",
+   "drm_phase": "response",
+   "status": "observed",
+   "explanation": "UNFPA is scaling up SRH and GBV response per its Flash Update and Country Appeal.",
+   "confidence": "high"
+  },
+  {
+   "source": "act_unicef",
+   "relation": "implements",
+   "target": "m_unicef_response",
+   "drm_phase": "response",
+   "status": "planned",
+   "explanation": "UNICEF's HAC Appeal Addendum requests $65.7 million for its earthquake response targeting 470,000 people.",
+   "confidence": "high"
+  },
+  {
+   "source": "act_paho_who",
+   "relation": "implements",
+   "target": "m_health_cluster_activation",
+   "drm_phase": "response",
+   "status": "observed",
+   "explanation": "PAHO/WHO co-leads the Expanded Health Cluster with MPPS, activated 26 June.",
+   "confidence": "high"
+  },
+  {
+   "source": "act_paho_who",
+   "relation": "implements",
+   "target": "m_paho_medical_supplies",
+   "drm_phase": "response",
+   "status": "observed",
+   "explanation": "PAHO/WHO delivered medical supplies and equipment to affected health facilities.",
+   "confidence": "high"
+  },
+  {
+   "source": "act_paho_who",
+   "relation": "implements",
+   "target": "m_revolving_fund_vaccines",
+   "drm_phase": "recovery",
+   "status": "observed",
+   "explanation": "PAHO's Revolving Fund credit line supports national vaccine supply security as reported in Sitrep No.9.",
+   "confidence": "high"
+  },
+  {
+   "source": "act_paho_who",
+   "relation": "implements",
+   "target": "m_health_facility_rehab",
+   "drm_phase": "recovery",
+   "status": "observed",
+   "explanation": "PAHO Sitrep No.9 reports rehabilitation planning and restoration of hospital capacity as part of early recovery efforts.",
+   "confidence": "high"
+  },
+  {
+   "source": "act_ocha",
+   "relation": "implements",
+   "target": "m_logistics_working_group",
+   "drm_phase": "response",
+   "status": "observed",
+   "explanation": "OCHA's Logistics Working Group provides shared logistics services for the earthquake response.",
+   "confidence": "high"
+  },
+  {
+   "source": "act_ocha",
+   "relation": "implements",
+   "target": "m_hrp_addendum",
+   "drm_phase": "recovery",
+   "status": "planned",
+   "explanation": "OCHA produced the Humanitarian Response Plan Addendum outlining sector plans for the earthquake response.",
+   "confidence": "high"
+  },
+  {
+   "source": "act_undp",
+   "relation": "implements",
+   "target": "m_needs_assessments",
+   "drm_phase": "response",
+   "status": "observed",
+   "explanation": "UNDP conducted the RAPIDA satellite-based rapid damage assessment within hours of the earthquake.",
+   "confidence": "high"
+  },
+  {
+   "source": "act_shelter_cluster",
+   "relation": "implements",
+   "target": "m_environmental_guidance",
+   "drm_phase": "response",
+   "status": "recommended",
+   "explanation": "Shelter Cluster/UNHCR issued the Environmental Quick Note guiding the response with Sphere and ECHO standards.",
+   "confidence": "high"
+  },
+  {
+   "source": "act_shelter_cluster",
+   "relation": "implements",
+   "target": "m_rainfall_landslide_monitoring",
+   "drm_phase": "preparedness",
+   "status": "recommended",
+   "explanation": "Shelter Cluster recommended daily rainfall/landslide monitoring and mapping as part of its environmental guidance.",
+   "confidence": "high"
+  },
+  {
+   "source": "act_ngos",
+   "relation": "implements",
+   "target": "m_ngo_relief",
+   "drm_phase": "response",
+   "status": "observed",
+   "explanation": "MSF, Good Neighbors, CESVI, Project HOPE and Turkish Red Crescent mobilized emergency relief and needs assessments.",
+   "confidence": "high"
+  },
+  {
+   "source": "act_irc",
+   "relation": "implements",
+   "target": "m_livelihoods_investment",
+   "drm_phase": "recovery",
+   "status": "recommended",
+   "explanation": "IRC's 22 July statement recommends urgent investment in local economies and livelihood support.",
+   "confidence": "high"
+  }
+ ]
+}

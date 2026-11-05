@@ -1,0 +1,56 @@
+{
+  "source": "HDX HAPI",
+  "subcategory": "poverty_rate",
+  "attribution": "OPHI - MPI",
+  "endpoint": "https://hapi.humdata.org/api/v2/food-security-nutrition-poverty/poverty-rate",
+  "iso3": "AFG",
+  "requested_window": {
+    "start": "2025-04-01",
+    "end": "2026-01-01"
+  },
+  "resolved_window": "fallback: latest release ending 2023-12-31 (nothing overlapped 2025-04-01..2026-01-01)",
+  "country_queries": [
+    {
+      "location_code": "AFG"
+    }
+  ],
+  "admin_levels": [
+    null
+  ],
+  "filters": {},
+  "retrieved_at_utc": "2026-10-08T14:19:44.568213+00:00",
+  "columns": [
+    "location_code",
+    "location_name",
+    "admin1_code",
+    "admin1_name",
+    "admin_level",
+    "resource_hdx_id",
+    "mpi",
+    "headcount_ratio",
+    "intensity_of_deprivation",
+    "vulnerable_to_poverty",
+    "in_severe_poverty",
+    "reference_period_start",
+    "reference_period_end"
+  ],
+  "checks": {
+    "n_rows": 35,
+    "reference_periods": {
+      "2022-01-01 -> 2023-12-31": 35
+    },
+    "admin_levels": {
+      "0": 1,
+      "1": 34
+    },
+    "n_admin1_name": 34,
+    "mpi_missing": 0,
+    "headcount_ratio_missing": 0,
+    "intensity_of_deprivation_missing": 0,
+    "vulnerable_to_poverty_missing": 0,
+    "in_severe_poverty_missing": 0,
+    "n_hdx_resources": 1
+  },
+  "raw_file": "poverty_rate_2025-04-01_2026-01-01.json",
+  "table_file": "poverty_rate_2025-04-01_2026-01-01.parquet"
+}

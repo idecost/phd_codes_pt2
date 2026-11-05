@@ -1,0 +1,26 @@
+[
+  {
+    "iso3": "AFG",
+    "country_name": "Afghanistan",
+    "year": 2025,
+    "start_date": "2025-01-01",
+    "start_date_accuracy": "Year",
+    "end_date": "2025-12-31",
+    "end_date_accuracy": "Year",
+    "event_name": "Afghanistan: Mixed disasters - Country-Wide - 2025",
+    "new_displacement": 252815,
+    "new_displacement_rounded": 253000,
+    "total_displacement": 2591571,
+    "total_displacement_rounded": 2592000,
+    "hazard_category": 3,
+    "hazard_category_name": "Mixed disasters",
+    "hazard_sub_category": 5,
+    "hazard_sub_category_name": "Mixed disasters",
+    "hazard_type": 15,
+    "hazard_type_name": "Mixed disasters",
+    "hazard_sub_type": 26,
+    "hazard_sub_type_name": "Mixed disasters",
+    "event_codes": [],
+    "event_codes_type": []
+  }
+]
