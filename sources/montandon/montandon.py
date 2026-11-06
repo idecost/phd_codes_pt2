@@ -31,6 +31,23 @@ Steps (each called on its own from the notebook):
     df      = impacts_table(imp_c, imp_w, event=event)          # one row per impact figure
     save_montandon(event_dir, related, imp_c + imp_w, table=df) # -> <event_dir>/montandon/
 
+All of it for one event, plus hazards and aftershocks:
+
+    fetch_event(client, 1496100, event_dir)
+
+Other sources of the same country and period, not only GDACS:
+
+    events = search_all_events(client, "AFG", "2025-01-01", "2025-12-31", hazard_codes_for_type("EQ"))
+    events_table(events)
+
+Figures of one kind only (filter on monty:impact_detail, Montandon cookbook recipe 5):
+
+    impacts_by_type(client, "AFG", "2025-01-01", "2025-12-31", types=["displaced_internal"])
+
+From the command line, every event folder of a country and year:
+
+    python -m sources.montandon AFG 2025
+
 The token is read from the environment variable MONTANDON_API_TOKEN (a local
 .env file is loaded if python-dotenv is installed); otherwise it is asked.
 
@@ -38,6 +55,7 @@ Docs:
   https://ifrcgo.org/monty-stac-extension/model/stac-api/correlation_algorithms/
   https://ifrcgo.org/monty-stac-extension/model/stac-api/correlation_examples/
   https://ifrcgo.org/monty-stac-extension/model/stac-api/migration_guide/
+  https://ifrcgo.org/montandon-notebooks/       (cookbook: recipes 1, 5 and 9)
 """
 
 from __future__ import annotations
@@ -67,7 +85,7 @@ TOKEN_ENV = "MONTANDON_API_TOKEN"
 # Sources use different systems, so a query must include all of them.
 # Add rows here for other hazards once you have checked their codes.
 HAZARD_EQUIVALENTS: Dict[str, List[str]] = {
-    "EQ": ["EQ", "nat-geo-ear-gro", "GH0101"],     # earthquake
+    "EQ": ["EQ", "nat-geo-ear-gro", "GH0101", "GH0001", "GH0002"],     # earthquake
     "FL": ["FL", "nat-hyd-flo-flo", "MH0600"],     # flood
 }
 
@@ -267,6 +285,114 @@ def search_events(client: Client, country_code: str, start: str, end: str, *,
     return events
 
 
+def hazard_codes_for_type(eventtype: str) -> List[str]:
+    """All the equivalent codes of a hazard type: 'EQ' -> ['EQ', 'nat-geo-ear-gro', ...]."""
+    return list(HAZARD_EQUIVALENTS[eventtype])
+
+
+def is_natural_disaster(hazard_codes: Optional[Sequence[str]]) -> bool:
+    """True if a code starts with 'nat' and none with 'tec' (cookbook, recipe 5)."""
+    codes = [str(c).lower() for c in hazard_codes or []]
+    return any(c.startswith("nat") for c in codes) and not any(c.startswith("tec") for c in codes)
+
+
+def search_all_events(client: Client, country_code: str, start: str, end: str,
+                      hazard_codes: Optional[Sequence[str]] = None, *,
+                      event_collections: Optional[Sequence[str]] = None) -> list:
+    """Events of a country in EVERY event collection (GDACS, EM-DAT, GLIDE, IDMC, USGS, ...).
+    Records of different sources about the same event are not merged here: see events_table."""
+    if event_collections is None:
+        event_collections = list_collections(client)["events"]
+    args = [{"op": "a_contains", "args": [{"property": "monty:country_codes"}, country_code]},
+            {"op": "t_intersects", "args": [{"property": "datetime"}, {"interval": [start, end]}]}]
+    if hazard_codes:
+        args.append({"op": "a_overlaps", "args": [{"property": "monty:hazard_codes"}, list(hazard_codes)]})
+    events = _search(client, list(event_collections), {"op": "and", "args": args}, None)
+    log("Montandon", f"{len(events)} event(s) for {country_code} {start} -> {end}")
+    _count_by_collection(events)
+    return events
+
+
+def events_table(events: list, reference=None) -> pd.DataFrame:
+    """One row per event record. With `reference`, also its distance in hours and km from it."""
+    t0 = item_datetime(reference) if reference is not None else None
+    rows = []
+    for it in events:
+        p = it.properties
+        dt = item_datetime(it)
+        rows.append({
+            "event_id": it.id, "collection": it.collection_id, "corr_id": p.get("monty:corr_id"),
+            "src_event_id": p.get("monty:src_event_id"), "date": p.get("datetime") or p.get("start_datetime"),
+            "start_date": p.get("start_datetime"), "end_date": p.get("end_datetime"), "title": p.get("title"),
+            "country_codes": "|".join(p.get("monty:country_codes") or []),
+            "hazard_codes": "|".join(p.get("monty:hazard_codes") or []),
+            "episode_number": p.get("monty:episode_number"),
+            "dt_hours": round((dt - t0).total_seconds() / 3600, 1) if (t0 is not None and dt is not None) else None,
+            "dist_km": _distance_km(reference, it) if reference is not None else None,
+        })
+    return pd.DataFrame(rows, columns=["event_id", "collection", "corr_id", "src_event_id", "date", "start_date",
+                                       "end_date", "title", "country_codes", "hazard_codes", "episode_number",
+                                       "dt_hours", "dist_km"])
+
+
+# --------------------------------------------------------------------------- #
+# 3b. Hazards
+# --------------------------------------------------------------------------- #
+def hazards_by_corr_id(client: Client, events: list, *,
+                       hazard_collections: Optional[Sequence[str]] = None) -> list:
+    """Hazard records sharing the corr_id of one of `events`: exact, per source."""
+    if hazard_collections is None:
+        hazard_collections = list_collections(client)["hazards"]
+    corr_ids = sorted({ev.properties.get("monty:corr_id") for ev in events if ev.properties.get("monty:corr_id")})
+    found = {}
+    for corr_id in corr_ids:
+        flt = {"op": "=", "args": [{"property": "monty:corr_id"}, corr_id]}
+        for it in _search(client, hazard_collections, flt, None):
+            found[it.id] = it
+    log("Montandon", f"{len(found)} hazard(s) from {len(corr_ids)} corr_id(s)")
+    return list(found.values())
+
+
+def aftershocks(client: Client, event, *, days: float = 14, radius_km: float = 150,
+                collections: Sequence[str] = ("usgs-hazards", "gdacs-hazards")) -> list:
+    """Hazard records near the event in the following days (cookbook, recipe 9).
+    Starts 10 minutes after the event, so the event itself is left out."""
+    t0 = item_datetime(event)
+    if t0 is None:
+        raise ValueError(f"{event.id} has no datetime")
+    center = shape(event.geometry).centroid
+    half = radius_km / 111.0 / max(math.cos(math.radians(center.y)), 0.1)
+    bbox = [center.x - half, center.y - radius_km / 111.0, center.x + half, center.y + radius_km / 111.0]
+    window = f"{_iso(t0 + timedelta(minutes=10))}/{_iso(t0 + timedelta(days=days))}"
+    codes = set(hazard_codes_for(event))
+    items = client.search(collections=list(collections), bbox=bbox, datetime=window, limit=100).items()
+    found = {it.id: it for it in items if codes & set(it.properties.get("monty:hazard_codes") or [])}
+    near = [it for it in found.values() if (_distance_km(event, it) or 0) <= radius_km]
+    log("Montandon", f"{len(near)} aftershock record(s) within {radius_km} km and {days} days of {event.id}")
+    return near
+
+
+def hazards_table(hazards: list, aftershock_items: Optional[list] = None, *, event=None) -> pd.DataFrame:
+    """One row per hazard record; `kind` says if it is the event or an aftershock."""
+    t0 = item_datetime(event) if event is not None else None
+    rows = []
+    for kind, items in (("event", hazards or []), ("aftershock", aftershock_items or [])):
+        for it in items:
+            d = it.properties.get("monty:hazard_detail", {}) or {}
+            dt = item_datetime(it)
+            rows.append({
+                "hazard_id": it.id, "collection": it.collection_id, "kind": kind,
+                "corr_id": it.properties.get("monty:corr_id"),
+                "date": it.properties.get("datetime") or it.properties.get("start_datetime"),
+                "severity_value": d.get("severity_value"), "severity_unit": d.get("severity_unit"),
+                "estimate": d.get("estimate_type"), "title": it.properties.get("title"),
+                "days_from_event": (round((dt - t0).total_seconds() / 86400, 2)
+                                    if (dt is not None and t0 is not None) else None),
+            })
+    return pd.DataFrame(rows, columns=["hazard_id", "collection", "kind", "corr_id", "date", "severity_value",
+                                       "severity_unit", "estimate", "title", "days_from_event"])
+
+
 # --------------------------------------------------------------------------- #
 # 4. Impacts
 # --------------------------------------------------------------------------- #
@@ -327,6 +453,35 @@ def impacts_by_window(client: Client, event, *, days_before: float = 1,
     return impacts
 
 
+def impacts_by_type(client: Client, country_code: str, start: str, end: str, *, category: str = "people",
+                    types: Sequence[str] = ("displaced_internal",),
+                    impact_collections: Optional[Sequence[str]] = None) -> list:
+    """Impacts of a country with a given category and type, value above 0 (cookbook, recipe 5).
+    Types are in the Monty taxonomy: death, injured, missing, displaced_internal, evacuated, ..."""
+    if impact_collections is None:
+        impact_collections = list_collections(client)["impacts"]
+    found = {}
+    for kind in types:
+        flt = {"op": "and", "args": [
+            {"op": "a_contains", "args": [{"property": "monty:country_codes"}, country_code]},
+            {"op": "t_intersects", "args": [{"property": "datetime"}, {"interval": [start, end]}]},
+            {"op": "=", "args": [{"property": "monty:impact_detail.category"}, category]},
+            {"op": "=", "args": [{"property": "monty:impact_detail.type"}, kind]},
+            {"op": ">", "args": [{"property": "monty:impact_detail.value"}, 0]},
+        ]}
+        for it in _search(client, impact_collections, flt, None):
+            found[it.id] = it
+    log("Montandon", f"{len(found)} impact(s) of type {list(types)} for {country_code}")
+    _count_by_collection(list(found.values()))
+    return list(found.values())
+
+
+def _details(item) -> list:
+    """monty:impact_detail as a list: some records hold more than one."""
+    d = item.properties.get("monty:impact_detail") or {}
+    return d if isinstance(d, list) else [d]
+
+
 def impacts_table(by_corr_id: list, by_window: Optional[list] = None, *,
                   event=None) -> pd.DataFrame:
     """One row per impact figure, de-duplicated by impact id.
@@ -335,6 +490,7 @@ def impacts_table(by_corr_id: list, by_window: Optional[list] = None, *,
     Extra columns:
       match            'corr_id' (exact), 'window' (dynamic only) or 'both'
       days_from_event  impact datetime - event datetime, in days (if `event` given)
+      duplicate        True if an earlier row has the same collection, category, type, value
     time = impact datetime, spatial level = event.
     """
     origin: Dict[str, set] = {}
@@ -347,26 +503,32 @@ def impacts_table(by_corr_id: list, by_window: Optional[list] = None, *,
     t0 = item_datetime(event) if event is not None else None
     rows = []
     for iid, it in items.items():
-        d = it.properties.get("monty:impact_detail", {}) or {}
         dt = item_datetime(it)
-        rows.append({
-            "impact_id": iid,
-            "collection": it.collection_id,
-            "corr_id": it.properties.get("monty:corr_id"),
-            "date": it.properties.get("datetime") or it.properties.get("start_datetime"),
-            "category": d.get("category"),
-            "type": d.get("type"),
-            "value": d.get("value"),
-            "unit": d.get("unit"),
-            "estimate": d.get("estimate_type"),
-            "match": "both" if len(origin[iid]) == 2 else next(iter(origin[iid])),
-            "days_from_event": (round((dt - t0).total_seconds() / 86400, 2)
-                                if (dt is not None and t0 is not None) else None),
-        })
-    df = pd.DataFrame(rows, columns=["impact_id", "collection", "corr_id", "date", "category",
-                                     "type", "value", "unit", "estimate", "match",
-                                     "days_from_event"])
+        for d in _details(it):
+            rows.append({
+                "impact_id": iid,
+                "collection": it.collection_id,
+                "corr_id": it.properties.get("monty:corr_id"),
+                "date": it.properties.get("datetime") or it.properties.get("start_datetime"),
+                "category": d.get("category"),
+                "type": d.get("type"),
+                "value": d.get("value"),
+                "unit": d.get("unit"),
+                "standardized_value": d.get("standardized_value"),
+                "estimate": d.get("estimate_type"),
+                "description": d.get("description"),
+                "title": it.properties.get("title"),
+                "country_codes": "|".join(it.properties.get("monty:country_codes") or []),
+                "hazard_codes": "|".join(it.properties.get("monty:hazard_codes") or []),
+                "match": "both" if len(origin[iid]) == 2 else next(iter(origin[iid])),
+                "days_from_event": (round((dt - t0).total_seconds() / 86400, 2)
+                                    if (dt is not None and t0 is not None) else None),
+            })
+    df = pd.DataFrame(rows, columns=["impact_id", "collection", "corr_id", "date", "category", "type", "value",
+                                     "unit", "standardized_value", "estimate", "description", "title",
+                                     "country_codes", "hazard_codes", "match", "days_from_event"])
     df = df.sort_values(["match", "collection", "category", "type"]).reset_index(drop=True)
+    df["duplicate"] = df.duplicated(["collection", "category", "type", "value"])
     log("Montandon", f"impacts table: {len(df)} rows "
                      f"({ {k: int(v) for k, v in df['match'].value_counts().items()} })")
     return add_metadata(df, source="montandon", time=list(df["date"]),
@@ -378,11 +540,14 @@ def impacts_table(by_corr_id: list, by_window: Optional[list] = None, *,
 # --------------------------------------------------------------------------- #
 def save_montandon(event_dir: PathLike, events: list, impacts: list, *,
                    table: Optional[pd.DataFrame] = None,
-                   query: Optional[dict] = None) -> Dict[str, Path]:
-    """Save the full API records + the impacts table in <event_dir>/montandon/.
+                   query: Optional[dict] = None, hazards: Optional[pd.DataFrame] = None,
+                   reference=None) -> Dict[str, Path]:
+    """Save the full API records and the tables in <event_dir>/montandon/.
 
         montandon.json      query, summary, full STAC records of events and impacts
         impacts.parquet     `table` (default: impacts_table(impacts))
+        events.parquet      events_table(events, reference)
+        hazards.parquet     `hazards` (a hazards_table), if given
 
     `query` is any dict describing the search (event id, windows, hazard codes...).
     """
@@ -400,5 +565,27 @@ def save_montandon(event_dir: PathLike, events: list, impacts: list, *,
     paths = {"json": save_json(output, folder / "montandon.json")}
     tbl = table if table is not None else impacts_table(list(uniq.values()))
     paths["impacts"] = save_table(tbl, folder / "impacts")[0]
+    paths["events"] = save_table(events_table(events, reference), folder / "events")[0]
+    if hazards is not None:
+        paths["hazards"] = save_table(hazards, folder / "hazards")[0]
     log("Montandon", f"saved {len(events)} events and {len(uniq)} impacts -> {folder}")
     return paths
+
+
+def fetch_event(client: Client, eventid, event_dir: PathLike, eventtype: str = "EQ", *, days_before: float = 2,
+                days_after: float = 2, impact_days: float = 30, aftershock_days: float = 14) -> Optional[Dict[str, Path]]:
+    """Everything about one GDACS event: same event in the other sources, hazards, aftershocks,
+    impacts by corr_id and by window. Saved in <event_dir>/montandon/. None if it is not in Montandon."""
+    found = find_gdacs_event(client, eventid, eventtype)
+    if not found:
+        return None
+    event = found[0]
+    related = find_related_events(client, event, days_before=days_before, days_after=days_after)
+    by_corr = impacts_by_corr_id(client, related)
+    by_window = impacts_by_window(client, event, days_after=impact_days)
+    hazards = hazards_table(hazards_by_corr_id(client, related), aftershocks(client, event, days=aftershock_days),
+                            event=event)
+    return save_montandon(event_dir, related, by_corr + by_window, table=impacts_table(by_corr, by_window, event=event),
+                          hazards=hazards, reference=event, query={
+                              "gdacs_event": str(eventid), "days_before": days_before, "days_after": days_after,
+                              "impact_days": impact_days, "aftershock_days": aftershock_days})

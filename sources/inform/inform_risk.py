@@ -290,6 +290,8 @@ def build_country_table(
     """Clean table of the catalog indicators for (country, data year), recalculated series.
 
     Every row carries time = data_year (time_type 'data_year') and spatial_level 'country'.
+    `validity_year` is the year the API gives for that value (empty for computed scores);
+    `reference_year` is only the expected year written in the catalog.
     """
     api = api or InformAPI()
     catalog = load_catalog(catalog_path)
@@ -313,11 +315,12 @@ def build_country_table(
         row = by_id.get(_norm(c["indicator_id"])) or by_name.get(_norm(c["indicator_name"]))
         out.append({**c,
                     "value":   _value_for(row, c["type"]) if row else None,
+                    "validity_year": (_to_int(_fuzzy(row, "validityyear")) or None) if row else None,
                     "matched": bool(row)})
 
     df = pd.DataFrame(out, columns=[
         "order", "dimension", "category", "indicator_id", "indicator_name",
-        "type", "value", "unit", "reference_year", "matched", "doubtful", "doubt_reason",
+        "type", "value", "unit", "reference_year", "validity_year", "matched", "doubtful", "doubt_reason",
     ]).sort_values("order").reset_index(drop=True)
 
     country = _country_name(rows, iso3)

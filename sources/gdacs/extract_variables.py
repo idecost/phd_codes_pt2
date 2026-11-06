@@ -640,11 +640,9 @@ def fetch_event(eventtype: str, eventid, *, news_limit: Optional[int] = 50,
         epdata = safe(api.get_episode_data, eventtype, eventid, ep, event_dir)
         if safe(api.get_geometry, eventtype, eventid, ep, event_dir) and explode:
             safe(explode_geometry, event_dir / "episodes" / str(ep) / "geometry.json", verbose=False)
-        for imp in _get(epdata or {}, "properties.impacts", []) or []:
-            for kind, url in (imp.get("resource") or {}).items():
-                m = re.search(r"id=(\d+)", url or "")
-                if m:
-                    safe(api.get_impact, m.group(1), event_dir, ep, kind)
+        if epdata:
+            safe(api.get_episode_impacts, event_dir, ep)
+    safe(api.get_shakemap_versions, event_dir)
     return event_dir
 
 

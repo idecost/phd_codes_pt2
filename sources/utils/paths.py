@@ -5,15 +5,18 @@ The ONLY place that defines how the output folder is organised.
 
 Layout
 ------
+    output/<ISO3>/boundaries/                      admin0.gpkg, admin1.gpkg, admin2.gpkg
     output/<ISO3>/<YEAR>/
     ├── country/                                   country-level data (e.g. INFORM)
     └── <EVENTTYPE>_<EVENTID>/                     one folder per event, e.g. EQ_1557236
         ├── gdacs/                                 raw GDACS responses (event, card, EM-DAT, news)
+        │   └── shakemaps/<SHAKEID>/               one folder per ShakeMap version
         ├── montandon/                             Montandon events + impacts
         ├── reliefweb/                             ReliefWeb reports + pdf/
         └── episodes/<EPISODEID>/                  one folder per GDACS episode (= one point in time)
             ├── episodedata.json
             ├── geometry.json
+            ├── impacts/                           GDACS impact model runs of the episode
             └── areas/<LABEL>/                     one folder per affected area (e.g. Intensity_4.5)
                 ├── area.geojson
                 ├── 10m/                           data at 10 m   (Sentinel-2)
@@ -50,6 +53,11 @@ def _ready(path: Path, create: bool) -> Path:
 def event_folder_name(eventtype: str, eventid) -> str:
     """Folder name of an event: 'EQ' + 1557236 -> 'EQ_1557236'."""
     return f"{str(eventtype).upper()}_{eventid}"
+
+
+def boundaries_dir(iso3: str, *, output_root: PathLike = OUTPUT_ROOT, create: bool = True) -> Path:
+    """output/<ISO3>/boundaries/  — administrative boundaries, saved once per country."""
+    return _ready(Path(output_root) / str(iso3).upper() / "boundaries", create)
 
 
 def year_dir(iso3: str, year: int, *, output_root: PathLike = OUTPUT_ROOT,
@@ -101,6 +109,16 @@ def source_dir(event_dir: PathLike, source: str, *, create: bool = True) -> Path
 def episode_dir(event_dir: PathLike, episodeid, *, create: bool = True) -> Path:
     """<event_dir>/episodes/<EPISODEID>/"""
     return _ready(Path(event_dir) / "episodes" / str(episodeid), create)
+
+
+def impact_dir(episode_dir: PathLike, *, create: bool = True) -> Path:
+    """<episode_dir>/impacts/"""
+    return _ready(Path(episode_dir) / "impacts", create)
+
+
+def shakemap_dir(event_dir: PathLike, shakeid, *, create: bool = True) -> Path:
+    """<event_dir>/gdacs/shakemaps/<SHAKEID>/"""
+    return _ready(Path(event_dir) / "gdacs" / "shakemaps" / str(shakeid), create)
 
 
 def area_dir(episode_dir: PathLike, label: str, *, create: bool = True) -> Path:

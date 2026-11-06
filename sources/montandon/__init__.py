@@ -1,20 +1,30 @@
 from .montandon import (
     HAZARD_EQUIVALENTS,
     STAC_API_URL,
+    aftershocks,
     connect,
+    events_table,
+    fetch_event,
     find_gdacs_event,
     find_related_events,
     hazard_codes_for,
+    hazard_codes_for_type,
+    hazards_by_corr_id,
+    hazards_table,
     impacts_by_corr_id,
+    impacts_by_type,
     impacts_by_window,
     impacts_table,
+    is_natural_disaster,
     item_datetime,
     list_collections,
     save_montandon,
+    search_all_events,
     search_events,
 )
 
 __all__ = ["STAC_API_URL", "HAZARD_EQUIVALENTS", "connect", "list_collections",
            "find_gdacs_event", "find_related_events", "search_events", "hazard_codes_for",
            "item_datetime", "impacts_by_corr_id", "impacts_by_window", "impacts_table",
-           "save_montandon"]
+           "save_montandon", "fetch_event", "search_all_events", "events_table", "hazards_by_corr_id",
+           "hazards_table", "aftershocks", "impacts_by_type", "is_natural_disaster", "hazard_codes_for_type"]
