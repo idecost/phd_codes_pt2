@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "title": "M 4.7   in Afghanistan on 16 Oct 2025 23:53 UTC",
+      "description": "",
+      "link": "https://www.gdacs.org/report.aspx?eventid=1505558&episodeid=1666555&eventtype=EQ",
+      "image": "https://www.gdacs.org/images/gdacs_icons/big/Green/EQ.png",
+      "summarytable": [
+        {
+          "key": "Countries",
+          "value": "Afghanistan"
+        },
+        {
+          "key": "Magnitude",
+          "value": "4.7"
+        },
+        {
+          "key": "Depth",
+          "value": "10 Km"
+        },
+        {
+          "key": "Lat/Lon",
+          "value": "34.3827 , 70.8308"
+        },
+        {
+          "key": "Event Date",
+          "value": "16 Oct 2025 23:53 UTC"
+        },
+        {
+          "key": "Local Time",
+          "value": "17 Oct 2025 04:23"
+        },
+        {
+          "key": "Exposed population",
+          "value": "15.1 million in 100km - No people affected in MMI -"
+        }
+      ]
+    }
+  ]
+}

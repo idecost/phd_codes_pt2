@@ -1,0 +1,118 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "bbox": [
+        69.0488,
+        36.1639,
+        69.1422,
+        36.2456
+      ],
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                69.1124,
+                36.1678
+              ],
+              [
+                69.1422,
+                36.1876
+              ],
+              [
+                69.1412,
+                36.2207
+              ],
+              [
+                69.129,
+                36.2366
+              ],
+              [
+                69.1106,
+                36.2456
+              ],
+              [
+                69.0792,
+                36.2431
+              ],
+              [
+                69.0564,
+                36.2207
+              ],
+              [
+                69.0488,
+                36.2041
+              ],
+              [
+                69.0521,
+                36.1959
+              ],
+              [
+                69.0777,
+                36.171
+              ],
+              [
+                69.0958,
+                36.1639
+              ],
+              [
+                69.1124,
+                36.1678
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "eventtype": "EQ",
+        "eventid": 1490502,
+        "episodeid": 1648690,
+        "eventname": "",
+        "glide": "",
+        "name": "Earthquake in Afghanistan",
+        "description": "Earthquake in Afghanistan",
+        "htmldescription": "Green M 4.7 Earthquake in Afghanistan at: 17 Jul 2025 06:22:03.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1490502&episodeid=1648690",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1490502&episodeid=1648690&eventtype=EQ",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=EQ&eventid=1490502"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.0,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Afghanistan",
+        "fromdate": "2025-07-17T06:22:03",
+        "todate": "2025-07-17T06:22:03",
+        "datemodified": "2025-07-17T07:02:22",
+        "iso3": "AFG",
+        "source": "NEIC",
+        "sourceid": "us7000qd5i",
+        "polygondate": "2025-07-17T08:42:23",
+        "polygonlabel": "Intensity 5",
+        "affectedcountries": [
+          {
+            "iso2": "AF",
+            "iso3": "AFG",
+            "countryname": "Afghanistan"
+          }
+        ],
+        "severitydata": {
+          "severity": 4.7,
+          "severitytext": "Magnitude 4.7M, Depth:10km",
+          "severityunit": "M"
+        },
+        "Class": "Poly_SMPInt_5",
+        "iconeventlink": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+        "iconitemlink": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png"
+      }
+    }
+  ]
+}

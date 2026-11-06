@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "title": "M 4.5   in Afghanistan on 21 Feb 2025 22:50 UTC",
+      "description": "",
+      "link": "https://www.gdacs.org/report.aspx?eventid=1469501&episodeid=1624117&eventtype=EQ",
+      "image": "https://www.gdacs.org/images/gdacs_icons/big/Green/EQ.png",
+      "summarytable": [
+        {
+          "key": "Countries",
+          "value": "Afghanistan"
+        },
+        {
+          "key": "Magnitude",
+          "value": "4.5"
+        },
+        {
+          "key": "Depth",
+          "value": "126.3 Km"
+        },
+        {
+          "key": "Lat/Lon",
+          "value": "36.3528 , 71.3192"
+        },
+        {
+          "key": "Event Date",
+          "value": "21 Feb 2025 22:50 UTC"
+        },
+        {
+          "key": "Local Time",
+          "value": "22 Feb 2025 03:20"
+        },
+        {
+          "key": "Exposed population",
+          "value": "980 thousand in 100km - No people affected in MMI -"
+        }
+      ]
+    }
+  ]
+}

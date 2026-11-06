@@ -1,0 +1,65 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "bbox": [
+        70.7909,
+        34.6668,
+        70.7909,
+        34.6668
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          70.7909,
+          34.6668
+        ]
+      },
+      "properties": {
+        "eventtype": "EQ",
+        "eventid": 1498957,
+        "episodeid": 1658916,
+        "eventname": "",
+        "glide": "EQ-2025-000159-AFG",
+        "name": "Earthquake in Afghanistan",
+        "description": "Earthquake in Afghanistan",
+        "htmldescription": "Green M 5.2 Earthquake in Afghanistan at: 05 Sep 2025 01:30:02.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1498957&episodeid=1658916",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1498957&episodeid=1658916&eventtype=EQ",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=EQ&eventid=1498957"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.527142857142859,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Afghanistan",
+        "fromdate": "2025-09-05T01:30:02",
+        "todate": "2025-09-05T01:30:02",
+        "datemodified": "2025-09-10T23:01:23",
+        "iso3": "AFG",
+        "source": "NEIC",
+        "sourceid": "us7000qtzt",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "AF",
+            "iso3": "AFG",
+            "countryname": "Afghanistan"
+          }
+        ],
+        "severitydata": {
+          "severity": 5.2,
+          "severitytext": "Magnitude 5.2M, Depth:9.071km",
+          "severityunit": "M"
+        }
+      }
+    }
+  ]
+}

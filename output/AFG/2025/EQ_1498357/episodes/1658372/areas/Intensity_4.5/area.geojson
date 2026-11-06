@@ -1,0 +1,214 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "bbox": [
+        70.5364,
+        34.5282,
+        70.9004,
+        34.7734
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              70.588,
+              34.5282
+            ],
+            [
+              70.6295,
+              34.5473
+            ],
+            [
+              70.7541,
+              34.5536
+            ],
+            [
+              70.8122,
+              34.5747
+            ],
+            [
+              70.8862,
+              34.6127
+            ],
+            [
+              70.9004,
+              34.6376
+            ],
+            [
+              70.9002,
+              34.6542
+            ],
+            [
+              70.8459,
+              34.6874
+            ],
+            [
+              70.8122,
+              34.7362
+            ],
+            [
+              70.7713,
+              34.762
+            ],
+            [
+              70.7208,
+              34.7734
+            ],
+            [
+              70.6627,
+              34.7644
+            ],
+            [
+              70.6129,
+              34.7325
+            ],
+            [
+              70.588,
+              34.7082
+            ],
+            [
+              70.5716,
+              34.6791
+            ],
+            [
+              70.5705,
+              34.6127
+            ],
+            [
+              70.5597,
+              34.5878
+            ],
+            [
+              70.5387,
+              34.5629
+            ],
+            [
+              70.5364,
+              34.5463
+            ],
+            [
+              70.5465,
+              34.534
+            ],
+            [
+              70.588,
+              34.5282
+            ]
+          ],
+          [
+            [
+              70.6461,
+              34.5745
+            ],
+            [
+              70.6176,
+              34.5878
+            ],
+            [
+              70.615,
+              34.5961
+            ],
+            [
+              70.6316,
+              34.6293
+            ],
+            [
+              70.6281,
+              34.6542
+            ],
+            [
+              70.6427,
+              34.6874
+            ],
+            [
+              70.6843,
+              34.7205
+            ],
+            [
+              70.7125,
+              34.7261
+            ],
+            [
+              70.7375,
+              34.7214
+            ],
+            [
+              70.7624,
+              34.7058
+            ],
+            [
+              70.8107,
+              34.6376
+            ],
+            [
+              70.8031,
+              34.621
+            ],
+            [
+              70.7873,
+              34.6077
+            ],
+            [
+              70.7125,
+              34.5784
+            ],
+            [
+              70.6461,
+              34.5745
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "eventtype": "EQ",
+        "eventid": 1498357,
+        "episodeid": 1658372,
+        "eventname": "",
+        "glide": "",
+        "name": "Earthquake in Afghanistan",
+        "description": "Earthquake in Afghanistan",
+        "htmldescription": "Green M 5.2 Earthquake in Afghanistan at: 31 Aug 2025 23:46:28.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1498357&episodeid=1658372",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1498357&episodeid=1658372&eventtype=EQ",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=EQ&eventid=1498357"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.0,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Afghanistan",
+        "fromdate": "2025-08-31T23:46:28",
+        "todate": "2025-08-31T23:46:28",
+        "datemodified": "2026-09-11T07:07:07",
+        "iso3": "AFG",
+        "source": "NEIC",
+        "sourceid": "us7000qsx4",
+        "polygondate": "2025-09-02T00:09:23",
+        "polygonlabel": "Intensity 4.5",
+        "affectedcountries": [
+          {
+            "iso2": "AF",
+            "iso3": "AFG",
+            "countryname": "Afghanistan"
+          }
+        ],
+        "severitydata": {
+          "severity": 5.2,
+          "severitytext": "Magnitude 5.2M, Depth:10.9km",
+          "severityunit": "M"
+        },
+        "Class": "Poly_SMPInt_4.5",
+        "iconeventlink": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+        "iconitemlink": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png"
+      }
+    }
+  ]
+}

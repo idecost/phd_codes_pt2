@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "title": "M 4.6   in Afghanistan on 10 May 2025 05:08 UTC",
+      "description": "",
+      "link": "https://www.gdacs.org/report.aspx?eventid=1481150&episodeid=1638115&eventtype=EQ",
+      "image": "https://www.gdacs.org/images/gdacs_icons/big/Green/EQ.png",
+      "summarytable": [
+        {
+          "key": "Countries",
+          "value": "Afghanistan"
+        },
+        {
+          "key": "Magnitude",
+          "value": "4.6"
+        },
+        {
+          "key": "Depth",
+          "value": "233.7 Km"
+        },
+        {
+          "key": "Lat/Lon",
+          "value": "36.664 , 71.148"
+        },
+        {
+          "key": "Event Date",
+          "value": "10 May 2025 05:08 UTC"
+        },
+        {
+          "key": "Local Time",
+          "value": "10 May 2025 09:38"
+        },
+        {
+          "key": "Exposed population",
+          "value": "1.4 million in 100km - No people affected in MMI -"
+        }
+      ]
+    }
+  ]
+}

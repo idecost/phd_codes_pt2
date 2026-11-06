@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "title": "M 4.9   in Afghanistan on 27 Mar 2025 08:28 UTC",
+      "description": "",
+      "link": "https://www.gdacs.org/report.aspx?eventid=1474327&episodeid=1630360&eventtype=EQ",
+      "image": "https://www.gdacs.org/images/gdacs_icons/big/Green/EQ.png",
+      "summarytable": [
+        {
+          "key": "Countries",
+          "value": "Afghanistan"
+        },
+        {
+          "key": "Magnitude",
+          "value": "4.9"
+        },
+        {
+          "key": "Depth",
+          "value": "207.5 Km"
+        },
+        {
+          "key": "Lat/Lon",
+          "value": "36.4806 , 71.1297"
+        },
+        {
+          "key": "Event Date",
+          "value": "27 Mar 2025 08:28 UTC"
+        },
+        {
+          "key": "Local Time",
+          "value": "27 Mar 2025 12:58"
+        },
+        {
+          "key": "Exposed population",
+          "value": "1.3 million in 100km - No people affected in MMI -"
+        }
+      ]
+    }
+  ]
+}

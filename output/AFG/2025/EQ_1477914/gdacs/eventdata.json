@@ -1,0 +1,149 @@
+{
+  "type": "Feature",
+  "bbox": [
+    71.2019,
+    36.1759,
+    71.2019,
+    36.1759
+  ],
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      71.2019,
+      36.1759
+    ]
+  },
+  "properties": {
+    "eventtype": "EQ",
+    "eventid": 1477914,
+    "episodeid": 1634478,
+    "eventname": "",
+    "glide": "",
+    "name": "Earthquake in Afghanistan",
+    "description": "Earthquake in Afghanistan",
+    "htmldescription": "Green M 5.7 Earthquake in Afghanistan at: 19 Apr 2025 06:47:55.",
+    "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+    "iconoverall": null,
+    "url": {
+      "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1477914&episodeid=1634478",
+      "report": "https://www.gdacs.org/report.aspx?eventid=1477914&episodeid=1634478&eventtype=EQ",
+      "media": "https://www.gdacs.org/gdacsapi/api/emm/getemmnewsbykey?eventtype=EQ&eventid=1477914",
+      "eventnews": "https://www.gdacs.org/gdacsapi/api/news/getnewsbygdacskey?eventtype=EQ&eventid=1477914"
+    },
+    "alertlevel": "Green",
+    "alertscore": 1,
+    "episodealertlevel": "Green",
+    "episodealertscore": 0.0,
+    "istemporary": "false",
+    "iscurrent": "false",
+    "country": "Afghanistan",
+    "fromdate": "2025-04-19T06:47:55",
+    "todate": "2025-04-19T06:47:55",
+    "datemodified": "2025-04-20T14:03:28",
+    "iso3": "AFG",
+    "source": "NEIC",
+    "sourceid": "us6000q76g",
+    "polygonlabel": "Centroid",
+    "Class": "Point_Centroid",
+    "affectedcountries": [
+      {
+        "iso2": "AF",
+        "iso3": "AFG",
+        "countryname": "Afghanistan"
+      }
+    ],
+    "severitydata": {
+      "severity": 5.7,
+      "severitytext": "Magnitude 5.7M, Depth:98km",
+      "severityunit": "M"
+    },
+    "episodes": [
+      {
+        "details": "https://www.gdacs.org/gdacsapi/api/events/getepisodedata?eventtype=EQ&eventid=1477914&episodeid=1634447"
+      },
+      {
+        "details": "https://www.gdacs.org/gdacsapi/api/events/getepisodedata?eventtype=EQ&eventid=1477914&episodeid=1634478"
+      }
+    ],
+    "impacts": [
+      {
+        "source": "NEIC",
+        "resource": {
+          "impact": "https://www.gdacs.org/gdacsapi/api/export/getimpact?id=668776",
+          "shake_preliminary": "https://www.gdacs.org/gdacsapi/api/export/getimpact?id=668777",
+          "shakemap": "https://www.gdacs.org/gdacsapi/api/export/getimpact?id=668882"
+        }
+      }
+    ],
+    "images": {
+      "neic": "https://earthquake.usgs.gov/eqcenter/shakemap/global/shake/6000q76g/download/intensity.jpg",
+      "overviewmap": "https://www.gdacs.org/contentdata/resources/EQ/1477914/eq1634478_2.png",
+      "neic_pager": "https://www.gdacs.org/contentdata/resources/EQ/1477914/1477914_1634478_alertfatal_small.png",
+      "thumbnailmap_cached": "https://www.gdacs.org/contentdata/resources/EQ/1477914/eq1634478_1.png",
+      "populationmap_cached": "https://www.gdacs.org/contentdata/resources/EQ/1477914/eq1634478_4.png",
+      "shakemap_populationmap_static_v01": "https://www.gdacs.org/contentdata/resources/EQ/1477914/shakemap/eq1477914_1634478_5_2.png",
+      "shakemap_populationmap_overview_static_v01": "https://www.gdacs.org/contentdata/resources/EQ/1477914/shakemap/eq1477914_1634478_5_1.png",
+      "meteoimages": "https://www.gdacs.org/contentdata/resources/EQ/1477914/meteo/",
+      "mslpimages": "https://www.gdacs.org/contentdata/img/mslp/",
+      "event_icon_map": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+      "event_icon": "https://www.gdacs.org/images/gdacs_icons/big/Green/EQ.png",
+      "shake_preliminary_image": "https://www.gdacs.org/contentdata/resources/EQ/1477914/smpreliminary_1477914_1634478_intensity.jpg",
+      "thumbnailmap": "https://www.gdacs.org/contentdata/resources/EQ/1477914/eq1634478_1.png",
+      "shakemap_populationmap_overview_v01": "https://www.gdacs.org/contentdata/resources/EQ/1477914/shakemap/eq1477914_1634478_5_1.png",
+      "overviewmap_create": "https://www.gdacs.org/contentdata/resources/EQ/1477914/eq1634478_2.png",
+      "populationmap": "https://www.gdacs.org/contentdata/resources/EQ/1477914/eq1634478_4.png",
+      "locations_affected_alert_image": "https://www.gdacs.org/contentdata/resources/EQ/1477914/tsunami/{identifiers.value:identifierid='tsalertoutputpath'}/tslocations_1477914_1634478.png",
+      "shakemap_populationmap_v01": "https://www.gdacs.org/contentdata/resources/EQ/1477914/shakemap/eq1477914_1634478_5_2.png",
+      "npp_icon": "https://www.gdacs.org/images/gdacs_icons/iconmap/Nuclear.png"
+    },
+    "additionalinfos": {},
+    "earthquakedetails": {
+      "country": "Afghanistan",
+      "depth": "94.1",
+      "magnitude": "5.7",
+      "episodedatelocal": "2025-04-19T11:17:55",
+      "shakepop": "0",
+      "shakepopdescription": "",
+      "rapidpop": "1116404",
+      "rapidpopdescription": "1.1 million in MMI IV"
+    },
+    "documents": {},
+    "shakemap": [
+      {
+        "shakeid": 5,
+        "conditions": "depth=98;latitude=71.2019;longitude=36.1759;magnitude=5.7;maximum-latitude=37.95;maximum-longitude=73.483;maxmmi=3.868;minimum-latitude=34.35;minimum-longitude=69.033;overlayHeight=0;overlayWidth=0",
+        "dateinserted": "2025-04-20T14:03:12.977",
+        "url": "https://www.gdacs.org/gdacsapi/api/shakemap/getdetails?id=26817",
+        "last": true
+      },
+      {
+        "shakeid": 4,
+        "conditions": "depth=98;latitude=71.2019;longitude=36.1759;magnitude=5.7;maximum-latitude=37.95;maximum-longitude=73.483;maxmmi=3.855;minimum-latitude=34.35;minimum-longitude=69.033;overlayHeight=0;overlayWidth=0",
+        "dateinserted": "2025-04-19T14:03:20.333",
+        "url": "https://www.gdacs.org/gdacsapi/api/shakemap/getdetails?id=26812",
+        "last": false
+      },
+      {
+        "shakeid": 3,
+        "conditions": "depth=94.1;latitude=71.2852;longitude=36.2444;magnitude=5.7;maximum-latitude=38.033;maximum-longitude=73.567;maxmmi=3.889;minimum-latitude=34.417;minimum-longitude=69.117;overlayHeight=0;overlayWidth=0",
+        "dateinserted": "2025-04-19T09:16:10.38",
+        "url": "https://www.gdacs.org/gdacsapi/api/shakemap/getdetails?id=26810",
+        "last": false
+      },
+      {
+        "shakeid": 2,
+        "conditions": "depth=94.1;latitude=71.2852;longitude=36.2444;magnitude=5.7;maximum-latitude=38.033;maximum-longitude=73.567;maxmmi=3.889;minimum-latitude=34.417;minimum-longitude=69.117;overlayHeight=0;overlayWidth=0",
+        "dateinserted": "2025-04-19T07:27:34.603",
+        "url": "https://www.gdacs.org/gdacsapi/api/shakemap/getdetails?id=26809",
+        "last": false
+      },
+      {
+        "shakeid": 1,
+        "conditions": "depth=94.1;latitude=71.2852;longitude=36.2444;magnitude=5.7;maximum-latitude=38.033;maximum-longitude=73.567;maxmmi=3.889;minimum-latitude=34.417;minimum-longitude=69.117;overlayHeight=0;overlayWidth=0",
+        "dateinserted": "2025-04-19T07:16:21.133",
+        "url": "https://www.gdacs.org/gdacsapi/api/shakemap/getdetails?id=26808",
+        "last": false
+      }
+    ]
+  }
+}

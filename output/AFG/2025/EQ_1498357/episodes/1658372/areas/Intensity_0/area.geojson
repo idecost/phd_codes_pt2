@@ -1,0 +1,250 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "bbox": [
+        70.265,
+        34.2721,
+        71.0264,
+        34.8902
+      ],
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                70.7707,
+                34.2724
+              ],
+              [
+                70.7956,
+                34.2897
+              ],
+              [
+                70.862,
+                34.3811
+              ],
+              [
+                70.9035,
+                34.414
+              ],
+              [
+                70.9533,
+                34.4324
+              ],
+              [
+                70.9948,
+                34.4717
+              ],
+              [
+                70.9978,
+                34.4966
+              ],
+              [
+                70.9707,
+                34.5298
+              ],
+              [
+                70.9621,
+                34.5712
+              ],
+              [
+                71.0166,
+                34.6293
+              ],
+              [
+                71.0229,
+                34.6459
+              ],
+              [
+                71.0166,
+                34.6791
+              ],
+              [
+                71.0264,
+                34.7288
+              ],
+              [
+                71.0197,
+                34.7381
+              ],
+              [
+                70.9589,
+                34.762
+              ],
+              [
+                70.8952,
+                34.8295
+              ],
+              [
+                70.8454,
+                34.8597
+              ],
+              [
+                70.7292,
+                34.8902
+              ],
+              [
+                70.6627,
+                34.8822
+              ],
+              [
+                70.5714,
+                34.855
+              ],
+              [
+                70.5069,
+                34.8118
+              ],
+              [
+                70.4535,
+                34.7454
+              ],
+              [
+                70.4396,
+                34.7123
+              ],
+              [
+                70.4386,
+                34.6127
+              ],
+              [
+                70.4054,
+                34.5829
+              ],
+              [
+                70.3639,
+                34.5793
+              ],
+              [
+                70.265,
+                34.5381
+              ],
+              [
+                70.2656,
+                34.5132
+              ],
+              [
+                70.2709,
+                34.5049
+              ],
+              [
+                70.3639,
+                34.5017
+              ],
+              [
+                70.375,
+                34.4883
+              ],
+              [
+                70.3675,
+                34.4551
+              ],
+              [
+                70.3819,
+                34.4136
+              ],
+              [
+                70.4967,
+                34.3434
+              ],
+              [
+                70.5382,
+                34.3385
+              ],
+              [
+                70.5714,
+                34.3518
+              ],
+              [
+                70.6046,
+                34.3491
+              ],
+              [
+                70.619,
+                34.3721
+              ],
+              [
+                70.6627,
+                34.3724
+              ],
+              [
+                70.6642,
+                34.3556
+              ],
+              [
+                70.6501,
+                34.3473
+              ],
+              [
+                70.6506,
+                34.3307
+              ],
+              [
+                70.6793,
+                34.2938
+              ],
+              [
+                70.7375,
+                34.2721
+              ],
+              [
+                70.7707,
+                34.2724
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "eventtype": "EQ",
+        "eventid": 1498357,
+        "episodeid": 1658372,
+        "eventname": "",
+        "glide": "",
+        "name": "Earthquake in Afghanistan",
+        "description": "Earthquake in Afghanistan",
+        "htmldescription": "Green M 5.2 Earthquake in Afghanistan at: 31 Aug 2025 23:46:28.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1498357&episodeid=1658372",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1498357&episodeid=1658372&eventtype=EQ",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=EQ&eventid=1498357"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.0,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Afghanistan",
+        "fromdate": "2025-08-31T23:46:28",
+        "todate": "2025-08-31T23:46:28",
+        "datemodified": "2026-09-11T07:07:07",
+        "iso3": "AFG",
+        "source": "NEIC",
+        "sourceid": "us7000qsx4",
+        "polygondate": "2025-09-02T00:09:23",
+        "polygonlabel": "Intensity 0",
+        "affectedcountries": [
+          {
+            "iso2": "AF",
+            "iso3": "AFG",
+            "countryname": "Afghanistan"
+          }
+        ],
+        "severitydata": {
+          "severity": 5.2,
+          "severitytext": "Magnitude 5.2M, Depth:10.9km",
+          "severityunit": "M"
+        },
+        "Class": "Poly_SMPInt_0",
+        "iconeventlink": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+        "iconitemlink": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png"
+      }
+    }
+  ]
+}

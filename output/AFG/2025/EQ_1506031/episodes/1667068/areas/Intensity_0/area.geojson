@@ -1,0 +1,150 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "bbox": [
+        72.7291,
+        36.7134,
+        73.0674,
+        36.9834
+      ],
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                72.9374,
+                36.7194
+              ],
+              [
+                72.9623,
+                36.7246
+              ],
+              [
+                73.0038,
+                36.7474
+              ],
+              [
+                73.0455,
+                36.7878
+              ],
+              [
+                73.0625,
+                36.821
+              ],
+              [
+                73.0674,
+                36.8459
+              ],
+              [
+                73.0666,
+                36.8707
+              ],
+              [
+                73.0466,
+                36.9205
+              ],
+              [
+                72.9789,
+                36.9709
+              ],
+              [
+                72.9457,
+                36.9796
+              ],
+              [
+                72.8627,
+                36.9834
+              ],
+              [
+                72.8016,
+                36.962
+              ],
+              [
+                72.7485,
+                36.9122
+              ],
+              [
+                72.7291,
+                36.8707
+              ],
+              [
+                72.7291,
+                36.821
+              ],
+              [
+                72.7414,
+                36.7961
+              ],
+              [
+                72.7713,
+                36.7562
+              ],
+              [
+                72.8212,
+                36.7254
+              ],
+              [
+                72.8876,
+                36.7134
+              ],
+              [
+                72.9374,
+                36.7194
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "eventtype": "EQ",
+        "eventid": 1506031,
+        "episodeid": 1667068,
+        "eventname": "",
+        "glide": "",
+        "name": "Earthquake in Afghanistan",
+        "description": "Earthquake in Afghanistan",
+        "htmldescription": "Green M 4.9 Earthquake in Afghanistan at: 19 Oct 2025 13:59:34.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1506031&episodeid=1667068",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1506031&episodeid=1667068&eventtype=EQ",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=EQ&eventid=1506031"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.0,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Afghanistan",
+        "fromdate": "2025-10-19T13:59:34",
+        "todate": "2025-10-19T13:59:34",
+        "datemodified": "2025-10-19T14:39:43",
+        "iso3": "AFG",
+        "source": "NEIC",
+        "sourceid": "us6000ri5v",
+        "polygondate": "2025-10-19T16:28:05",
+        "polygonlabel": "Intensity 0",
+        "affectedcountries": [
+          {
+            "iso2": "AF",
+            "iso3": "AFG",
+            "countryname": "Afghanistan"
+          }
+        ],
+        "severitydata": {
+          "severity": 4.9,
+          "severitytext": "Magnitude 4.9M, Depth:10km",
+          "severityunit": "M"
+        },
+        "Class": "Poly_SMPInt_0",
+        "iconeventlink": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+        "iconitemlink": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png"
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "title": "M 4.7   in Afghanistan on 30 Jun 2025 02:32 UTC",
+      "description": "",
+      "link": "https://www.gdacs.org/report.aspx?eventid=1488049&episodeid=1645863&eventtype=EQ",
+      "image": "https://www.gdacs.org/images/gdacs_icons/big/Green/EQ.png",
+      "summarytable": [
+        {
+          "key": "Countries",
+          "value": "Afghanistan"
+        },
+        {
+          "key": "Magnitude",
+          "value": "4.7"
+        },
+        {
+          "key": "Depth",
+          "value": "103.7 Km"
+        },
+        {
+          "key": "Lat/Lon",
+          "value": "36.9444 , 71.2404"
+        },
+        {
+          "key": "Event Date",
+          "value": "30 Jun 2025 02:32 UTC"
+        },
+        {
+          "key": "Local Time",
+          "value": "30 Jun 2025 07:02"
+        },
+        {
+          "key": "Exposed population",
+          "value": "1.5 million in 100km - No people affected in MMI -"
+        }
+      ]
+    }
+  ]
+}

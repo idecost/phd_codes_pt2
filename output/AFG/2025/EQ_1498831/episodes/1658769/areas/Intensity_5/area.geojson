@@ -1,0 +1,106 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "bbox": [
+        70.5459,
+        34.4042,
+        70.6131,
+        34.4568
+      ],
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                70.5793,
+                34.4042
+              ],
+              [
+                70.6127,
+                34.4127
+              ],
+              [
+                70.6131,
+                34.4458
+              ],
+              [
+                70.5959,
+                34.4549
+              ],
+              [
+                70.5627,
+                34.4568
+              ],
+              [
+                70.5507,
+                34.4458
+              ],
+              [
+                70.5459,
+                34.4209
+              ],
+              [
+                70.5627,
+                34.4066
+              ],
+              [
+                70.5793,
+                34.4042
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "eventtype": "EQ",
+        "eventid": 1498831,
+        "episodeid": 1658769,
+        "eventname": "",
+        "glide": "EQ-2025-000156-AFG",
+        "name": "Earthquake in Afghanistan",
+        "description": "Earthquake in Afghanistan",
+        "htmldescription": "Green M 4.7 Earthquake in Afghanistan at: 04 Sep 2025 05:10:52.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1498831&episodeid=1658769",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1498831&episodeid=1658769&eventtype=EQ",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=EQ&eventid=1498831"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.0,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Afghanistan",
+        "fromdate": "2025-09-04T05:10:52",
+        "todate": "2025-09-04T05:10:52",
+        "datemodified": "2025-09-04T19:04:07",
+        "iso3": "AFG",
+        "source": "NEIC",
+        "sourceid": "us7000qtq5",
+        "polygondate": "2025-09-04T07:33:03",
+        "polygonlabel": "Intensity 5",
+        "affectedcountries": [
+          {
+            "iso2": "AF",
+            "iso3": "AFG",
+            "countryname": "Afghanistan"
+          }
+        ],
+        "severitydata": {
+          "severity": 4.7,
+          "severitytext": "Magnitude 4.7M, Depth:10km",
+          "severityunit": "M"
+        },
+        "Class": "Poly_SMPInt_5",
+        "iconeventlink": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+        "iconitemlink": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png"
+      }
+    }
+  ]
+}

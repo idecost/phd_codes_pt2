@@ -1,0 +1,170 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "bbox": [
+        70.5056,
+        34.4988,
+        70.7196,
+        34.6397
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              70.5711,
+              34.4988
+            ],
+            [
+              70.6624,
+              34.52
+            ],
+            [
+              70.6956,
+              34.5445
+            ],
+            [
+              70.7122,
+              34.5641
+            ],
+            [
+              70.7196,
+              34.5874
+            ],
+            [
+              70.7122,
+              34.6076
+            ],
+            [
+              70.6873,
+              34.6255
+            ],
+            [
+              70.6292,
+              34.6397
+            ],
+            [
+              70.5711,
+              34.619
+            ],
+            [
+              70.513,
+              34.5647
+            ],
+            [
+              70.5056,
+              34.5376
+            ],
+            [
+              70.507,
+              34.5293
+            ],
+            [
+              70.5296,
+              34.5141
+            ],
+            [
+              70.5711,
+              34.4988
+            ]
+          ],
+          [
+            [
+              70.5877,
+              34.5306
+            ],
+            [
+              70.5597,
+              34.5376
+            ],
+            [
+              70.5532,
+              34.5542
+            ],
+            [
+              70.5659,
+              34.5791
+            ],
+            [
+              70.5794,
+              34.5916
+            ],
+            [
+              70.6126,
+              34.6019
+            ],
+            [
+              70.6444,
+              34.5957
+            ],
+            [
+              70.6527,
+              34.5791
+            ],
+            [
+              70.6501,
+              34.5625
+            ],
+            [
+              70.6043,
+              34.5356
+            ],
+            [
+              70.5877,
+              34.5306
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "eventtype": "EQ",
+        "eventid": 1501669,
+        "episodeid": 1662110,
+        "eventname": "",
+        "glide": "",
+        "name": "Earthquake in Afghanistan",
+        "description": "Earthquake in Afghanistan",
+        "htmldescription": "Green M 4.9 Earthquake in Afghanistan at: 23 Sep 2025 10:50:33.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1501669&episodeid=1662110",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1501669&episodeid=1662110&eventtype=EQ",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=EQ&eventid=1501669"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.0,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Afghanistan",
+        "fromdate": "2025-09-23T10:50:33",
+        "todate": "2025-09-23T10:50:33",
+        "datemodified": "2025-09-23T11:39:50",
+        "iso3": "AFG",
+        "source": "NEIC",
+        "sourceid": "us6000rc98",
+        "polygondate": "2025-09-23T13:39:55",
+        "polygonlabel": "Intensity 4.5",
+        "affectedcountries": [
+          {
+            "iso2": "AF",
+            "iso3": "AFG",
+            "countryname": "Afghanistan"
+          }
+        ],
+        "severitydata": {
+          "severity": 4.9,
+          "severitytext": "Magnitude 4.9M, Depth:10km",
+          "severityunit": "M"
+        },
+        "Class": "Poly_SMPInt_4.5",
+        "iconeventlink": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+        "iconitemlink": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png"
+      }
+    }
+  ]
+}

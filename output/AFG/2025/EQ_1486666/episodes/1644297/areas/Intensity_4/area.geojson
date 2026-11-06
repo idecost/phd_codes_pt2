@@ -1,0 +1,142 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "bbox": [
+        61.938,
+        34.6386,
+        62.2118,
+        34.8783
+      ],
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                62.0875,
+                34.6439
+              ],
+              [
+                62.1309,
+                34.6712
+              ],
+              [
+                62.1794,
+                34.721
+              ],
+              [
+                62.2118,
+                34.7707
+              ],
+              [
+                62.2118,
+                34.7873
+              ],
+              [
+                62.1952,
+                34.8205
+              ],
+              [
+                62.129,
+                34.8598
+              ],
+              [
+                62.0958,
+                34.8741
+              ],
+              [
+                62.0625,
+                34.8783
+              ],
+              [
+                62.021,
+                34.8742
+              ],
+              [
+                61.9771,
+                34.8371
+              ],
+              [
+                61.9513,
+                34.7873
+              ],
+              [
+                61.938,
+                34.7358
+              ],
+              [
+                61.951,
+                34.6961
+              ],
+              [
+                61.9878,
+                34.66
+              ],
+              [
+                62.021,
+                34.6446
+              ],
+              [
+                62.0542,
+                34.6386
+              ],
+              [
+                62.0875,
+                34.6439
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "eventtype": "EQ",
+        "eventid": 1486666,
+        "episodeid": 1644297,
+        "eventname": "",
+        "glide": "",
+        "name": "Earthquake in Afghanistan",
+        "description": "Earthquake in Afghanistan",
+        "htmldescription": "Green M 4.5 Earthquake in Afghanistan at: 20 Jun 2025 00:41:19.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1486666&episodeid=1644297",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1486666&episodeid=1644297&eventtype=EQ",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=EQ&eventid=1486666"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.0,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Afghanistan",
+        "fromdate": "2025-06-20T00:41:19",
+        "todate": "2025-06-20T00:41:19",
+        "datemodified": "2025-06-20T01:21:23",
+        "iso3": "AFG",
+        "source": "NEIC",
+        "sourceid": "us6000qlcx",
+        "polygondate": "2025-06-20T03:00:04",
+        "polygonlabel": "Intensity 4",
+        "affectedcountries": [
+          {
+            "iso2": "AF",
+            "iso3": "AFG",
+            "countryname": "Afghanistan"
+          }
+        ],
+        "severitydata": {
+          "severity": 4.5,
+          "severitytext": "Magnitude 4.5M, Depth:10km",
+          "severityunit": "M"
+        },
+        "Class": "Poly_SMPInt_4",
+        "iconeventlink": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+        "iconitemlink": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png"
+      }
+    }
+  ]
+}

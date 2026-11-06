@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "title": "M 4.6   in Afghanistan on 18 Aug 2025 18:41 UTC",
+      "description": "",
+      "link": "https://www.gdacs.org/report.aspx?eventid=1496428&episodeid=1656026&eventtype=EQ",
+      "image": "https://www.gdacs.org/images/gdacs_icons/big/Green/EQ.png",
+      "summarytable": [
+        {
+          "key": "Countries",
+          "value": "Afghanistan"
+        },
+        {
+          "key": "Magnitude",
+          "value": "4.6"
+        },
+        {
+          "key": "Depth",
+          "value": "10 Km"
+        },
+        {
+          "key": "Lat/Lon",
+          "value": "37.1957 , 69.5801"
+        },
+        {
+          "key": "Event Date",
+          "value": "18 Aug 2025 18:41 UTC"
+        },
+        {
+          "key": "Local Time",
+          "value": "18 Aug 2025 23:11"
+        },
+        {
+          "key": "Exposed population",
+          "value": "6 million in 100km - No people affected in MMI -"
+        }
+      ]
+    }
+  ]
+}

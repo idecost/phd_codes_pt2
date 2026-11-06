@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "title": "M 5.1   in Afghanistan on 07 Oct 2025 11:35 UTC",
+      "description": "",
+      "link": "https://www.gdacs.org/report.aspx?eventid=1503921&episodeid=1664685&eventtype=EQ",
+      "image": "https://www.gdacs.org/images/gdacs_icons/big/Green/EQ.png",
+      "summarytable": [
+        {
+          "key": "Countries",
+          "value": "Afghanistan"
+        },
+        {
+          "key": "Magnitude",
+          "value": "5.1"
+        },
+        {
+          "key": "Depth",
+          "value": "10 Km"
+        },
+        {
+          "key": "Lat/Lon",
+          "value": "37.3857 , 69.6408"
+        },
+        {
+          "key": "Event Date",
+          "value": "07 Oct 2025 11:35 UTC"
+        },
+        {
+          "key": "Local Time",
+          "value": "07 Oct 2025 16:05"
+        },
+        {
+          "key": "Exposed population",
+          "value": "60 thousand in MMI VI - No people affected in MMI IX"
+        }
+      ]
+    }
+  ]
+}

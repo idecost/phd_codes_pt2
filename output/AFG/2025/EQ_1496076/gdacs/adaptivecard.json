@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "title": "M 4.7   in Afghanistan on 16 Aug 2025 17:35 UTC",
+      "description": "",
+      "link": "https://www.gdacs.org/report.aspx?eventid=1496076&episodeid=1655627&eventtype=EQ",
+      "image": "https://www.gdacs.org/images/gdacs_icons/big/Green/EQ.png",
+      "summarytable": [
+        {
+          "key": "Countries",
+          "value": "Afghanistan"
+        },
+        {
+          "key": "Magnitude",
+          "value": "4.7"
+        },
+        {
+          "key": "Depth",
+          "value": "108.3 Km"
+        },
+        {
+          "key": "Lat/Lon",
+          "value": "37.1119 , 71.3427"
+        },
+        {
+          "key": "Event Date",
+          "value": "16 Aug 2025 17:35 UTC"
+        },
+        {
+          "key": "Local Time",
+          "value": "16 Aug 2025 22:05"
+        },
+        {
+          "key": "Exposed population",
+          "value": "1.4 million in 100km - No people affected in MMI -"
+        }
+      ]
+    }
+  ]
+}

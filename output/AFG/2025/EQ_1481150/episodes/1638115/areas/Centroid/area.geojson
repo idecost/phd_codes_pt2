@@ -1,0 +1,65 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "bbox": [
+        71.148,
+        36.664,
+        71.148,
+        36.664
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.148,
+          36.664
+        ]
+      },
+      "properties": {
+        "eventtype": "EQ",
+        "eventid": 1481150,
+        "episodeid": 1638115,
+        "eventname": "",
+        "glide": "",
+        "name": "Earthquake in Afghanistan",
+        "description": "Earthquake in Afghanistan",
+        "htmldescription": "Green M 4.6 Earthquake in Afghanistan at: 10 May 2025 05:08:01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1481150&episodeid=1638115",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1481150&episodeid=1638115&eventtype=EQ",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=EQ&eventid=1481150"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.0,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Afghanistan",
+        "fromdate": "2025-05-10T05:08:01",
+        "todate": "2025-05-10T05:08:01",
+        "datemodified": "2025-05-10T05:48:04",
+        "iso3": "AFG",
+        "source": "NEIC",
+        "sourceid": "us7000pydu",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "AF",
+            "iso3": "AFG",
+            "countryname": "Afghanistan"
+          }
+        ],
+        "severitydata": {
+          "severity": 4.6,
+          "severitytext": "Magnitude 4.6M, Depth:233.7km",
+          "severityunit": "M"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "type": "Feature",
+  "bbox": [
+    70.7342,
+    34.5191,
+    70.7342,
+    34.5191
+  ],
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      70.7342,
+      34.5191
+    ]
+  },
+  "properties": {
+    "eventtype": "EQ",
+    "eventid": 1498339,
+    "shakeid": 4,
+    "episodedate": "2025-08-31T19:17:34",
+    "dateadded": "2025-09-02T14:04:48.617",
+    "sourceupdatedate": "2025-09-01T19:40:19",
+    "updatedate": "2025-09-02T14:01:33",
+    "conditionshake": "depth=8;latitude=70.7342;longitude=34.5191;magnitude=6;maximum-latitude=36.3;maximum-longitude=72.967;maxmmi=8.844;minimum-latitude=32.7;minimum-longitude=68.6;overlayHeight=0;overlayWidth=0",
+    "alertelevel": "RED",
+    "alertscore": 4.36819818466699,
+    "images": {
+      "shakemap_populationmap_static_v01": "https://www.gdacs.org/contentdata/resources/EQ/1498339/shakemap/eq1498339_1658195_4_2.png",
+      "shakemap_populationmap_overview_static_v01": "https://www.gdacs.org/contentdata/resources/EQ/1498339/shakemap/eq1498339_1658195_4_1.png",
+      "alertbar_email": "https://www.gdacs.org/contentdata/resources/EQ/1498339/alertbar_1498339_1658195_4.jpg",
+      "shakemap_populationmap_overview_v01": "https://www.gdacs.org/contentdata/resources/EQ/1498339/shakemap/eq1498339_1658195_4_1.png",
+      "overviewmap_create": "https://www.gdacs.org/contentdata/resources/{eventtype}/{eventid}/eq{episodeid}_2.png",
+      "populationmap": "https://www.gdacs.org/contentdata/resources/EQ/1498339/eq1658195_4.png",
+      "shakemap_populationmap_v01": "https://www.gdacs.org/contentdata/resources/{eventtype}/{eventid}/shakemap/eq{eventid}_{episodeid}_4_2.png"
+    },
+    "aoi": [
+      {
+        "name": "aoi_all",
+        "url": "https://www.gdacs.org/gdacsapi/api/export/getaoi?id=135256"
+      }
+    ],
+    "geometrydetails": "https://www.gdacs.org/gdacsapi/api/shakemap/getgeometry?eventid=1498339&shakeid=4",
+    "impact": "https://www.gdacs.org/gdacsapi/api/export/getimpact?id=695023"
+  }
+}

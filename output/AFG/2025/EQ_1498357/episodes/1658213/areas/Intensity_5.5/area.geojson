@@ -1,0 +1,126 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "bbox": [
+        70.5996,
+        34.5653,
+        70.7183,
+        34.6146
+      ],
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                70.671,
+                34.5678
+              ],
+              [
+                70.6876,
+                34.5821
+              ],
+              [
+                70.7136,
+                34.5875
+              ],
+              [
+                70.7183,
+                34.5958
+              ],
+              [
+                70.7136,
+                34.6123
+              ],
+              [
+                70.6793,
+                34.6146
+              ],
+              [
+                70.6378,
+                34.6057
+              ],
+              [
+                70.6212,
+                34.5924
+              ],
+              [
+                70.5996,
+                34.5875
+              ],
+              [
+                70.6046,
+                34.5731
+              ],
+              [
+                70.6295,
+                34.5816
+              ],
+              [
+                70.6329,
+                34.5709
+              ],
+              [
+                70.6461,
+                34.5653
+              ],
+              [
+                70.671,
+                34.5678
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "eventtype": "EQ",
+        "eventid": 1498357,
+        "episodeid": 1658213,
+        "eventname": "",
+        "glide": "",
+        "name": "Earthquake in Afghanistan",
+        "description": "Earthquake in Afghanistan",
+        "htmldescription": "Green M 5.2 Earthquake in Afghanistan at: 31 Aug 2025 23:46:28.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Orange/EQ.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1498357&episodeid=1658213",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1498357&episodeid=1658213&eventtype=EQ",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=EQ&eventid=1498357"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Orange",
+        "episodealertscore": 1.14253417685023,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Afghanistan",
+        "fromdate": "2025-08-31T23:46:28",
+        "todate": "2025-08-31T23:46:28",
+        "datemodified": "2026-09-11T07:07:07",
+        "iso3": "AFG",
+        "source": "NEIC",
+        "sourceid": "us7000qsx4",
+        "polygondate": "2025-09-01T02:07:43",
+        "polygonlabel": "Intensity 5.5",
+        "affectedcountries": [
+          {
+            "iso2": "AF",
+            "iso3": "AFG",
+            "countryname": "Afghanistan"
+          }
+        ],
+        "severitydata": {
+          "severity": 5.2,
+          "severitytext": "Magnitude 5.2M, Depth:10.9km",
+          "severityunit": "M"
+        },
+        "Class": "Poly_SMPInt_5.5",
+        "iconeventlink": "https://www.gdacs.org/images/gdacs_icons/maps/Orange/EQ.png",
+        "iconitemlink": "https://www.gdacs.org/images/gdacs_icons/maps/Orange/EQ.png"
+      }
+    }
+  ]
+}

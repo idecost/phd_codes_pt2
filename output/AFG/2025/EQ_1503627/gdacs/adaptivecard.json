@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "title": "M 4.9   in Afghanistan on 05 Oct 2025 13:29 UTC",
+      "description": "",
+      "link": "https://www.gdacs.org/report.aspx?eventid=1503627&episodeid=1664352&eventtype=EQ",
+      "image": "https://www.gdacs.org/images/gdacs_icons/big/Green/EQ.png",
+      "summarytable": [
+        {
+          "key": "Countries",
+          "value": "Afghanistan"
+        },
+        {
+          "key": "Magnitude",
+          "value": "4.9"
+        },
+        {
+          "key": "Depth",
+          "value": "10 Km"
+        },
+        {
+          "key": "Lat/Lon",
+          "value": "30.3314 , 66.2694"
+        },
+        {
+          "key": "Event Date",
+          "value": "05 Oct 2025 13:29 UTC"
+        },
+        {
+          "key": "Local Time",
+          "value": "05 Oct 2025 17:59"
+        },
+        {
+          "key": "Exposed population",
+          "value": "2.4 million in 100km - No people affected in MMI -"
+        }
+      ]
+    }
+  ]
+}

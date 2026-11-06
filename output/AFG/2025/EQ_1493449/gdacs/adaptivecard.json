@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "title": "M 5   in Afghanistan on 01 Aug 2025 21:03 UTC",
+      "description": "",
+      "link": "https://www.gdacs.org/report.aspx?eventid=1493449&episodeid=1652400&eventtype=EQ",
+      "image": "https://www.gdacs.org/images/gdacs_icons/big/Green/EQ.png",
+      "summarytable": [
+        {
+          "key": "Countries",
+          "value": "Afghanistan"
+        },
+        {
+          "key": "Magnitude",
+          "value": "5.0"
+        },
+        {
+          "key": "Depth",
+          "value": "122.6 Km"
+        },
+        {
+          "key": "Lat/Lon",
+          "value": "36.0682 , 70.0528"
+        },
+        {
+          "key": "Event Date",
+          "value": "01 Aug 2025 21:03 UTC"
+        },
+        {
+          "key": "Local Time",
+          "value": "02 Aug 2025 01:33"
+        },
+        {
+          "key": "Exposed population",
+          "value": "2 million in 100km - No people affected in MMI -"
+        }
+      ]
+    }
+  ]
+}

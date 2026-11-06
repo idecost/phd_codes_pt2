@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "title": "M 5.2   in Afghanistan on 31 Aug 2025 23:46 UTC",
+      "description": "",
+      "link": "https://www.gdacs.org/report.aspx?eventid=1498357&episodeid=1658372&eventtype=EQ",
+      "image": "https://www.gdacs.org/images/gdacs_icons/big/Green/EQ.png",
+      "summarytable": [
+        {
+          "key": "Countries",
+          "value": "Afghanistan"
+        },
+        {
+          "key": "Magnitude",
+          "value": "5.2"
+        },
+        {
+          "key": "Depth",
+          "value": "10.9 Km"
+        },
+        {
+          "key": "Lat/Lon",
+          "value": "34.6626 , 70.7106"
+        },
+        {
+          "key": "Event Date",
+          "value": "31 Aug 2025 23:46 UTC"
+        },
+        {
+          "key": "Local Time",
+          "value": "01 Sep 2025 04:16"
+        },
+        {
+          "key": "Exposed population",
+          "value": "5.5 million (in MMI>=VII) - 300000 people  in MMI>=IX"
+        }
+      ]
+    }
+  ]
+}

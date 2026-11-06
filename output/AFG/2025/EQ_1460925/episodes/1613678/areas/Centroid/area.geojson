@@ -1,0 +1,65 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "bbox": [
+        68.0054,
+        36.6926,
+        68.0054,
+        36.6926
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.0054,
+          36.6926
+        ]
+      },
+      "properties": {
+        "eventtype": "EQ",
+        "eventid": 1460925,
+        "episodeid": 1613678,
+        "eventname": "",
+        "glide": "",
+        "name": "Earthquake in Afghanistan",
+        "description": "Earthquake in Afghanistan",
+        "htmldescription": "Green M 4.5 Earthquake in Afghanistan at: 06 Jan 2025 07:17:57.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1460925&episodeid=1613678",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1460925&episodeid=1613678&eventtype=EQ",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=EQ&eventid=1460925"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.0,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Afghanistan",
+        "fromdate": "2025-01-06T07:17:57",
+        "todate": "2025-01-06T07:17:57",
+        "datemodified": "2025-01-07T14:46:29",
+        "iso3": "AFG",
+        "source": "NEIC",
+        "sourceid": "us6000pi4k",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "AF",
+            "iso3": "AFG",
+            "countryname": "Afghanistan"
+          }
+        ],
+        "severitydata": {
+          "severity": 4.5,
+          "severitytext": "Magnitude 4.5M, Depth:10km",
+          "severityunit": "M"
+        }
+      }
+    }
+  ]
+}

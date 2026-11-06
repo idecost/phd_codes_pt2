@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "title": "M 4.6   in Afghanistan on 06 Dec 2025 13:07 UTC",
+      "description": "",
+      "link": "https://www.gdacs.org/report.aspx?eventid=1513543&episodeid=1675524&eventtype=EQ",
+      "image": "https://www.gdacs.org/images/gdacs_icons/big/Green/EQ.png",
+      "summarytable": [
+        {
+          "key": "Countries",
+          "value": "Afghanistan"
+        },
+        {
+          "key": "Magnitude",
+          "value": "4.6"
+        },
+        {
+          "key": "Depth",
+          "value": "33.9 Km"
+        },
+        {
+          "key": "Lat/Lon",
+          "value": "37.0895 , 68.4217"
+        },
+        {
+          "key": "Event Date",
+          "value": "06 Dec 2025 13:07 UTC"
+        },
+        {
+          "key": "Local Time",
+          "value": "06 Dec 2025 17:37"
+        },
+        {
+          "key": "Exposed population",
+          "value": "4.2 million in 100km - No people affected in MMI -"
+        }
+      ]
+    }
+  ]
+}

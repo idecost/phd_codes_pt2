@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "title": "M 4.7   in Afghanistan on 17 Jul 2025 06:22 UTC",
+      "description": "",
+      "link": "https://www.gdacs.org/report.aspx?eventid=1490502&episodeid=1648690&eventtype=EQ",
+      "image": "https://www.gdacs.org/images/gdacs_icons/big/Green/EQ.png",
+      "summarytable": [
+        {
+          "key": "Countries",
+          "value": "Afghanistan"
+        },
+        {
+          "key": "Magnitude",
+          "value": "4.7"
+        },
+        {
+          "key": "Depth",
+          "value": "10 Km"
+        },
+        {
+          "key": "Lat/Lon",
+          "value": "36.2057 , 69.0813"
+        },
+        {
+          "key": "Event Date",
+          "value": "17 Jul 2025 06:22 UTC"
+        },
+        {
+          "key": "Local Time",
+          "value": "17 Jul 2025 10:52"
+        },
+        {
+          "key": "Exposed population",
+          "value": "3.3 million in 100km - No people affected in MMI -"
+        }
+      ]
+    }
+  ]
+}

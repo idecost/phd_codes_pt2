@@ -1,0 +1,346 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "bbox": [
+        70.24,
+        34.2038,
+        71.0239,
+        34.7686
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              70.6792,
+              34.2038
+            ],
+            [
+              70.8369,
+              34.2335
+            ],
+            [
+              70.858,
+              34.2638
+            ],
+            [
+              70.8364,
+              34.297
+            ],
+            [
+              70.8457,
+              34.3219
+            ],
+            [
+              70.8701,
+              34.3457
+            ],
+            [
+              70.8976,
+              34.3468
+            ],
+            [
+              70.9116,
+              34.362
+            ],
+            [
+              70.9448,
+              34.3765
+            ],
+            [
+              70.9946,
+              34.4157
+            ],
+            [
+              71.017,
+              34.438
+            ],
+            [
+              71.0239,
+              34.4712
+            ],
+            [
+              71.0142,
+              34.4961
+            ],
+            [
+              70.9698,
+              34.5293
+            ],
+            [
+              70.9532,
+              34.5541
+            ],
+            [
+              70.9533,
+              34.6371
+            ],
+            [
+              70.947,
+              34.6786
+            ],
+            [
+              70.8618,
+              34.7072
+            ],
+            [
+              70.8203,
+              34.7336
+            ],
+            [
+              70.7788,
+              34.7503
+            ],
+            [
+              70.6875,
+              34.7686
+            ],
+            [
+              70.6293,
+              34.7684
+            ],
+            [
+              70.538,
+              34.7401
+            ],
+            [
+              70.4799,
+              34.7051
+            ],
+            [
+              70.4384,
+              34.6624
+            ],
+            [
+              70.4052,
+              34.6103
+            ],
+            [
+              70.3554,
+              34.5942
+            ],
+            [
+              70.2807,
+              34.5532
+            ],
+            [
+              70.2558,
+              34.552
+            ],
+            [
+              70.24,
+              34.5376
+            ],
+            [
+              70.2414,
+              34.5127
+            ],
+            [
+              70.2558,
+              34.5004
+            ],
+            [
+              70.325,
+              34.4878
+            ],
+            [
+              70.3324,
+              34.4546
+            ],
+            [
+              70.2988,
+              34.4297
+            ],
+            [
+              70.2912,
+              34.3965
+            ],
+            [
+              70.3056,
+              34.3736
+            ],
+            [
+              70.4135,
+              34.2785
+            ],
+            [
+              70.4633,
+              34.2562
+            ],
+            [
+              70.6376,
+              34.2055
+            ],
+            [
+              70.6792,
+              34.2038
+            ]
+          ],
+          [
+            [
+              70.7456,
+              34.3522
+            ],
+            [
+              70.729,
+              34.3682
+            ],
+            [
+              70.6625,
+              34.3863
+            ],
+            [
+              70.5546,
+              34.3734
+            ],
+            [
+              70.5048,
+              34.3901
+            ],
+            [
+              70.4799,
+              34.4076
+            ],
+            [
+              70.4669,
+              34.4297
+            ],
+            [
+              70.464,
+              34.4712
+            ],
+            [
+              70.4715,
+              34.4961
+            ],
+            [
+              70.4516,
+              34.5293
+            ],
+            [
+              70.4567,
+              34.5541
+            ],
+            [
+              70.4799,
+              34.5745
+            ],
+            [
+              70.5217,
+              34.5873
+            ],
+            [
+              70.5878,
+              34.645
+            ],
+            [
+              70.621,
+              34.6609
+            ],
+            [
+              70.6792,
+              34.6646
+            ],
+            [
+              70.7124,
+              34.66
+            ],
+            [
+              70.7539,
+              34.6412
+            ],
+            [
+              70.8203,
+              34.625
+            ],
+            [
+              70.8314,
+              34.6122
+            ],
+            [
+              70.8155,
+              34.5541
+            ],
+            [
+              70.8343,
+              34.5127
+            ],
+            [
+              70.8331,
+              34.4878
+            ],
+            [
+              70.8203,
+              34.4592
+            ],
+            [
+              70.7673,
+              34.4048
+            ],
+            [
+              70.7813,
+              34.3717
+            ],
+            [
+              70.7622,
+              34.3525
+            ],
+            [
+              70.7456,
+              34.3522
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "eventtype": "EQ",
+        "eventid": 1499045,
+        "episodeid": 1659816,
+        "eventname": "",
+        "glide": "EQ-2025-000159-AFG",
+        "name": "Earthquake in Afghanistan",
+        "description": "Earthquake in Afghanistan",
+        "htmldescription": "Orange M 5.2 Earthquake in Afghanistan at: 05 Sep 2025 17:25:50.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Orange/EQ.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Orange/EQ.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1499045&episodeid=1659816",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1499045&episodeid=1659816&eventtype=EQ",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=EQ&eventid=1499045"
+        },
+        "alertlevel": "Orange",
+        "alertscore": 2,
+        "episodealertlevel": "Orange",
+        "episodealertscore": 1.28621568435766,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Afghanistan",
+        "fromdate": "2025-09-05T17:25:50",
+        "todate": "2025-09-05T17:25:50",
+        "datemodified": "2025-09-10T22:03:47",
+        "iso3": "AFG",
+        "source": "NEIC",
+        "sourceid": "us7000qu8p",
+        "polygondate": "2025-09-10T23:26:25",
+        "polygonlabel": "Intensity 4",
+        "affectedcountries": [
+          {
+            "iso2": "AF",
+            "iso3": "AFG",
+            "countryname": "Afghanistan"
+          }
+        ],
+        "severitydata": {
+          "severity": 5.2,
+          "severitytext": "Magnitude 5.2M, Depth:10km",
+          "severityunit": "M"
+        },
+        "Class": "Poly_SMPInt_4",
+        "iconeventlink": "https://www.gdacs.org/images/gdacs_icons/maps/Orange/EQ.png",
+        "iconitemlink": "https://www.gdacs.org/images/gdacs_icons/maps/Orange/EQ.png"
+      }
+    }
+  ]
+}

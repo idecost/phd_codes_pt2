@@ -24,19 +24,19 @@
     "description": "Article content is not available. Please refer to the linked source"
   },
   {
-    "emmid": "thehindu-d05c7104c5a606d33860233589420689",
-    "pubdate": "2025-09-04T18:51:00",
-    "source": "thehindu",
-    "link": "https://www.thehindu.com/news/international/earthquake-strikes-southeastern-afghanistan-september-4-2025/article70013758.ece",
-    "title": "Earthquake of magnitude 6.2 strikes southeastern Afghanistan, Germany’s geosciences centre says",
-    "description": "Article content is not available. Please refer to the linked source"
-  },
-  {
     "emmid": "latestly-6ab8f6bc3cd40c5561525a7aa87b8667",
     "pubdate": "2025-09-04T18:51:00",
     "source": "latestly",
     "link": "https://www.latestly.com/socially/india/news/earthquake-tremors-felt-in-delhi-ncr-jammu-and-kashmir-after-5-8-magnitude-quake-hits-afghanistan-watch-video-7094566.html",
     "title": "Earthquake Tremors Felt in Delhi-NCR, Jammu and Kashmir After 5.8-Magnitude Quake Hits Afghanistan (Watch Video)",
+    "description": "Article content is not available. Please refer to the linked source"
+  },
+  {
+    "emmid": "thehindu-d05c7104c5a606d33860233589420689",
+    "pubdate": "2025-09-04T18:51:00",
+    "source": "thehindu",
+    "link": "https://www.thehindu.com/news/international/earthquake-strikes-southeastern-afghanistan-september-4-2025/article70013758.ece",
+    "title": "Earthquake of magnitude 6.2 strikes southeastern Afghanistan, Germany’s geosciences centre says",
     "description": "Article content is not available. Please refer to the linked source"
   },
   {
@@ -208,19 +208,19 @@
     "description": "Article content is not available. Please refer to the linked source"
   },
   {
-    "emmid": "nampa-d967cb2ef2c42343ec23d8850412bcc2",
-    "pubdate": "2025-09-04T17:35:00",
-    "source": "nampa",
-    "link": "https://www.nampa.org/text/22726454",
-    "title": "6.2 magnitude quake hits southeastern Afghanistan: GFZ",
-    "description": "Article content is not available. Please refer to the linked source"
-  },
-  {
     "emmid": "dnaindia-226a52344899abfac1bae923fd447c1b",
     "pubdate": "2025-09-04T17:35:00",
     "source": "dnaindia",
     "link": "https://www.dnaindia.com/world/report-earthquake-of-magnitude-62-hits-afghanistan-again-tremors-felt-in-pakistan-3178903",
     "title": "Earthquake of magnitude 6.2 strikes Afghanistan again, tremors felt in Pakistan",
+    "description": "Article content is not available. Please refer to the linked source"
+  },
+  {
+    "emmid": "nampa-d967cb2ef2c42343ec23d8850412bcc2",
+    "pubdate": "2025-09-04T17:35:00",
+    "source": "nampa",
+    "link": "https://www.nampa.org/text/22726454",
+    "title": "6.2 magnitude quake hits southeastern Afghanistan: GFZ",
     "description": "Article content is not available. Please refer to the linked source"
   },
   {
@@ -256,19 +256,19 @@
     "description": "Article content is not available. Please refer to the linked source"
   },
   {
-    "emmid": "ilmattino-3797e0127e8933e0cd5efd04ea7939e2",
-    "pubdate": "2025-09-04T17:29:00",
-    "source": "ilmattino",
-    "link": "https://www.ilmattino.it/primopiano/esteri/terremoto_afghanistan_nuova_scossa_oggi_magnitudo_5_7_quanti_morti_ultime_notizie_cosa_sappiamo-9048836.html",
-    "title": "Terremoto in Afghanistan, oggi nuova scossa di magnitudo 5.7: epicentro a Jalalabad. I morti salgono a 2.200",
-    "description": "Article content is not available. Please refer to the linked source"
-  },
-  {
     "emmid": "greaterkashmir-6863d56113d2d36997fb094f2232ba57",
     "pubdate": "2025-09-04T17:29:00",
     "source": "greaterkashmir",
     "link": "https://www.greaterkashmir.com/jammu-kashmir/earthquake-of-5-8-magnitude-strikes-afghanistan-tremors-felt-in-jk/",
     "title": "Earthquake of 5.8 magnitude strikes Afghanistan, tremors felt in J&K",
+    "description": "Article content is not available. Please refer to the linked source"
+  },
+  {
+    "emmid": "ilmattino-3797e0127e8933e0cd5efd04ea7939e2",
+    "pubdate": "2025-09-04T17:29:00",
+    "source": "ilmattino",
+    "link": "https://www.ilmattino.it/primopiano/esteri/terremoto_afghanistan_nuova_scossa_oggi_magnitudo_5_7_quanti_morti_ultime_notizie_cosa_sappiamo-9048836.html",
+    "title": "Terremoto in Afghanistan, oggi nuova scossa di magnitudo 5.7: epicentro a Jalalabad. I morti salgono a 2.200",
     "description": "Article content is not available. Please refer to the linked source"
   },
   {
@@ -392,11 +392,11 @@
     "description": "Article content is not available. Please refer to the linked source"
   },
   {
-    "emmid": "wn-7a9a885c1bf27d1a5ea93eb5b6f1db85",
+    "emmid": "wn-b874c518c9ff0fd1d1fb8466c7b39fd0",
     "pubdate": "2025-09-04T16:28:00",
     "source": "wn",
-    "link": "https://article.wn.com/view/2025/09/04/Xinhua_AsiaPacific_news_summary_at_1600_GMT_Sept_4/",
-    "title": "Xinhua Asia-Pacific news summary at 1600 GMT, Sept. 4",
+    "link": "https://article.wn.com/view/2025/09/04/Death_toll_jumps_as_race_to_reach_Afghan_earthquake_survivor/",
+    "title": "Death toll jumps as race to reach Afghan earthquake survivors continues",
     "description": "Article content is not available. Please refer to the linked source"
   }
 ]

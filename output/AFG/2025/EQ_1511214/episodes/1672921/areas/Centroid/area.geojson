@@ -1,0 +1,65 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "bbox": [
+        71.2594,
+        36.2315,
+        71.2594,
+        36.2315
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.2594,
+          36.2315
+        ]
+      },
+      "properties": {
+        "eventtype": "EQ",
+        "eventid": 1511214,
+        "episodeid": 1672921,
+        "eventname": "",
+        "glide": "",
+        "name": "Earthquake in Afghanistan",
+        "description": "Earthquake in Afghanistan",
+        "htmldescription": "Green M 4.9 Earthquake in Afghanistan at: 20 Nov 2025 21:39:13.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1511214&episodeid=1672921",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1511214&episodeid=1672921&eventtype=EQ",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=EQ&eventid=1511214"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.0,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Afghanistan",
+        "fromdate": "2025-11-20T21:39:13",
+        "todate": "2025-11-20T21:39:13",
+        "datemodified": "2025-11-20T22:19:25",
+        "iso3": "AFG",
+        "source": "NEIC",
+        "sourceid": "us6000rpg9",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "AF",
+            "iso3": "AFG",
+            "countryname": "Afghanistan"
+          }
+        ],
+        "severitydata": {
+          "severity": 4.9,
+          "severitytext": "Magnitude 4.9M, Depth:110.698km",
+          "severityunit": "M"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "bbox": [
+        72.8354,
+        36.8029,
+        72.9484,
+        36.8919
+      ],
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                72.9042,
+                36.8029
+              ],
+              [
+                72.9414,
+                36.8293
+              ],
+              [
+                72.9484,
+                36.8459
+              ],
+              [
+                72.9433,
+                36.8624
+              ],
+              [
+                72.9291,
+                36.8821
+              ],
+              [
+                72.9125,
+                36.8919
+              ],
+              [
+                72.8627,
+                36.8914
+              ],
+              [
+                72.8466,
+                36.879
+              ],
+              [
+                72.8354,
+                36.8459
+              ],
+              [
+                72.8455,
+                36.8293
+              ],
+              [
+                72.871,
+                36.8098
+              ],
+              [
+                72.9042,
+                36.8029
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "eventtype": "EQ",
+        "eventid": 1506031,
+        "episodeid": 1667068,
+        "eventname": "",
+        "glide": "",
+        "name": "Earthquake in Afghanistan",
+        "description": "Earthquake in Afghanistan",
+        "htmldescription": "Green M 4.9 Earthquake in Afghanistan at: 19 Oct 2025 13:59:34.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1506031&episodeid=1667068",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1506031&episodeid=1667068&eventtype=EQ",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=EQ&eventid=1506031"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.0,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Afghanistan",
+        "fromdate": "2025-10-19T13:59:34",
+        "todate": "2025-10-19T13:59:34",
+        "datemodified": "2025-10-19T14:39:43",
+        "iso3": "AFG",
+        "source": "NEIC",
+        "sourceid": "us6000ri5v",
+        "polygondate": "2025-10-19T16:28:05",
+        "polygonlabel": "Intensity 4.5",
+        "affectedcountries": [
+          {
+            "iso2": "AF",
+            "iso3": "AFG",
+            "countryname": "Afghanistan"
+          }
+        ],
+        "severitydata": {
+          "severity": 4.9,
+          "severitytext": "Magnitude 4.9M, Depth:10km",
+          "severityunit": "M"
+        },
+        "Class": "Poly_SMPInt_4.5",
+        "iconeventlink": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+        "iconitemlink": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png"
+      }
+    }
+  ]
+}

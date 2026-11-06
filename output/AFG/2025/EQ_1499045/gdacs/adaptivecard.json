@@ -1,0 +1,44 @@
+{
+  "items": [
+    {
+      "title": "M 5.2   in Afghanistan on 05 Sep 2025 17:25 UTC",
+      "description": "",
+      "link": "https://www.gdacs.org/report.aspx?eventid=1499045&episodeid=1659816&eventtype=EQ",
+      "image": "https://www.gdacs.org/images/gdacs_icons/big/Orange/EQ.png",
+      "summarytable": [
+        {
+          "key": "Countries",
+          "value": "Afghanistan"
+        },
+        {
+          "key": "Magnitude",
+          "value": "5.2"
+        },
+        {
+          "key": "Depth",
+          "value": "10 Km"
+        },
+        {
+          "key": "Lat/Lon",
+          "value": "34.549 , 70.6696"
+        },
+        {
+          "key": "Event Date",
+          "value": "05 Sep 2025 17:25 UTC"
+        },
+        {
+          "key": "Glide Number",
+          "value": "EQ-2025-000159-AFG"
+        },
+        {
+          "key": "Local Time",
+          "value": "05 Sep 2025 21:55"
+        },
+        {
+          "key": "Exposed population",
+          "value": "10.4 million in 100km - No people affected in MMI -"
+        }
+      ]
+    }
+  ]
+}

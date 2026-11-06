@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "title": "M 4.9   in Afghanistan on 20 Nov 2025 21:39 UTC",
+      "description": "",
+      "link": "https://www.gdacs.org/report.aspx?eventid=1511214&episodeid=1672921&eventtype=EQ",
+      "image": "https://www.gdacs.org/images/gdacs_icons/big/Green/EQ.png",
+      "summarytable": [
+        {
+          "key": "Countries",
+          "value": "Afghanistan"
+        },
+        {
+          "key": "Magnitude",
+          "value": "4.9"
+        },
+        {
+          "key": "Depth",
+          "value": "110.7 Km"
+        },
+        {
+          "key": "Lat/Lon",
+          "value": "36.2315 , 71.2594"
+        },
+        {
+          "key": "Event Date",
+          "value": "20 Nov 2025 21:39 UTC"
+        },
+        {
+          "key": "Local Time",
+          "value": "21 Nov 2025 02:09"
+        },
+        {
+          "key": "Exposed population",
+          "value": "1.1 million in 100km - No people affected in MMI -"
+        }
+      ]
+    }
+  ]
+}

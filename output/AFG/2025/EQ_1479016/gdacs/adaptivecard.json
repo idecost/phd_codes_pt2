@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "title": "M 4.5   in Afghanistan on 26 Apr 2025 10:36 UTC",
+      "description": "",
+      "link": "https://www.gdacs.org/report.aspx?eventid=1479016&episodeid=1635673&eventtype=EQ",
+      "image": "https://www.gdacs.org/images/gdacs_icons/big/Green/EQ.png",
+      "summarytable": [
+        {
+          "key": "Countries",
+          "value": "Afghanistan"
+        },
+        {
+          "key": "Magnitude",
+          "value": "4.5"
+        },
+        {
+          "key": "Depth",
+          "value": "102.2 Km"
+        },
+        {
+          "key": "Lat/Lon",
+          "value": "35.9222 , 70.5952"
+        },
+        {
+          "key": "Event Date",
+          "value": "26 Apr 2025 10:36 UTC"
+        },
+        {
+          "key": "Local Time",
+          "value": "26 Apr 2025 15:06"
+        },
+        {
+          "key": "Exposed population",
+          "value": "770 thousand in 100km - No people affected in MMI -"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "bbox": [
+        66.1284,
+        30.2291,
+        66.3764,
+        30.4321
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              66.3124,
+              30.2291
+            ],
+            [
+              66.3622,
+              30.2533
+            ],
+            [
+              66.3712,
+              30.2711
+            ],
+            [
+              66.3764,
+              30.3292
+            ],
+            [
+              66.368,
+              30.3624
+            ],
+            [
+              66.3207,
+              30.4076
+            ],
+            [
+              66.2626,
+              30.4321
+            ],
+            [
+              66.2127,
+              30.4255
+            ],
+            [
+              66.1712,
+              30.4082
+            ],
+            [
+              66.1353,
+              30.3624
+            ],
+            [
+              66.1284,
+              30.3209
+            ],
+            [
+              66.1325,
+              30.296
+            ],
+            [
+              66.1961,
+              30.25
+            ],
+            [
+              66.221,
+              30.2475
+            ],
+            [
+              66.2543,
+              30.2321
+            ],
+            [
+              66.2792,
+              30.2371
+            ],
+            [
+              66.3124,
+              30.2291
+            ]
+          ],
+          [
+            [
+              66.2459,
+              30.2898
+            ],
+            [
+              66.2332,
+              30.3209
+            ],
+            [
+              66.2433,
+              30.3458
+            ],
+            [
+              66.2601,
+              30.3624
+            ],
+            [
+              66.2792,
+              30.3643
+            ],
+            [
+              66.3029,
+              30.3541
+            ],
+            [
+              66.3105,
+              30.3292
+            ],
+            [
+              66.2958,
+              30.2999
+            ],
+            [
+              66.2709,
+              30.2942
+            ],
+            [
+              66.2459,
+              30.2898
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "eventtype": "EQ",
+        "eventid": 1503627,
+        "episodeid": 1664352,
+        "eventname": "",
+        "glide": "",
+        "name": "Earthquake in Afghanistan",
+        "description": "Earthquake in Afghanistan",
+        "htmldescription": "Green M 4.9 Earthquake in Afghanistan at: 05 Oct 2025 13:29:27.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1503627&episodeid=1664352",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1503627&episodeid=1664352&eventtype=EQ",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=EQ&eventid=1503627"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.0,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Afghanistan",
+        "fromdate": "2025-10-05T13:29:27",
+        "todate": "2025-10-05T13:29:27",
+        "datemodified": "2025-10-05T14:17:22",
+        "iso3": "AFG",
+        "source": "NEIC",
+        "sourceid": "us6000reyk",
+        "polygondate": "2025-10-05T16:17:23",
+        "polygonlabel": "Intensity 4.5",
+        "affectedcountries": [
+          {
+            "iso2": "AF",
+            "iso3": "AFG",
+            "countryname": "Afghanistan"
+          }
+        ],
+        "severitydata": {
+          "severity": 4.9,
+          "severitytext": "Magnitude 4.9M, Depth:10km",
+          "severityunit": "M"
+        },
+        "Class": "Poly_SMPInt_4.5",
+        "iconeventlink": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+        "iconitemlink": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png"
+      }
+    }
+  ]
+}

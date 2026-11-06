@@ -1,0 +1,44 @@
+{
+  "items": [
+    {
+      "title": "M 4.5   in Afghanistan on 31 Aug 2025 19:38 UTC",
+      "description": "",
+      "link": "https://www.gdacs.org/report.aspx?eventid=1498343&episodeid=1658199&eventtype=EQ",
+      "image": "https://www.gdacs.org/images/gdacs_icons/big/Green/EQ.png",
+      "summarytable": [
+        {
+          "key": "Countries",
+          "value": "Afghanistan"
+        },
+        {
+          "key": "Magnitude",
+          "value": "4.5"
+        },
+        {
+          "key": "Depth",
+          "value": "10 Km"
+        },
+        {
+          "key": "Lat/Lon",
+          "value": "34.3376 , 70.8817"
+        },
+        {
+          "key": "Event Date",
+          "value": "31 Aug 2025 19:38 UTC"
+        },
+        {
+          "key": "Glide Number",
+          "value": "EQ-2025-000153-AFG"
+        },
+        {
+          "key": "Local Time",
+          "value": "01 Sep 2025 00:08"
+        },
+        {
+          "key": "Exposed population",
+          "value": "16.3 million in 100km - No people affected in MMI -"
+        }
+      ]
+    }
+  ]
+}

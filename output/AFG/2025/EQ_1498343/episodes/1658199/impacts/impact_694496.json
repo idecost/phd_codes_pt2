@@ -1,0 +1,167 @@
+{
+  "episodeid": "EQ_202508312208316890",
+  "eventid": {
+    "namespace": "",
+    "eventtype": "EQ",
+    "eventname": ""
+  },
+  "modelname": "EQ",
+  "modelrun": "202508312208316890",
+  "modelstatus": "info: processing ok",
+  "datums": [
+    {
+      "datum": [
+        {
+          "datasource": "Alert Parameters",
+          "io": "o",
+          "datum_id": "1",
+          "type": "alert",
+          "scalars": {
+            "scalar": [
+              {
+                "name": "SUMPOP200.0",
+                "value": "52218816",
+                "valuetype": "String"
+              },
+              {
+                "name": "SUMPOP175.0",
+                "value": "45312628",
+                "valuetype": "String"
+              },
+              {
+                "name": "SUMPOP150.0",
+                "value": "31195970",
+                "valuetype": "String"
+              },
+              {
+                "name": "SUMPOP125.0",
+                "value": "23447021",
+                "valuetype": "String"
+              },
+              {
+                "name": "SUMPOP100.0",
+                "value": "16316882",
+                "valuetype": "String"
+              },
+              {
+                "name": "SUMPOP75.0",
+                "value": "9362493",
+                "valuetype": "String"
+              },
+              {
+                "name": "SUMPOP50.0",
+                "value": "2892405",
+                "valuetype": "String"
+              },
+              {
+                "name": "SUMPOP20.0",
+                "value": "377135",
+                "valuetype": "String"
+              },
+              {
+                "name": "SUMPOP25.0",
+                "value": "555724",
+                "valuetype": "String"
+              },
+              {
+                "name": "SUMPOP10.0",
+                "value": "51680",
+                "valuetype": "String"
+              },
+              {
+                "name": "SUMPOP5.0",
+                "value": "1733",
+                "valuetype": "String"
+              },
+              {
+                "name": "SUMPOP2.0",
+                "value": "0",
+                "valuetype": "String"
+              }
+            ]
+          }
+        }
+      ],
+      "alias": "Alert Parameters",
+      "id": "EQ",
+      "source": "ALERT PARAMETERS"
+    },
+    {
+      "datum": [
+        {
+          "datasource": "POP",
+          "io": "o",
+          "datum_id": "1",
+          "type": "POP",
+          "scalars": {
+            "scalar": [
+              {
+                "name": "SUMPOP200.0",
+                "value": "52218816",
+                "valuetype": "String"
+              },
+              {
+                "name": "SUMPOP175.0",
+                "value": "45312628",
+                "valuetype": "String"
+              },
+              {
+                "name": "SUMPOP150.0",
+                "value": "31195970",
+                "valuetype": "String"
+              },
+              {
+                "name": "SUMPOP125.0",
+                "value": "23447021",
+                "valuetype": "String"
+              },
+              {
+                "name": "SUMPOP100.0",
+                "value": "16316882",
+                "valuetype": "String"
+              },
+              {
+                "name": "SUMPOP75.0",
+                "value": "9362493",
+                "valuetype": "String"
+              },
+              {
+                "name": "SUMPOP50.0",
+                "value": "2892405",
+                "valuetype": "String"
+              },
+              {
+                "name": "SUMPOP20.0",
+                "value": "377135",
+                "valuetype": "String"
+              },
+              {
+                "name": "SUMPOP25.0",
+                "value": "555724",
+                "valuetype": "String"
+              },
+              {
+                "name": "SUMPOP10.0",
+                "value": "51680",
+                "valuetype": "String"
+              },
+              {
+                "name": "SUMPOP5.0",
+                "value": "1733",
+                "valuetype": "String"
+              },
+              {
+                "name": "SUMPOP2.0",
+                "value": "0",
+                "valuetype": "String"
+              }
+            ]
+          }
+        }
+      ],
+      "alias": "POP",
+      "id": "EQ",
+      "source": "Populations"
+    }
+  ]
+}

@@ -1,0 +1,1336 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "bbox": [
+        69.5801,
+        37.1957,
+        69.5801,
+        37.1957
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          69.5801,
+          37.1957
+        ]
+      },
+      "properties": {
+        "eventtype": "EQ",
+        "eventid": 1496428,
+        "episodeid": 1656026,
+        "eventname": "",
+        "glide": "",
+        "name": "Earthquake in Afghanistan",
+        "description": "Earthquake in Afghanistan",
+        "htmldescription": "Green M 4.6 Earthquake in Afghanistan at: 18 Aug 2025 18:41:18.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1496428&episodeid=1656026",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1496428&episodeid=1656026&eventtype=EQ",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=EQ&eventid=1496428"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.0,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Afghanistan",
+        "fromdate": "2025-08-18T18:41:18",
+        "todate": "2025-08-18T18:41:18",
+        "datemodified": "2025-08-18T19:21:28",
+        "iso3": "AFG",
+        "source": "NEIC",
+        "sourceid": "us6000r1x4",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "AF",
+            "iso3": "AFG",
+            "countryname": "Afghanistan"
+          }
+        ],
+        "severitydata": {
+          "severity": 4.6,
+          "severitytext": "Magnitude 4.6M, Depth:10km",
+          "severityunit": "M"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [
+        68.449,
+        36.295,
+        70.711,
+        38.097
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              70.711,
+              37.196
+            ],
+            [
+              70.71,
+              37.227
+            ],
+            [
+              70.708,
+              37.259
+            ],
+            [
+              70.705,
+              37.29
+            ],
+            [
+              70.7,
+              37.321
+            ],
+            [
+              70.694,
+              37.352
+            ],
+            [
+              70.686,
+              37.383
+            ],
+            [
+              70.677,
+              37.414
+            ],
+            [
+              70.667,
+              37.444
+            ],
+            [
+              70.656,
+              37.474
+            ],
+            [
+              70.643,
+              37.504
+            ],
+            [
+              70.629,
+              37.533
+            ],
+            [
+              70.613,
+              37.562
+            ],
+            [
+              70.597,
+              37.591
+            ],
+            [
+              70.579,
+              37.619
+            ],
+            [
+              70.56,
+              37.646
+            ],
+            [
+              70.539,
+              37.673
+            ],
+            [
+              70.518,
+              37.699
+            ],
+            [
+              70.495,
+              37.725
+            ],
+            [
+              70.471,
+              37.75
+            ],
+            [
+              70.446,
+              37.775
+            ],
+            [
+              70.421,
+              37.799
+            ],
+            [
+              70.394,
+              37.822
+            ],
+            [
+              70.366,
+              37.844
+            ],
+            [
+              70.337,
+              37.865
+            ],
+            [
+              70.307,
+              37.886
+            ],
+            [
+              70.276,
+              37.906
+            ],
+            [
+              70.245,
+              37.925
+            ],
+            [
+              70.213,
+              37.943
+            ],
+            [
+              70.179,
+              37.96
+            ],
+            [
+              70.146,
+              37.976
+            ],
+            [
+              70.111,
+              37.991
+            ],
+            [
+              70.076,
+              38.005
+            ],
+            [
+              70.04,
+              38.019
+            ],
+            [
+              70.004,
+              38.031
+            ],
+            [
+              69.967,
+              38.042
+            ],
+            [
+              69.93,
+              38.053
+            ],
+            [
+              69.892,
+              38.062
+            ],
+            [
+              69.854,
+              38.07
+            ],
+            [
+              69.815,
+              38.077
+            ],
+            [
+              69.776,
+              38.083
+            ],
+            [
+              69.738,
+              38.088
+            ],
+            [
+              69.698,
+              38.092
+            ],
+            [
+              69.659,
+              38.094
+            ],
+            [
+              69.62,
+              38.096
+            ],
+            [
+              69.58,
+              38.097
+            ],
+            [
+              69.541,
+              38.096
+            ],
+            [
+              69.501,
+              38.094
+            ],
+            [
+              69.462,
+              38.092
+            ],
+            [
+              69.423,
+              38.088
+            ],
+            [
+              69.384,
+              38.083
+            ],
+            [
+              69.345,
+              38.077
+            ],
+            [
+              69.306,
+              38.07
+            ],
+            [
+              69.268,
+              38.062
+            ],
+            [
+              69.231,
+              38.053
+            ],
+            [
+              69.193,
+              38.042
+            ],
+            [
+              69.156,
+              38.031
+            ],
+            [
+              69.12,
+              38.019
+            ],
+            [
+              69.084,
+              38.005
+            ],
+            [
+              69.049,
+              37.991
+            ],
+            [
+              69.015,
+              37.976
+            ],
+            [
+              68.981,
+              37.96
+            ],
+            [
+              68.948,
+              37.943
+            ],
+            [
+              68.915,
+              37.925
+            ],
+            [
+              68.884,
+              37.906
+            ],
+            [
+              68.853,
+              37.886
+            ],
+            [
+              68.823,
+              37.865
+            ],
+            [
+              68.794,
+              37.844
+            ],
+            [
+              68.767,
+              37.822
+            ],
+            [
+              68.74,
+              37.799
+            ],
+            [
+              68.714,
+              37.775
+            ],
+            [
+              68.689,
+              37.75
+            ],
+            [
+              68.665,
+              37.725
+            ],
+            [
+              68.642,
+              37.699
+            ],
+            [
+              68.621,
+              37.673
+            ],
+            [
+              68.601,
+              37.646
+            ],
+            [
+              68.582,
+              37.619
+            ],
+            [
+              68.564,
+              37.591
+            ],
+            [
+              68.547,
+              37.562
+            ],
+            [
+              68.531,
+              37.533
+            ],
+            [
+              68.517,
+              37.504
+            ],
+            [
+              68.504,
+              37.474
+            ],
+            [
+              68.493,
+              37.444
+            ],
+            [
+              68.483,
+              37.414
+            ],
+            [
+              68.474,
+              37.383
+            ],
+            [
+              68.466,
+              37.352
+            ],
+            [
+              68.46,
+              37.321
+            ],
+            [
+              68.455,
+              37.29
+            ],
+            [
+              68.452,
+              37.259
+            ],
+            [
+              68.45,
+              37.227
+            ],
+            [
+              68.449,
+              37.196
+            ],
+            [
+              68.45,
+              37.164
+            ],
+            [
+              68.452,
+              37.133
+            ],
+            [
+              68.455,
+              37.102
+            ],
+            [
+              68.46,
+              37.07
+            ],
+            [
+              68.466,
+              37.039
+            ],
+            [
+              68.474,
+              37.008
+            ],
+            [
+              68.483,
+              36.978
+            ],
+            [
+              68.493,
+              36.947
+            ],
+            [
+              68.504,
+              36.917
+            ],
+            [
+              68.517,
+              36.888
+            ],
+            [
+              68.531,
+              36.858
+            ],
+            [
+              68.547,
+              36.829
+            ],
+            [
+              68.564,
+              36.801
+            ],
+            [
+              68.582,
+              36.773
+            ],
+            [
+              68.601,
+              36.745
+            ],
+            [
+              68.621,
+              36.718
+            ],
+            [
+              68.642,
+              36.692
+            ],
+            [
+              68.665,
+              36.666
+            ],
+            [
+              68.689,
+              36.641
+            ],
+            [
+              68.714,
+              36.617
+            ],
+            [
+              68.74,
+              36.593
+            ],
+            [
+              68.767,
+              36.57
+            ],
+            [
+              68.794,
+              36.548
+            ],
+            [
+              68.823,
+              36.526
+            ],
+            [
+              68.853,
+              36.506
+            ],
+            [
+              68.884,
+              36.486
+            ],
+            [
+              68.915,
+              36.467
+            ],
+            [
+              68.948,
+              36.449
+            ],
+            [
+              68.981,
+              36.432
+            ],
+            [
+              69.015,
+              36.415
+            ],
+            [
+              69.049,
+              36.4
+            ],
+            [
+              69.084,
+              36.386
+            ],
+            [
+              69.12,
+              36.373
+            ],
+            [
+              69.156,
+              36.36
+            ],
+            [
+              69.193,
+              36.349
+            ],
+            [
+              69.231,
+              36.339
+            ],
+            [
+              69.268,
+              36.33
+            ],
+            [
+              69.306,
+              36.322
+            ],
+            [
+              69.345,
+              36.314
+            ],
+            [
+              69.384,
+              36.308
+            ],
+            [
+              69.423,
+              36.304
+            ],
+            [
+              69.462,
+              36.3
+            ],
+            [
+              69.501,
+              36.297
+            ],
+            [
+              69.541,
+              36.295
+            ],
+            [
+              69.58,
+              36.295
+            ],
+            [
+              69.62,
+              36.295
+            ],
+            [
+              69.659,
+              36.297
+            ],
+            [
+              69.698,
+              36.3
+            ],
+            [
+              69.738,
+              36.304
+            ],
+            [
+              69.776,
+              36.308
+            ],
+            [
+              69.815,
+              36.314
+            ],
+            [
+              69.854,
+              36.322
+            ],
+            [
+              69.892,
+              36.33
+            ],
+            [
+              69.93,
+              36.339
+            ],
+            [
+              69.967,
+              36.349
+            ],
+            [
+              70.004,
+              36.36
+            ],
+            [
+              70.04,
+              36.373
+            ],
+            [
+              70.076,
+              36.386
+            ],
+            [
+              70.111,
+              36.4
+            ],
+            [
+              70.146,
+              36.415
+            ],
+            [
+              70.179,
+              36.432
+            ],
+            [
+              70.213,
+              36.449
+            ],
+            [
+              70.245,
+              36.467
+            ],
+            [
+              70.276,
+              36.486
+            ],
+            [
+              70.307,
+              36.506
+            ],
+            [
+              70.337,
+              36.526
+            ],
+            [
+              70.366,
+              36.548
+            ],
+            [
+              70.394,
+              36.57
+            ],
+            [
+              70.421,
+              36.593
+            ],
+            [
+              70.446,
+              36.617
+            ],
+            [
+              70.471,
+              36.641
+            ],
+            [
+              70.495,
+              36.666
+            ],
+            [
+              70.518,
+              36.692
+            ],
+            [
+              70.539,
+              36.718
+            ],
+            [
+              70.56,
+              36.745
+            ],
+            [
+              70.579,
+              36.773
+            ],
+            [
+              70.597,
+              36.801
+            ],
+            [
+              70.613,
+              36.829
+            ],
+            [
+              70.629,
+              36.858
+            ],
+            [
+              70.643,
+              36.888
+            ],
+            [
+              70.656,
+              36.917
+            ],
+            [
+              70.667,
+              36.947
+            ],
+            [
+              70.677,
+              36.978
+            ],
+            [
+              70.686,
+              37.008
+            ],
+            [
+              70.694,
+              37.039
+            ],
+            [
+              70.7,
+              37.07
+            ],
+            [
+              70.705,
+              37.102
+            ],
+            [
+              70.708,
+              37.133
+            ],
+            [
+              70.71,
+              37.164
+            ],
+            [
+              70.711,
+              37.196
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "eventtype": "EQ",
+        "eventid": 1496428,
+        "episodeid": 1656026,
+        "eventname": "",
+        "glide": "",
+        "name": "Earthquake in Afghanistan",
+        "description": "Earthquake in Afghanistan",
+        "htmldescription": "Green M 4.6 Earthquake in Afghanistan at: 18 Aug 2025 18:41:18.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1496428&episodeid=1656026",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1496428&episodeid=1656026&eventtype=EQ",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=EQ&eventid=1496428"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.0,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Afghanistan",
+        "fromdate": "2025-08-18T18:41:18",
+        "todate": "2025-08-18T18:41:18",
+        "datemodified": "2025-08-18T19:21:28",
+        "iso3": "AFG",
+        "source": "NEIC",
+        "sourceid": "us6000r1x4",
+        "polygondate": "2025-08-18T20:58:48",
+        "polygonlabel": "100km",
+        "affectedcountries": [
+          {
+            "iso2": "AF",
+            "iso3": "AFG",
+            "countryname": "Afghanistan"
+          }
+        ],
+        "severitydata": {
+          "severity": 4.6,
+          "severitytext": "Magnitude 4.6M, Depth:10km",
+          "severityunit": "M"
+        },
+        "Class": "Poly_Circle",
+        "iconeventlink": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+        "iconitemlink": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [
+        69.38,
+        37.062,
+        69.7571,
+        37.3958
+      ],
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                69.4879,
+                37.062
+              ],
+              [
+                69.546,
+                37.0726
+              ],
+              [
+                69.5709,
+                37.0679
+              ],
+              [
+                69.629,
+                37.0756
+              ],
+              [
+                69.6568,
+                37.0879
+              ],
+              [
+                69.7282,
+                37.1377
+              ],
+              [
+                69.7571,
+                37.1875
+              ],
+              [
+                69.7461,
+                37.229
+              ],
+              [
+                69.7038,
+                37.2806
+              ],
+              [
+                69.6124,
+                37.3185
+              ],
+              [
+                69.5939,
+                37.3368
+              ],
+              [
+                69.5792,
+                37.3661
+              ],
+              [
+                69.5377,
+                37.3958
+              ],
+              [
+                69.4879,
+                37.3892
+              ],
+              [
+                69.4132,
+                37.3582
+              ],
+              [
+                69.3896,
+                37.3368
+              ],
+              [
+                69.38,
+                37.3169
+              ],
+              [
+                69.4135,
+                37.2207
+              ],
+              [
+                69.4009,
+                37.1211
+              ],
+              [
+                69.4213,
+                37.0879
+              ],
+              [
+                69.4464,
+                37.0672
+              ],
+              [
+                69.4879,
+                37.062
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "eventtype": "EQ",
+        "eventid": 1496428,
+        "episodeid": 1656026,
+        "eventname": "",
+        "glide": "",
+        "name": "Earthquake in Afghanistan",
+        "description": "Earthquake in Afghanistan",
+        "htmldescription": "Green M 4.6 Earthquake in Afghanistan at: 18 Aug 2025 18:41:18.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1496428&episodeid=1656026",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1496428&episodeid=1656026&eventtype=EQ",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=EQ&eventid=1496428"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.0,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Afghanistan",
+        "fromdate": "2025-08-18T18:41:18",
+        "todate": "2025-08-18T18:41:18",
+        "datemodified": "2025-08-18T19:21:28",
+        "iso3": "AFG",
+        "source": "NEIC",
+        "sourceid": "us6000r1x4",
+        "polygondate": "2025-08-18T20:58:48",
+        "polygonlabel": "Intensity 0",
+        "affectedcountries": [
+          {
+            "iso2": "AF",
+            "iso3": "AFG",
+            "countryname": "Afghanistan"
+          }
+        ],
+        "severitydata": {
+          "severity": 4.6,
+          "severitytext": "Magnitude 4.6M, Depth:10km",
+          "severityunit": "M"
+        },
+        "Class": "Poly_SMPInt_0",
+        "iconeventlink": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+        "iconitemlink": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [
+        69.38,
+        37.062,
+        69.7571,
+        37.3958
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              69.4879,
+              37.062
+            ],
+            [
+              69.546,
+              37.0726
+            ],
+            [
+              69.5709,
+              37.0679
+            ],
+            [
+              69.629,
+              37.0756
+            ],
+            [
+              69.6568,
+              37.0879
+            ],
+            [
+              69.7282,
+              37.1377
+            ],
+            [
+              69.7571,
+              37.1875
+            ],
+            [
+              69.7461,
+              37.229
+            ],
+            [
+              69.7038,
+              37.2806
+            ],
+            [
+              69.6124,
+              37.3185
+            ],
+            [
+              69.5939,
+              37.3368
+            ],
+            [
+              69.5792,
+              37.3661
+            ],
+            [
+              69.5377,
+              37.3958
+            ],
+            [
+              69.4879,
+              37.3892
+            ],
+            [
+              69.4132,
+              37.3582
+            ],
+            [
+              69.3896,
+              37.3368
+            ],
+            [
+              69.38,
+              37.3169
+            ],
+            [
+              69.4135,
+              37.2207
+            ],
+            [
+              69.4009,
+              37.1211
+            ],
+            [
+              69.4213,
+              37.0879
+            ],
+            [
+              69.4464,
+              37.0672
+            ],
+            [
+              69.4879,
+              37.062
+            ]
+          ],
+          [
+            [
+              69.5709,
+              37.1614
+            ],
+            [
+              69.5377,
+              37.1734
+            ],
+            [
+              69.5128,
+              37.1632
+            ],
+            [
+              69.4796,
+              37.1723
+            ],
+            [
+              69.4645,
+              37.1875
+            ],
+            [
+              69.4631,
+              37.2041
+            ],
+            [
+              69.4723,
+              37.229
+            ],
+            [
+              69.507,
+              37.2621
+            ],
+            [
+              69.5211,
+              37.2659
+            ],
+            [
+              69.546,
+              37.2608
+            ],
+            [
+              69.5779,
+              37.2373
+            ],
+            [
+              69.6026,
+              37.2041
+            ],
+            [
+              69.5875,
+              37.1724
+            ],
+            [
+              69.5709,
+              37.1614
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "eventtype": "EQ",
+        "eventid": 1496428,
+        "episodeid": 1656026,
+        "eventname": "",
+        "glide": "",
+        "name": "Earthquake in Afghanistan",
+        "description": "Earthquake in Afghanistan",
+        "htmldescription": "Green M 4.6 Earthquake in Afghanistan at: 18 Aug 2025 18:41:18.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1496428&episodeid=1656026",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1496428&episodeid=1656026&eventtype=EQ",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=EQ&eventid=1496428"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.0,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Afghanistan",
+        "fromdate": "2025-08-18T18:41:18",
+        "todate": "2025-08-18T18:41:18",
+        "datemodified": "2025-08-18T19:21:28",
+        "iso3": "AFG",
+        "source": "NEIC",
+        "sourceid": "us6000r1x4",
+        "polygondate": "2025-08-18T20:58:48",
+        "polygonlabel": "Intensity 4",
+        "affectedcountries": [
+          {
+            "iso2": "AF",
+            "iso3": "AFG",
+            "countryname": "Afghanistan"
+          }
+        ],
+        "severitydata": {
+          "severity": 4.6,
+          "severitytext": "Magnitude 4.6M, Depth:10km",
+          "severityunit": "M"
+        },
+        "Class": "Poly_SMPInt_4",
+        "iconeventlink": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+        "iconitemlink": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [
+        69.4631,
+        37.1614,
+        69.6026,
+        37.2659
+      ],
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                69.5709,
+                37.1614
+              ],
+              [
+                69.5875,
+                37.1724
+              ],
+              [
+                69.6026,
+                37.2041
+              ],
+              [
+                69.5779,
+                37.2373
+              ],
+              [
+                69.546,
+                37.2608
+              ],
+              [
+                69.5211,
+                37.2659
+              ],
+              [
+                69.507,
+                37.2621
+              ],
+              [
+                69.4723,
+                37.229
+              ],
+              [
+                69.4631,
+                37.2041
+              ],
+              [
+                69.4645,
+                37.1875
+              ],
+              [
+                69.4796,
+                37.1723
+              ],
+              [
+                69.5128,
+                37.1632
+              ],
+              [
+                69.5377,
+                37.1734
+              ],
+              [
+                69.5709,
+                37.1614
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "eventtype": "EQ",
+        "eventid": 1496428,
+        "episodeid": 1656026,
+        "eventname": "",
+        "glide": "",
+        "name": "Earthquake in Afghanistan",
+        "description": "Earthquake in Afghanistan",
+        "htmldescription": "Green M 4.6 Earthquake in Afghanistan at: 18 Aug 2025 18:41:18.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1496428&episodeid=1656026",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1496428&episodeid=1656026&eventtype=EQ",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=EQ&eventid=1496428"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.0,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Afghanistan",
+        "fromdate": "2025-08-18T18:41:18",
+        "todate": "2025-08-18T18:41:18",
+        "datemodified": "2025-08-18T19:21:28",
+        "iso3": "AFG",
+        "source": "NEIC",
+        "sourceid": "us6000r1x4",
+        "polygondate": "2025-08-18T20:58:48",
+        "polygonlabel": "Intensity 4.5",
+        "affectedcountries": [
+          {
+            "iso2": "AF",
+            "iso3": "AFG",
+            "countryname": "Afghanistan"
+          }
+        ],
+        "severitydata": {
+          "severity": 4.6,
+          "severitytext": "Magnitude 4.6M, Depth:10km",
+          "severityunit": "M"
+        },
+        "Class": "Poly_SMPInt_4.5",
+        "iconeventlink": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+        "iconitemlink": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png"
+      }
+    }
+  ],
+  "bbox": null
+}

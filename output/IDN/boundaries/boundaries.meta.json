@@ -1,0 +1,22 @@
+{
+  "source": "OCHA COD via FieldMaps",
+  "index": "https://data.fieldmaps.io/cod.json",
+  "iso3": "IDN",
+  "records": [
+    {
+      "id": "idn",
+      "src_lvl": 4,
+      "src_date": "2020-04-08",
+      "src_update": "2023-04-04",
+      "src_name": "Badan Pusat Statistik (BPS - Statistics Indonesia)",
+      "src_url": "https://data.humdata.org/dataset/cod-ab-idn",
+      "src_lic": "Creative Commons Attribution for Intergovernmental Organisations"
+    }
+  ],
+  "levels": {
+    "0": 1,
+    "1": 34,
+    "2": 522
+  },
+  "retrieved_at_utc": "2026-11-06T09:47:52.116290+00:00"
+}

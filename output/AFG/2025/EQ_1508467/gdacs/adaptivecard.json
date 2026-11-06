@@ -1,0 +1,44 @@
+{
+  "items": [
+    {
+      "title": "M 6.3   in Afghanistan on 02 Nov 2025 20:29 UTC",
+      "description": "",
+      "link": "https://www.gdacs.org/report.aspx?eventid=1508467&episodeid=1669785&eventtype=EQ",
+      "image": "https://www.gdacs.org/images/gdacs_icons/big/Red/EQ.png",
+      "summarytable": [
+        {
+          "key": "Countries",
+          "value": "Afghanistan"
+        },
+        {
+          "key": "Magnitude",
+          "value": "6.3"
+        },
+        {
+          "key": "Depth",
+          "value": "28 Km"
+        },
+        {
+          "key": "Lat/Lon",
+          "value": "36.5894 , 67.4843"
+        },
+        {
+          "key": "Event Date",
+          "value": "02 Nov 2025 20:29 UTC"
+        },
+        {
+          "key": "Glide Number",
+          "value": "EQ-2025-000202-AFG"
+        },
+        {
+          "key": "Local Time",
+          "value": "03 Nov 2025 00:59"
+        },
+        {
+          "key": "Exposed population",
+          "value": "70 thousand (in MMI>=VII) - No people affected in MMI IX"
+        }
+      ]
+    }
+  ]
+}

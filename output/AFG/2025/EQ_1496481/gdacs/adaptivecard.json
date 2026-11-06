@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "title": "M 5.1   in Afghanistan on 19 Aug 2025 05:19 UTC",
+      "description": "",
+      "link": "https://www.gdacs.org/report.aspx?eventid=1496481&episodeid=1656090&eventtype=EQ",
+      "image": "https://www.gdacs.org/images/gdacs_icons/big/Green/EQ.png",
+      "summarytable": [
+        {
+          "key": "Countries",
+          "value": "Afghanistan"
+        },
+        {
+          "key": "Magnitude",
+          "value": "5.1"
+        },
+        {
+          "key": "Depth",
+          "value": "202.4 Km"
+        },
+        {
+          "key": "Lat/Lon",
+          "value": "36.4803 , 70.8478"
+        },
+        {
+          "key": "Event Date",
+          "value": "19 Aug 2025 05:19 UTC"
+        },
+        {
+          "key": "Local Time",
+          "value": "19 Aug 2025 09:49"
+        },
+        {
+          "key": "Exposed population",
+          "value": "1.6 million in 100km - No people affected in MMI -"
+        }
+      ]
+    }
+  ]
+}

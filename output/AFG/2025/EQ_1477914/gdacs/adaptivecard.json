@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "title": "M 5.7   in Afghanistan on 19 Apr 2025 06:47 UTC",
+      "description": "",
+      "link": "https://www.gdacs.org/report.aspx?eventid=1477914&episodeid=1634478&eventtype=EQ",
+      "image": "https://www.gdacs.org/images/gdacs_icons/big/Green/EQ.png",
+      "summarytable": [
+        {
+          "key": "Countries",
+          "value": "Afghanistan"
+        },
+        {
+          "key": "Magnitude",
+          "value": "5.7"
+        },
+        {
+          "key": "Depth",
+          "value": "98 Km"
+        },
+        {
+          "key": "Lat/Lon",
+          "value": "36.1759 , 71.2019"
+        },
+        {
+          "key": "Event Date",
+          "value": "19 Apr 2025 06:47 UTC"
+        },
+        {
+          "key": "Local Time",
+          "value": "19 Apr 2025 11:17"
+        },
+        {
+          "key": "Exposed population",
+          "value": "910 thousand in 100km - No people affected in MMI IX"
+        }
+      ]
+    }
+  ]
+}

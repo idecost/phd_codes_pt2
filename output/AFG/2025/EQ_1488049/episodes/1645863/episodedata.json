@@ -1,0 +1,103 @@
+{
+  "type": "Feature",
+  "bbox": [
+    71.2404,
+    36.9444,
+    71.2404,
+    36.9444
+  ],
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      71.2404,
+      36.9444
+    ]
+  },
+  "properties": {
+    "eventtype": "EQ",
+    "eventid": 1488049,
+    "episodeid": 1645863,
+    "eventname": "",
+    "glide": "",
+    "name": "Earthquake in Afghanistan",
+    "description": "Earthquake in Afghanistan",
+    "htmldescription": "Green M 4.7 Earthquake in Afghanistan at: 30 Jun 2025 02:32:40.",
+    "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+    "iconoverall": null,
+    "url": {
+      "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1488049&episodeid=1645863",
+      "report": "https://www.gdacs.org/report.aspx?eventid=1488049&episodeid=1645863&eventtype=EQ",
+      "media": "https://www.gdacs.org/gdacsapi/api/emm/getemmnewsbykey?eventtype=EQ&eventid=1488049",
+      "eventnews": "https://www.gdacs.org/gdacsapi/api/news/getnewsbygdacskey?eventtype=EQ&eventid=1488049"
+    },
+    "alertlevel": "Green",
+    "alertscore": 1,
+    "episodealertlevel": "Green",
+    "episodealertscore": 0.0,
+    "istemporary": "false",
+    "iscurrent": "false",
+    "country": "Afghanistan",
+    "fromdate": "2025-06-30T02:32:40",
+    "todate": "2025-06-30T02:32:40",
+    "datemodified": "2025-06-30T03:12:43",
+    "iso3": "AFG",
+    "source": "NEIC",
+    "sourceid": "us7000q9n8",
+    "polygonlabel": "Centroid",
+    "Class": "Point_Centroid",
+    "affectedcountries": [
+      {
+        "iso2": "AF",
+        "iso3": "AFG",
+        "countryname": "Afghanistan"
+      }
+    ],
+    "severitydata": {
+      "severity": 4.7,
+      "severitytext": "Magnitude 4.7M, Depth:103.674km",
+      "severityunit": "M"
+    },
+    "episodes": [
+      {
+        "details": "https://www.gdacs.org/gdacsapi/api/events/getepisodedata?eventtype=EQ&eventid=1488049&episodeid=1645863"
+      }
+    ],
+    "impacts": [
+      {
+        "source": "NEIC",
+        "resource": {
+          "impact": "https://www.gdacs.org/gdacsapi/api/export/getimpact?id=677608",
+          "shake_preliminary": "https://www.gdacs.org/gdacsapi/api/export/getimpact?id=677609"
+        }
+      }
+    ],
+    "images": {
+      "neic": "https://earthquake.usgs.gov/eqcenter/shakemap/global/shake/7000q9n8/download/intensity.jpg",
+      "overviewmap": "https://www.gdacs.org/contentdata/resources/EQ/1488049/eq1645863_2.png",
+      "neic_pager": "https://www.gdacs.org/contentdata/resources/EQ/1488049/1488049_1645863_alertfatal_small.png",
+      "thumbnailmap_cached": "https://www.gdacs.org/contentdata/resources/EQ/1488049/eq1645863_1.png",
+      "populationmap_cached": "https://www.gdacs.org/contentdata/resources/EQ/1488049/eq1645863_4.png",
+      "meteoimages": "https://www.gdacs.org/contentdata/resources/EQ/1488049/meteo/",
+      "mslpimages": "https://www.gdacs.org/contentdata/img/mslp/",
+      "event_icon_map": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+      "event_icon": "https://www.gdacs.org/images/gdacs_icons/big/Green/EQ.png",
+      "shake_preliminary_image": "https://www.gdacs.org/contentdata/resources/EQ/1488049/smpreliminary_1488049_1645863_intensity.jpg",
+      "thumbnailmap": "https://www.gdacs.org/contentdata/resources/EQ/1488049/eq1645863_1.png",
+      "locations_affected_alert_image": "https://www.gdacs.org/contentdata/resources/EQ/1488049/tsunami/{identifiers.value:identifierid='tsalertoutputpath'}/tslocations_1488049_1645863.png",
+      "npp_icon": "https://www.gdacs.org/images/gdacs_icons/iconmap/Nuclear.png"
+    },
+    "additionalinfos": {},
+    "earthquakedetails": {
+      "country": "Afghanistan",
+      "depth": "103.7",
+      "magnitude": "4.7",
+      "episodedatelocal": "2025-06-30T07:02:40",
+      "shakepop": "0",
+      "shakepopdescription": "",
+      "rapidpop": "1138042",
+      "rapidpopdescription": "1.1 million in MMI&>=III"
+    },
+    "documents": {},
+    "shakemap": []
+  }
+}

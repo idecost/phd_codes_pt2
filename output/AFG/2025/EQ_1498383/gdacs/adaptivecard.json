@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "title": "M 4.7   in Afghanistan on 01 Sep 2025 02:43 UTC",
+      "description": "",
+      "link": "https://www.gdacs.org/report.aspx?eventid=1498383&episodeid=1658242&eventtype=EQ",
+      "image": "https://www.gdacs.org/images/gdacs_icons/big/Green/EQ.png",
+      "summarytable": [
+        {
+          "key": "Countries",
+          "value": "Afghanistan"
+        },
+        {
+          "key": "Magnitude",
+          "value": "4.7"
+        },
+        {
+          "key": "Depth",
+          "value": "10 Km"
+        },
+        {
+          "key": "Lat/Lon",
+          "value": "34.6098 , 70.7717"
+        },
+        {
+          "key": "Event Date",
+          "value": "01 Sep 2025 02:43 UTC"
+        },
+        {
+          "key": "Local Time",
+          "value": "01 Sep 2025 07:13"
+        },
+        {
+          "key": "Exposed population",
+          "value": "11.6 million in 100km - No people affected in MMI -"
+        }
+      ]
+    }
+  ]
+}

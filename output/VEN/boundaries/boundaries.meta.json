@@ -1,0 +1,22 @@
+{
+  "source": "OCHA COD via FieldMaps",
+  "index": "https://data.fieldmaps.io/cod.json",
+  "iso3": "VEN",
+  "records": [
+    {
+      "id": "ven_1",
+      "src_lvl": 3,
+      "src_date": "2018-05-02",
+      "src_update": "2023-04-04",
+      "src_name": "Instituto Nacional de Estadística",
+      "src_url": "https://data.humdata.org/dataset/cod-ab-ven",
+      "src_lic": "Creative Commons Attribution for Intergovernmental Organisations"
+    }
+  ],
+  "levels": {
+    "0": 1,
+    "1": 24,
+    "2": 335
+  },
+  "retrieved_at_utc": "2026-11-06T09:48:04.042230+00:00"
+}

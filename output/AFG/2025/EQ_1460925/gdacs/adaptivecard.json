@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "title": "M 4.5   in Afghanistan on 06 Jan 2025 07:17 UTC",
+      "description": "",
+      "link": "https://www.gdacs.org/report.aspx?eventid=1460925&episodeid=1613678&eventtype=EQ",
+      "image": "https://www.gdacs.org/images/gdacs_icons/big/Green/EQ.png",
+      "summarytable": [
+        {
+          "key": "Countries",
+          "value": "Afghanistan"
+        },
+        {
+          "key": "Magnitude",
+          "value": "4.5"
+        },
+        {
+          "key": "Depth",
+          "value": "10 Km"
+        },
+        {
+          "key": "Lat/Lon",
+          "value": "36.6926 , 68.0054"
+        },
+        {
+          "key": "Event Date",
+          "value": "06 Jan 2025 07:17 UTC"
+        },
+        {
+          "key": "Local Time",
+          "value": "06 Jan 2025 11:47"
+        },
+        {
+          "key": "Exposed population",
+          "value": "3.7 million in 100km - No people affected in MMI -"
+        }
+      ]
+    }
+  ]
+}

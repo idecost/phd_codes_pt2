@@ -1,0 +1,65 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "bbox": [
+        70.0528,
+        36.0682,
+        70.0528,
+        36.0682
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          70.0528,
+          36.0682
+        ]
+      },
+      "properties": {
+        "eventtype": "EQ",
+        "eventid": 1493449,
+        "episodeid": 1652400,
+        "eventname": "",
+        "glide": "",
+        "name": "Earthquake in Afghanistan",
+        "description": "Earthquake in Afghanistan",
+        "htmldescription": "Green M 5 Earthquake in Afghanistan at: 01 Aug 2025 21:03:34.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1493449&episodeid=1652400",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1493449&episodeid=1652400&eventtype=EQ",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=EQ&eventid=1493449"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.0,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Afghanistan",
+        "fromdate": "2025-08-01T21:03:34",
+        "todate": "2025-08-01T21:03:34",
+        "datemodified": "2025-08-02T00:17:43",
+        "iso3": "AFG",
+        "source": "NEIC",
+        "sourceid": "us6000qxit",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "AF",
+            "iso3": "AFG",
+            "countryname": "Afghanistan"
+          }
+        ],
+        "severitydata": {
+          "severity": 5.0,
+          "severitytext": "Magnitude 5M, Depth:122.578km",
+          "severityunit": "M"
+        }
+      }
+    }
+  ]
+}

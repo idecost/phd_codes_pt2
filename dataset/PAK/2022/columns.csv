@@ -1,0 +1,40 @@
+﻿level,column,variable,source,provider,description,unit,valid_from,valid_to,known_at_first,known_at_last,time_type,n_values,iso3,year
+admin0,disp_flow_disaster_idu,disp_flow,idmc_idu,IDMC,Displacement of the event with the IDMC rule,people,2022-01-01,2022-12-31,2023-01-06 11:15:20.000,2023-01-06 11:15:20.000000,annual,1,PAK,2022
+admin0,disp_flow_conflict_idu,disp_flow,idmc_idu,IDMC,Displacement of the event with the IDMC rule,people,2022-01-01,2022-12-31,2022-10-18 11:33:52.000,2022-10-18 11:33:52.000000,annual,1,PAK,2022
+admin0,disp_events_disaster_idu,disp_events,idmc_idu,IDMC,Number of IDU events by year and cause,count,2022-01-01,2022-12-31,2023-01-06 11:15:20.000,2023-01-06 11:15:20.000000,annual,1,PAK,2022
+admin0,disp_events_conflict_idu,disp_events,idmc_idu,IDMC,Number of IDU events by year and cause,count,2022-01-01,2022-12-31,2022-10-18 11:33:52.000,2022-10-18 11:33:52.000000,annual,1,PAK,2022
+event,disp_flow_idu,disp_flow,idmc_idu,IDMC,Displacement of the event with the IDMC rule,people,2022-01-05,2022-11-18,2022-01-17 00:00:00.000,2023-01-06 00:00:00.000000,period,18,PAK,2022
+event,disp_n_figures,disp_n_figures,idmc_idu,IDMC,Total figures of the event,count,2022-01-05,2022-11-18,2022-01-17 00:00:00.000,2023-01-06 00:00:00.000000,period,18,PAK,2022
+event,disp_n_figures_used,disp_n_figures_used,idmc_idu,IDMC,Figures used in the total,count,2022-01-05,2022-11-18,2022-01-17 00:00:00.000,2023-01-06 00:00:00.000000,period,18,PAK,2022
+event,event_idmc_id_idu,event_idmc_id,idmc_idu,IDMC,IDMC event id,,2022-01-05,2022-11-18,2022-01-17 00:00:00.000,2023-01-06 00:00:00.000000,period,18,PAK,2022
+event,event_name_idu,event_name,idmc_idu,IDMC,IDMC event name,,2022-01-05,2022-11-18,2022-01-17 00:00:00.000,2023-01-06 00:00:00.000000,period,18,PAK,2022
+event,event_codes,event_codes,idmc_idu,IDMC,"Event codes (GLIDE, others)",,2022-01-05,2022-11-18,2022-01-17 00:00:00.000,2023-01-06 00:00:00.000000,period,18,PAK,2022
+event,hazard_type_name_idu,hazard_type_name,idmc_idu,IDMC,Hazard or violence type,,2022-01-05,2022-11-18,2022-01-17 00:00:00.000,2023-01-06 00:00:00.000000,period,18,PAK,2022
+event,disp_flow_gidd,disp_flow,idmc_gidd,IDMC,Validated displacement,people,2022-01-03,2022-09-30,2026-08-31 00:00:00.000,2026-08-31 00:00:00.000000,period,18,PAK,2022
+event,disp_flow_disasters_table,disp_flow_disasters_table,idmc_gidd,IDMC,Check from the gidd/disasters table,people,2022-01-03,2022-09-30,2026-08-31 00:00:00.000,2026-08-31 00:00:00.000000,period,17,PAK,2022
+event,event_idmc_id_gidd,event_idmc_id,idmc_gidd,IDMC,IDMC event id,,2022-01-03,2022-09-30,2026-08-31 00:00:00.000,2026-08-31 00:00:00.000000,period,18,PAK,2022
+event,event_name_gidd,event_name,idmc_gidd,IDMC,IDMC event name,,2022-01-03,2022-09-30,2026-08-31 00:00:00.000,2026-08-31 00:00:00.000000,period,18,PAK,2022
+event,hazard_type_name_gidd,hazard_type_name,idmc_gidd,IDMC,Hazard or violence type,,2022-01-03,2022-09-30,2026-08-31 00:00:00.000,2026-08-31 00:00:00.000000,period,18,PAK,2022
+event,disp_stock,disp_stock,idmc_gidd,IDMC,IDPs at the end of the year of the event,people,2022-12-31,2022-12-31,2026-08-31 00:00:00.000,2026-08-31 00:00:00.000000,stock,16,PAK,2022
+location,disp_figure_idu,disp_figure,idmc_idu,IDMC,Displacement figure,people,2022-01-03,2022-11-18,2022-01-17 06:55:08.871,2023-01-06 11:15:20.103509,period,25,PAK,2022
+location,location_name_idu,location_name,idmc_idu,IDMC,Place name,,2022-01-03,2022-11-18,2022-01-17 06:55:08.871,2023-01-06 11:15:20.103509,period,25,PAK,2022
+location,location_lat_idu,location_lat,idmc_idu,IDMC,Latitude,deg,2022-01-03,2022-11-18,2022-01-17 06:55:08.871,2023-01-06 11:15:20.103509,period,25,PAK,2022
+location,location_lon_idu,location_lon,idmc_idu,IDMC,Longitude,deg,2022-01-03,2022-11-18,2022-01-17 06:55:08.871,2023-01-06 11:15:20.103509,period,25,PAK,2022
+location,location_accuracy_idu,location_accuracy,idmc_idu,IDMC,"Accuracy (ADM1, ADM2, ADM3, point)",,2022-01-03,2022-11-18,2022-01-17 06:55:08.871,2023-01-06 11:15:20.103509,period,25,PAK,2022
+location,location_type_idu,location_type,idmc_idu,IDMC,Origin or destination,,2022-01-03,2022-11-18,2022-01-17 06:55:08.871,2023-01-06 11:15:20.103509,period,25,PAK,2022
+location,figure_role,figure_role,idmc_idu,IDMC,Recommended figure or Triangulation,,2022-01-03,2022-11-18,2022-01-17 06:55:08.871,2023-01-06 11:15:20.103509,period,25,PAK,2022
+location,figure_qualifier,figure_qualifier,idmc_idu,IDMC,"total, approximately, more than...",,2022-01-03,2022-11-18,2022-01-17 06:55:08.871,2023-01-06 11:15:20.103509,period,25,PAK,2022
+location,figure_term,figure_term,idmc_idu,IDMC,"Type: destroyed housing, evacuated, sheltered...",,2022-01-03,2022-11-18,2022-01-17 06:55:08.871,2022-12-19 16:34:26.106718,period,17,PAK,2022
+location,figure_sources,figure_sources,idmc_idu,IDMC,Source of the figure,,2022-01-03,2022-11-18,2022-01-17 06:55:08.871,2023-01-06 11:15:20.103509,period,25,PAK,2022
+location,figure_displacement_occurred,figure_displacement_occurred,idmc_idu,IDMC,Preventive evacuation or not,,2022-05-15,2022-09-30,2022-06-17 08:17:40.409,2023-01-06 11:15:20.103509,period,8,PAK,2022
+location,disp_figure_gidd,disp_figure,idmc_gidd,IDMC,Validated figure,people,2022-01-03,2022-12-30,2026-08-31 00:00:00.000,2026-08-31 00:00:00.000000,period,46,PAK,2022
+location,figure_reported,figure_reported,idmc_gidd,IDMC,Value reported in the original unit,Person,2022-01-03,2022-12-30,2026-08-31 00:00:00.000,2026-08-31 00:00:00.000000,period,46,PAK,2022
+location,location_name_gidd,location_name,idmc_gidd,IDMC,Place name,,2022-01-03,2022-12-30,2026-08-31 00:00:00.000,2026-08-31 00:00:00.000000,period,46,PAK,2022
+location,location_lat_gidd,location_lat,idmc_gidd,IDMC,Latitude,deg,2022-01-03,2022-12-30,2026-08-31 00:00:00.000,2026-08-31 00:00:00.000000,period,46,PAK,2022
+location,location_lon_gidd,location_lon,idmc_gidd,IDMC,Longitude,deg,2022-01-03,2022-12-30,2026-08-31 00:00:00.000,2026-08-31 00:00:00.000000,period,46,PAK,2022
+location,location_accuracy_gidd,location_accuracy,idmc_gidd,IDMC,Accuracy of the place,,2022-01-03,2022-12-30,2026-08-31 00:00:00.000,2026-08-31 00:00:00.000000,period,46,PAK,2022
+location,location_type_gidd,location_type,idmc_gidd,IDMC,Origin or destination,,2022-01-03,2022-12-30,2026-08-31 00:00:00.000,2026-08-31 00:00:00.000000,period,46,PAK,2022
+location,location_pcode,location_pcode,idmc_gidd,IDMC,Pcode FieldMaps,,2022-01-03,2022-12-30,2026-08-31 00:00:00.000,2026-08-31 00:00:00.000000,period,46,PAK,2022
+location,figure_category,figure_category,idmc_gidd,IDMC,Internal Displacements or IDPs,,2022-01-03,2022-12-30,2026-08-31 00:00:00.000,2026-08-31 00:00:00.000000,period,46,PAK,2022
+location,figure_housing_destruction,figure_housing_destruction,idmc_gidd,IDMC,Due to destroyed housing,,2022-01-03,2022-12-30,2026-08-31 00:00:00.000,2026-08-31 00:00:00.000000,period,46,PAK,2022
+location,figure_household_size,figure_household_size,idmc_gidd,IDMC,People per household used,people,2022-01-03,2022-11-18,2026-08-31 00:00:00.000,2026-08-31 00:00:00.000000,period,38,PAK,2022

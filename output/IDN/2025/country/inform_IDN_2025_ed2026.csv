@@ -1,125 +1,125 @@
-﻿source,time,time_type,spatial_level,spatial_resolution_m,crs,country,iso3,edition,data_year,order,dimension,category,indicator_id,indicator_name,type,value,unit,reference_year,matched,doubtful,doubt_reason
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,1,Composite scores (output finali INFORM),Composite scores (output finali INFORM),INFORM RISK,INFORM Risk (composite),aggregated,,0-10,,False,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,2,Composite scores (output finali INFORM),Composite scores (output finali INFORM),HAZARD & EXPOSURE,Hazard & Exposure (dimensione),aggregated,,0-10,,False,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,3,Composite scores (output finali INFORM),Composite scores (output finali INFORM),Natural,Natural hazard (categoria),aggregated,,0-10,,False,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,4,Composite scores (output finali INFORM),Composite scores (output finali INFORM),VULNERABILITY,Vulnerability (dimensione),aggregated,,0-10,,False,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,5,Composite scores (output finali INFORM),Composite scores (output finali INFORM),LACK OF COPING CAPACITY,Lack of Coping Capacity (dimensione),aggregated,,0-10,,False,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,6,Composite scores (output finali INFORM),Composite scores (output finali INFORM),Lack of Reliability (*),Lack of Reliability Index,aggregated,,0-10,,False,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,7,Hazard & Exposure,Earthquake,NH.EQ.GEM.MMI6.SP,Physical exposure to earthquake MMI VI (extensive),raw,,persone esposte/anno,2025,False,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,8,Hazard & Exposure,Earthquake,NH.EQ.GEM.MMI8.SP,Physical exposure to earthquake MMI VIII (intensive),raw,,persone esposte/anno,2025,False,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,9,Hazard & Exposure,Earthquake,HA.NAT.EQ.EXT-ABS,Physical exposure to extensive earthquake (absolute),aggregated,,0-10,,False,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,10,Hazard & Exposure,Earthquake,HA.NAT.EQ.EXT-REL,Physical exposure to extensive earthquake (relative),aggregated,,0-10,,False,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,11,Hazard & Exposure,Earthquake,HA.NAT.EQ.INT-ABS,Physical exposure to intensive earthquake (absolute),aggregated,,0-10,,False,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,12,Hazard & Exposure,Earthquake,HA.NAT.EQ.INT-REL,Physical exposure to intensive earthquake (relative),aggregated,,0-10,,False,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,13,Hazard & Exposure,Earthquake,Earthquake,Physical exposure to earthquake (component score),aggregated,,0-10,,False,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,14,Population & exposure base,Population & exposure base,POP,Total population (serie 2016-2026),raw,,persone,2016-2026,False,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,15,Population & exposure base,Population & exposure base,POP,Total population,raw,,persone,,False,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,16,Population & exposure base,Population & exposure base,AG.LND.TOTL.K2,Land area,raw,1811570.0,sq km,2013-2014,True,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,17,Population & exposure base,Population & exposure base,EN.POP.DNST,Population density,raw,,persone/sq km,2023,False,True,"In INFORM e' input della componente Epidemic, ma la densita' di popolazione e' plausibilmente rilevante per i PIN da terremoto (piu' densita' = piu' esposti per evento)"
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,18,Population & exposure base,Population & exposure base,SP.URB.TOTL.IN.ZS,Population living in urban areas (%),raw,59.3929061889648,%,2025,True,True,Input Epidemic in INFORM; urbanizzazione rilevante per esposizione sismica del costruito
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,19,Population & exposure base,Population & exposure base,EN.POP.SLUM.UR.ZS,Population living in slums (% urban),raw,19.41,%,2020,True,True,"Input Epidemic in INFORM; ottimo proxy di qualita'/vulnerabilita' del costruito, forte driver di mortalita' sismica"
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,20,Population & exposure base,Population & exposure base,SP.DEM.HOUS.AV,Household size,raw,3.86,persone/nucleo,2014-2021,True,True,Input Epidemic in INFORM; dimensione nucleo utile per stimare persone colpite per edificio
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,21,Vulnerability,Socio-Economic Vulnerability,HDI,Human Development Index,raw,0.728,index 0-1,2023,True,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,22,Vulnerability,Socio-Economic Vulnerability,VU.SEV.PD.HDI,Human Development Index (score),aggregated,3.4,0-10,,True,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,23,Vulnerability,Socio-Economic Vulnerability,MPI,Multidimensional Poverty Index,raw,0.0140107488937181,index,2023,True,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,24,Vulnerability,Socio-Economic Vulnerability,VU.SEV.PD.MPI,Multidimensional Poverty Index (score),aggregated,4.2,0-10,,True,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,25,Vulnerability,Socio-Economic Vulnerability,Development & Deprivation,Development & Deprivation (component),aggregated,,0-10,,False,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,26,Vulnerability,Socio-Economic Vulnerability,GII,Gender Inequality Index,raw,0.423,index 0-1,2021-2023,True,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,27,Vulnerability,Socio-Economic Vulnerability,VU.SEV.INQ.GII,Gender Inequality Index (score),aggregated,5.6,0-10,,True,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,28,Vulnerability,Socio-Economic Vulnerability,GINI,Income Gini coefficient,raw,34.4000015258789,0-100,2012-2025,True,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,29,Vulnerability,Socio-Economic Vulnerability,VU.SEV.INQ.GINI,Income Gini coefficient (score),aggregated,2.4,0-10,,True,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,30,Vulnerability,Socio-Economic Vulnerability,Inequality,Inequality (component),aggregated,,0-10,,False,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,31,Vulnerability,Socio-Economic Vulnerability,FTS,Humanitarian aid per capita,raw,,US$ per capita,2024,False,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,32,Vulnerability,Socio-Economic Vulnerability,FTS-INS,Humanitarian aid per capita instability,raw,,,2026,False,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,33,Vulnerability,Socio-Economic Vulnerability,VU.SEV.AD.FTS-POP.NORM,Humanitarian aid per capita (score),aggregated,0.0,0-10,,True,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,34,Vulnerability,Socio-Economic Vulnerability,ODA-1,Development aid (ODA) per capita,raw,1144.891238,US$ per capita,2023,True,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,35,Vulnerability,Socio-Economic Vulnerability,ODA-INS,Development aid per capita instability,raw,,,2025,False,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,36,Vulnerability,Socio-Economic Vulnerability,VU.SEV.AD.ODA-POP.NORM,Development aid per capita (score),aggregated,0.0,0-10,,True,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,37,Vulnerability,Socio-Economic Vulnerability,DT.ODA.ODAT.GN.ZS,Net ODA received (% of GNI),raw,0.0865296572446823,% GNI,2021-2023,True,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,38,Vulnerability,Socio-Economic Vulnerability,ECO.DT.ODA.ODAT.GN.ZS.INST,Net ODA received (% GNI) instability,raw,0.0371289581358044,,,True,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,39,Vulnerability,Socio-Economic Vulnerability,VU.SEV.AD.ODA-GNI,Net ODA received (% GNI) (score),aggregated,0.0,0-10,,True,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,40,Vulnerability,Socio-Economic Vulnerability,BX_TRF_PWKR,Volume of remittances (% of GDP),raw,1.21754491329193,% GDP,2020-2023,True,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,41,Vulnerability,Socio-Economic Vulnerability,BX.TRF.PWKR.DT.GD.ZS.INST,Volume of remittances instability,raw,0.0534104251753078,,,True,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,42,Vulnerability,Socio-Economic Vulnerability,VU.SEV.AD.REM,Volume of remittances (score),aggregated,0.6,0-10,,True,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,43,Vulnerability,Socio-Economic Vulnerability,Economic Dependency,Economic Dependency (component),aggregated,,0-10,,False,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,44,Vulnerability,Socio-Economic Vulnerability,Socio-Economic Vulnerability,Socio-Economic Vulnerability (category),aggregated,,0-10,,False,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,45,Vulnerability,Vulnerable Groups,TRPS,Refugees and asylum-seekers (country of asylum),raw,14846.0,persone,2025,True,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,46,Vulnerability,Vulnerable Groups,VU.VG.UP.REF-TOT,Refugees and asylum-seekers (score),aggregated,,0-10,,False,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,47,Vulnerability,Vulnerable Groups,POP.SEC.IDP,Internally displaced persons (IDPs),raw,35672.0,persone,2025,True,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,48,Vulnerability,Vulnerable Groups,VU.VG.UP.IDP-TOT,Internally displaced persons (score),aggregated,,0-10,,False,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,49,Vulnerability,Vulnerable Groups,RET_REF,Returned refugees,raw,0.0,persone,2024,True,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,50,Vulnerability,Vulnerable Groups,VU.VG.UP.RET-REF-TOT,Returned refugees (score),aggregated,,0-10,,False,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,51,Vulnerability,Vulnerable Groups,Uprooted people,Uprooted people (component),aggregated,,0-10,,False,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,52,Vulnerability,Vulnerable Groups,CM,Child mortality (under-5),raw,17.7000007629395,"per 1,000",2024,True,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,53,Vulnerability,Vulnerable Groups,VU.VGR.OG.U5.CM,Child Mortality (score),aggregated,1.4,0-10,,True,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,54,Vulnerability,Vulnerable Groups,CUW,Children underweight (under-5),raw,15.8999996185303,%,2013-2024,True,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,55,Vulnerability,Vulnerable Groups,VU.VGR.OG.U5.UW,Children Under Weight (score),aggregated,3.5,0-10,,True,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,56,Vulnerability,Vulnerable Groups,Children U5,Children U5 (component),aggregated,,0-10,,False,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,57,Vulnerability,Vulnerable Groups,FS.ADSA,Average dietary supply adequacy,raw,126.0,%,2023-2024,True,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,58,Vulnerability,Vulnerable Groups,VU.VGR.OG.FS.MA.ADSA,Average dietary supply adequacy (score),aggregated,,0-10,,False,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,59,Vulnerability,Vulnerable Groups,SN.ITK.DEFC.ZS,Prevalence of undernourishment,raw,6.3,%,2023-2024,True,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,60,Vulnerability,Vulnerable Groups,VU.VGR.OG.FS.MA.PU,Prevalence of undernourishment (score),aggregated,,0-10,,False,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,61,Vulnerability,Vulnerable Groups,Food Security,Food Security (component),aggregated,,0-10,,False,True,"Vulnerabilita' generica; piu' legata a crisi alimentari/siccita' che a terremoto, ma concorre al punteggio condiviso"
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,62,Vulnerability,Vulnerable Groups,VU.VGR.OG.NATDIS-CUR,People affected by natural disasters (last 3y),raw,4020.6,persone/%,2024-2026,True,True,Generico su tutti i disastri naturali (terremoti inclusi): rilevante ma non isolabile per solo sisma
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,63,Vulnerability,Vulnerable Groups,VU.VGR.OG.NATDIS-REL,Recent shocks - natural disasters (score),aggregated,3.2,0-10,,True,True,Vedi sopra
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,64,Vulnerability,Vulnerable Groups,Recent Shocks,Recent Shocks (component),aggregated,,0-10,,False,True,"Include tutti i disastri recenti, non solo sismici"
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,65,Vulnerability,Vulnerable Groups,HIV,Adult prevalence of HIV-AIDS,raw,0.400000005960464,numero/%,2021-2024,True,True,Health condition epidemica; concorre al punteggio Vulnerability condiviso ma di natura sanitaria
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,66,Vulnerability,Vulnerable Groups,SH_HIV_INCD,"Incidence of HIV (per 1,000)",raw,0.150000005960464,"per 1,000",2022-2024,True,True,Vedi sopra
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,67,Vulnerability,Vulnerable Groups,VU.VGR.OG.HE.HIV.PRV,Adult Prevalence of HIV-AIDS (score),aggregated,0.8,0-10,,True,True,Vedi sopra
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,68,Vulnerability,Vulnerable Groups,VU.VGR.OG.HE.HIV.INCD,Incidence of HIV (score),aggregated,0.5,0-10,,True,True,Vedi sopra
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,69,Vulnerability,Vulnerable Groups,TB,Incidence of Tuberculosis,raw,382.0,"per 100,000",2023,True,True,Health condition; natura sanitaria/epidemica
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,70,Vulnerability,Vulnerable Groups,VU.VGR.OG.HE.TBC,Incidence of Tuberculosis (score),aggregated,6.9,0-10,,True,True,Vedi sopra
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,71,Vulnerability,Vulnerable Groups,SH_STA_MALR,"Malaria incidence per 1,000 at risk",raw,2.23000001907349,"per 1,000",2023-2024,True,True,Health condition epidemica
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,72,Vulnerability,Vulnerable Groups,VU.VGR.OG.HE.MAL,Malaria incidence (score),aggregated,0.1,0-10,,True,True,Vedi sopra
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,73,Vulnerability,Vulnerable Groups,SH_TRP_INTVN,Neglected tropical diseases (interventions),raw,67217603.0,numero,2024,True,True,Health condition epidemica
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,74,Vulnerability,Vulnerable Groups,VU.VGR.OG.HE.TRP,Neglected tropical diseases (score),aggregated,2.7,0-10,,True,True,Vedi sopra
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,75,Vulnerability,Vulnerable Groups,Health Conditions,Health Conditions (component),aggregated,,0-10,,False,True,Insieme di indicatori sanitari/epidemici; concorre al punteggio condiviso
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,76,Vulnerability,Vulnerable Groups,Other Vulnerable Groups,Other Vulnerable Groups (category aggregate),aggregated,,0-10,,False,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,77,Vulnerability,Vulnerable Groups,Vulnerable Groups,Vulnerable Groups (category),aggregated,,0-10,,False,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,78,Lack of Coping Capacity,Institutional,SG_DSR_LGRGSR,Sendai Framework Monitor indicator E-1 (score),raw,0.933333333333333,0-1,2016-2025,True,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,79,Lack of Coping Capacity,Institutional,SG_DSR_LGRGSR_FREQ,SFM E-1 reporting frequency (10y),raw,0.6,,2016-2025,True,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,80,Lack of Coping Capacity,Institutional,CC.INS.DRR.SG_DSR_LGRGSR,SFM E-1 (score),aggregated,0.8,0-10,,True,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,81,Lack of Coping Capacity,Institutional,CC.INS.DRR.SG_DSR_LGRGSR_FREQ,SFM E-1 frequency (score),aggregated,4.4,0-10,,True,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,82,Lack of Coping Capacity,Institutional,DRR,DRR (component),aggregated,,0-10,,False,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,83,Lack of Coping Capacity,Institutional,GovernmentEffectiveness,Government effectiveness,raw,0.179803997278214,-2.5..2.5,2023,True,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,84,Lack of Coping Capacity,Institutional,CC.INS.GOV.GE,Government effectiveness (score),aggregated,4.6,0-10,,True,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,85,Lack of Coping Capacity,Institutional,CPI,Corruption Perception Index,raw,37.0,0-100,2020-2024,True,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,86,Lack of Coping Capacity,Institutional,CC.INS.GOV.CPI,Corruption Perception Index (score),aggregated,6.3,0-10,,True,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,87,Lack of Coping Capacity,Institutional,Governance,Governance (component),aggregated,,0-10,,False,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,88,Lack of Coping Capacity,Institutional,Institutional,Institutional (category),aggregated,,0-10,,False,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,89,Lack of Coping Capacity,Infrastructure,SE.ADT.LITR.ZS,Adult literacy rate,raw,96.0,%,2013-2025,True,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,90,Lack of Coping Capacity,Infrastructure,CC.INF.COM.LITR,Adult literacy rate (score),aggregated,0.9,0-10,,True,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,91,Lack of Coping Capacity,Infrastructure,EG.ELC.ACCS.ZS,Access to electricity,raw,99.9000015258789,%,2023,True,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,92,Lack of Coping Capacity,Infrastructure,CC.INF.COM.ELACCS,Access to electricity (score),aggregated,0.0,0-10,,True,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,93,Lack of Coping Capacity,Infrastructure,IT.NET.USER.P2,Internet users,raw,72.7807540893555,%,2017-2025,True,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,94,Lack of Coping Capacity,Infrastructure,CC.INF.COM.NETUS,Internet users (score),aggregated,2.7,0-10,,True,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,95,Lack of Coping Capacity,Infrastructure,IT.CEL.SETS.P2,Mobile cellular subscriptions,raw,122.514945983887,per 100,2022-2024,True,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,96,Lack of Coping Capacity,Infrastructure,CC.INF.COM.CEL,Mobile cellular subscriptions (score),aggregated,4.0,0-10,,True,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,97,Lack of Coping Capacity,Infrastructure,Communication,Communication (component),aggregated,,0-10,,False,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,98,Lack of Coping Capacity,Infrastructure,IS.ROD.TOTL.KM,Road length / density,raw,180000.0,km,2014,True,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,99,Lack of Coping Capacity,Infrastructure,CC.INF.PHY.ROD,Road density (score),aggregated,9.1,0-10,,True,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,100,Lack of Coping Capacity,Infrastructure,SH.STA.BASS.ZS,People using at least basic sanitation,raw,,%,2016-2024,False,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,101,Lack of Coping Capacity,Infrastructure,CC.INF.PHY.STA,Improved sanitation (score),aggregated,1.3,0-10,,True,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,102,Lack of Coping Capacity,Infrastructure,SH.H2O.SAFE.ZS,People using at least basic drinking water,raw,89.0087585449219,%,2016-2024,True,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,103,Lack of Coping Capacity,Infrastructure,CC.INF.PHY.H2O,Improved water source (score),aggregated,2.2,0-10,,True,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,104,Lack of Coping Capacity,Infrastructure,Physical infrastructure,Physical infrastructure (component),aggregated,,0-10,,False,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,105,Lack of Coping Capacity,Infrastructure,HEALTH_EXP,Current health expenditure per capita,raw,416.590667724609,US$ per capita,2021-2024,True,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,106,Lack of Coping Capacity,Infrastructure,CC.INF.AHC.HEALTH_EXP,Current health expenditure per capita (score),aggregated,8.8,0-10,,True,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,107,Lack of Coping Capacity,Infrastructure,PHIS,Physicians density,raw,5.23999989032745,"per 1,000",2013-2023,True,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,108,Lack of Coping Capacity,Infrastructure,CC.INF.AHC.PHYS,Physicians density (score),aggregated,8.7,0-10,,True,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,109,Lack of Coping Capacity,Infrastructure,MMR,Maternal Mortality Ratio,raw,140.0,"per 100,000",2023-2025,True,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,110,Lack of Coping Capacity,Infrastructure,CC.INF.AHC.MMR,Maternal Mortality Ratio (score),aggregated,1.6,0-10,,True,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,111,Lack of Coping Capacity,Infrastructure,SH_ACS_DTP3,Coverage of DTP3 vaccine,raw,78.0,%,2023-2024,True,True,Immunizzazione: proxy di capacita' sanitaria ma di natura vaccinale/epidemica
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,112,Lack of Coping Capacity,Infrastructure,SH_ACS_MCV2,Coverage of measles vaccine,raw,82.0,%,2023-2024,True,True,Vedi sopra
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,113,Lack of Coping Capacity,Infrastructure,SH_ACS_PCV3,Coverage of pneumococcal vaccine,raw,70.0,%,2023-2024,True,True,Vedi sopra
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,114,Lack of Coping Capacity,Infrastructure,CC.INF.AHC.IMM.DTP3,DTP3 coverage (score),aggregated,3.6,0-10,,True,True,Vedi sopra
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,115,Lack of Coping Capacity,Infrastructure,CC.INF.AHC.IMM.MCV2,Measles coverage (score),aggregated,2.9,0-10,,True,True,Vedi sopra
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,116,Lack of Coping Capacity,Infrastructure,CC.INF.AHC.IMM.PCV3,Pneumococcal coverage (score),aggregated,4.9,0-10,,True,True,Vedi sopra
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,117,Lack of Coping Capacity,Infrastructure,Access to health care,Access to health care (component),aggregated,,0-10,,False,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,118,Lack of Coping Capacity,Infrastructure,Infrastructure,Infrastructure (category),aggregated,,0-10,,False,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,119,Common / support variables,Common / support variables,GDPpp,GDP per capita,raw,5059.6259765625,US$ per capita,2023-2025,True,False,
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,120,Human hazard (dubbio),Human hazard (dubbio),HVC.PROB,Projected Conflict Probability,raw,0.992774057592127,,2025,True,True,"Pericolo conflitto, non terremoto; utile come contesto per crisi composte"
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,121,Human hazard (dubbio),Human hazard (dubbio),CON_GPI,Current Conflict Intensity,raw,2.185,,2025,True,True,Vedi sopra
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,122,Human hazard (dubbio),Human hazard (dubbio),Projected Conflict Probability,Projected Conflict Probability (score),aggregated,,0-10,,False,True,Vedi sopra
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,123,Human hazard (dubbio),Human hazard (dubbio),Current Conflict Intensity,Current Conflict Intensity (score),aggregated,,0-10,,False,True,Vedi sopra
-inform,2025,data_year,country,,,IDN,IDN,2026,2025,124,Human hazard (dubbio),Human hazard (dubbio),Human,Human hazard (categoria),aggregated,,0-10,,False,True,Vedi sopra
+﻿source,time,time_type,spatial_level,spatial_resolution_m,crs,country,iso3,edition,data_year,order,dimension,category,indicator_id,indicator_name,type,value,unit,reference_year,validity_year,matched,doubtful,doubt_reason
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,1,Composite scores (final INFORM outputs),Composite scores (final INFORM outputs),INFORM,INFORM Risk (composite),aggregated,4.5,0-10,,,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,2,Composite scores (final INFORM outputs),Composite scores (final INFORM outputs),HA,Hazard & Exposure (dimension),aggregated,7.9,0-10,,,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,3,Composite scores (final INFORM outputs),Composite scores (final INFORM outputs),HA.NAT,Natural hazard (category),aggregated,7.4,0-10,,,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,4,Composite scores (final INFORM outputs),Composite scores (final INFORM outputs),VU,Vulnerability (dimension),aggregated,3.1,0-10,,,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,5,Composite scores (final INFORM outputs),Composite scores (final INFORM outputs),CC,Lack of Coping Capacity (dimension),aggregated,3.8,0-10,,,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,6,Composite scores (final INFORM outputs),Composite scores (final INFORM outputs),Lack of Reliability (*),Lack of Reliability Index,aggregated,,0-10,,,False,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,7,Hazard & Exposure,Earthquake,EX_EQ_MMI6,Physical exposure to earthquake MMI VI (extensive),raw,511572.6554,people exposed/year,2025,2025.0,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,8,Hazard & Exposure,Earthquake,EX_EQ_MMI8,Physical exposure to earthquake MMI VIII (intensive),raw,70003.19067,people exposed/year,2025,2025.0,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,9,Hazard & Exposure,Earthquake,HA.NAT.EQ.MMI6-ABS,Physical exposure to extensive earthquake (absolute),aggregated,10.0,0-10,,,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,10,Hazard & Exposure,Earthquake,HA.NAT.EQ.MMI6-REL,Physical exposure to extensive earthquake (relative),aggregated,9.1,0-10,,,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,11,Hazard & Exposure,Earthquake,HA.NAT.EQ.MMI8-ABS,Physical exposure to intensive earthquake (absolute),aggregated,10.0,0-10,,,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,12,Hazard & Exposure,Earthquake,HA.NAT.EQ.MMI8-REL,Physical exposure to intensive earthquake (relative),aggregated,1.2,0-10,,,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,13,Hazard & Exposure,Earthquake,HA.NAT.EQ,Physical exposure to earthquake (component score),aggregated,8.9,0-10,,,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,14,Population & exposure base,Population & exposure base,POP,Total population (series 2016-2026),raw,,people,2016-2026,,False,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,15,Population & exposure base,Population & exposure base,POP_DEN,Total population,raw,282004306.0,people,,2025.0,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,16,Population & exposure base,Population & exposure base,AG.LND.TOTL.K2,Land area,raw,1811570.0,sq km,2013-2014,2013.0,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,17,Population & exposure base,Population & exposure base,EN.POP.DNST-FWB,Population density,raw,148.576919555664,people/sq km,2023,2023.0,True,True,"In INFORM it is an input of the Epidemic component, but population density is plausibly relevant for earthquake PIN (more density = more people exposed per event)"
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,18,Population & exposure base,Population & exposure base,SP.URB.TOTL.IN.ZS,Population living in urban areas (%),raw,59.3929061889648,%,2025,2025.0,True,True,Epidemic input in INFORM; urbanisation is relevant for the seismic exposure of buildings
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,19,Population & exposure base,Population & exposure base,EN.POP.SLUM.UR.ZS,Population living in slums (% urban),raw,19.41,%,2020,2024.0,True,True,"Epidemic input in INFORM; good proxy of building quality and vulnerability, strong driver of seismic mortality"
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,20,Population & exposure base,Population & exposure base,SP.DEM.HOUS.AV,Household size,raw,3.86,people/household,2014-2021,2017.0,True,True,Epidemic input in INFORM; household size helps estimate people affected per building
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,21,Vulnerability,Socio-Economic Vulnerability,HDI,Human Development Index,raw,0.728,index 0-1,2023,2023.0,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,22,Vulnerability,Socio-Economic Vulnerability,VU.SEV.PD.HDI,Human Development Index (score),aggregated,3.4,0-10,,,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,23,Vulnerability,Socio-Economic Vulnerability,MPI,Multidimensional Poverty Index,raw,0.0140107488937181,index,2023,2017.0,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,24,Vulnerability,Socio-Economic Vulnerability,VU.SEV.PD.MPI,Multidimensional Poverty Index (score),aggregated,4.2,0-10,,,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,25,Vulnerability,Socio-Economic Vulnerability,VU.SEV.PD,Development & Deprivation (component),aggregated,3.8,0-10,,,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,26,Vulnerability,Socio-Economic Vulnerability,GII,Gender Inequality Index,raw,0.423,index 0-1,2021-2023,2023.0,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,27,Vulnerability,Socio-Economic Vulnerability,VU.SEV.INQ.GII,Gender Inequality Index (score),aggregated,5.6,0-10,,2023.0,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,28,Vulnerability,Socio-Economic Vulnerability,GINI,Income Gini coefficient,raw,34.4000015258789,0-100,2012-2025,2025.0,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,29,Vulnerability,Socio-Economic Vulnerability,VU.SEV.INQ.GINI,Income Gini coefficient (score),aggregated,2.4,0-10,,2025.0,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,30,Vulnerability,Socio-Economic Vulnerability,VU.SEV.INQ,Inequality (component),aggregated,4.0,0-10,,,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,31,Vulnerability,Socio-Economic Vulnerability,FTS-1.REL,Humanitarian aid per capita,raw,0.0565619590220016,US$ per capita,2024,,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,32,Vulnerability,Socio-Economic Vulnerability,FTS.INST,Humanitarian aid per capita instability,raw,0.0290519389842409,,2026,2025.0,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,33,Vulnerability,Socio-Economic Vulnerability,VU.SEV.AD.FTS-POP.NORM,Humanitarian aid per capita (score),aggregated,0.0,0-10,,,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,34,Vulnerability,Socio-Economic Vulnerability,ODA-1.REL,Development aid (ODA) per capita,raw,4.09184853894389,US$ per capita,2023,,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,35,Vulnerability,Socio-Economic Vulnerability,ODA.INST,Development aid per capita instability,raw,1.41927188744672,,2025,2025.0,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,36,Vulnerability,Socio-Economic Vulnerability,VU.SEV.AD.ODA-POP.NORM,Development aid per capita (score),aggregated,0.0,0-10,,,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,37,Vulnerability,Socio-Economic Vulnerability,DT.ODA.ODAT.GN.ZS,Net ODA received (% of GNI),raw,0.0865296572446823,% GNI,2021-2023,2023.0,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,38,Vulnerability,Socio-Economic Vulnerability,ECO.DT.ODA.ODAT.GN.ZS.INST,Net ODA received (% GNI) instability,raw,0.0371289581358044,,,2023.0,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,39,Vulnerability,Socio-Economic Vulnerability,VU.SEV.AD.ODA-GNI,Net ODA received (% GNI) (score),aggregated,0.0,0-10,,,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,40,Vulnerability,Socio-Economic Vulnerability,BX_TRF_PWKR,Volume of remittances (% of GDP),raw,1.21754491329193,% GDP,2020-2023,2025.0,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,41,Vulnerability,Socio-Economic Vulnerability,BX.TRF.PWKR.DT.GD.ZS.INST,Volume of remittances instability,raw,0.0534104251753078,,,2024.0,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,42,Vulnerability,Socio-Economic Vulnerability,VU.SEV.AD.REM,Volume of remittances (score),aggregated,0.6,0-10,,2025.0,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,43,Vulnerability,Socio-Economic Vulnerability,VU.SEV.AD,Economic Dependency (component),aggregated,0.2,0-10,,,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,44,Vulnerability,Socio-Economic Vulnerability,VU.SEV,Socio-Economic Vulnerability (category),aggregated,3.0,0-10,,,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,45,Vulnerability,Vulnerable Groups,TRPS,Refugees and asylum-seekers (country of asylum),raw,14846.0,people,2025,2025.0,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,46,Vulnerability,Vulnerable Groups,VU.VG.UP.REF-TOT,Refugees and asylum-seekers (score),aggregated,,0-10,,,False,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,47,Vulnerability,Vulnerable Groups,POP.SEC.IDP,Internally displaced persons (IDPs),raw,35672.0,people,2025,2025.0,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,48,Vulnerability,Vulnerable Groups,VU.VG.UP.IDP-TOT,Internally displaced persons (score),aggregated,,0-10,,,False,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,49,Vulnerability,Vulnerable Groups,RET_REF,Returned refugees,raw,0.0,people,2024,2024.0,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,50,Vulnerability,Vulnerable Groups,VU.VG.UP.RET-REF-TOT,Returned refugees (score),aggregated,,0-10,,,False,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,51,Vulnerability,Vulnerable Groups,VU.VGR.UP,Uprooted people (component),aggregated,3.9,0-10,,,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,52,Vulnerability,Vulnerable Groups,CM,Child mortality (under-5),raw,17.7000007629395,"per 1,000",2024,2024.0,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,53,Vulnerability,Vulnerable Groups,VU.VGR.OG.U5.CM,Child Mortality (score),aggregated,1.4,0-10,,2024.0,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,54,Vulnerability,Vulnerable Groups,CUW,Children underweight (under-5),raw,15.8999996185303,%,2013-2024,2023.0,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,55,Vulnerability,Vulnerable Groups,VU.VGR.OG.U5.UW,Children Under Weight (score),aggregated,3.5,0-10,,2023.0,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,56,Vulnerability,Vulnerable Groups,VU.VGR.OG.U5,Children U5 (component),aggregated,2.5,0-10,,,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,57,Vulnerability,Vulnerable Groups,FS.ADSA,Average dietary supply adequacy,raw,126.0,%,2023-2024,2025.0,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,58,Vulnerability,Vulnerable Groups,VU.VGR.OG.FS.FAV,Average dietary supply adequacy (score),aggregated,3.2,0-10,,2025.0,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,59,Vulnerability,Vulnerable Groups,SN.ITK.DEFC.ZS,Prevalence of undernourishment,raw,6.3,%,2023-2024,2025.0,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,60,Vulnerability,Vulnerable Groups,VU.VGR.OG.FS.FU,Prevalence of undernourishment (score),aggregated,0.4,0-10,,2025.0,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,61,Vulnerability,Vulnerable Groups,VU.VGR.OG.FS,Food Security (component),aggregated,1.8,0-10,,,True,True,"Generic vulnerability; more linked to food crises and drought than to earthquakes, but part of the shared score"
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,62,Vulnerability,Vulnerable Groups,VU.VGR.OG.NATDIS-CUR,People affected by natural disasters (last 3y),raw,4020.6,people/%,2024-2026,2025.0,True,True,Generic for all natural disasters (earthquakes included): relevant but not separable for earthquakes alone
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,63,Vulnerability,Vulnerable Groups,VU.VGR.OG.NATDIS-REL,Recent shocks - natural disasters (score),aggregated,3.2,0-10,,,True,True,See above
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,64,Vulnerability,Vulnerable Groups,VU.VGR.OG.NATDIS-REL,Recent Shocks (component),aggregated,3.2,0-10,,,True,True,"Includes all recent disasters, not only earthquakes"
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,65,Vulnerability,Vulnerable Groups,HIV,Adult prevalence of HIV-AIDS,raw,0.400000005960464,number/%,2021-2024,2024.0,True,True,Epidemic health condition; part of the shared Vulnerability score but health-related
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,66,Vulnerability,Vulnerable Groups,SH_HIV_INCD,"Incidence of HIV (per 1,000)",raw,0.150000005960464,"per 1,000",2022-2024,2024.0,True,True,See above
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,67,Vulnerability,Vulnerable Groups,VU.VGR.OG.HE.HIV.PRV,Adult Prevalence of HIV-AIDS (score),aggregated,0.8,0-10,,2024.0,True,True,See above
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,68,Vulnerability,Vulnerable Groups,VU.VGR.OG.HE.HIV.INCD,Incidence of HIV (score),aggregated,0.5,0-10,,2024.0,True,True,See above
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,69,Vulnerability,Vulnerable Groups,TB,Incidence of Tuberculosis,raw,382.0,"per 100,000",2023,2024.0,True,True,Health condition; health or epidemic in nature
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,70,Vulnerability,Vulnerable Groups,VU.VGR.OG.HE.TBC,Incidence of Tuberculosis (score),aggregated,6.9,0-10,,2024.0,True,True,See above
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,71,Vulnerability,Vulnerable Groups,SH_STA_MALR,"Malaria incidence per 1,000 at risk",raw,2.23000001907349,"per 1,000",2023-2024,2024.0,True,True,Epidemic health condition
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,72,Vulnerability,Vulnerable Groups,VU.VGR.OG.HE.MAL,Malaria incidence (score),aggregated,0.1,0-10,,2024.0,True,True,See above
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,73,Vulnerability,Vulnerable Groups,SH_TRP_INTVN,Neglected tropical diseases (interventions),raw,67217603.0,number,2024,2024.0,True,True,Epidemic health condition
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,74,Vulnerability,Vulnerable Groups,VU.VGR.OG.HE.TRP,Neglected tropical diseases (score),aggregated,2.7,0-10,,,True,True,See above
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,75,Vulnerability,Vulnerable Groups,VU.VGR.OG.HE,Health Conditions (component),aggregated,2.6,0-10,,,True,True,Set of health and epidemic indicators; part of the shared score
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,76,Vulnerability,Vulnerable Groups,VU.VGR.OG,Other Vulnerable Groups (category aggregate),aggregated,2.5,0-10,,,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,77,Vulnerability,Vulnerable Groups,VU.VGR,Vulnerable Groups (category),aggregated,3.2,0-10,,,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,78,Lack of Coping Capacity,Institutional,SG_DSR_LGRGSR,Sendai Framework Monitor indicator E-1 (score),raw,0.933333333333333,0-1,2016-2025,2025.0,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,79,Lack of Coping Capacity,Institutional,SG_DSR_LGRGSR_FREQ,SFM E-1 reporting frequency (10y),raw,0.6,,2016-2025,2025.0,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,80,Lack of Coping Capacity,Institutional,CC.INS.DRR.SG_DSR_LGRGSR,SFM E-1 (score),aggregated,0.8,0-10,,2025.0,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,81,Lack of Coping Capacity,Institutional,CC.INS.DRR.SG_DSR_LGRGSR_FREQ,SFM E-1 frequency (score),aggregated,4.4,0-10,,2025.0,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,82,Lack of Coping Capacity,Institutional,CC.INS.DRR,DRR (component),aggregated,1.9,0-10,,,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,83,Lack of Coping Capacity,Institutional,GovernmentEffectiveness,Government effectiveness,raw,0.179803997278214,-2.5..2.5,2023,2024.0,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,84,Lack of Coping Capacity,Institutional,CC.INS.GOV.GE,Government effectiveness (score),aggregated,4.6,0-10,,2024.0,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,85,Lack of Coping Capacity,Institutional,CPI,Corruption Perception Index,raw,37.0,0-100,2020-2024,2024.0,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,86,Lack of Coping Capacity,Institutional,CC.INS.GOV.CPI,Corruption Perception Index (score),aggregated,6.3,0-10,,2024.0,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,87,Lack of Coping Capacity,Institutional,CC.INS.GOV,Governance (component),aggregated,5.5,0-10,,,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,88,Lack of Coping Capacity,Institutional,CC.INS,Institutional (category),aggregated,3.7,0-10,,,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,89,Lack of Coping Capacity,Infrastructure,SE.ADT.LITR.ZS,Adult literacy rate,raw,96.0,%,2013-2025,2020.0,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,90,Lack of Coping Capacity,Infrastructure,CC.INF.COM.LITR,Adult literacy rate (score),aggregated,0.9,0-10,,2020.0,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,91,Lack of Coping Capacity,Infrastructure,EG.ELC.ACCS.ZS,Access to electricity,raw,99.9000015258789,%,2023,2024.0,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,92,Lack of Coping Capacity,Infrastructure,CC.INF.COM.ELACCS,Access to electricity (score),aggregated,0.0,0-10,,2024.0,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,93,Lack of Coping Capacity,Infrastructure,IT.NET.USER.P2,Internet users,raw,72.7807540893555,%,2017-2025,2024.0,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,94,Lack of Coping Capacity,Infrastructure,CC.INF.COM.NETUS,Internet users (score),aggregated,2.7,0-10,,2024.0,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,95,Lack of Coping Capacity,Infrastructure,IT.CEL.SETS.P2,Mobile cellular subscriptions,raw,122.514945983887,per 100,2022-2024,2024.0,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,96,Lack of Coping Capacity,Infrastructure,CC.INF.COM.CEL,Mobile cellular subscriptions (score),aggregated,4.0,0-10,,2024.0,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,97,Lack of Coping Capacity,Infrastructure,CC.INF.COM,Communication (component),aggregated,1.9,0-10,,,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,98,Lack of Coping Capacity,Infrastructure,IS.ROD.TOTL.KM,Road length / density,raw,180000.0,km,2014,2014.0,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,99,Lack of Coping Capacity,Infrastructure,CC.INF.PHY.ROD,Road density (score),aggregated,9.1,0-10,,,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,100,Lack of Coping Capacity,Infrastructure,SH.STA.ACSN,People using at least basic sanitation,raw,88.2031707763672,%,2016-2024,2024.0,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,101,Lack of Coping Capacity,Infrastructure,CC.INF.PHY.STA,Improved sanitation (score),aggregated,1.3,0-10,,2024.0,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,102,Lack of Coping Capacity,Infrastructure,SH.H2O.SAFE.ZS,People using at least basic drinking water,raw,89.0087585449219,%,2016-2024,2024.0,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,103,Lack of Coping Capacity,Infrastructure,CC.INF.PHY.H2O,Improved water source (score),aggregated,2.2,0-10,,2024.0,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,104,Lack of Coping Capacity,Infrastructure,CC.INF.PHY,Physical infrastructure (component),aggregated,4.2,0-10,,,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,105,Lack of Coping Capacity,Infrastructure,HEALTH_EXP,Current health expenditure per capita,raw,416.590667724609,US$ per capita,2021-2024,2023.0,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,106,Lack of Coping Capacity,Infrastructure,CC.INF.AHC.HEALTH_EXP,Current health expenditure per capita (score),aggregated,8.8,0-10,,2023.0,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,107,Lack of Coping Capacity,Infrastructure,PHIS,Physicians density,raw,5.23999989032745,"per 1,000",2013-2023,2023.0,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,108,Lack of Coping Capacity,Infrastructure,CC.INF.AHC.PHYS,Physicians density (score),aggregated,8.7,0-10,,2023.0,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,109,Lack of Coping Capacity,Infrastructure,MMR,Maternal Mortality Ratio,raw,140.0,"per 100,000",2023-2025,2023.0,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,110,Lack of Coping Capacity,Infrastructure,CC.INF.AHC.MMR,Maternal Mortality Ratio (score),aggregated,1.6,0-10,,2023.0,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,111,Lack of Coping Capacity,Infrastructure,SH_ACS_DTP3,Coverage of DTP3 vaccine,raw,78.0,%,2023-2024,2024.0,True,True,"Immunisation: proxy of health capacity, but vaccine and epidemic related"
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,112,Lack of Coping Capacity,Infrastructure,SH_ACS_MCV2,Coverage of measles vaccine,raw,82.0,%,2023-2024,2024.0,True,True,See above
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,113,Lack of Coping Capacity,Infrastructure,SH_ACS_PCV3,Coverage of pneumococcal vaccine,raw,70.0,%,2023-2024,2024.0,True,True,See above
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,114,Lack of Coping Capacity,Infrastructure,CC.INF.AHC.IMM.DTP3,DTP3 coverage (score),aggregated,3.6,0-10,,2024.0,True,True,See above
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,115,Lack of Coping Capacity,Infrastructure,CC.INF.AHC.IMM.MCV2,Measles coverage (score),aggregated,2.9,0-10,,2024.0,True,True,See above
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,116,Lack of Coping Capacity,Infrastructure,CC.INF.AHC.IMM.PCV3,Pneumococcal coverage (score),aggregated,4.9,0-10,,2024.0,True,True,See above
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,117,Lack of Coping Capacity,Infrastructure,CC.INF.AHC,Access to health care (component),aggregated,5.7,0-10,,,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,118,Lack of Coping Capacity,Infrastructure,CC.INF,Infrastructure (category),aggregated,3.9,0-10,,,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,119,Common / support variables,Common / support variables,GDPpp,GDP per capita,raw,5059.6259765625,US$ per capita,2023-2025,2025.0,True,False,
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,120,Human hazard (doubtful),Human hazard (doubtful),HVC.PROB,Projected Conflict Probability,raw,0.992774057592127,,2025,2025.0,True,True,"Conflict hazard, not earthquake; useful as context for compound crises"
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,121,Human hazard (doubtful),Human hazard (doubtful),CON_GPI,Current Conflict Intensity,raw,2.185,,2025,2025.0,True,True,See above
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,122,Human hazard (doubtful),Human hazard (doubtful),HA.HUM.CON.GCRI,Projected Conflict Probability (score),aggregated,10.0,0-10,,2025.0,True,True,See above
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,123,Human hazard (doubtful),Human hazard (doubtful),HA.HUM.CON.GPI,Current Conflict Intensity (score),aggregated,4.7,0-10,,2025.0,True,True,See above
+inform,2025,data_year,country,,,IDN,IDN,2026,2025,124,Human hazard (doubtful),Human hazard (doubtful),HA.HUM,Human hazard (category),aggregated,8.4,0-10,,,True,True,See above

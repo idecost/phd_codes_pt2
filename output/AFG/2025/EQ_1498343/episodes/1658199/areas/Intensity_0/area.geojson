@@ -1,0 +1,134 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "bbox": [
+        70.7135,
+        34.2112,
+        70.9922,
+        34.4514
+      ],
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                70.8626,
+                34.2112
+              ],
+              [
+                70.9373,
+                34.2293
+              ],
+              [
+                70.9652,
+                34.2462
+              ],
+              [
+                70.9811,
+                34.2711
+              ],
+              [
+                70.9922,
+                34.3458
+              ],
+              [
+                70.9887,
+                34.3789
+              ],
+              [
+                70.9439,
+                34.437
+              ],
+              [
+                70.9124,
+                34.4514
+              ],
+              [
+                70.8543,
+                34.4494
+              ],
+              [
+                70.8128,
+                34.4276
+              ],
+              [
+                70.7384,
+                34.3706
+              ],
+              [
+                70.7135,
+                34.3209
+              ],
+              [
+                70.7268,
+                34.2794
+              ],
+              [
+                70.7585,
+                34.2462
+              ],
+              [
+                70.8128,
+                34.2195
+              ],
+              [
+                70.8626,
+                34.2112
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "eventtype": "EQ",
+        "eventid": 1498343,
+        "episodeid": 1658199,
+        "eventname": "",
+        "glide": "EQ-2025-000153-AFG",
+        "name": "Earthquake in Afghanistan",
+        "description": "Earthquake in Afghanistan",
+        "htmldescription": "Green M 4.5 Earthquake in Afghanistan at: 31 Aug 2025 19:38:04.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1498343&episodeid=1658199",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1498343&episodeid=1658199&eventtype=EQ",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=EQ&eventid=1498343"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.0,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Afghanistan",
+        "fromdate": "2025-08-31T19:38:04",
+        "todate": "2025-08-31T19:38:04",
+        "datemodified": "2025-09-01T07:03:12",
+        "iso3": "AFG",
+        "source": "NEIC",
+        "sourceid": "us7000qsvq",
+        "polygondate": "2025-08-31T22:09:43",
+        "polygonlabel": "Intensity 0",
+        "affectedcountries": [
+          {
+            "iso2": "AF",
+            "iso3": "AFG",
+            "countryname": "Afghanistan"
+          }
+        ],
+        "severitydata": {
+          "severity": 4.5,
+          "severitytext": "Magnitude 4.5M, Depth:10km",
+          "severityunit": "M"
+        },
+        "Class": "Poly_SMPInt_0",
+        "iconeventlink": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+        "iconitemlink": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png"
+      }
+    }
+  ]
+}

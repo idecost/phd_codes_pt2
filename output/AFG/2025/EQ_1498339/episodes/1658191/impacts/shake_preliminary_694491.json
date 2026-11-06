@@ -1,0 +1,132 @@
+{
+  "episodeid": "EQ_202508312138141647",
+  "eventid": {
+    "namespace": "",
+    "eventtype": "EQ",
+    "eventname": ""
+  },
+  "modelname": "EQ",
+  "modelrun": "202508312138141647",
+  "modelstatus": "info: processing ok",
+  "datums": [
+    {
+      "datum": [
+        {
+          "datasource": "Pop",
+          "io": "o",
+          "datum_id": "1",
+          "type": "Pop",
+          "scalars": {
+            "scalar": [
+              {
+                "name": "ep7",
+                "value": "53766",
+                "valuetype": "String"
+              },
+              {
+                "name": "ep6",
+                "value": "325038",
+                "valuetype": "String"
+              },
+              {
+                "name": "ep5",
+                "value": "1291917",
+                "valuetype": "String"
+              },
+              {
+                "name": "ep4",
+                "value": "11223921",
+                "valuetype": "String"
+              },
+              {
+                "name": "ep3",
+                "value": "266428",
+                "valuetype": "String"
+              }
+            ]
+          }
+        }
+      ],
+      "alias": "Pop",
+      "id": "0",
+      "source": "Pop"
+    },
+    {
+      "datum": [
+        {
+          "datasource": "Alert Parameters",
+          "io": "o",
+          "datum_id": "1",
+          "type": "alert",
+          "scalars": {
+            "scalar": [
+              {
+                "name": "AlertLevel",
+                "value": "RED",
+                "valuetype": "String"
+              },
+              {
+                "name": "AlertScore",
+                "value": "2.93070709502446",
+                "valuetype": "String"
+              },
+              {
+                "name": "Source",
+                "value": "",
+                "valuetype": "String"
+              },
+              {
+                "name": "Version",
+                "value": "A001",
+                "valuetype": "String"
+              },
+              {
+                "name": "ScaledPopulation",
+                "value": "3.52724311638809",
+                "valuetype": "String"
+              },
+              {
+                "name": "CoeffIntersept",
+                "value": "-0.59",
+                "valuetype": "String"
+              },
+              {
+                "name": "CoeffSlope",
+                "value": "0.53",
+                "valuetype": "String"
+              },
+              {
+                "name": "CountryVuln",
+                "value": "0",
+                "valuetype": "String"
+              },
+              {
+                "name": "LccNormalised",
+                "value": "1.28571428571429",
+                "valuetype": "String"
+              },
+              {
+                "name": "MaxMMI",
+                "value": "7.12242460251",
+                "valuetype": "String"
+              },
+              {
+                "name": "PopulationMaxIntensity",
+                "value": "53766",
+                "valuetype": "String"
+              },
+              {
+                "name": "PopulationOverVII",
+                "value": "53766",
+                "valuetype": "String"
+              }
+            ]
+          }
+        }
+      ],
+      "alias": "Alert Parameters",
+      "id": "AP",
+      "source": "Alert Parameters"
+    }
+  ]
+}

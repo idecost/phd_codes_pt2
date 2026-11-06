@@ -1,0 +1,234 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "bbox": [
+        70.2557,
+        34.2396,
+        71.0189,
+        34.8138
+      ],
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                70.7706,
+                34.2433
+              ],
+              [
+                70.8169,
+                34.2805
+              ],
+              [
+                70.8195,
+                34.3054
+              ],
+              [
+                70.8536,
+                34.3553
+              ],
+              [
+                70.9117,
+                34.3891
+              ],
+              [
+                70.9366,
+                34.3893
+              ],
+              [
+                70.9698,
+                34.4093
+              ],
+              [
+                71.0032,
+                34.4382
+              ],
+              [
+                71.0164,
+                34.463
+              ],
+              [
+                71.0189,
+                34.4879
+              ],
+              [
+                70.9797,
+                34.5294
+              ],
+              [
+                70.9627,
+                34.5709
+              ],
+              [
+                70.9806,
+                34.6372
+              ],
+              [
+                70.9781,
+                34.6978
+              ],
+              [
+                70.9366,
+                34.7034
+              ],
+              [
+                70.8381,
+                34.77
+              ],
+              [
+                70.7706,
+                34.7968
+              ],
+              [
+                70.6959,
+                34.8112
+              ],
+              [
+                70.6461,
+                34.8138
+              ],
+              [
+                70.5382,
+                34.7642
+              ],
+              [
+                70.5013,
+                34.7368
+              ],
+              [
+                70.4687,
+                34.7036
+              ],
+              [
+                70.4451,
+                34.6621
+              ],
+              [
+                70.4325,
+                34.6206
+              ],
+              [
+                70.4076,
+                34.5958
+              ],
+              [
+                70.3638,
+                34.5892
+              ],
+              [
+                70.2808,
+                34.5476
+              ],
+              [
+                70.2557,
+                34.546
+              ],
+              [
+                70.2557,
+                34.5045
+              ],
+              [
+                70.314,
+                34.5002
+              ],
+              [
+                70.3355,
+                34.4879
+              ],
+              [
+                70.343,
+                34.4713
+              ],
+              [
+                70.3366,
+                34.4216
+              ],
+              [
+                70.3454,
+                34.405
+              ],
+              [
+                70.4634,
+                34.3019
+              ],
+              [
+                70.48,
+                34.2941
+              ],
+              [
+                70.5465,
+                34.2856
+              ],
+              [
+                70.5797,
+                34.2616
+              ],
+              [
+                70.6295,
+                34.245
+              ],
+              [
+                70.7208,
+                34.2396
+              ],
+              [
+                70.7706,
+                34.2433
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "eventtype": "EQ",
+        "eventid": 1498357,
+        "episodeid": 1658213,
+        "eventname": "",
+        "glide": "",
+        "name": "Earthquake in Afghanistan",
+        "description": "Earthquake in Afghanistan",
+        "htmldescription": "Green M 5.2 Earthquake in Afghanistan at: 31 Aug 2025 23:46:28.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Orange/EQ.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1498357&episodeid=1658213",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1498357&episodeid=1658213&eventtype=EQ",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=EQ&eventid=1498357"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Orange",
+        "episodealertscore": 1.14253417685023,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Afghanistan",
+        "fromdate": "2025-08-31T23:46:28",
+        "todate": "2025-08-31T23:46:28",
+        "datemodified": "2026-09-11T07:07:07",
+        "iso3": "AFG",
+        "source": "NEIC",
+        "sourceid": "us7000qsx4",
+        "polygondate": "2025-09-01T02:07:43",
+        "polygonlabel": "Intensity 0",
+        "affectedcountries": [
+          {
+            "iso2": "AF",
+            "iso3": "AFG",
+            "countryname": "Afghanistan"
+          }
+        ],
+        "severitydata": {
+          "severity": 5.2,
+          "severitytext": "Magnitude 5.2M, Depth:10.9km",
+          "severityunit": "M"
+        },
+        "Class": "Poly_SMPInt_0",
+        "iconeventlink": "https://www.gdacs.org/images/gdacs_icons/maps/Orange/EQ.png",
+        "iconitemlink": "https://www.gdacs.org/images/gdacs_icons/maps/Orange/EQ.png"
+      }
+    }
+  ]
+}

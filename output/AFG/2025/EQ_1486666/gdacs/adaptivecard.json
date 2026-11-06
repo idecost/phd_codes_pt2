@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "title": "M 4.5   in Afghanistan on 20 Jun 2025 00:41 UTC",
+      "description": "",
+      "link": "https://www.gdacs.org/report.aspx?eventid=1486666&episodeid=1644297&eventtype=EQ",
+      "image": "https://www.gdacs.org/images/gdacs_icons/big/Green/EQ.png",
+      "summarytable": [
+        {
+          "key": "Countries",
+          "value": "Afghanistan"
+        },
+        {
+          "key": "Magnitude",
+          "value": "4.5"
+        },
+        {
+          "key": "Depth",
+          "value": "10 Km"
+        },
+        {
+          "key": "Lat/Lon",
+          "value": "34.7553 , 62.0635"
+        },
+        {
+          "key": "Event Date",
+          "value": "20 Jun 2025 00:41 UTC"
+        },
+        {
+          "key": "Local Time",
+          "value": "20 Jun 2025 05:11"
+        },
+        {
+          "key": "Exposed population",
+          "value": "3.3 million in 100km - No people affected in MMI -"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "title": "M 4.8   in Afghanistan on 20 Mar 2025 19:30 UTC",
+      "description": "",
+      "link": "https://www.gdacs.org/report.aspx?eventid=1473291&episodeid=1629024&eventtype=EQ",
+      "image": "https://www.gdacs.org/images/gdacs_icons/big/Green/EQ.png",
+      "summarytable": [
+        {
+          "key": "Countries",
+          "value": "Afghanistan"
+        },
+        {
+          "key": "Magnitude",
+          "value": "4.8"
+        },
+        {
+          "key": "Depth",
+          "value": "188.8 Km"
+        },
+        {
+          "key": "Lat/Lon",
+          "value": "36.7216 , 71.3072"
+        },
+        {
+          "key": "Event Date",
+          "value": "20 Mar 2025 19:30 UTC"
+        },
+        {
+          "key": "Local Time",
+          "value": "21 Mar 2025 00:00"
+        },
+        {
+          "key": "Exposed population",
+          "value": "1.1 million in 100km - No people affected in MMI -"
+        }
+      ]
+    }
+  ]
+}

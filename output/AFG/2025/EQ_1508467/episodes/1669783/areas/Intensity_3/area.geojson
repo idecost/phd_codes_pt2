@@ -1,0 +1,131 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "bbox": [
+        65.0083,
+        35.0249,
+        65.0334,
+        35.0528
+      ],
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                65.0083,
+                35.05
+              ],
+              [
+                65.011,
+                35.05
+              ],
+              [
+                65.0083,
+                35.0528
+              ],
+              [
+                65.0083,
+                35.05
+              ],
+              [
+                65.0083,
+                35.05
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                65.0333,
+                35.0249
+              ],
+              [
+                65.0334,
+                35.025
+              ],
+              [
+                65.0333,
+                35.0271
+              ],
+              [
+                65.0272,
+                35.0333
+              ],
+              [
+                65.025,
+                35.0334
+              ],
+              [
+                65.025,
+                35.0333
+              ],
+              [
+                65.0245,
+                35.025
+              ],
+              [
+                65.025,
+                35.0249
+              ],
+              [
+                65.0333,
+                35.0249
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "eventtype": "EQ",
+        "eventid": 1508467,
+        "episodeid": 1669783,
+        "eventname": "",
+        "glide": "EQ-2025-000202-AFG",
+        "name": "Earthquake in Afghanistan",
+        "description": "Earthquake in Afghanistan",
+        "htmldescription": "Red M 6.3 Earthquake in Afghanistan at: 02 Nov 2025 20:29:02.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Red/EQ.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Red/EQ.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1508467&episodeid=1669783",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1508467&episodeid=1669783&eventtype=EQ",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=EQ&eventid=1508467"
+        },
+        "alertlevel": "Red",
+        "alertscore": 3,
+        "episodealertlevel": "Red",
+        "episodealertscore": 2.65448652699209,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Afghanistan",
+        "fromdate": "2025-11-02T20:29:02",
+        "todate": "2025-11-02T20:29:02",
+        "datemodified": "2026-02-11T12:10:14.497",
+        "iso3": "AFG",
+        "source": "NEIC",
+        "sourceid": "us6000rl31",
+        "shakeid": 5,
+        "intensity": 3.0,
+        "affectedcountries": [
+          {
+            "iso2": "AF",
+            "iso3": "AFG",
+            "countryname": "Afghanistan"
+          }
+        ],
+        "severitydata": {
+          "severity": 6.3,
+          "severitytext": "Magnitude 6.3M, Depth:28km",
+          "severityunit": "M"
+        },
+        "polygonlabel": "Intensity 3",
+        "Class": "Poly_SMPInt_3",
+        "iconeventlink": "https://www.gdacs.org/images/gdacs_icons/maps/Red/EQ.png",
+        "iconitemlink": "https://www.gdacs.org/images/gdacs_icons/maps/Red/EQ.png"
+      }
+    }
+  ]
+}
