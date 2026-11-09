@@ -2,3 +2,5 @@
 *.pdf
 generate_kg_PortofolioDays.ipynb
 env_displaced/
+backup/
+test_event_results.csv
