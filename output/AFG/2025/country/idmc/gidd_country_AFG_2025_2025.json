@@ -1,0 +1,15 @@
+[
+  {
+    "iso3": "AFG",
+    "country_name": "Afghanistan",
+    "year": 2025,
+    "conflict_total_displacement_rounded": 4355000,
+    "conflict_total_displacement": 4355147,
+    "conflict_new_displacement_rounded": 168000,
+    "conflict_new_displacement": 168265,
+    "disaster_new_displacement_rounded": 253000,
+    "disaster_new_displacement": 252815,
+    "disaster_total_displacement_rounded": 2592000,
+    "disaster_total_displacement": 2591571
+  }
+]

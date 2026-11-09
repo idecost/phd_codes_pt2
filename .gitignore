@@ -1,4 +1,4 @@
 ﻿.env
 *.pdf
-env_displaced/
 generate_kg_PortofolioDays.ipynb
+env_displaced/

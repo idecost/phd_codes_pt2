@@ -1,0 +1,73 @@
+{
+  "source": "HDX HAPI",
+  "subcategory": "food_security",
+  "attribution": "IPC / Cadre Harmonise",
+  "endpoint": "https://hapi.humdata.org/api/v2/food-security-nutrition-poverty/food-security",
+  "iso3": "AFG",
+  "requested_window": {
+    "start": "2025-01-01",
+    "end": "2025-12-31"
+  },
+  "resolved_window": "2025-01-01..2025-12-31",
+  "country_queries": [
+    {
+      "location_code": "AFG"
+    }
+  ],
+  "admin_levels": [
+    null
+  ],
+  "filters": {},
+  "retrieved_at_utc": "2026-11-06T14:07:56.839211+00:00",
+  "columns": [
+    "location_code",
+    "location_name",
+    "admin1_code",
+    "admin1_name",
+    "admin2_code",
+    "admin2_name",
+    "admin_level",
+    "resource_hdx_id",
+    "ipc_phase",
+    "ipc_type",
+    "population_in_phase",
+    "population_fraction_in_phase",
+    "reference_period_start",
+    "reference_period_end"
+  ],
+  "checks": {
+    "n_rows": 1333,
+    "reference_periods": {
+      "2024-11-01 -> 2025-03-31": 245,
+      "2025-03-01 -> 2025-04-30": 245,
+      "2025-05-01 -> 2025-10-31": 245,
+      "2025-09-01 -> 2025-10-31": 299,
+      "2025-11-01 -> 2026-03-31": 299
+    },
+    "admin_levels": {
+      "0": 35,
+      "1": 826,
+      "2": 472
+    },
+    "n_admin2_name": 32,
+    "n_admin1_name": 42,
+    "population_in_phase_missing": 0,
+    "population_fraction_in_phase_missing": 0,
+    "ipc_type": {
+      "first projection": 789,
+      "current": 544
+    },
+    "ipc_phase": {
+      "1": 191,
+      "2": 191,
+      "3": 191,
+      "4": 191,
+      "3+": 191,
+      "all": 191,
+      "5": 187
+    },
+    "n_hdx_resources": 3
+  },
+  "raw_file": "food_security_2025-01-01_2025-12-31.json",
+  "table_file": "food_security_2025-01-01_2025-12-31.parquet"
+}

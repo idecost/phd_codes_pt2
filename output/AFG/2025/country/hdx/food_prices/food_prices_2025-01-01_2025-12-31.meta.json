@@ -1,0 +1,125 @@
+{
+  "source": "HDX HAPI",
+  "subcategory": "food_prices",
+  "attribution": "WFP",
+  "endpoint": "https://hapi.humdata.org/api/v2/food-security-nutrition-poverty/food-prices-market-monitor",
+  "iso3": "AFG",
+  "requested_window": {
+    "start": "2025-01-01",
+    "end": "2025-12-31"
+  },
+  "resolved_window": "2025-01-01..2025-12-31",
+  "country_queries": [
+    {
+      "location_code": "AFG"
+    }
+  ],
+  "admin_levels": [
+    null
+  ],
+  "filters": {},
+  "retrieved_at_utc": "2026-11-06T14:08:04.046350+00:00",
+  "columns": [
+    "location_code",
+    "location_name",
+    "admin1_code",
+    "admin1_name",
+    "admin2_code",
+    "admin2_name",
+    "admin_level",
+    "resource_hdx_id",
+    "market_code",
+    "market_name",
+    "commodity_code",
+    "commodity_name",
+    "commodity_category",
+    "currency_code",
+    "unit",
+    "price_flag",
+    "price_type",
+    "price",
+    "lat",
+    "lon",
+    "reference_period_start",
+    "reference_period_end"
+  ],
+  "checks": {
+    "n_rows": 6135,
+    "reference_periods": {
+      "2024-12-15 -> 2025-01-14": 473,
+      "2025-01-15 -> 2025-02-14": 472,
+      "2025-02-15 -> 2025-03-14": 470,
+      "2025-03-15 -> 2025-04-14": 472,
+      "2025-04-15 -> 2025-05-14": 472,
+      "2025-05-15 -> 2025-06-14": 473,
+      "2025-06-15 -> 2025-07-14": 472,
+      "2025-07-15 -> 2025-08-14": 472,
+      "2025-08-15 -> 2025-09-14": 472,
+      "2025-09-15 -> 2025-10-14": 472,
+      "2025-10-15 -> 2025-11-14": 471,
+      "2025-11-15 -> 2025-12-14": 472,
+      "2025-12-15 -> 2026-01-14": 472
+    },
+    "admin_levels": {
+      "2": 6135
+    },
+    "n_admin2_name": 34,
+    "n_admin1_name": 34,
+    "price_missing": 0,
+    "commodity_category": {
+      "cereals and tubers": 2614,
+      "non-food": 1753,
+      "miscellaneous food": 884,
+      "pulses and nuts": 442,
+      "oil and fats": 442
+    },
+    "price_type": {
+      "Retail": 6135
+    },
+    "price_flag": {
+      "aggregate": 6135
+    },
+    "currency_code": {
+      "AFN": 6135
+    },
+    "market_name": {
+      "Bamyan": 182,
+      "Hirat": 182,
+      "Kabul": 182,
+      "Kandahar": 182,
+      "Ghor": 182,
+      "Badghis": 182,
+      "Baghlan": 182,
+      "Farah": 182,
+      "Ghazni": 182,
+      "Hilmand": 182,
+      "Jawzjan": 182,
+      "Kapisa": 182,
+      "Khost": 182,
+      "Kunduz": 182,
+      "Laghman": 182,
+      "Logar": 182,
+      "Maidan Wardak": 182,
+      "Nimroz": 182,
+      "Paktika": 182,
+      "Panjsher": 182,
+      "Parwan": 182,
+      "Samangan": 182,
+      "Sar-e-Pul": 182,
+      "Takhar": 182,
+      "Uruzgan": 182,
+      "Zabul": 182,
+      "Badakhshan": 182,
+      "Balkh": 182,
+      "Faryab": 182,
+      "Nangarhar": 182,
+      "Paktya": 182,
+      "Kunar": 175,
+      "Daykundi": 167,
+      "Nuristan": 151
+    },
+    "n_hdx_resources": 2
+  },
+  "raw_file": "food_prices_2025-01-01_2025-12-31.json",
+  "table_file": "food_prices_2025-01-01_2025-12-31.parquet"
+}

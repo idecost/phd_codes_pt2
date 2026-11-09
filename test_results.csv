@@ -1,0 +1,394 @@
+﻿section,check,status,detail
+1 environment,project folder,PASS,c:\Users\decosiv\Desktop\codes\dataset_creation_pt2
+1 environment,pandas 2 or newer,PASS,3.0.5
+1 environment,library numpy,PASS,
+1 environment,library pyarrow,PASS,
+1 environment,library openpyxl,PASS,
+1 environment,library requests,PASS,
+1 environment,library httpx,PASS,
+1 environment,library dotenv,PASS,
+1 environment,library geopandas,PASS,
+1 environment,library pyogrio,PASS,
+1 environment,library shapely,PASS,
+1 environment,library rasterio,PASS,
+1 environment,library exactextract,PASS,
+1 environment,library pystac_client,PASS,
+1 environment,library dtmapi,PASS,
+1 environment,library pdfplumber,PASS,
+1 environment,key IDMC_CLIENT_ID,PASS,
+1 environment,key DTMAPI_SUBSCRIPTION_KEY,PASS,
+1 environment,key MONTANDON_API_TOKEN,PASS,
+1 environment,key HDX,PASS,
+2 boundaries,download,PASS,"{0: 1, 1: 34, 2: 401}"
+2 boundaries,levels saved,PASS,"[0, 1, 2]"
+2 boundaries,admin 1 Pcodes unique,PASS,34
+2 boundaries,admin 2 Pcodes unique,PASS,401
+2 boundaries,every admin 2 has its admin 1,PASS,
+2 boundaries,CRS is EPSG:4326,PASS,
+2 boundaries,valid geometries,PASS,0 invalid
+3 gdacs,event list,PASS,"47 events {'Green': 43, 'Red': 3, 'Orange': 1}"
+3 gdacs,Green events included,PASS,"{'Green': 43, 'Red': 3, 'Orange': 1}"
+3 gdacs,download 1515838,PASS,Green -> output\AFG\2025\EQ_1515838
+3 gdacs,event folders,PASS,47
+3 gdacs,files of EQ_1460925,PASS,"1 episodes, 2 impact runs, 0 ShakeMaps"
+3 gdacs,files of EQ_1469501,PASS,"1 episodes, 2 impact runs, 0 ShakeMaps"
+3 gdacs,files of EQ_1473291,PASS,"1 episodes, 2 impact runs, 0 ShakeMaps"
+3 gdacs,files of EQ_1474327,PASS,"1 episodes, 2 impact runs, 0 ShakeMaps"
+3 gdacs,files of EQ_1475348,PASS,"1 episodes, 2 impact runs, 0 ShakeMaps"
+3 gdacs,files of EQ_1477417,PASS,"2 episodes, 5 impact runs, 5 ShakeMaps"
+3 gdacs,files of EQ_1477914,PASS,"2 episodes, 5 impact runs, 5 ShakeMaps"
+3 gdacs,files of EQ_1479016,PASS,"1 episodes, 2 impact runs, 0 ShakeMaps"
+3 gdacs,files of EQ_1481150,PASS,"1 episodes, 2 impact runs, 0 ShakeMaps"
+3 gdacs,files of EQ_1486666,PASS,"1 episodes, 2 impact runs, 0 ShakeMaps"
+3 gdacs,files of EQ_1488049,PASS,"1 episodes, 2 impact runs, 0 ShakeMaps"
+3 gdacs,files of EQ_1490502,PASS,"1 episodes, 2 impact runs, 0 ShakeMaps"
+3 gdacs,files of EQ_1493449,PASS,"1 episodes, 2 impact runs, 0 ShakeMaps"
+3 gdacs,files of EQ_1496076,PASS,"1 episodes, 2 impact runs, 0 ShakeMaps"
+3 gdacs,files of EQ_1496428,PASS,"1 episodes, 2 impact runs, 0 ShakeMaps"
+3 gdacs,files of EQ_1496481,PASS,"1 episodes, 2 impact runs, 0 ShakeMaps"
+3 gdacs,files of EQ_1497755,PASS,"1 episodes, 2 impact runs, 0 ShakeMaps"
+3 gdacs,files of EQ_1498339,PASS,"3 episodes, 7 impact runs, 5 ShakeMaps"
+3 gdacs,files of EQ_1498343,PASS,"1 episodes, 2 impact runs, 0 ShakeMaps"
+3 gdacs,files of EQ_1498350,PASS,"1 episodes, 2 impact runs, 0 ShakeMaps"
+3 gdacs,files of EQ_1498357,PASS,"2 episodes, 4 impact runs, 0 ShakeMaps"
+3 gdacs,files of EQ_1498383,PASS,"1 episodes, 2 impact runs, 0 ShakeMaps"
+3 gdacs,files of EQ_1498397,PASS,"1 episodes, 2 impact runs, 0 ShakeMaps"
+3 gdacs,files of EQ_1498567,PASS,"1 episodes, 2 impact runs, 0 ShakeMaps"
+3 gdacs,files of EQ_1498831,PASS,"1 episodes, 2 impact runs, 0 ShakeMaps"
+3 gdacs,files of EQ_1498907,PASS,"2 episodes, 5 impact runs, 6 ShakeMaps"
+3 gdacs,files of EQ_1498921,PASS,"1 episodes, 2 impact runs, 0 ShakeMaps"
+3 gdacs,files of EQ_1498938,PASS,"1 episodes, 2 impact runs, 0 ShakeMaps"
+3 gdacs,files of EQ_1498957,PASS,"1 episodes, 2 impact runs, 0 ShakeMaps"
+3 gdacs,files of EQ_1498964,PASS,"1 episodes, 2 impact runs, 0 ShakeMaps"
+3 gdacs,files of EQ_1498978,PASS,"1 episodes, 2 impact runs, 0 ShakeMaps"
+3 gdacs,files of EQ_1499045,PASS,"2 episodes, 4 impact runs, 0 ShakeMaps"
+3 gdacs,files of EQ_1499189,PASS,"1 episodes, 2 impact runs, 0 ShakeMaps"
+3 gdacs,files of EQ_1501669,PASS,"1 episodes, 2 impact runs, 0 ShakeMaps"
+3 gdacs,files of EQ_1502108,PASS,"1 episodes, 2 impact runs, 0 ShakeMaps"
+3 gdacs,files of EQ_1503627,PASS,"1 episodes, 2 impact runs, 0 ShakeMaps"
+3 gdacs,files of EQ_1503921,PASS,"1 episodes, 3 impact runs, 1 ShakeMaps"
+3 gdacs,files of EQ_1505558,PASS,"1 episodes, 2 impact runs, 0 ShakeMaps"
+3 gdacs,files of EQ_1506031,PASS,"1 episodes, 2 impact runs, 0 ShakeMaps"
+3 gdacs,files of EQ_1506375,PASS,"1 episodes, 2 impact runs, 0 ShakeMaps"
+3 gdacs,files of EQ_1507716,PASS,"1 episodes, 2 impact runs, 0 ShakeMaps"
+3 gdacs,files of EQ_1507761,PASS,"1 episodes, 2 impact runs, 0 ShakeMaps"
+3 gdacs,files of EQ_1508306,PASS,"1 episodes, 2 impact runs, 0 ShakeMaps"
+3 gdacs,files of EQ_1508467,PASS,"2 episodes, 5 impact runs, 5 ShakeMaps"
+3 gdacs,files of EQ_1511214,PASS,"1 episodes, 2 impact runs, 0 ShakeMaps"
+3 gdacs,files of EQ_1513543,PASS,"1 episodes, 2 impact runs, 0 ShakeMaps"
+3 gdacs,files of EQ_1515838,PASS,"1 episodes, 2 impact runs, 0 ShakeMaps"
+4 reliefweb,reports of EQ_1460925,SKIP,No GLIDE for EQ_1460925: none in variables.csv and none given
+4 reliefweb,texts,SKIP,RUN_EMBEDDINGS is False
+5 inform,indicators found,PASS,117 of 124
+5 inform,composite score found,PASS,
+5 inform,validity years,PASS,78
+6 iom,download,PASS,"{0: 325, 1: 1767, 2: 5428}"
+7 idmc,events,PASS,13
+7 idmc,IDU figures,PASS,12
+7 idmc,GIDD figures,PASS,12
+8 hdx,idps,PASS,"872 rows, 2025-01-01..2025-12-31"
+8 hdx,humanitarian_needs,PASS,"225711 rows, 2025-01-01..2025-12-31"
+8 hdx,refugees,PASS,"2561 rows, 2025-01-01..2025-12-31"
+8 hdx,returnees,PASS,"26 rows, 2025-01-01..2025-12-31"
+8 hdx,food_security,PASS,"1333 rows, 2025-01-01..2025-12-31"
+8 hdx,food_prices,PASS,"6135 rows, 2025-01-01..2025-12-31"
+8 hdx,poverty_rate,PASS,"35 rows, fallback: latest release ending 2023-12-31 (nothing overlapped 2025-01-01..2025-12-31)"
+9 ghsl admin,one row per unit,PASS,15 units of AF01
+9 ghsl admin,border cells count twice,PASS,"admin 2 7,188,446, admin 1 7,152,760"
+9 ghsl admin,classes add up to the total,PASS,"dataset 7.15276e+06, original 7.15276e+06"
+9 ghsl admin,population of AF0101,PASS,"dataset 6.04579e+06, original 6.04579e+06"
+9 ghsl admin,cells of AF0101,PASS,"dataset 452, original 452"
+9 ghsl admin,population of AF0102,PASS,"dataset 206,075, original 206,075"
+9 ghsl admin,cells of AF0102,PASS,"dataset 444, original 444"
+9 ghsl admin,population of AF0103,PASS,"dataset 65,935.1, original 65,935.1"
+9 ghsl admin,cells of AF0103,PASS,"dataset 296, original 296"
+9 ghsl admin,full run,PASS,"{0: 1, 1: 34, 2: 401}"
+10 ghsl location,EQ_1515838 Intensity_5: area total and cells,PASS,"dataset 175,355, original 175,355"
+10 ghsl location,SMOD cells,PASS,845
+11 montandon,collections,PASS,"{'events': 15, 'hazards': 10, 'impacts': 10}"
+11 montandon,events of all sources,PASS,"{'gdacs-events': 12, 'glide-events': 4, 'pdc-events': 2, 'idmc-idu-events': 2, 'emdat-events': 2, 'charter-events': 1, 'cems-events': 1, 'ifrcevent-events': 1}"
+11 montandon,impacts by type,PASS,"{'idmc-idu-impacts': 9, 'idmc-gidd-impacts': 5}"
+11 montandon,event EQ_1460925,SKIP,not in Montandon
+12 sentinel2,images found,PASS,32
+13 build,build,FAIL,"ValueError: Point() takes only scalar or 1-size vector arguments, got (variable
+market_lon    69.83
+market_lon    69.83
+Name: value, dtype: float64, variable
+market_lat    33.38
+market_lat    33.38
+Name: value, dtype: float64)"
+14 tables,admin0: one row per unit,PASS,"1 rows, 165 columns"
+14 tables,admin0: every column is in columns.csv,PASS,[]
+14 tables,admin0: no empty column,PASS,[]
+14 tables,admin1: one row per unit,PASS,"34 rows, 36 columns"
+14 tables,admin1: every column is in columns.csv,PASS,[]
+14 tables,admin1: no empty column,PASS,[]
+14 tables,admin2: one row per unit,PASS,"401 rows, 49 columns"
+14 tables,admin2: every column is in columns.csv,PASS,[]
+14 tables,admin2: no empty column,PASS,[]
+14 tables,event: one row per unit,PASS,"58 rows, 75 columns"
+14 tables,event: every column is in columns.csv,PASS,[]
+14 tables,event: no empty column,PASS,[]
+14 tables,episode: one row per unit,PASS,"55 rows, 57 columns"
+14 tables,episode: every column is in columns.csv,PASS,[]
+14 tables,episode: no empty column,PASS,[]
+14 tables,location: one row per unit,PASS,"343 rows, 67 columns"
+14 tables,location: every column is in columns.csv,PASS,[]
+14 tables,location: no empty column,PASS,[]
+14 tables,validity of the columns,PASS,424 columns
+14 tables,admin 2 rows equal the boundaries,PASS,401
+14 tables,list_variables,PASS,82
+14 tables,get,PASS,49
+14 tables,wide,PASS,"(1, 51)"
+14 tables,links,PASS,"{'usgs': 50, 'gdacs': 49, 'idmc': 15, 'glide': 13, 'emdat': 4, 'reliefweb': 2}"
+14 tables,known_by gives the first version,PASS,version 1 of EQ_1498907
+14 tables,later gives the last version,PASS,version 6
+15a originals,EQ_1460925 severity,PASS,"dataset 4.5, original 4.5"
+15a originals,EQ_1460925 latitude,PASS,"dataset 36.6926, original 36.6926"
+15a originals,EQ_1460925 longitude,PASS,"dataset 68.0054, original 68.0054"
+15a originals,EQ_1460925 alert,PASS,Green
+15a originals,EQ_1469501 severity,PASS,"dataset 4.5, original 4.5"
+15a originals,EQ_1469501 latitude,PASS,"dataset 36.3528, original 36.3528"
+15a originals,EQ_1469501 longitude,PASS,"dataset 71.3192, original 71.3192"
+15a originals,EQ_1469501 alert,PASS,Green
+15a originals,EQ_1473291 severity,PASS,"dataset 4.8, original 4.8"
+15a originals,EQ_1473291 latitude,PASS,"dataset 36.7216, original 36.7216"
+15a originals,EQ_1473291 longitude,PASS,"dataset 71.3072, original 71.3072"
+15a originals,EQ_1473291 alert,PASS,Green
+15a originals,EQ_1474327 severity,PASS,"dataset 4.9, original 4.9"
+15a originals,EQ_1474327 latitude,PASS,"dataset 36.4806, original 36.4806"
+15a originals,EQ_1474327 longitude,PASS,"dataset 71.1297, original 71.1297"
+15a originals,EQ_1474327 alert,PASS,Green
+15a originals,EQ_1475348 severity,PASS,"dataset 4.6, original 4.6"
+15a originals,EQ_1475348 latitude,PASS,"dataset 36.541, original 36.541"
+15a originals,EQ_1475348 longitude,PASS,"dataset 70.6985, original 70.6985"
+15a originals,EQ_1475348 alert,PASS,Green
+15a originals,EQ_1477417 severity,PASS,"dataset 5.6, original 5.6"
+15a originals,EQ_1477417 latitude,PASS,"dataset 35.9389, original 35.9389"
+15a originals,EQ_1477417 longitude,PASS,"dataset 70.564, original 70.564"
+15a originals,EQ_1477417 alert,PASS,Green
+15a originals,EQ_1477914 severity,PASS,"dataset 5.7, original 5.7"
+15a originals,EQ_1477914 latitude,PASS,"dataset 36.1759, original 36.1759"
+15a originals,EQ_1477914 longitude,PASS,"dataset 71.2019, original 71.2019"
+15a originals,EQ_1477914 alert,PASS,Green
+15a originals,EQ_1479016 severity,PASS,"dataset 4.5, original 4.5"
+15a originals,EQ_1479016 latitude,PASS,"dataset 35.9222, original 35.9222"
+15a originals,EQ_1479016 longitude,PASS,"dataset 70.5952, original 70.5952"
+15a originals,EQ_1479016 alert,PASS,Green
+15a originals,EQ_1481150 severity,PASS,"dataset 4.6, original 4.6"
+15a originals,EQ_1481150 latitude,PASS,"dataset 36.664, original 36.664"
+15a originals,EQ_1481150 longitude,PASS,"dataset 71.148, original 71.148"
+15a originals,EQ_1481150 alert,PASS,Green
+15a originals,EQ_1486666 severity,PASS,"dataset 4.5, original 4.5"
+15a originals,EQ_1486666 latitude,PASS,"dataset 34.7553, original 34.7553"
+15a originals,EQ_1486666 longitude,PASS,"dataset 62.0635, original 62.0635"
+15a originals,EQ_1486666 alert,PASS,Green
+15a originals,EQ_1488049 severity,PASS,"dataset 4.7, original 4.7"
+15a originals,EQ_1488049 latitude,PASS,"dataset 36.9444, original 36.9444"
+15a originals,EQ_1488049 longitude,PASS,"dataset 71.2404, original 71.2404"
+15a originals,EQ_1488049 alert,PASS,Green
+15a originals,EQ_1490502 severity,PASS,"dataset 4.7, original 4.7"
+15a originals,EQ_1490502 latitude,PASS,"dataset 36.2057, original 36.2057"
+15a originals,EQ_1490502 longitude,PASS,"dataset 69.0813, original 69.0813"
+15a originals,EQ_1490502 alert,PASS,Green
+15a originals,EQ_1493449 severity,PASS,"dataset 5, original 5"
+15a originals,EQ_1493449 latitude,PASS,"dataset 36.0682, original 36.0682"
+15a originals,EQ_1493449 longitude,PASS,"dataset 70.0528, original 70.0528"
+15a originals,EQ_1493449 alert,PASS,Green
+15a originals,EQ_1496076 severity,PASS,"dataset 4.7, original 4.7"
+15a originals,EQ_1496076 latitude,PASS,"dataset 37.1119, original 37.1119"
+15a originals,EQ_1496076 longitude,PASS,"dataset 71.3427, original 71.3427"
+15a originals,EQ_1496076 alert,PASS,Green
+15a originals,EQ_1496428 severity,PASS,"dataset 4.6, original 4.6"
+15a originals,EQ_1496428 latitude,PASS,"dataset 37.1957, original 37.1957"
+15a originals,EQ_1496428 longitude,PASS,"dataset 69.5801, original 69.5801"
+15a originals,EQ_1496428 alert,PASS,Green
+15a originals,EQ_1496481 severity,PASS,"dataset 5.1, original 5.1"
+15a originals,EQ_1496481 latitude,PASS,"dataset 36.4803, original 36.4803"
+15a originals,EQ_1496481 longitude,PASS,"dataset 70.8478, original 70.8478"
+15a originals,EQ_1496481 alert,PASS,Green
+15a originals,EQ_1497755 severity,PASS,"dataset 5.1, original 5.1"
+15a originals,EQ_1497755 latitude,PASS,"dataset 36.4432, original 36.4432"
+15a originals,EQ_1497755 longitude,PASS,"dataset 71.2715, original 71.2715"
+15a originals,EQ_1497755 alert,PASS,Green
+15a originals,EQ_1498339 severity,PASS,"dataset 6, original 6"
+15a originals,EQ_1498339 latitude,PASS,"dataset 34.7061, original 34.7061"
+15a originals,EQ_1498339 longitude,PASS,"dataset 70.7934, original 70.7934"
+15a originals,EQ_1498339 alert,PASS,Red
+15a originals,EQ_1498343 severity,PASS,"dataset 4.5, original 4.5"
+15a originals,EQ_1498343 latitude,PASS,"dataset 34.3376, original 34.3376"
+15a originals,EQ_1498343 longitude,PASS,"dataset 70.8817, original 70.8817"
+15a originals,EQ_1498343 alert,PASS,Green
+15a originals,EQ_1498350 severity,PASS,"dataset 5.2, original 5.2"
+15a originals,EQ_1498350 latitude,PASS,"dataset 34.7088, original 34.7088"
+15a originals,EQ_1498350 longitude,PASS,"dataset 70.706, original 70.706"
+15a originals,EQ_1498350 alert,PASS,Green
+15a originals,EQ_1498357 severity,PASS,"dataset 5.2, original 5.2"
+15a originals,EQ_1498357 latitude,PASS,"dataset 34.6626, original 34.6626"
+15a originals,EQ_1498357 longitude,PASS,"dataset 70.7106, original 70.7106"
+15a originals,EQ_1498357 alert,PASS,Green
+15a originals,EQ_1498383 severity,PASS,"dataset 4.7, original 4.7"
+15a originals,EQ_1498383 latitude,PASS,"dataset 34.6098, original 34.6098"
+15a originals,EQ_1498383 longitude,PASS,"dataset 70.7717, original 70.7717"
+15a originals,EQ_1498383 alert,PASS,Green
+15a originals,EQ_1498397 severity,PASS,"dataset 4.6, original 4.6"
+15a originals,EQ_1498397 latitude,PASS,"dataset 34.7173, original 34.7173"
+15a originals,EQ_1498397 longitude,PASS,"dataset 70.6797, original 70.6797"
+15a originals,EQ_1498397 alert,PASS,Green
+15a originals,EQ_1498567 severity,PASS,"dataset 5.2, original 5.2"
+15a originals,EQ_1498567 latitude,PASS,"dataset 34.6749, original 34.6749"
+15a originals,EQ_1498567 longitude,PASS,"dataset 70.6807, original 70.6807"
+15a originals,EQ_1498567 alert,PASS,Green
+15a originals,EQ_1498831 severity,PASS,"dataset 4.7, original 4.7"
+15a originals,EQ_1498831 latitude,PASS,"dataset 34.4603, original 34.4603"
+15a originals,EQ_1498831 longitude,PASS,"dataset 70.5979, original 70.5979"
+15a originals,EQ_1498831 alert,PASS,Green
+15a originals,EQ_1498907 severity,PASS,"dataset 5.6, original 5.6"
+15a originals,EQ_1498907 latitude,PASS,"dataset 34.719, original 34.719"
+15a originals,EQ_1498907 longitude,PASS,"dataset 70.7909, original 70.7909"
+15a originals,EQ_1498907 alert,PASS,Red
+15a originals,EQ_1498921 severity,PASS,"dataset 4.5, original 4.5"
+15a originals,EQ_1498921 latitude,PASS,"dataset 34.5736, original 34.5736"
+15a originals,EQ_1498921 longitude,PASS,"dataset 70.652, original 70.652"
+15a originals,EQ_1498921 alert,PASS,Green
+15a originals,EQ_1498938 severity,PASS,"dataset 4.9, original 4.9"
+15a originals,EQ_1498938 latitude,PASS,"dataset 34.6919, original 34.6919"
+15a originals,EQ_1498938 longitude,PASS,"dataset 70.6691, original 70.6691"
+15a originals,EQ_1498938 alert,PASS,Green
+15a originals,EQ_1498957 severity,PASS,"dataset 5.2, original 5.2"
+15a originals,EQ_1498957 latitude,PASS,"dataset 34.6668, original 34.6668"
+15a originals,EQ_1498957 longitude,PASS,"dataset 70.7909, original 70.7909"
+15a originals,EQ_1498957 alert,PASS,Green
+15a originals,EQ_1498964 severity,PASS,"dataset 4.8, original 4.8"
+15a originals,EQ_1498964 latitude,PASS,"dataset 34.7164, original 34.7164"
+15a originals,EQ_1498964 longitude,PASS,"dataset 70.7477, original 70.7477"
+15a originals,EQ_1498964 alert,PASS,Green
+15a originals,EQ_1498978 severity,PASS,"dataset 4.5, original 4.5"
+15a originals,EQ_1498978 latitude,PASS,"dataset 34.6974, original 34.6974"
+15a originals,EQ_1498978 longitude,PASS,"dataset 70.7885, original 70.7885"
+15a originals,EQ_1498978 alert,PASS,Green
+15a originals,EQ_1499045 severity,PASS,"dataset 5.2, original 5.2"
+15a originals,EQ_1499045 latitude,PASS,"dataset 34.549, original 34.549"
+15a originals,EQ_1499045 longitude,PASS,"dataset 70.6696, original 70.6696"
+15a originals,EQ_1499045 alert,PASS,Orange
+15a originals,EQ_1499189 severity,PASS,"dataset 4.6, original 4.6"
+15a originals,EQ_1499189 latitude,PASS,"dataset 34.5807, original 34.5807"
+15a originals,EQ_1499189 longitude,PASS,"dataset 70.6616, original 70.6616"
+15a originals,EQ_1499189 alert,PASS,Green
+15a originals,EQ_1501669 severity,PASS,"dataset 4.9, original 4.9"
+15a originals,EQ_1501669 latitude,PASS,"dataset 34.5763, original 34.5763"
+15a originals,EQ_1501669 longitude,PASS,"dataset 70.6337, original 70.6337"
+15a originals,EQ_1501669 alert,PASS,Green
+15a originals,EQ_1502108 severity,PASS,"dataset 4.7, original 4.7"
+15a originals,EQ_1502108 latitude,PASS,"dataset 36.4488, original 36.4488"
+15a originals,EQ_1502108 longitude,PASS,"dataset 70.9507, original 70.9507"
+15a originals,EQ_1502108 alert,PASS,Green
+15a originals,EQ_1503627 severity,PASS,"dataset 4.9, original 4.9"
+15a originals,EQ_1503627 latitude,PASS,"dataset 30.3314, original 30.3314"
+15a originals,EQ_1503627 longitude,PASS,"dataset 66.2694, original 66.2694"
+15a originals,EQ_1503627 alert,PASS,Green
+15a originals,EQ_1503921 severity,PASS,"dataset 5.1, original 5.1"
+15a originals,EQ_1503921 latitude,PASS,"dataset 37.3857, original 37.3857"
+15a originals,EQ_1503921 longitude,PASS,"dataset 69.6408, original 69.6408"
+15a originals,EQ_1503921 alert,PASS,Green
+15a originals,EQ_1505558 severity,PASS,"dataset 4.7, original 4.7"
+15a originals,EQ_1505558 latitude,PASS,"dataset 34.3827, original 34.3827"
+15a originals,EQ_1505558 longitude,PASS,"dataset 70.8308, original 70.8308"
+15a originals,EQ_1505558 alert,PASS,Green
+15a originals,EQ_1506031 severity,PASS,"dataset 4.9, original 4.9"
+15a originals,EQ_1506031 latitude,PASS,"dataset 36.8493, original 36.8493"
+15a originals,EQ_1506031 longitude,PASS,"dataset 72.8977, original 72.8977"
+15a originals,EQ_1506031 alert,PASS,Green
+15a originals,EQ_1506375 severity,PASS,"dataset 5.1, original 5.1"
+15a originals,EQ_1506375 latitude,PASS,"dataset 36.6271, original 36.6271"
+15a originals,EQ_1506375 longitude,PASS,"dataset 71.1525, original 71.1525"
+15a originals,EQ_1506375 alert,PASS,Green
+15a originals,EQ_1507716 severity,PASS,"dataset 4.5, original 4.5"
+15a originals,EQ_1507716 latitude,PASS,"dataset 37.3805, original 37.3805"
+15a originals,EQ_1507716 longitude,PASS,"dataset 69.6963, original 69.6963"
+15a originals,EQ_1507716 alert,PASS,Green
+15a originals,EQ_1507761 severity,PASS,"dataset 4.5, original 4.5"
+15a originals,EQ_1507761 latitude,PASS,"dataset 37.3547, original 37.3547"
+15a originals,EQ_1507761 longitude,PASS,"dataset 69.7139, original 69.7139"
+15a originals,EQ_1507761 alert,PASS,Green
+15a originals,EQ_1508306 severity,PASS,"dataset 4.9, original 4.9"
+15a originals,EQ_1508306 latitude,PASS,"dataset 37.3514, original 37.3514"
+15a originals,EQ_1508306 longitude,PASS,"dataset 70.0035, original 70.0035"
+15a originals,EQ_1508306 alert,PASS,Green
+15a originals,EQ_1508467 severity,PASS,"dataset 6.3, original 6.3"
+15a originals,EQ_1508467 latitude,PASS,"dataset 36.5894, original 36.5894"
+15a originals,EQ_1508467 longitude,PASS,"dataset 67.4843, original 67.4843"
+15a originals,EQ_1508467 alert,PASS,Red
+15a originals,EQ_1511214 severity,PASS,"dataset 4.9, original 4.9"
+15a originals,EQ_1511214 latitude,PASS,"dataset 36.2315, original 36.2315"
+15a originals,EQ_1511214 longitude,PASS,"dataset 71.2594, original 71.2594"
+15a originals,EQ_1511214 alert,PASS,Green
+15a originals,EQ_1513543 severity,PASS,"dataset 4.6, original 4.6"
+15a originals,EQ_1513543 latitude,PASS,"dataset 37.0895, original 37.0895"
+15a originals,EQ_1513543 longitude,PASS,"dataset 68.4217, original 68.4217"
+15a originals,EQ_1513543 alert,PASS,Green
+15a originals,EQ_1515838 severity,PASS,"dataset 5.3, original 5.3"
+15a originals,EQ_1515838 latitude,PASS,"dataset 36.2833, original 36.2833"
+15a originals,EQ_1515838 longitude,PASS,"dataset 69.2054, original 69.2054"
+15a originals,EQ_1515838 alert,PASS,Green
+15a originals,EQ_1498339 totaldeaths,PASS,"dataset 2,200, original 2,200"
+15a originals,EQ_1498339 totalaffected,PASS,"dataset 1.3046e+06, original 1.3046e+06"
+15a originals,EQ_1508467 totaldeaths,PASS,"dataset 26, original 26"
+15a originals,EQ_1508467 totalaffected,PASS,"dataset 1.41217e+06, original 1.41217e+06"
+15a originals,EQ_1460925 1613678 population over VII,PASS,"dataset 0, original 0"
+15a originals,EQ_1469501 1624117 population over VII,PASS,"dataset 0, original 0"
+15a originals,EQ_1473291 1629024 population over VII,PASS,"dataset 0, original 0"
+15a originals,EQ_1474327 1630360 population over VII,PASS,"dataset 0, original 0"
+15a originals,EQ_1475348 1631542 population over VII,PASS,"dataset 0, original 0"
+15a originals,"IDPs, sum of admin 2",FAIL,"dataset 3.10922e+06, original 6.178e+06"
+15a originals,"IDPs, admin 0",FAIL,"dataset 3.10922e+06, original 6.178e+06"
+15a originals,"needs_pin, admin 0",PASS,"dataset 2.28877e+07, original 2.28877e+07"
+15a originals,"needs_pin, sum of admin 2",FAIL,"dataset 2.28877e+07, original 3.08357e+07"
+15a originals,"needs_targeted, admin 0",PASS,"dataset 1.67904e+07, original 1.67904e+07"
+15a originals,"needs_targeted, sum of admin 2",FAIL,"dataset 1.67904e+07, original 2.28051e+07"
+15a originals,"pop_hno, admin 0",PASS,"dataset 4.60244e+07, original 4.60244e+07"
+15a originals,"pop_hno, sum of admin 2",FAIL,"dataset 4.60243e+07, original 6.13951e+07"
+15a originals,refugees hosted,PASS,"dataset 21,251, original 21,251"
+15a originals,refugees abroad,PASS,"dataset 3.97252e+06, original 3.97252e+06"
+15a originals,disaster flow,PASS,"dataset 252,815, original 252,815"
+15a originals,conflict stock,PASS,"dataset 4.35515e+06, original 4.35515e+06"
+15a originals,EQ_1498339 from IDMC 32931,PASS,"dataset 60,822, original 60,822"
+15a originals,EQ_1508467 from IDMC 36854,PASS,"dataset 724, original 724"
+15a originals,every indicator,PASS,117 of 117 equal []
+15a originals,"EQ_1515838 Intensity_4.5, cells",PASS,"dataset 188,419, original 188,419"
+15a originals,"EQ_1515838 Intensity_4.5, covered",PASS,"dataset 186,213, original 186,213"
+15a originals,rural plus urban,PASS,"dataset 188,419, original 188,419"
+15a originals,"population, sum of admin 2",PASS,"dataset 4.46175e+07, original 4.46175e+07"
+15a originals,"urban centre cells, sum of admin 2",PASS,"dataset 2,404, original 2,404"
+15b consistency,admin0: validity runs forward,PASS,0 of 4057 rows
+15b consistency,admin0: no negative people,PASS,3848 rows
+15b consistency,admin0: every row has source and date,PASS,
+15b consistency,admin1: validity runs forward,PASS,0 of 28346 rows
+15b consistency,admin1: no negative people,PASS,26006 rows
+15b consistency,admin1: every row has source and date,PASS,
+15b consistency,admin2: validity runs forward,PASS,0 of 301010 rows
+15b consistency,admin2: no negative people,PASS,274461 rows
+15b consistency,admin2: every row has source and date,PASS,
+15b consistency,event: validity runs forward,PASS,0 of 1848 rows
+15b consistency,event: no negative people,PASS,222 rows
+15b consistency,event: every row has source and date,PASS,
+15b consistency,episode: validity runs forward,PASS,0 of 2030 rows
+15b consistency,episode: no negative people,PASS,1108 rows
+15b consistency,episode: every row has source and date,PASS,
+15b consistency,location: validity runs forward,PASS,0 of 3131 rows
+15b consistency,location: no negative people,PASS,68 rows
+15b consistency,location: every row has source and date,PASS,
+15b consistency,admin0: shares between 0 and 1,PASS,[]
+15b consistency,admin1: shares between 0 and 1,PASS,[]
+15b consistency,admin2: shares between 0 and 1,PASS,[]
+15b consistency,event: shares between 0 and 1,PASS,[]
+15b consistency,episode: shares between 0 and 1,PASS,[]
+15b consistency,location: shares between 0 and 1,PASS,[]
+15b consistency,HNO population: admin 2 and admin 0,PASS,"dataset 4.60243e+07, original 4.60244e+07"
+15b consistency,GHSL: admin 2 >= admin 1 >= admin 0,PASS,"44,617,523, 44,418,590, 44,404,064"
+15b consistency,GHSL: border effect under 3%,PASS,
+15b consistency,GDACS events start in the year,PASS,47 events
+15b consistency,each IDMC event has one main folder,PASS,"4 IDMC events, 15 links"
+15c between sources,GHSL and HNO within 25%,PASS,"GHSL 44,404,064, HNO 46,024,352, ratio 0.96"
+15c between sources,GDACS and EM-DAT magnitude within 0.5,PASS,"2 events, largest gap 0.0"
+15d by hand,random sample,PASS,20 values to compare by hand

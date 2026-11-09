@@ -1,0 +1,52 @@
+{
+  "source": "IOM DTM API",
+  "api_version": "v3",
+  "endpoint": "displacement/admin0",
+  "admin_level": 0,
+  "filters": {
+    "Admin0Pcode": "AFG",
+    "FromReportingDate": "2025-01-01",
+    "ToReportingDate": "2025-12-31"
+  },
+  "retrieved_at_utc": "2026-11-06T14:06:22.101237+00:00",
+  "columns": [
+    "operation",
+    "admin0Name",
+    "admin0Pcode",
+    "numPresentIdpInd",
+    "reportingDate",
+    "yearReportingDate",
+    "monthReportingDate",
+    "roundNumber",
+    "displacementReason",
+    "numberMales",
+    "numberFemales",
+    "idpOriginAdmin1Name",
+    "idpOriginAdmin1Pcode",
+    "assessmentType"
+  ],
+  "checks": {
+    "n_rows": 325,
+    "first_report": "2025-01-31",
+    "last_report": "2025-05-31",
+    "unparsable_dates": 0,
+    "outside_window": 0,
+    "n_rounds": 2,
+    "n_units": 1,
+    "idp_missing": 0,
+    "operation": {
+      "Climate and mobility in Afghanistan": 325
+    },
+    "displacementReason": {
+      "Other reason": 69,
+      "Natural disaster": 69,
+      "Natural disaster; Other reason": 67,
+      "Economic reasons": 64,
+      "Natural disaster; Economic reasons": 54,
+      "No reason for displacement reported": 2
+    }
+  },
+  "dtmapi_package_version": "0.1.8",
+  "raw_file": "dtm_admin0_2025-01-01_2025-12-31.json",
+  "table_file": "dtm_admin0_2025-01-01_2025-12-31.parquet"
+}

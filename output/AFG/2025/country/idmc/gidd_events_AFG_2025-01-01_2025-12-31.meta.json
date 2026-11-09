@@ -13,7 +13,7 @@
     "end": "2025-12-31",
     "rule": "flows and disaster events: displacement period (Start date -> End date, else Event start/end date) overlaps [start, end]; stock figures kept on their year; undated rows kept"
   },
-  "retrieved_at_utc": "2026-11-05T09:42:54.032141+00:00",
+  "retrieved_at_utc": "2026-11-06T14:06:28.774016+00:00",
   "last_updated": "2026-08-31",
   "date_filter_stats": {
     "kept_by_date": 1,

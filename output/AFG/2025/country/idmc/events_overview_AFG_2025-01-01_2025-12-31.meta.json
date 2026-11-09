@@ -11,7 +11,7 @@
   "sorting": "gidd_flows, or idu_flows when the event is not in GIDD, largest first",
   "note": "One row per IDMC event. GIDD (validated) and IDU (provisional) are separate columns and are never added together. Event-level GIDD rows are complete from 2023; earlier years may show fewer GIDD events.",
   "errors": null,
-  "retrieved_at_utc": "2026-11-05T09:42:58.893172+00:00",
+  "retrieved_at_utc": "2026-11-06T14:06:47.448540+00:00",
   "columns": [
     "event_id",
     "event_name",

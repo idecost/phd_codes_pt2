@@ -1,0 +1,125 @@
+{
+  "source": "HDX HAPI",
+  "subcategory": "humanitarian_needs",
+  "attribution": "OCHA - HPC/JIAF",
+  "endpoint": "https://hapi.humdata.org/api/v2/affected-people/humanitarian-needs",
+  "iso3": "AFG",
+  "requested_window": {
+    "start": "2025-01-01",
+    "end": "2025-12-31"
+  },
+  "resolved_window": "2025-01-01..2025-12-31",
+  "country_queries": [
+    {
+      "location_code": "AFG"
+    }
+  ],
+  "admin_levels": [
+    null
+  ],
+  "filters": {},
+  "retrieved_at_utc": "2026-11-06T14:07:50.748795+00:00",
+  "columns": [
+    "location_code",
+    "location_name",
+    "admin1_code",
+    "admin1_name",
+    "admin2_code",
+    "admin2_name",
+    "admin_level",
+    "resource_hdx_id",
+    "sector_code",
+    "category",
+    "population_status",
+    "population",
+    "reference_period_start",
+    "reference_period_end",
+    "sector_name"
+  ],
+  "checks": {
+    "n_rows": 225711,
+    "reference_periods": {
+      "2025-01-01 -> 2025-12-08": 225711
+    },
+    "admin_levels": {
+      "0": 871,
+      "1": 22381,
+      "2": 202459
+    },
+    "n_admin2_name": 390,
+    "n_admin1_name": 34,
+    "population_missing": 0,
+    "population_status": {
+      "INN": 112006,
+      "TGT": 101001,
+      "all": 12703,
+      "REA": 1
+    },
+    "sector_name": {
+      "Intersectoral": 38031,
+      "Protection": 25031,
+      "Food Security": 24926,
+      "Child Protection": 22407,
+      "Water Sanitation Hygiene": 22369,
+      "Gender Based Violence": 20617,
+      "Emergency Shelter and NFI": 19715,
+      "Nutrition": 16676,
+      "Mine Action": 14698,
+      "Housing, Land and Property": 11031,
+      "Health": 6518,
+      "Education": 3692
+    },
+    "category": {
+      "total": 10264,
+      "Children": 10259,
+      "Boys": 10257,
+      "Girls": 10255,
+      "Women": 9519,
+      "Adults": 9090,
+      "Men": 8654,
+      "Returnees from Iran (District of  Return 2025) - Total": 8131,
+      "Returnees from Iran (District of  Return 2025) - Boys": 7750,
+      "Returnees from Iran (District of  Return 2025) - Women": 7742,
+      "People with Disabilities": 7646,
+      "Returnees from Iran (District of  Return 2025) - Girls": 7623,
+      "Sudden-Onset Natural Disaster-Affected (2025) - Total": 7315,
+      "Sudden-Onset Natural Disaster-Affected (2025) - Women": 7286,
+      "Sudden-Onset Natural Disaster-Affected (2025) - Girls": 7249,
+      "Returnees from Iran (District of  Return 2025) - Men": 7238,
+      "Sudden-Onset Natural Disaster-Affected (2025) - Boys": 7237,
+      "Returnees from Pakistan (District of Return 2025) - Total": 6735,
+      "Sudden-Onset Natural Disaster-Affected (2025) - Men": 6346,
+      "Returnees from Pakistan (District of Return 2025) - Women": 6013,
+      "Elderly": 5962,
+      "Returnees from Pakistan (District of Return 2025) - Girls": 5832,
+      "Returnees from Pakistan (District of Return 2025) - Boys": 5815,
+      "Returnees from Pakistan (District of Return 2025) - Men": 5588,
+      "Total Households": 5241,
+      "Female-Headed Households": 5230,
+      "Slow-Onset Natural Disaster-Affected (2025) - Boys": 3567,
+      "Slow-Onset Natural Disaster-Affected (2025) - Total": 3567,
+      "Slow-Onset Natural Disaster-Affected (2025) - Women": 3567,
+      "Slow-Onset Natural Disaster-Affected (2025) - Girls": 3564,
+      "Slow-Onset Natural Disaster-Affected (2025) - Men": 3085,
+      "New IDPs (2025) - Total": 1937,
+      "New IDPs (2025) - Women": 1937,
+      "New IDPs (2025) - Girls": 1914,
+      "New IDPs (2025) - Boys": 1900,
+      "New IDPs (2025) - Men": 1704,
+      "Returnees at Border / EC (2025) - Total": 304,
+      "Returnees at Border / EC (2025) - Women": 296,
+      "Refugees and Asylum Seekers - Total": 277,
+      "Refugees and Asylum Seekers - Women": 277,
+      "Refugees and Asylum Seekers - Boys": 269,
+      "Refugees and Asylum Seekers - Girls": 268,
+      "Returnees at Border / EC (2025) - Men": 268,
+      "Returnees at Border / EC (2025) - Girls": 253,
+      "Returnees at Border / EC (2025) - Boys": 229,
+      "Refugees and Asylum Seekers - Men": 225,
+      "": 26
+    },
+    "n_hdx_resources": 1
+  },
+  "raw_file": "humanitarian_needs_2025-01-01_2025-12-31.json",
+  "table_file": "humanitarian_needs_2025-01-01_2025-12-31.parquet"
+}

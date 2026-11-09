@@ -2,8 +2,8 @@
   "source": "IDMC IDU API",
   "endpoint": "idus/all/",
   "dataset": "all",
-  "dump_retrieved_at_utc": "2026-11-05T09:18:49.705544+00:00",
-  "dump_from_cache": true,
+  "dump_retrieved_at_utc": "2026-11-06T14:06:40.385025+00:00",
+  "dump_from_cache": false,
   "filters": {
     "iso3": "AFG",
     "start": "2025-01-01",
@@ -14,7 +14,7 @@
     "date_rule": "displacement period overlaps [start, end]"
   },
   "undated_dropped": 0,
-  "retrieved_at_utc": "2026-11-05T09:42:58.013208+00:00",
+  "retrieved_at_utc": "2026-11-06T14:06:46.623575+00:00",
   "columns": [
     "id",
     "country",

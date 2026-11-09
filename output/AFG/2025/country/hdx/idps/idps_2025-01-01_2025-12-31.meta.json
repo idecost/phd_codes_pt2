@@ -1,0 +1,66 @@
+{
+  "source": "HDX HAPI",
+  "subcategory": "idps",
+  "attribution": "IOM - DTM",
+  "endpoint": "https://hapi.humdata.org/api/v2/affected-people/idps",
+  "iso3": "AFG",
+  "requested_window": {
+    "start": "2025-01-01",
+    "end": "2025-12-31"
+  },
+  "resolved_window": "2025-01-01..2025-12-31",
+  "country_queries": [
+    {
+      "location_code": "AFG"
+    }
+  ],
+  "admin_levels": [
+    null
+  ],
+  "filters": {},
+  "retrieved_at_utc": "2026-11-06T14:06:48.532044+00:00",
+  "columns": [
+    "location_code",
+    "location_name",
+    "admin1_code",
+    "admin1_name",
+    "admin2_code",
+    "admin2_name",
+    "admin_level",
+    "resource_hdx_id",
+    "reporting_round",
+    "assessment_type",
+    "operation",
+    "population",
+    "reference_period_start",
+    "reference_period_end"
+  ],
+  "checks": {
+    "n_rows": 872,
+    "reference_periods": {
+      "2025-01-31 -> 2025-01-31": 436,
+      "2025-05-31 -> 2025-05-31": 436
+    },
+    "admin_levels": {
+      "0": 2,
+      "1": 68,
+      "2": 802
+    },
+    "n_admin2_name": 390,
+    "n_admin1_name": 34,
+    "population_missing": 0,
+    "operation": {
+      "Climate and mobility in Afghanistan": 872
+    },
+    "assessment_type": {
+      "BA": 872
+    },
+    "reporting_round": {
+      "1": 436,
+      "2": 436
+    },
+    "n_hdx_resources": 1
+  },
+  "raw_file": "idps_2025-01-01_2025-12-31.json",
+  "table_file": "idps_2025-01-01_2025-12-31.parquet"
+}
