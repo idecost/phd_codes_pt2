@@ -1,0 +1,15 @@
+[
+  {
+    "iso3": "IDN",
+    "country_name": "Indonesia",
+    "year": 2025,
+    "conflict_total_displacement_rounded": 36000,
+    "conflict_total_displacement": 35672,
+    "conflict_new_displacement_rounded": 15000,
+    "conflict_new_displacement": 15478,
+    "disaster_new_displacement_rounded": 1450000,
+    "disaster_new_displacement": 1450100,
+    "disaster_total_displacement_rounded": 406000,
+    "disaster_total_displacement": 406455
+  }
+]

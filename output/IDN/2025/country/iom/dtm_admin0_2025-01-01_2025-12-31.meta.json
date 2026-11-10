@@ -1,0 +1,19 @@
+{
+  "source": "IOM DTM API",
+  "api_version": "v3",
+  "endpoint": "displacement/admin0",
+  "admin_level": 0,
+  "filters": {
+    "Admin0Pcode": "IDN",
+    "FromReportingDate": "2025-01-01",
+    "ToReportingDate": "2025-12-31"
+  },
+  "retrieved_at_utc": "2026-11-09T17:15:31.576220+00:00",
+  "columns": [],
+  "checks": {
+    "n_rows": 0
+  },
+  "dtmapi_package_version": "0.1.8",
+  "raw_file": "dtm_admin0_2025-01-01_2025-12-31.json",
+  "table_file": "dtm_admin0_2025-01-01_2025-12-31.parquet"
+}

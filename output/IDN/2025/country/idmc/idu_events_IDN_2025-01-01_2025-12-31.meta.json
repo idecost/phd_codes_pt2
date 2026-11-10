@@ -1,0 +1,39 @@
+{
+  "source": "IDMC IDU API (derived)",
+  "derived_from": "idu_figures_IDN_2025-01-01_2025-12-31",
+  "method": "per event_id: sum of 'Recommended figure' rows if any; otherwise latest 'Triangulation' figure per location (by created_at), summed. Follows IDMC's IDU caveats.",
+  "filters": {
+    "iso3": "IDN",
+    "start": "2025-01-01",
+    "end": "2025-12-31",
+    "cause": null,
+    "event_id": null,
+    "glide": null,
+    "date_rule": "displacement period overlaps [start, end]"
+  },
+  "retrieved_at_utc": "2026-11-09T17:15:11.122430+00:00",
+  "columns": [
+    "event_id",
+    "event_name",
+    "iso3",
+    "country",
+    "displacement_type",
+    "category",
+    "subcategory",
+    "type",
+    "subtype",
+    "event_codes",
+    "event_start_date",
+    "event_end_date",
+    "first_displacement_date",
+    "last_displacement_date",
+    "n_figures",
+    "n_recommended",
+    "n_triangulation",
+    "n_used",
+    "rule",
+    "idu_displacements"
+  ],
+  "n_rows": 369,
+  "table_file": "idu_events_IDN_2025-01-01_2025-12-31.parquet"
+}

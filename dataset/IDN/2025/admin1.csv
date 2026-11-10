@@ -1,35 +1,35 @@
-﻿iso3,admin1_pcode,admin1_name,year
-IDN,ID14,Riau,2025
-IDN,ID11,Aceh,2025
-IDN,ID35,Jawa Timur,2025
-IDN,ID63,Kalimantan Selatan,2025
-IDN,ID75,Gorontalo,2025
-IDN,ID19,Kepulauan Bangka Belitung,2025
-IDN,ID72,Sulawesi Tengah,2025
-IDN,ID51,Bali,2025
-IDN,ID94,Papua,2025
-IDN,ID64,Kalimantan Timur,2025
-IDN,ID62,Kalimantan Tengah,2025
-IDN,ID71,Sulawesi Utara,2025
-IDN,ID13,Sumatera Barat,2025
-IDN,ID53,Nusa Tenggara Timur,2025
-IDN,ID34,Daerah Istimewa Yogyakarta,2025
-IDN,ID73,Sulawesi Selatan,2025
-IDN,ID65,Kalimantan Utara,2025
-IDN,ID16,Sumatera Selatan,2025
-IDN,ID12,Sumatera Utara,2025
-IDN,ID15,Jambi,2025
-IDN,ID17,Bengkulu,2025
-IDN,ID52,Nusa Tenggara Barat,2025
-IDN,ID33,Jawa Tengah,2025
-IDN,ID74,Sulawesi Tenggara,2025
-IDN,ID21,Kepulauan Riau,2025
-IDN,ID61,Kalimantan Barat,2025
-IDN,ID32,Jawa Barat,2025
-IDN,ID91,Papua Barat,2025
-IDN,ID36,Banten,2025
-IDN,ID31,Dki Jakarta,2025
-IDN,ID18,Lampung,2025
-IDN,ID82,Maluku Utara,2025
-IDN,ID81,Maluku,2025
-IDN,ID76,Sulawesi Barat,2025
+﻿iso3,admin1_pcode,admin1_name,year,poverty_mpi,poverty_headcount_ratio,poverty_intensity,poverty_vulnerable,poverty_severe
+IDN,ID14,Riau,2025,0.0089,2.3096,38.5252,2.7303,0.3265
+IDN,ID11,Aceh,2025,0.0117,3.0132,38.7363,4.8917,0.4121
+IDN,ID35,Jawa Timur,2025,,,,,
+IDN,ID63,Kalimantan Selatan,2025,,,,,
+IDN,ID75,Gorontalo,2025,0.0352,8.8762,39.6198,7.6879,1.3683
+IDN,ID19,Kepulauan Bangka Belitung,2025,0.0132,3.5263,37.3553,3.7745,0.3053
+IDN,ID72,Sulawesi Tengah,2025,,,,,
+IDN,ID51,Bali,2025,0.0079,2.1907,35.9706,3.9237,0.0
+IDN,ID94,Papua,2025,0.0831,17.933,46.3597,16.3154,5.8416
+IDN,ID64,Kalimantan Timur,2025,,,,,
+IDN,ID62,Kalimantan Tengah,2025,,,,,
+IDN,ID71,Sulawesi Utara,2025,,,,,
+IDN,ID13,Sumatera Barat,2025,,,,,
+IDN,ID53,Nusa Tenggara Timur,2025,,,,,
+IDN,ID34,Daerah Istimewa Yogyakarta,2025,0.0081,2.2926,35.3957,1.3643,0.0
+IDN,ID73,Sulawesi Selatan,2025,,,,,
+IDN,ID65,Kalimantan Utara,2025,,,,,
+IDN,ID16,Sumatera Selatan,2025,,,,,
+IDN,ID12,Sumatera Utara,2025,,,,,
+IDN,ID15,Jambi,2025,0.0067,1.8133,36.754,3.414,0.0
+IDN,ID17,Bengkulu,2025,0.0078,2.1643,36.2192,3.9179,0.233
+IDN,ID52,Nusa Tenggara Barat,2025,,,,,
+IDN,ID33,Jawa Tengah,2025,,,,,
+IDN,ID74,Sulawesi Tenggara,2025,,,,,
+IDN,ID21,Kepulauan Riau,2025,0.0051,1.4117,36.005,1.0785,0.0
+IDN,ID61,Kalimantan Barat,2025,,,,,
+IDN,ID32,Jawa Barat,2025,,,,,
+IDN,ID91,Papua Barat,2025,0.0413,9.5786,43.1426,3.7199,2.8617
+IDN,ID36,Banten,2025,0.0152,3.9133,38.8333,4.0255,0.6071
+IDN,ID31,Dki Jakarta,2025,0.0052,1.4949,34.9377,0.525,0.1249
+IDN,ID18,Lampung,2025,0.0127,3.3895,37.3604,5.3526,0.2017
+IDN,ID82,Maluku Utara,2025,0.0334,7.745,43.1689,12.6412,1.9923
+IDN,ID81,Maluku,2025,0.021,5.3608,39.229,10.0551,0.5645
+IDN,ID76,Sulawesi Barat,2025,,,,,

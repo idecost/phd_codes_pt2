@@ -1,0 +1,28 @@
+{
+  "source": "HDX HAPI",
+  "subcategory": "humanitarian_needs",
+  "attribution": "OCHA - HPC/JIAF",
+  "endpoint": "https://hapi.humdata.org/api/v2/affected-people/humanitarian-needs",
+  "iso3": "IDN",
+  "requested_window": {
+    "start": "2025-01-01",
+    "end": "2025-12-31"
+  },
+  "resolved_window": "no data up to 2025-12-31",
+  "country_queries": [
+    {
+      "location_code": "IDN"
+    }
+  ],
+  "admin_levels": [
+    null
+  ],
+  "filters": {},
+  "retrieved_at_utc": "2026-11-09T17:15:35.804581+00:00",
+  "columns": [],
+  "checks": {
+    "n_rows": 0
+  },
+  "raw_file": "humanitarian_needs_2025-01-01_2025-12-31.json",
+  "table_file": "humanitarian_needs_2025-01-01_2025-12-31.parquet"
+}

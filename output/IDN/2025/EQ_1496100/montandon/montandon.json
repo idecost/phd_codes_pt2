@@ -1,0 +1,2803 @@
+{
+  "query": {
+    "gdacs_event": "1496100",
+    "days_before": 2,
+    "days_after": 2,
+    "impact_days": 30,
+    "aftershock_days": 14,
+    "retrieved_at": "2026-11-09T17:15:58.159152+00:00"
+  },
+  "summary": {
+    "n_events": 11,
+    "n_impacts": 13,
+    "correlation_ids": [
+      "20250816-IDN-GH0101-1-GCDB",
+      "20250816-IDN-NAT-GEO-EAR-GRO-1-GCDB",
+      "20250817-IDN-795305-GH0101-1-GCDB",
+      "20250817-IDN-NAT-GEO-EAR-GRO-1-GCDB",
+      "20250818-IDN-NAT-GEO-EAR-GRO-1-GCDB"
+    ]
+  },
+  "events": [
+    {
+      "type": "Feature",
+      "stac_version": "1.1.0",
+      "stac_extensions": [
+        "https://ifrcgo.org/monty-stac-extension/v1.1.0/schema.json"
+      ],
+      "id": "emdat-event-2025-0692-IDN",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.727,
+          -1.282
+        ]
+      },
+      "bbox": [
+        120.727,
+        -1.282,
+        120.727,
+        -1.282
+      ],
+      "properties": {
+        "roles": [
+          "source",
+          "event"
+        ],
+        "title": "Ground movement in Indonesia",
+        "datetime": "2025-08-16T00:00:00Z",
+        "keywords": [
+          "Indonesia",
+          "Earthquake",
+          "Seismic",
+          "Geological"
+        ],
+        "description": "Earthquake in Masani village (Poso Coastal District, Central Sulawesi province), Indonesia of August 2025",
+        "end_datetime": "2025-08-16T00:00:00Z",
+        "monty:etl_id": "e4b8d0fe-ce2d-4cae-992f-2a47fa9629a5",
+        "monty:corr_id": "20250816-IDN-GH0101-1-GCDB",
+        "start_datetime": "2025-08-16T00:00:00Z",
+        "monty:hazard_codes": [
+          "GH0101",
+          "EQ",
+          "nat-geo-ear-gro"
+        ],
+        "monty:country_codes": [
+          "IDN"
+        ],
+        "monty:episode_number": 1
+      },
+      "links": [
+        {
+          "rel": "collection",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/emdat-events",
+          "type": "application/json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "parent",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/emdat-events",
+          "type": "application/json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "root",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac",
+          "type": "application/json",
+          "title": "Montandon STAC API"
+        },
+        {
+          "rel": "self",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/emdat-events/items/emdat-event-2025-0692-IDN",
+          "type": "application/geo+json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "via",
+          "href": "https://public.emdat.be/data/2025-0692-IDN",
+          "type": "text/html",
+          "title": "EM-DAT Event Data",
+          "auth:refs": [
+            "oidc"
+          ]
+        }
+      ],
+      "assets": {},
+      "collection": "emdat-events"
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.1.0",
+      "stac_extensions": [
+        "https://ifrcgo.org/monty-stac-extension/v1.0.0/schema.json"
+      ],
+      "id": "gdacs-event-1496100",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.7409,
+          -1.2569
+        ]
+      },
+      "bbox": [
+        120.7409,
+        -1.2569,
+        120.7409,
+        -1.2569
+      ],
+      "properties": {
+        "roles": [
+          "source",
+          "event"
+        ],
+        "title": "Earthquake in Indonesia",
+        "datetime": "2025-08-16T22:38:52Z",
+        "monty:guid": "20250816-IDN-NAT-GEO-EAR-GRO-GCDB-GDACS-1496100-1",
+        "description": "Red M 5.8 Earthquake in Indonesia at: 16 Aug 2025 22:38:52.",
+        "end_datetime": "2025-08-16T22:38:52Z",
+        "monty:etl_id": "05ce83c6-1192-4a60-ac49-f5385ca7445d",
+        "monty:corr_id": "20250816-IDN-NAT-GEO-EAR-GRO-1-GCDB",
+        "start_datetime": "2025-08-16T22:38:52Z",
+        "monty:hazard_codes": [
+          "nat-gem-ear-gro",
+          "EQ"
+        ],
+        "monty:country_codes": [
+          "IDN"
+        ],
+        "monty:episode_number": 1
+      },
+      "links": [
+        {
+          "rel": "collection",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/gdacs-events",
+          "type": "application/json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "parent",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/gdacs-events",
+          "type": "application/json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "root",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac",
+          "type": "application/json",
+          "title": "Montandon STAC API"
+        },
+        {
+          "rel": "self",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/gdacs-events/items/gdacs-event-1496100",
+          "type": "application/geo+json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "via",
+          "href": "https://www.gdacs.org/gdacsapi/api/events/geteventdata",
+          "type": "application/json",
+          "title": "GDACS Event Data",
+          "auth:refs": [
+            "oidc"
+          ]
+        }
+      ],
+      "assets": {
+        "icon": {
+          "href": "https://www.gdacs.org/images/gdacs_icons/maps/Red/EQ.png",
+          "type": "image/png",
+          "title": "Icon"
+        },
+        "report": {
+          "href": "https://www.gdacs.org/report.aspx?eventid=1496100&episodeid=1655658&eventtype=EQ",
+          "type": "text/html",
+          "title": "Report"
+        }
+      },
+      "collection": "gdacs-events"
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.1.0",
+      "stac_extensions": [
+        "https://ifrcgo.org/monty-stac-extension/v1.0.0/schema.json"
+      ],
+      "id": "gdacs-event-1496174",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9148,
+          2.0143
+        ]
+      },
+      "bbox": [
+        126.9148,
+        2.0143,
+        126.9148,
+        2.0143
+      ],
+      "properties": {
+        "roles": [
+          "source",
+          "event"
+        ],
+        "title": "Earthquake in Indonesia",
+        "datetime": "2025-08-17T07:58:30Z",
+        "monty:guid": "20250817-IDN-NAT-GEO-EAR-GRO-GCDB-GDACS-1496174-1",
+        "description": "Green M 4.6 Earthquake in Indonesia at: 17 Aug 2025 07:58:30.",
+        "end_datetime": "2025-08-17T07:58:30Z",
+        "monty:etl_id": "9c69b18a-a320-4138-b989-0f30e054cabe",
+        "monty:corr_id": "20250817-IDN-NAT-GEO-EAR-GRO-1-GCDB",
+        "start_datetime": "2025-08-17T07:58:30Z",
+        "monty:hazard_codes": [
+          "nat-gem-ear-gro",
+          "EQ"
+        ],
+        "monty:country_codes": [
+          "IDN"
+        ],
+        "monty:episode_number": 1
+      },
+      "links": [
+        {
+          "rel": "collection",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/gdacs-events",
+          "type": "application/json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "parent",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/gdacs-events",
+          "type": "application/json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "root",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac",
+          "type": "application/json",
+          "title": "Montandon STAC API"
+        },
+        {
+          "rel": "self",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/gdacs-events/items/gdacs-event-1496174",
+          "type": "application/geo+json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "via",
+          "href": "https://www.gdacs.org/gdacsapi/api/events/geteventdata",
+          "type": "application/json",
+          "title": "GDACS Event Data",
+          "auth:refs": [
+            "oidc"
+          ]
+        }
+      ],
+      "assets": {
+        "icon": {
+          "href": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+          "type": "image/png",
+          "title": "Icon"
+        },
+        "report": {
+          "href": "https://www.gdacs.org/report.aspx?eventid=1496174&episodeid=1656374&eventtype=EQ",
+          "type": "text/html",
+          "title": "Report"
+        }
+      },
+      "collection": "gdacs-events"
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.1.0",
+      "stac_extensions": [
+        "https://ifrcgo.org/monty-stac-extension/v1.0.0/schema.json"
+      ],
+      "id": "gdacs-event-1496228",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0196,
+          2.1339
+        ]
+      },
+      "bbox": [
+        127.0196,
+        2.1339,
+        127.0196,
+        2.1339
+      ],
+      "properties": {
+        "roles": [
+          "source",
+          "event"
+        ],
+        "title": "Earthquake in Indonesia",
+        "datetime": "2025-08-17T15:03:15Z",
+        "monty:guid": "20250817-IDN-NAT-GEO-EAR-GRO-GCDB-GDACS-1496228-1",
+        "description": "Green M 5.5 Earthquake in Indonesia at: 17 Aug 2025 15:03:15.",
+        "end_datetime": "2025-08-17T15:03:15Z",
+        "monty:etl_id": "50d8022c-3cb0-42dd-9b42-f0a7f3814bd5",
+        "monty:corr_id": "20250817-IDN-NAT-GEO-EAR-GRO-1-GCDB",
+        "start_datetime": "2025-08-17T15:03:15Z",
+        "monty:hazard_codes": [
+          "nat-gem-ear-gro",
+          "EQ"
+        ],
+        "monty:country_codes": [
+          "IDN"
+        ],
+        "monty:episode_number": 1
+      },
+      "links": [
+        {
+          "rel": "collection",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/gdacs-events",
+          "type": "application/json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "parent",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/gdacs-events",
+          "type": "application/json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "root",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac",
+          "type": "application/json",
+          "title": "Montandon STAC API"
+        },
+        {
+          "rel": "self",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/gdacs-events/items/gdacs-event-1496228",
+          "type": "application/geo+json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "via",
+          "href": "https://www.gdacs.org/gdacsapi/api/events/geteventdata",
+          "type": "application/json",
+          "title": "GDACS Event Data",
+          "auth:refs": [
+            "oidc"
+          ]
+        }
+      ],
+      "assets": {
+        "icon": {
+          "href": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+          "type": "image/png",
+          "title": "Icon"
+        },
+        "report": {
+          "href": "https://www.gdacs.org/report.aspx?eventid=1496228&episodeid=1655799&eventtype=EQ",
+          "type": "text/html",
+          "title": "Report"
+        }
+      },
+      "collection": "gdacs-events"
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.1.0",
+      "stac_extensions": [
+        "https://ifrcgo.org/monty-stac-extension/v1.0.0/schema.json"
+      ],
+      "id": "gdacs-event-1496232",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9547,
+          2.2539
+        ]
+      },
+      "bbox": [
+        126.9547,
+        2.2539,
+        126.9547,
+        2.2539
+      ],
+      "properties": {
+        "roles": [
+          "source",
+          "event"
+        ],
+        "title": "Earthquake in Indonesia",
+        "datetime": "2025-08-17T15:31:20Z",
+        "monty:guid": "20250817-IDN-NAT-GEO-EAR-GRO-GCDB-GDACS-1496232-1",
+        "description": "Green M 5 Earthquake in Indonesia at: 17 Aug 2025 15:31:20.",
+        "end_datetime": "2025-08-17T15:31:20Z",
+        "monty:etl_id": "e5a3f183-41d1-4357-8e3c-3c8aa552ee9a",
+        "monty:corr_id": "20250817-IDN-NAT-GEO-EAR-GRO-1-GCDB",
+        "start_datetime": "2025-08-17T15:31:20Z",
+        "monty:hazard_codes": [
+          "nat-gem-ear-gro",
+          "EQ"
+        ],
+        "monty:country_codes": [
+          "IDN"
+        ],
+        "monty:episode_number": 1
+      },
+      "links": [
+        {
+          "rel": "collection",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/gdacs-events",
+          "type": "application/json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "parent",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/gdacs-events",
+          "type": "application/json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "root",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac",
+          "type": "application/json",
+          "title": "Montandon STAC API"
+        },
+        {
+          "rel": "self",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/gdacs-events/items/gdacs-event-1496232",
+          "type": "application/geo+json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "via",
+          "href": "https://www.gdacs.org/gdacsapi/api/events/geteventdata",
+          "type": "application/json",
+          "title": "GDACS Event Data",
+          "auth:refs": [
+            "oidc"
+          ]
+        }
+      ],
+      "assets": {
+        "icon": {
+          "href": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+          "type": "image/png",
+          "title": "Icon"
+        },
+        "report": {
+          "href": "https://www.gdacs.org/report.aspx?eventid=1496232&episodeid=1655803&eventtype=EQ",
+          "type": "text/html",
+          "title": "Report"
+        }
+      },
+      "collection": "gdacs-events"
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.1.0",
+      "stac_extensions": [
+        "https://ifrcgo.org/monty-stac-extension/v1.0.0/schema.json"
+      ],
+      "id": "gdacs-event-1496368",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.5658,
+          1.1373
+        ]
+      },
+      "bbox": [
+        125.5658,
+        1.1373,
+        125.5658,
+        1.1373
+      ],
+      "properties": {
+        "roles": [
+          "source",
+          "event"
+        ],
+        "title": "Earthquake in Indonesia",
+        "datetime": "2025-08-18T10:05:18Z",
+        "monty:guid": "20250818-IDN-NAT-GEO-EAR-GRO-GCDB-GDACS-1496368-1",
+        "description": "Green M 4.9 Earthquake in Indonesia at: 18 Aug 2025 10:05:18.",
+        "end_datetime": "2025-08-18T10:05:18Z",
+        "monty:etl_id": "d042f059-aef6-4bd3-b2f9-096dbdfd3012",
+        "monty:corr_id": "20250818-IDN-NAT-GEO-EAR-GRO-1-GCDB",
+        "start_datetime": "2025-08-18T10:05:18Z",
+        "monty:hazard_codes": [
+          "nat-gem-ear-gro",
+          "EQ"
+        ],
+        "monty:country_codes": [
+          "IDN"
+        ],
+        "monty:episode_number": 1
+      },
+      "links": [
+        {
+          "rel": "collection",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/gdacs-events",
+          "type": "application/json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "parent",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/gdacs-events",
+          "type": "application/json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "root",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac",
+          "type": "application/json",
+          "title": "Montandon STAC API"
+        },
+        {
+          "rel": "self",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/gdacs-events/items/gdacs-event-1496368",
+          "type": "application/geo+json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "via",
+          "href": "https://www.gdacs.org/gdacsapi/api/events/geteventdata",
+          "type": "application/json",
+          "title": "GDACS Event Data",
+          "auth:refs": [
+            "oidc"
+          ]
+        }
+      ],
+      "assets": {
+        "icon": {
+          "href": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+          "type": "image/png",
+          "title": "Icon"
+        },
+        "report": {
+          "href": "https://www.gdacs.org/report.aspx?eventid=1496368&episodeid=1655962&eventtype=EQ",
+          "type": "text/html",
+          "title": "Report"
+        }
+      },
+      "collection": "gdacs-events"
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.1.0",
+      "stac_extensions": [
+        "https://ifrcgo.org/monty-stac-extension/v1.0.0/schema.json"
+      ],
+      "id": "gdacs-event-1496413",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.5663,
+          1.1002
+        ]
+      },
+      "bbox": [
+        125.5663,
+        1.1002,
+        125.5663,
+        1.1002
+      ],
+      "properties": {
+        "roles": [
+          "source",
+          "event"
+        ],
+        "title": "Earthquake in Indonesia",
+        "datetime": "2025-08-18T15:15:41Z",
+        "monty:guid": "20250818-IDN-NAT-GEO-EAR-GRO-GCDB-GDACS-1496413-1",
+        "description": "Green M 4.7 Earthquake in Indonesia at: 18 Aug 2025 15:15:41.",
+        "end_datetime": "2025-08-18T15:15:41Z",
+        "monty:etl_id": "a26f380a-abcc-4862-958f-f2e041d64ffa",
+        "monty:corr_id": "20250818-IDN-NAT-GEO-EAR-GRO-1-GCDB",
+        "start_datetime": "2025-08-18T15:15:41Z",
+        "monty:hazard_codes": [
+          "nat-gem-ear-gro",
+          "EQ"
+        ],
+        "monty:country_codes": [
+          "IDN"
+        ],
+        "monty:episode_number": 1
+      },
+      "links": [
+        {
+          "rel": "collection",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/gdacs-events",
+          "type": "application/json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "parent",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/gdacs-events",
+          "type": "application/json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "root",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac",
+          "type": "application/json",
+          "title": "Montandon STAC API"
+        },
+        {
+          "rel": "self",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/gdacs-events/items/gdacs-event-1496413",
+          "type": "application/geo+json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "via",
+          "href": "https://www.gdacs.org/gdacsapi/api/events/geteventdata",
+          "type": "application/json",
+          "title": "GDACS Event Data",
+          "auth:refs": [
+            "oidc"
+          ]
+        }
+      ],
+      "assets": {
+        "icon": {
+          "href": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+          "type": "image/png",
+          "title": "Icon"
+        },
+        "report": {
+          "href": "https://www.gdacs.org/report.aspx?eventid=1496413&episodeid=1656007&eventtype=EQ",
+          "type": "text/html",
+          "title": "Report"
+        }
+      },
+      "collection": "gdacs-events"
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.1.0",
+      "stac_extensions": [
+        "https://ifrcgo.org/monty-stac-extension/v1.0.0/schema.json"
+      ],
+      "id": "gdacs-event-1496424",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.5461,
+          1.0698
+        ]
+      },
+      "bbox": [
+        125.5461,
+        1.0698,
+        125.5461,
+        1.0698
+      ],
+      "properties": {
+        "roles": [
+          "source",
+          "event"
+        ],
+        "title": "Earthquake in Indonesia",
+        "datetime": "2025-08-18T18:05:45Z",
+        "monty:guid": "20250818-IDN-NAT-GEO-EAR-GRO-GCDB-GDACS-1496424-1",
+        "description": "Green M 4.5 Earthquake in Indonesia at: 18 Aug 2025 18:05:45.",
+        "end_datetime": "2025-08-18T18:05:45Z",
+        "monty:etl_id": "f71f7ace-4b4a-4686-9a34-e1fb546896d4",
+        "monty:corr_id": "20250818-IDN-NAT-GEO-EAR-GRO-1-GCDB",
+        "start_datetime": "2025-08-18T18:05:45Z",
+        "monty:hazard_codes": [
+          "nat-gem-ear-gro",
+          "EQ"
+        ],
+        "monty:country_codes": [
+          "IDN"
+        ],
+        "monty:episode_number": 1
+      },
+      "links": [
+        {
+          "rel": "collection",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/gdacs-events",
+          "type": "application/json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "parent",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/gdacs-events",
+          "type": "application/json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "root",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac",
+          "type": "application/json",
+          "title": "Montandon STAC API"
+        },
+        {
+          "rel": "self",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/gdacs-events/items/gdacs-event-1496424",
+          "type": "application/geo+json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "via",
+          "href": "https://www.gdacs.org/gdacsapi/api/events/geteventdata",
+          "type": "application/json",
+          "title": "GDACS Event Data",
+          "auth:refs": [
+            "oidc"
+          ]
+        }
+      ],
+      "assets": {
+        "icon": {
+          "href": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+          "type": "image/png",
+          "title": "Icon"
+        },
+        "report": {
+          "href": "https://www.gdacs.org/report.aspx?eventid=1496424&episodeid=1656022&eventtype=EQ",
+          "type": "text/html",
+          "title": "Report"
+        }
+      },
+      "collection": "gdacs-events"
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.1.0",
+      "stac_extensions": [
+        "https://ifrcgo.org/monty-stac-extension/v1.0.0/schema.json"
+      ],
+      "id": "gdacs-event-1496439",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.739,
+          -7.3141
+        ]
+      },
+      "bbox": [
+        126.739,
+        -7.3141,
+        126.739,
+        -7.3141
+      ],
+      "properties": {
+        "roles": [
+          "source",
+          "event"
+        ],
+        "title": "Earthquake in Indonesia",
+        "datetime": "2025-08-18T20:38:10Z",
+        "monty:guid": "20250818-IDN-NAT-GEO-EAR-GRO-GCDB-GDACS-1496439-1",
+        "description": "Green M 4.8 Earthquake in Indonesia at: 18 Aug 2025 20:38:10.",
+        "end_datetime": "2025-08-18T20:38:10Z",
+        "monty:etl_id": "55023113-9e64-44d1-b3b4-8715b9959140",
+        "monty:corr_id": "20250818-IDN-NAT-GEO-EAR-GRO-1-GCDB",
+        "start_datetime": "2025-08-18T20:38:10Z",
+        "monty:hazard_codes": [
+          "nat-gem-ear-gro",
+          "EQ"
+        ],
+        "monty:country_codes": [
+          "IDN"
+        ],
+        "monty:episode_number": 1
+      },
+      "links": [
+        {
+          "rel": "collection",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/gdacs-events",
+          "type": "application/json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "parent",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/gdacs-events",
+          "type": "application/json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "root",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac",
+          "type": "application/json",
+          "title": "Montandon STAC API"
+        },
+        {
+          "rel": "self",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/gdacs-events/items/gdacs-event-1496439",
+          "type": "application/geo+json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "via",
+          "href": "https://www.gdacs.org/gdacsapi/api/events/geteventdata",
+          "type": "application/json",
+          "title": "GDACS Event Data",
+          "auth:refs": [
+            "oidc"
+          ]
+        }
+      ],
+      "assets": {
+        "icon": {
+          "href": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+          "type": "image/png",
+          "title": "Icon"
+        },
+        "report": {
+          "href": "https://www.gdacs.org/report.aspx?eventid=1496439&episodeid=1656039&eventtype=EQ",
+          "type": "text/html",
+          "title": "Report"
+        }
+      },
+      "collection": "gdacs-events"
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.1.0",
+      "stac_extensions": [
+        "https://ifrcgo.org/monty-stac-extension/v1.3.0/schema.json",
+        "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+      ],
+      "id": "idmc-gidd-event-32717",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            120.808861,
+            -1.69378
+          ]
+        ]
+      },
+      "bbox": [
+        120.808861,
+        -1.69378,
+        120.808861,
+        -1.69378
+      ],
+      "properties": {
+        "roles": [
+          "source",
+          "event"
+        ],
+        "title": "Indonesia: Earthquake - Central Sulawesi - 17/08/2025",
+        "sources": [
+          "ADINet"
+        ],
+        "datetime": "2025-08-17T00:00:00Z",
+        "keywords": [
+          "Seismic",
+          "Earthquake",
+          "IDN",
+          "Geological"
+        ],
+        "location": [
+          "Central Sulawesi, Indonesia"
+        ],
+        "publishers": [
+          "ADINet"
+        ],
+        "end_datetime": "2025-08-17T00:00:00Z",
+        "monty:etl_id": "4ee2dcbf-a1de-4340-a62b-a30f865f166b",
+        "location_type": [
+          "Origin"
+        ],
+        "monty:corr_id": "20250817-IDN-795305-GH0101-1-GCDB",
+        "start_datetime": "2025-08-17T00:00:00Z",
+        "location_accuracy": [
+          "State/Region/Province (ADM1)"
+        ],
+        "monty:hazard_codes": [
+          "GH0101",
+          "EQ",
+          "nat-geo-ear-gro"
+        ],
+        "monty:src_event_id": "32717",
+        "processing:version": "0.2.8",
+        "monty:country_codes": [
+          "IDN"
+        ],
+        "processing:software": {
+          "pystac-monty": "0.2.8"
+        },
+        "monty:episode_number": 1
+      },
+      "links": [
+        {
+          "rel": "collection",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/idmc-gidd-events",
+          "type": "application/json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "parent",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/idmc-gidd-events",
+          "type": "application/json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "root",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac",
+          "type": "application/json",
+          "title": "Montandon STAC API"
+        },
+        {
+          "rel": "self",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/idmc-gidd-events/items/idmc-gidd-event-32717",
+          "type": "application/geo+json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "via",
+          "href": "https://helix-tools-api.idmcdb.org/external-api/gidd/disaggregations/disaggregation-geojson/",
+          "type": "application/json",
+          "title": "GIDD Event Data",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "related",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/idmc-gidd-impacts/items/idmc-gidd-impact-32717190766-internal-displacements",
+          "type": "application/geo+json",
+          "roles": [
+            "impact"
+          ],
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "related",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/idmc-gidd-impacts/items/idmc-gidd-impact-32717190767-idps",
+          "type": "application/geo+json",
+          "roles": [
+            "impact"
+          ],
+          "auth:refs": [
+            "oidc"
+          ]
+        }
+      ],
+      "assets": {
+        "source": {
+          "href": "https://helix-tools-api.idmcdb.org/external-api/gidd/disaggregations/disaggregation-geojson/",
+          "type": "application/geo+json",
+          "title": "GIDD GeoJson Source",
+          "roles": [
+            "source"
+          ]
+        }
+      },
+      "collection": "idmc-gidd-events"
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.1.0",
+      "stac_extensions": [
+        "https://ifrcgo.org/monty-stac-extension/v1.3.0/schema.json",
+        "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+      ],
+      "id": "idmc-idu-event-32717",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.808861,
+          -1.69378
+        ]
+      },
+      "bbox": [
+        120.808861,
+        -1.69378,
+        120.808861,
+        -1.69378
+      ],
+      "properties": {
+        "roles": [
+          "source",
+          "event"
+        ],
+        "title": "Indonesia: Earthquake - Central Sulawesi - 17/08/2025",
+        "sources": "ADINet",
+        "datetime": "2025-08-17T00:00:00Z",
+        "keywords": [
+          "IDN",
+          "Geological",
+          "Earthquake",
+          "Seismic"
+        ],
+        "location": "Central Sulawesi, Indonesia",
+        "description": " **Indonesia: 255 displacements (destroyed housing), 17 August - 17 August**    \n Earthquake resulted in a total of 66 households being displaced due to destroyed housing in Central Sulawesi, Indonesia on 17 August, according to civil society.   \n ADINet - 21 August 2025",
+        "end_datetime": "2025-08-17T00:00:00+00:00",
+        "monty:etl_id": "f0dba21a-008c-41bf-8ae5-227da34aaf2e",
+        "monty:corr_id": "20250817-IDN-795305-GH0101-1-GCDB",
+        "start_datetime": "2025-08-17T00:00:00+00:00",
+        "monty:hazard_codes": [
+          "GH0101",
+          "EQ",
+          "nat-geo-ear-gro"
+        ],
+        "monty:src_event_id": "32717",
+        "processing:version": "0.2.5",
+        "monty:country_codes": [
+          "IDN"
+        ],
+        "processing:software": {
+          "pystac-monty": "0.2.5"
+        },
+        "monty:episode_number": 1
+      },
+      "links": [
+        {
+          "rel": "collection",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/idmc-idu-events",
+          "type": "application/json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "parent",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/idmc-idu-events",
+          "type": "application/json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "root",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac",
+          "type": "application/json",
+          "title": "Montandon STAC API"
+        },
+        {
+          "rel": "self",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/idmc-idu-events/items/idmc-idu-event-32717",
+          "type": "application/geo+json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "via",
+          "href": "https://helix-tools-api.idmcdb.org/external-api/idus/all/",
+          "type": "application/json",
+          "title": "IDU Event Data",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "related",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/idmc-idu-impacts/items/idmc-idu-impact-32717-190766-displaced",
+          "type": "application/geo+json",
+          "roles": [
+            "impact"
+          ],
+          "auth:refs": [
+            "oidc"
+          ]
+        }
+      ],
+      "assets": {},
+      "collection": "idmc-idu-events"
+    }
+  ],
+  "impacts": [
+    {
+      "type": "Feature",
+      "stac_version": "1.1.0",
+      "stac_extensions": [
+        "https://ifrcgo.org/monty-stac-extension/v1.1.0/schema.json"
+      ],
+      "id": "emdat-impact-2025-0692-IDN-total_deaths",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.727,
+          -1.282
+        ]
+      },
+      "bbox": [
+        120.727,
+        -1.282,
+        120.727,
+        -1.282
+      ],
+      "properties": {
+        "roles": [
+          "source",
+          "impact"
+        ],
+        "title": "Ground movement in Indonesia - total_deaths",
+        "datetime": "2025-08-16T00:00:00Z",
+        "keywords": [
+          "Indonesia",
+          "Earthquake",
+          "Seismic",
+          "Geological"
+        ],
+        "description": "Earthquake in Masani village (Poso Coastal District, Central Sulawesi province), Indonesia of August 2025",
+        "end_datetime": "2025-08-16T00:00:00Z",
+        "monty:etl_id": "ef61c523-0999-4f62-8208-51d7c3a2261d",
+        "monty:corr_id": "20250816-IDN-GH0101-1-GCDB",
+        "start_datetime": "2025-08-16T00:00:00Z",
+        "monty:hazard_codes": [
+          "GH0101",
+          "EQ",
+          "nat-geo-ear-gro"
+        ],
+        "monty:country_codes": [
+          "IDN"
+        ],
+        "monty:impact_detail": {
+          "type": "death",
+          "unit": "count",
+          "value": 2.0,
+          "category": "people",
+          "estimate_type": "primary"
+        },
+        "monty:episode_number": 1
+      },
+      "links": [
+        {
+          "rel": "collection",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/emdat-impacts",
+          "type": "application/json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "parent",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/emdat-impacts",
+          "type": "application/json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "root",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac",
+          "type": "application/json",
+          "title": "Montandon STAC API"
+        },
+        {
+          "rel": "self",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/emdat-impacts/items/emdat-impact-2025-0692-IDN-total_deaths",
+          "type": "application/geo+json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "via",
+          "href": "https://public.emdat.be/data/2025-0692-IDN",
+          "type": "text/html",
+          "title": "EM-DAT Event Data",
+          "auth:refs": [
+            "oidc"
+          ]
+        }
+      ],
+      "assets": {},
+      "collection": "emdat-impacts"
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.1.0",
+      "stac_extensions": [
+        "https://ifrcgo.org/monty-stac-extension/v1.1.0/schema.json"
+      ],
+      "id": "emdat-impact-2025-0692-IDN-total_affected",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.727,
+          -1.282
+        ]
+      },
+      "bbox": [
+        120.727,
+        -1.282,
+        120.727,
+        -1.282
+      ],
+      "properties": {
+        "roles": [
+          "source",
+          "impact"
+        ],
+        "title": "Ground movement in Indonesia - total_affected",
+        "datetime": "2025-08-16T00:00:00Z",
+        "keywords": [
+          "Indonesia",
+          "Earthquake",
+          "Seismic",
+          "Geological"
+        ],
+        "description": "Earthquake in Masani village (Poso Coastal District, Central Sulawesi province), Indonesia of August 2025",
+        "end_datetime": "2025-08-16T00:00:00Z",
+        "monty:etl_id": "6fc6e4d8-4695-4069-a9e4-4f914e32f2bc",
+        "monty:corr_id": "20250816-IDN-GH0101-1-GCDB",
+        "start_datetime": "2025-08-16T00:00:00Z",
+        "monty:hazard_codes": [
+          "GH0101",
+          "EQ",
+          "nat-geo-ear-gro"
+        ],
+        "monty:country_codes": [
+          "IDN"
+        ],
+        "monty:impact_detail": {
+          "type": "affected_total",
+          "unit": "count",
+          "value": 477.0,
+          "category": "people",
+          "estimate_type": "primary"
+        },
+        "monty:episode_number": 1
+      },
+      "links": [
+        {
+          "rel": "collection",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/emdat-impacts",
+          "type": "application/json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "parent",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/emdat-impacts",
+          "type": "application/json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "root",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac",
+          "type": "application/json",
+          "title": "Montandon STAC API"
+        },
+        {
+          "rel": "self",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/emdat-impacts/items/emdat-impact-2025-0692-IDN-total_affected",
+          "type": "application/geo+json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "via",
+          "href": "https://public.emdat.be/data/2025-0692-IDN",
+          "type": "text/html",
+          "title": "EM-DAT Event Data",
+          "auth:refs": [
+            "oidc"
+          ]
+        }
+      ],
+      "assets": {},
+      "collection": "emdat-impacts"
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.1.0",
+      "stac_extensions": [
+        "https://ifrcgo.org/monty-stac-extension/v1.1.0/schema.json"
+      ],
+      "id": "emdat-impact-2025-0692-IDN-no_injured",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.727,
+          -1.282
+        ]
+      },
+      "bbox": [
+        120.727,
+        -1.282,
+        120.727,
+        -1.282
+      ],
+      "properties": {
+        "roles": [
+          "source",
+          "impact"
+        ],
+        "title": "Ground movement in Indonesia - no_injured",
+        "datetime": "2025-08-16T00:00:00Z",
+        "keywords": [
+          "Indonesia",
+          "Earthquake",
+          "Seismic",
+          "Geological"
+        ],
+        "description": "Earthquake in Masani village (Poso Coastal District, Central Sulawesi province), Indonesia of August 2025",
+        "end_datetime": "2025-08-16T00:00:00Z",
+        "monty:etl_id": "c151aad3-ca9e-45e0-8b4c-d4d4a37020d1",
+        "monty:corr_id": "20250816-IDN-GH0101-1-GCDB",
+        "start_datetime": "2025-08-16T00:00:00Z",
+        "monty:hazard_codes": [
+          "GH0101",
+          "EQ",
+          "nat-geo-ear-gro"
+        ],
+        "monty:country_codes": [
+          "IDN"
+        ],
+        "monty:impact_detail": {
+          "type": "injured",
+          "unit": "count",
+          "value": 44.0,
+          "category": "people",
+          "estimate_type": "primary"
+        },
+        "monty:episode_number": 1
+      },
+      "links": [
+        {
+          "rel": "collection",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/emdat-impacts",
+          "type": "application/json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "parent",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/emdat-impacts",
+          "type": "application/json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "root",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac",
+          "type": "application/json",
+          "title": "Montandon STAC API"
+        },
+        {
+          "rel": "self",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/emdat-impacts/items/emdat-impact-2025-0692-IDN-no_injured",
+          "type": "application/geo+json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "via",
+          "href": "https://public.emdat.be/data/2025-0692-IDN",
+          "type": "text/html",
+          "title": "EM-DAT Event Data",
+          "auth:refs": [
+            "oidc"
+          ]
+        }
+      ],
+      "assets": {},
+      "collection": "emdat-impacts"
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.1.0",
+      "stac_extensions": [
+        "https://ifrcgo.org/monty-stac-extension/v1.1.0/schema.json"
+      ],
+      "id": "emdat-impact-2025-0692-IDN-no_affected",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.727,
+          -1.282
+        ]
+      },
+      "bbox": [
+        120.727,
+        -1.282,
+        120.727,
+        -1.282
+      ],
+      "properties": {
+        "roles": [
+          "source",
+          "impact"
+        ],
+        "title": "Ground movement in Indonesia - no_affected",
+        "datetime": "2025-08-16T00:00:00Z",
+        "keywords": [
+          "Indonesia",
+          "Earthquake",
+          "Seismic",
+          "Geological"
+        ],
+        "description": "Earthquake in Masani village (Poso Coastal District, Central Sulawesi province), Indonesia of August 2025",
+        "end_datetime": "2025-08-16T00:00:00Z",
+        "monty:etl_id": "ff3c24fb-96d7-4cc0-a265-f879f9eef7f0",
+        "monty:corr_id": "20250816-IDN-GH0101-1-GCDB",
+        "start_datetime": "2025-08-16T00:00:00Z",
+        "monty:hazard_codes": [
+          "GH0101",
+          "EQ",
+          "nat-geo-ear-gro"
+        ],
+        "monty:country_codes": [
+          "IDN"
+        ],
+        "monty:impact_detail": {
+          "type": "affected_total",
+          "unit": "count",
+          "value": 433.0,
+          "category": "people",
+          "estimate_type": "primary"
+        },
+        "monty:episode_number": 1
+      },
+      "links": [
+        {
+          "rel": "collection",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/emdat-impacts",
+          "type": "application/json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "parent",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/emdat-impacts",
+          "type": "application/json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "root",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac",
+          "type": "application/json",
+          "title": "Montandon STAC API"
+        },
+        {
+          "rel": "self",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/emdat-impacts/items/emdat-impact-2025-0692-IDN-no_affected",
+          "type": "application/geo+json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "via",
+          "href": "https://public.emdat.be/data/2025-0692-IDN",
+          "type": "text/html",
+          "title": "EM-DAT Event Data",
+          "auth:refs": [
+            "oidc"
+          ]
+        }
+      ],
+      "assets": {},
+      "collection": "emdat-impacts"
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.1.0",
+      "stac_extensions": [
+        "https://ifrcgo.org/monty-stac-extension/v1.3.0/schema.json",
+        "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+      ],
+      "id": "idmc-idu-impact-32717-190766-displaced",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.808861,
+          -1.69378
+        ]
+      },
+      "bbox": [
+        120.808861,
+        -1.69378,
+        120.808861,
+        -1.69378
+      ],
+      "properties": {
+        "roles": [
+          "source",
+          "impact"
+        ],
+        "title": "Indonesia: Earthquake - Central Sulawesi - 17/08/2025",
+        "sources": "ADINet",
+        "datetime": "2025-08-17T00:00:00Z",
+        "keywords": [
+          "IDN",
+          "Geological",
+          "Earthquake",
+          "Seismic"
+        ],
+        "location": "Central Sulawesi, Indonesia",
+        "description": " **Indonesia: 255 displacements (destroyed housing), 17 August - 17 August**    \n Earthquake resulted in a total of 66 households being displaced due to destroyed housing in Central Sulawesi, Indonesia on 17 August, according to civil society.   \n ADINet - 21 August 2025",
+        "end_datetime": "2025-08-17T00:00:00+00:00",
+        "monty:etl_id": "80a66d03-6646-4f0d-a4e8-18bfe3ea3d6a",
+        "monty:corr_id": "20250817-IDN-795305-GH0101-1-GCDB",
+        "start_datetime": "2025-08-17T00:00:00+00:00",
+        "monty:hazard_codes": [
+          "GH0101",
+          "EQ",
+          "nat-geo-ear-gro"
+        ],
+        "monty:src_event_id": "32717",
+        "processing:version": "0.2.5",
+        "monty:country_codes": [
+          "IDN"
+        ],
+        "monty:impact_detail": {
+          "type": "displaced_internal",
+          "unit": "count",
+          "value": 255,
+          "category": "people",
+          "estimate_type": "primary"
+        },
+        "processing:software": {
+          "pystac-monty": "0.2.5"
+        },
+        "monty:episode_number": 1
+      },
+      "links": [
+        {
+          "rel": "collection",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/idmc-idu-impacts",
+          "type": "application/json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "parent",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/idmc-idu-impacts",
+          "type": "application/json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "root",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac",
+          "type": "application/json",
+          "title": "Montandon STAC API"
+        },
+        {
+          "rel": "self",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/idmc-idu-impacts/items/idmc-idu-impact-32717-190766-displaced",
+          "type": "application/geo+json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "via",
+          "href": "https://helix-tools-api.idmcdb.org/external-api/idus/all/",
+          "type": "application/json",
+          "title": "IDU Event Data",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "related",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/idmc-idu-events/items/idmc-idu-event-32717",
+          "type": "application/geo+json",
+          "roles": [
+            "event"
+          ],
+          "auth:refs": [
+            "oidc"
+          ]
+        }
+      ],
+      "assets": {},
+      "collection": "idmc-idu-impacts"
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.1.0",
+      "stac_extensions": [
+        "https://ifrcgo.org/monty-stac-extension/v1.3.0/schema.json",
+        "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+      ],
+      "id": "idmc-gidd-impact-32717190767-idps",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            120.808861,
+            -1.69378
+          ]
+        ]
+      },
+      "bbox": [
+        120.808861,
+        -1.69378,
+        120.808861,
+        -1.69378
+      ],
+      "properties": {
+        "roles": [
+          "source",
+          "impact"
+        ],
+        "title": "IDPs-Household-Household-Indonesia: Earthquake - Central Sulawesi - 17/08/2025",
+        "country": "Indonesia",
+        "sources": [
+          "ADINet"
+        ],
+        "datetime": "2025-08-17T00:00:00Z",
+        "keywords": [
+          "Seismic",
+          "Earthquake",
+          "IDN",
+          "Geological"
+        ],
+        "location": [
+          "Central Sulawesi, Indonesia"
+        ],
+        "publishers": [
+          "ADINet"
+        ],
+        "figure_unit": "Household",
+        "end_datetime": "2025-12-31T00:00:00Z",
+        "figure_cause": "Disaster",
+        "monty:etl_id": "20e41efb-b8ad-4266-9a20-423377cd530a",
+        "location_type": [
+          "Origin"
+        ],
+        "monty:corr_id": "20250817-IDN-795305-GH0101-1-GCDB",
+        "start_datetime": "2025-08-17T00:00:00Z",
+        "figure_category": "IDPs",
+        "location_accuracy": [
+          "State/Region/Province (ADM1)"
+        ],
+        "monty:hazard_codes": [
+          "GH0101",
+          "EQ",
+          "nat-geo-ear-gro"
+        ],
+        "monty:src_event_id": "32717",
+        "processing:version": "0.2.8",
+        "geographical_region": "East Asia and Pacific",
+        "monty:country_codes": [
+          "IDN"
+        ],
+        "monty:impact_detail": {
+          "type": "displaced_internal",
+          "unit": "count",
+          "value": 255,
+          "category": "people",
+          "estimate_type": "primary"
+        },
+        "processing:software": {
+          "pystac-monty": "0.2.8"
+        },
+        "monty:episode_number": 1
+      },
+      "links": [
+        {
+          "rel": "collection",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/idmc-gidd-impacts",
+          "type": "application/json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "parent",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/idmc-gidd-impacts",
+          "type": "application/json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "root",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac",
+          "type": "application/json",
+          "title": "Montandon STAC API"
+        },
+        {
+          "rel": "self",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/idmc-gidd-impacts/items/idmc-gidd-impact-32717190767-idps",
+          "type": "application/geo+json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "via",
+          "href": "https://helix-tools-api.idmcdb.org/external-api/gidd/disaggregations/disaggregation-geojson/",
+          "type": "application/json",
+          "title": "GIDD Event Data",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "related",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/idmc-gidd-events/items/idmc-gidd-event-32717",
+          "type": "application/geo+json",
+          "roles": [
+            "event"
+          ],
+          "auth:refs": [
+            "oidc"
+          ]
+        }
+      ],
+      "assets": {
+        "source": {
+          "href": "https://helix-tools-api.idmcdb.org/external-api/gidd/disaggregations/disaggregation-geojson/",
+          "type": "application/geo+json",
+          "title": "GIDD GeoJson Source",
+          "roles": [
+            "source"
+          ]
+        }
+      },
+      "collection": "idmc-gidd-impacts"
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.1.0",
+      "stac_extensions": [
+        "https://ifrcgo.org/monty-stac-extension/v1.3.0/schema.json",
+        "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+      ],
+      "id": "idmc-gidd-impact-32717190766-internal-displacements",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            120.808861,
+            -1.69378
+          ]
+        ]
+      },
+      "bbox": [
+        120.808861,
+        -1.69378,
+        120.808861,
+        -1.69378
+      ],
+      "properties": {
+        "roles": [
+          "source",
+          "impact"
+        ],
+        "title": "Internal Displacements-Household-Household-Indonesia: Earthquake - Central Sulawesi - 17/08/2025",
+        "country": "Indonesia",
+        "sources": [
+          "ADINet"
+        ],
+        "datetime": "2025-08-17T00:00:00Z",
+        "keywords": [
+          "Seismic",
+          "Earthquake",
+          "IDN",
+          "Geological"
+        ],
+        "location": [
+          "Central Sulawesi, Indonesia"
+        ],
+        "publishers": [
+          "ADINet"
+        ],
+        "figure_unit": "Household",
+        "end_datetime": "2025-08-17T00:00:00Z",
+        "figure_cause": "Disaster",
+        "monty:etl_id": "07974b70-950e-4c87-b785-a99946ab2e80",
+        "location_type": [
+          "Origin"
+        ],
+        "monty:corr_id": "20250817-IDN-795305-GH0101-1-GCDB",
+        "start_datetime": "2025-08-17T00:00:00Z",
+        "figure_category": "Internal Displacements",
+        "location_accuracy": [
+          "State/Region/Province (ADM1)"
+        ],
+        "monty:hazard_codes": [
+          "GH0101",
+          "EQ",
+          "nat-geo-ear-gro"
+        ],
+        "monty:src_event_id": "32717",
+        "processing:version": "0.2.8",
+        "geographical_region": "East Asia and Pacific",
+        "monty:country_codes": [
+          "IDN"
+        ],
+        "monty:impact_detail": {
+          "type": "displaced_internal",
+          "unit": "count",
+          "value": 255,
+          "category": "people",
+          "estimate_type": "primary"
+        },
+        "processing:software": {
+          "pystac-monty": "0.2.8"
+        },
+        "monty:episode_number": 1
+      },
+      "links": [
+        {
+          "rel": "collection",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/idmc-gidd-impacts",
+          "type": "application/json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "parent",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/idmc-gidd-impacts",
+          "type": "application/json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "root",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac",
+          "type": "application/json",
+          "title": "Montandon STAC API"
+        },
+        {
+          "rel": "self",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/idmc-gidd-impacts/items/idmc-gidd-impact-32717190766-internal-displacements",
+          "type": "application/geo+json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "via",
+          "href": "https://helix-tools-api.idmcdb.org/external-api/gidd/disaggregations/disaggregation-geojson/",
+          "type": "application/json",
+          "title": "GIDD Event Data",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "related",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/idmc-gidd-events/items/idmc-gidd-event-32717",
+          "type": "application/geo+json",
+          "roles": [
+            "event"
+          ],
+          "auth:refs": [
+            "oidc"
+          ]
+        }
+      ],
+      "assets": {
+        "source": {
+          "href": "https://helix-tools-api.idmcdb.org/external-api/gidd/disaggregations/disaggregation-geojson/",
+          "type": "application/geo+json",
+          "title": "GIDD GeoJson Source",
+          "roles": [
+            "source"
+          ]
+        }
+      },
+      "collection": "idmc-gidd-impacts"
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.1.0",
+      "stac_extensions": [
+        "https://ifrcgo.org/monty-stac-extension/v1.3.0/schema.json",
+        "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+      ],
+      "id": "idmc-idu-impact-33544-194864-displaced",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.640472,
+          -6.88919
+        ]
+      },
+      "bbox": [
+        107.640472,
+        -6.88919,
+        107.640472,
+        -6.88919
+      ],
+      "properties": {
+        "roles": [
+          "source",
+          "impact"
+        ],
+        "title": "Indonesia: Earthquake - West Java - 20/08/2025",
+        "sources": "ADINet",
+        "datetime": "2025-08-20T00:00:00Z",
+        "keywords": [
+          "IDN",
+          "Geological",
+          "Earthquake",
+          "Seismic"
+        ],
+        "location": "West Java, Indonesia",
+        "description": " **Indonesia: 4 displacements (destroyed housing), 20 August - 20 August**    \n A total of 1 household were displaced due to destroyed housing due to earthquake on 20 August in West Java, Indonesia, according to national/regional disaster authorities.   \n ADINet - 24 August 2025",
+        "end_datetime": "2025-08-20T00:00:00+00:00",
+        "monty:etl_id": "2d5da1dd-ad22-4a5e-8ae3-73b8ee9afbc6",
+        "monty:corr_id": "20250820-IDN-748439-GH0101-1-GCDB",
+        "start_datetime": "2025-08-20T00:00:00+00:00",
+        "monty:hazard_codes": [
+          "GH0101",
+          "EQ",
+          "nat-geo-ear-gro"
+        ],
+        "monty:src_event_id": "33544",
+        "processing:version": "0.2.5",
+        "monty:country_codes": [
+          "IDN"
+        ],
+        "monty:impact_detail": {
+          "type": "displaced_internal",
+          "unit": "count",
+          "value": 4,
+          "category": "people",
+          "estimate_type": "primary"
+        },
+        "processing:software": {
+          "pystac-monty": "0.2.5"
+        },
+        "monty:episode_number": 1
+      },
+      "links": [
+        {
+          "rel": "collection",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/idmc-idu-impacts",
+          "type": "application/json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "parent",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/idmc-idu-impacts",
+          "type": "application/json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "root",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac",
+          "type": "application/json",
+          "title": "Montandon STAC API"
+        },
+        {
+          "rel": "self",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/idmc-idu-impacts/items/idmc-idu-impact-33544-194864-displaced",
+          "type": "application/geo+json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "via",
+          "href": "https://helix-tools-api.idmcdb.org/external-api/idus/all/",
+          "type": "application/json",
+          "title": "IDU Event Data",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "related",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/idmc-idu-events/items/idmc-idu-event-33544",
+          "type": "application/geo+json",
+          "roles": [
+            "event"
+          ],
+          "auth:refs": [
+            "oidc"
+          ]
+        }
+      ],
+      "assets": {},
+      "collection": "idmc-idu-impacts"
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.1.0",
+      "stac_extensions": [
+        "https://ifrcgo.org/monty-stac-extension/v1.3.0/schema.json",
+        "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+      ],
+      "id": "idmc-gidd-impact-33544194865-idps",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            107.640472,
+            -6.88919
+          ]
+        ]
+      },
+      "bbox": [
+        107.640472,
+        -6.88919,
+        107.640472,
+        -6.88919
+      ],
+      "properties": {
+        "roles": [
+          "source",
+          "impact"
+        ],
+        "title": "IDPs-Household-Household-Indonesia: Earthquake - West Java - 20/08/2025",
+        "country": "Indonesia",
+        "sources": [
+          "ADINet"
+        ],
+        "datetime": "2025-08-20T00:00:00Z",
+        "keywords": [
+          "Seismic",
+          "Earthquake",
+          "IDN",
+          "Geological"
+        ],
+        "location": [
+          "West Java, Indonesia"
+        ],
+        "publishers": [
+          "ADINet"
+        ],
+        "figure_unit": "Household",
+        "end_datetime": "2025-12-31T00:00:00Z",
+        "figure_cause": "Disaster",
+        "monty:etl_id": "9e8f448c-4aba-44f8-96cc-cfbb403c9d74",
+        "location_type": [
+          "Origin"
+        ],
+        "monty:corr_id": "20250820-IDN-748439-GH0101-1-GCDB",
+        "start_datetime": "2025-08-20T00:00:00Z",
+        "figure_category": "IDPs",
+        "location_accuracy": [
+          "State/Region/Province (ADM1)"
+        ],
+        "monty:hazard_codes": [
+          "GH0101",
+          "EQ",
+          "nat-geo-ear-gro"
+        ],
+        "monty:src_event_id": "33544",
+        "processing:version": "0.2.8",
+        "geographical_region": "East Asia and Pacific",
+        "monty:country_codes": [
+          "IDN"
+        ],
+        "monty:impact_detail": {
+          "type": "displaced_internal",
+          "unit": "count",
+          "value": 4,
+          "category": "people",
+          "estimate_type": "primary"
+        },
+        "processing:software": {
+          "pystac-monty": "0.2.8"
+        },
+        "monty:episode_number": 1
+      },
+      "links": [
+        {
+          "rel": "collection",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/idmc-gidd-impacts",
+          "type": "application/json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "parent",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/idmc-gidd-impacts",
+          "type": "application/json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "root",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac",
+          "type": "application/json",
+          "title": "Montandon STAC API"
+        },
+        {
+          "rel": "self",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/idmc-gidd-impacts/items/idmc-gidd-impact-33544194865-idps",
+          "type": "application/geo+json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "via",
+          "href": "https://helix-tools-api.idmcdb.org/external-api/gidd/disaggregations/disaggregation-geojson/",
+          "type": "application/json",
+          "title": "GIDD Event Data",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "related",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/idmc-gidd-events/items/idmc-gidd-event-33544",
+          "type": "application/geo+json",
+          "roles": [
+            "event"
+          ],
+          "auth:refs": [
+            "oidc"
+          ]
+        }
+      ],
+      "assets": {
+        "source": {
+          "href": "https://helix-tools-api.idmcdb.org/external-api/gidd/disaggregations/disaggregation-geojson/",
+          "type": "application/geo+json",
+          "title": "GIDD GeoJson Source",
+          "roles": [
+            "source"
+          ]
+        }
+      },
+      "collection": "idmc-gidd-impacts"
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.1.0",
+      "stac_extensions": [
+        "https://ifrcgo.org/monty-stac-extension/v1.3.0/schema.json",
+        "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+      ],
+      "id": "idmc-gidd-impact-33544194864-internal-displacements",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            107.640472,
+            -6.88919
+          ]
+        ]
+      },
+      "bbox": [
+        107.640472,
+        -6.88919,
+        107.640472,
+        -6.88919
+      ],
+      "properties": {
+        "roles": [
+          "source",
+          "impact"
+        ],
+        "title": "Internal Displacements-Household-Household-Indonesia: Earthquake - West Java - 20/08/2025",
+        "country": "Indonesia",
+        "sources": [
+          "ADINet"
+        ],
+        "datetime": "2025-08-20T00:00:00Z",
+        "keywords": [
+          "Seismic",
+          "Earthquake",
+          "IDN",
+          "Geological"
+        ],
+        "location": [
+          "West Java, Indonesia"
+        ],
+        "publishers": [
+          "ADINet"
+        ],
+        "figure_unit": "Household",
+        "end_datetime": "2025-08-20T00:00:00Z",
+        "figure_cause": "Disaster",
+        "monty:etl_id": "7109c82d-b474-45c1-a0c7-cf0dc75f9cc2",
+        "location_type": [
+          "Origin"
+        ],
+        "monty:corr_id": "20250820-IDN-748439-GH0101-1-GCDB",
+        "start_datetime": "2025-08-20T00:00:00Z",
+        "figure_category": "Internal Displacements",
+        "location_accuracy": [
+          "State/Region/Province (ADM1)"
+        ],
+        "monty:hazard_codes": [
+          "GH0101",
+          "EQ",
+          "nat-geo-ear-gro"
+        ],
+        "monty:src_event_id": "33544",
+        "processing:version": "0.2.8",
+        "geographical_region": "East Asia and Pacific",
+        "monty:country_codes": [
+          "IDN"
+        ],
+        "monty:impact_detail": {
+          "type": "displaced_internal",
+          "unit": "count",
+          "value": 4,
+          "category": "people",
+          "estimate_type": "primary"
+        },
+        "processing:software": {
+          "pystac-monty": "0.2.8"
+        },
+        "monty:episode_number": 1
+      },
+      "links": [
+        {
+          "rel": "collection",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/idmc-gidd-impacts",
+          "type": "application/json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "parent",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/idmc-gidd-impacts",
+          "type": "application/json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "root",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac",
+          "type": "application/json",
+          "title": "Montandon STAC API"
+        },
+        {
+          "rel": "self",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/idmc-gidd-impacts/items/idmc-gidd-impact-33544194864-internal-displacements",
+          "type": "application/geo+json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "via",
+          "href": "https://helix-tools-api.idmcdb.org/external-api/gidd/disaggregations/disaggregation-geojson/",
+          "type": "application/json",
+          "title": "GIDD Event Data",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "related",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/idmc-gidd-events/items/idmc-gidd-event-33544",
+          "type": "application/geo+json",
+          "roles": [
+            "event"
+          ],
+          "auth:refs": [
+            "oidc"
+          ]
+        }
+      ],
+      "assets": {
+        "source": {
+          "href": "https://helix-tools-api.idmcdb.org/external-api/gidd/disaggregations/disaggregation-geojson/",
+          "type": "application/geo+json",
+          "title": "GIDD GeoJson Source",
+          "roles": [
+            "source"
+          ]
+        }
+      },
+      "collection": "idmc-gidd-impacts"
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.1.0",
+      "stac_extensions": [
+        "https://ifrcgo.org/monty-stac-extension/v1.3.0/schema.json",
+        "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+      ],
+      "id": "idmc-gidd-impact-32721190773-idps",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            139.055267,
+            -2.54694
+          ]
+        ]
+      },
+      "bbox": [
+        139.055267,
+        -2.54694,
+        139.055267,
+        -2.54694
+      ],
+      "properties": {
+        "roles": [
+          "source",
+          "impact"
+        ],
+        "title": "IDPs-Household-Household-Indonesia: Earthquake - Papua (Sarmi) - 12/08/2025",
+        "country": "Indonesia",
+        "sources": [
+          "ADINet"
+        ],
+        "datetime": "2025-08-12T00:00:00Z",
+        "keywords": [
+          "Seismic",
+          "Earthquake",
+          "IDN",
+          "Geological"
+        ],
+        "location": [
+          "Sarmi, Papua, Indonesia"
+        ],
+        "publishers": [
+          "ADINet"
+        ],
+        "figure_unit": "Household",
+        "end_datetime": "2025-12-31T00:00:00Z",
+        "figure_cause": "Disaster",
+        "monty:etl_id": "1736ba2f-d3f1-41e8-825f-917dd43f7591",
+        "location_type": [
+          "Origin"
+        ],
+        "monty:corr_id": "20250812-IDN-788196-GH0101-1-GCDB",
+        "start_datetime": "2025-08-12T00:00:00Z",
+        "figure_category": "IDPs",
+        "location_accuracy": [
+          "District/Zone/Department (ADM2)"
+        ],
+        "monty:hazard_codes": [
+          "GH0101",
+          "EQ",
+          "nat-geo-ear-gro"
+        ],
+        "monty:src_event_id": "32721",
+        "processing:version": "0.2.8",
+        "geographical_region": "East Asia and Pacific",
+        "monty:country_codes": [
+          "IDN"
+        ],
+        "monty:impact_detail": {
+          "type": "displaced_internal",
+          "unit": "count",
+          "value": 31,
+          "category": "people",
+          "estimate_type": "primary"
+        },
+        "processing:software": {
+          "pystac-monty": "0.2.8"
+        },
+        "monty:episode_number": 1
+      },
+      "links": [
+        {
+          "rel": "collection",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/idmc-gidd-impacts",
+          "type": "application/json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "parent",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/idmc-gidd-impacts",
+          "type": "application/json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "root",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac",
+          "type": "application/json",
+          "title": "Montandon STAC API"
+        },
+        {
+          "rel": "self",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/idmc-gidd-impacts/items/idmc-gidd-impact-32721190773-idps",
+          "type": "application/geo+json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "via",
+          "href": "https://helix-tools-api.idmcdb.org/external-api/gidd/disaggregations/disaggregation-geojson/",
+          "type": "application/json",
+          "title": "GIDD Event Data",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "related",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/idmc-gidd-events/items/idmc-gidd-event-32721",
+          "type": "application/geo+json",
+          "roles": [
+            "event"
+          ],
+          "auth:refs": [
+            "oidc"
+          ]
+        }
+      ],
+      "assets": {
+        "source": {
+          "href": "https://helix-tools-api.idmcdb.org/external-api/gidd/disaggregations/disaggregation-geojson/",
+          "type": "application/geo+json",
+          "title": "GIDD GeoJson Source",
+          "roles": [
+            "source"
+          ]
+        }
+      },
+      "collection": "idmc-gidd-impacts"
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.1.0",
+      "stac_extensions": [
+        "https://ifrcgo.org/monty-stac-extension/v1.3.0/schema.json",
+        "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+      ],
+      "id": "idmc-gidd-impact-32732190805-idps",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            120.500359,
+            -1.66451
+          ]
+        ]
+      },
+      "bbox": [
+        120.500359,
+        -1.66451,
+        120.500359,
+        -1.66451
+      ],
+      "properties": {
+        "roles": [
+          "source",
+          "impact"
+        ],
+        "title": "IDPs-Household-Household-Indonesia: Earthquake - Central Sulawesi (Poso) - 24/07/2025",
+        "country": "Indonesia",
+        "sources": [
+          "ADINet"
+        ],
+        "datetime": "2025-07-24T00:00:00Z",
+        "keywords": [
+          "Seismic",
+          "Earthquake",
+          "IDN",
+          "Geological"
+        ],
+        "location": [
+          "Poso Regency, Central Sulawesi, Indonesia"
+        ],
+        "publishers": [
+          "ADINet"
+        ],
+        "figure_unit": "Household",
+        "end_datetime": "2025-12-31T00:00:00Z",
+        "figure_cause": "Disaster",
+        "monty:etl_id": "0670e021-d1bc-46e0-8ea9-1f6b82d15439",
+        "location_type": [
+          "Origin"
+        ],
+        "monty:corr_id": "20250724-IDN-795303-GH0101-1-GCDB",
+        "start_datetime": "2025-07-24T00:00:00Z",
+        "figure_category": "IDPs",
+        "location_accuracy": [
+          "District/Zone/Department (ADM2)"
+        ],
+        "monty:hazard_codes": [
+          "GH0101",
+          "EQ",
+          "nat-geo-ear-gro"
+        ],
+        "monty:src_event_id": "32732",
+        "processing:version": "0.2.8",
+        "geographical_region": "East Asia and Pacific",
+        "monty:country_codes": [
+          "IDN"
+        ],
+        "monty:impact_detail": {
+          "type": "displaced_internal",
+          "unit": "count",
+          "value": 19,
+          "category": "people",
+          "estimate_type": "primary"
+        },
+        "processing:software": {
+          "pystac-monty": "0.2.8"
+        },
+        "monty:episode_number": 1
+      },
+      "links": [
+        {
+          "rel": "collection",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/idmc-gidd-impacts",
+          "type": "application/json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "parent",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/idmc-gidd-impacts",
+          "type": "application/json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "root",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac",
+          "type": "application/json",
+          "title": "Montandon STAC API"
+        },
+        {
+          "rel": "self",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/idmc-gidd-impacts/items/idmc-gidd-impact-32732190805-idps",
+          "type": "application/geo+json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "via",
+          "href": "https://helix-tools-api.idmcdb.org/external-api/gidd/disaggregations/disaggregation-geojson/",
+          "type": "application/json",
+          "title": "GIDD Event Data",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "related",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/idmc-gidd-events/items/idmc-gidd-event-32732",
+          "type": "application/geo+json",
+          "roles": [
+            "event"
+          ],
+          "auth:refs": [
+            "oidc"
+          ]
+        }
+      ],
+      "assets": {
+        "source": {
+          "href": "https://helix-tools-api.idmcdb.org/external-api/gidd/disaggregations/disaggregation-geojson/",
+          "type": "application/geo+json",
+          "title": "GIDD GeoJson Source",
+          "roles": [
+            "source"
+          ]
+        }
+      },
+      "collection": "idmc-gidd-impacts"
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.1.0",
+      "stac_extensions": [
+        "https://ifrcgo.org/monty-stac-extension/v1.3.0/schema.json",
+        "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+      ],
+      "id": "idmc-gidd-impact-29753176783-idps",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            121.864243,
+            -4.00653
+          ]
+        ]
+      },
+      "bbox": [
+        121.864243,
+        -4.00653,
+        121.864243,
+        -4.00653
+      ],
+      "properties": {
+        "roles": [
+          "source",
+          "impact"
+        ],
+        "title": "IDPs-Household-Household-Indonesia: Earthquake - South Sulawesi (East Kolaka) - 29/01/2025",
+        "country": "Indonesia",
+        "sources": [
+          "ADINet"
+        ],
+        "datetime": "2025-02-02T00:00:00Z",
+        "keywords": [
+          "Seismic",
+          "Earthquake",
+          "IDN",
+          "Geological"
+        ],
+        "location": [
+          "Tirawuta, Southeast Sulawesi, Indonesia"
+        ],
+        "publishers": [
+          "ADINet"
+        ],
+        "figure_unit": "Household",
+        "end_datetime": "2025-12-31T00:00:00Z",
+        "figure_cause": "Disaster",
+        "monty:etl_id": "5ec24fb0-aff9-4eb5-bf53-04c18a1f2c6c",
+        "location_type": [
+          "Origin"
+        ],
+        "monty:corr_id": "20250129-IDN-773710-GH0101-1-GCDB",
+        "start_datetime": "2025-02-02T00:00:00Z",
+        "figure_category": "IDPs",
+        "location_accuracy": [
+          "District/Zone/Department (ADM2)"
+        ],
+        "monty:hazard_codes": [
+          "GH0101",
+          "EQ",
+          "nat-geo-ear-gro"
+        ],
+        "monty:src_event_id": "29753",
+        "processing:version": "0.2.8",
+        "geographical_region": "East Asia and Pacific",
+        "monty:country_codes": [
+          "IDN"
+        ],
+        "monty:impact_detail": {
+          "type": "displaced_internal",
+          "unit": "count",
+          "value": 12,
+          "category": "people",
+          "estimate_type": "primary"
+        },
+        "processing:software": {
+          "pystac-monty": "0.2.8"
+        },
+        "monty:episode_number": 1
+      },
+      "links": [
+        {
+          "rel": "collection",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/idmc-gidd-impacts",
+          "type": "application/json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "parent",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/idmc-gidd-impacts",
+          "type": "application/json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "root",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac",
+          "type": "application/json",
+          "title": "Montandon STAC API"
+        },
+        {
+          "rel": "self",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/idmc-gidd-impacts/items/idmc-gidd-impact-29753176783-idps",
+          "type": "application/geo+json",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "via",
+          "href": "https://helix-tools-api.idmcdb.org/external-api/gidd/disaggregations/disaggregation-geojson/",
+          "type": "application/json",
+          "title": "GIDD Event Data",
+          "auth:refs": [
+            "oidc"
+          ]
+        },
+        {
+          "rel": "related",
+          "href": "https://montandon-eoapi-stage.ifrc.org/stac/collections/idmc-gidd-events/items/idmc-gidd-event-29753",
+          "type": "application/geo+json",
+          "roles": [
+            "event"
+          ],
+          "auth:refs": [
+            "oidc"
+          ]
+        }
+      ],
+      "assets": {
+        "source": {
+          "href": "https://helix-tools-api.idmcdb.org/external-api/gidd/disaggregations/disaggregation-geojson/",
+          "type": "application/geo+json",
+          "title": "GIDD GeoJson Source",
+          "roles": [
+            "source"
+          ]
+        }
+      },
+      "collection": "idmc-gidd-impacts"
+    }
+  ]
+}

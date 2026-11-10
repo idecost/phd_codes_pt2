@@ -1,0 +1,64 @@
+{
+  "source": "IDMC GIDD API",
+  "endpoint": "gidd/disasters/",
+  "table": "events",
+  "api_filters": {
+    "iso3__in": "IDN",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "event_filter": null,
+  "date_filter": {
+    "start": "2025-01-01",
+    "end": "2025-12-31",
+    "rule": "flows and disaster events: displacement period (Start date -> End date, else Event start/end date) overlaps [start, end]; stock figures kept on their year; undated rows kept"
+  },
+  "retrieved_at_utc": "2026-11-09T17:15:04.475086+00:00",
+  "last_updated": "2026-08-31",
+  "date_filter_stats": {
+    "kept_by_date": 368,
+    "dropped_by_date": 0,
+    "undated_kept": 0
+  },
+  "columns": [
+    "iso3",
+    "country_name",
+    "year",
+    "start_date",
+    "start_date_accuracy",
+    "end_date",
+    "end_date_accuracy",
+    "event_name",
+    "new_displacement",
+    "new_displacement_rounded",
+    "total_displacement",
+    "total_displacement_rounded",
+    "hazard_category",
+    "hazard_category_name",
+    "hazard_sub_category",
+    "hazard_sub_category_name",
+    "hazard_type",
+    "hazard_type_name",
+    "hazard_sub_type",
+    "hazard_sub_type_name",
+    "event_codes",
+    "event_codes_type"
+  ],
+  "checks": {
+    "n_rows": 368,
+    "years": [
+      2025
+    ],
+    "n_events": 368,
+    "new_displacement": 1450100,
+    "hazard_type_name": {
+      "Flood": 204,
+      "Storm": 105,
+      "Mass Movement": 42,
+      "Earthquake": 12,
+      "Volcanic activity": 5
+    }
+  },
+  "raw_file": "gidd_events_IDN_2025-01-01_2025-12-31.json",
+  "table_file": "gidd_events_IDN_2025-01-01_2025-12-31.parquet"
+}
